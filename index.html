@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#22C55E" />
-  <title>آپ‌وورد | یادگیری زبان با مکالمه واقعی هوش مصنوعی</title>
+  <title>Upword — Learn Languages with Real AI Conversations</title>
   <meta
     name="description"
-    content="آپ‌وورد اپلیکیشن یادگیری زبان با مکالمات واقعی هوش مصنوعی، ماموریت‌های تعاملی، تمرین شدوینگ و مسیر پیشرفت شخصی. همین حالا از کافه‌بazaar دانلود کنید."
+    content="Upword — Learn languages through real AI conversations, interactive missions, shadowing practice, and a personalized path. Download from Cafe Bazaar."
   />
-  <meta name="keywords" content="یادگیری زبان, هوش مصنوعی, آپ‌وورد, Upword, مکالمه, انگلیسی, فارسی, کافه بازار" />
+  <meta name="keywords" content="language learning, AI, Upword, conversation, English, Persian, Cafe Bazaar" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="آپ‌وورد | یادگیری زبان با مکالمه واقعی هوش مصنوعی" />
-  <meta property="og:description" content="با آپ‌وورد، زبان را نه با حفظ کردن، بلکه با مکالمه واقعی یاد بگیرید." />
+  <meta property="og:title" content="Upword — Learn Languages with Real AI Conversations" />
+  <meta property="og:description" content="With Upword, learn a language not by memorizing, but through real conversation." />
   <meta property="og:image" content="assets/images/app-icon.png" />
 
   <!-- Favicon -->
@@ -25,7 +25,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap"
     rel="stylesheet"
   />
 
@@ -41,32 +41,57 @@
   <!-- ===== Navbar ===== -->
   <header class="navbar" id="navbar">
     <div class="container nav-inner">
-      <a href="#hero" class="brand" aria-label="آپ‌وورد">
+      <a href="#hero" class="brand" aria-label="Upword">
         <img src="assets/images/app-icon.png" alt="Upword" class="brand-icon" />
-        <span class="brand-text">آپ‌وورد</span>
+        <span class="brand-text">Upword</span>
       </a>
 
       <nav class="nav-links" id="navLinks">
-        <a href="#features" class="nav-link">امکانات</a>
-        <a href="#how" class="nav-link">چطور کار می‌کند</a>
-        <a href="#screens" class="nav-link">نمای اپ</a>
-        <a href="#testimonials" class="nav-link">نظرات</a>
-        <a href="#faq" class="nav-link">سوالات</a>
+        <a href="#features" class="nav-link" data-i18n="nav.features">Features</a>
+        <a href="#how" class="nav-link" data-i18n="nav.how">How it Works</a>
+        <a href="#screens" class="nav-link" data-i18n="nav.screens">App Preview</a>
+        <a href="#testimonials" class="nav-link" data-i18n="nav.testimonials">Reviews</a>
+        <a href="#faq" class="nav-link" data-i18n="nav.faq">FAQ</a>
       </nav>
+
+      <!-- Language Switcher -->
+      <div class="lang-switch" id="langSwitch">
+        <button class="lang-btn" id="langBtn" aria-label="Switch language">
+          <svg class="lang-icon-globe" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+          <span class="lang-current" id="langCurrent">EN</span>
+          <span class="lang-arrow">▾</span>
+        </button>
+        <div class="lang-dropdown" id="langDropdown">
+          <button class="lang-option" data-lang="en">
+            <span class="lang-flag">🇬🇧</span>
+            <span>English</span>
+            <span class="lang-check">✓</span>
+          </button>
+          <button class="lang-option" data-lang="fa">
+            <span class="lang-flag">🇮🇷</span>
+            <span>فارسی</span>
+            <span class="lang-check">✓</span>
+          </button>
+        </div>
+      </div>
 
       <a
         href="http://cafebazaar.ir/app/?id=ir.upword.twa"
         target="_blank"
         rel="noopener"
         class="btn btn-primary btn-sm nav-cta"
+        data-i18n="nav.download"
       >
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
           <path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3h-6z"/>
         </svg>
-        دانلود از کافه‌بazaar
+        Download
       </a>
 
-      <button class="nav-toggle" id="navToggle" aria-label="منو">
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -84,15 +109,13 @@
       <div class="hero-content">
         <span class="pill">
           <span class="pill-dot"></span>
-          نسخه ۲.۴۵.۷ منتشر شد — با انیمیشن‌های لاکپشت جدید
+          <span data-i18n="hero.pill">v2.45.7 released — with new turtle animations</span>
         </span>
         <h1 class="hero-title">
-          زبان را با <span class="text-gradient">مکالمه واقعی</span> یاد بگیر
+          <span data-i18n-html="hero.title">Learn a language through <span class="text-gradient">real conversation</span></span>
         </h1>
-        <p class="hero-subtitle">
-          نه حفظ کردن، نه تست‌های خسته‌کننده — مکالمه واقعی با دستیار هوش مصنوعی،
-          ماموریت‌های تعاملی و تمرین شدوینگ. یاد بگیر چطور واقعاً صحبت کنی، نه فقط
-          کلمات را حفظ کنی.
+        <p class="hero-subtitle" data-i18n="hero.subtitle">
+          No memorization, no boring tests — real conversation with an AI assistant, interactive missions, and shadowing practice. Learn how to actually speak, not just memorize words.
         </p>
 
         <div class="hero-cta">
@@ -105,10 +128,10 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
               <path d="M5 20h14v-2H5v2zM12 2L7 7h3v6h4V7h3l-5-5z"/>
             </svg>
-            دانلود از کافه‌بazaar
+            <span data-i18n="hero.ctaPrimary">Download from Cafe Bazaar</span>
           </a>
           <a href="#how" class="btn btn-ghost btn-lg">
-            چطور کار می‌کند؟
+            <span data-i18n="hero.ctaSecondary">How it works?</span>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
               <path d="M19 12H5M12 5l-7 7 7 7" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
@@ -117,18 +140,18 @@
 
         <div class="hero-stats">
           <div class="stat">
-            <div class="stat-num" data-count="6" data-suffix="">۰</div>
-            <div class="stat-label">زبان قابل یادگیری</div>
+            <div class="stat-num" data-count="6" data-suffix="">0</div>
+            <div class="stat-label" data-i18n="stats.languages">Languages</div>
           </div>
           <div class="stat-divider"></div>
           <div class="stat">
-            <div class="stat-num" data-count="120" data-suffix="+">۰</div>
-            <div class="stat-label">موضوع مکالمه</div>
+            <div class="stat-num" data-count="120" data-suffix="+">0</div>
+            <div class="stat-label" data-i18n="stats.topics">Conversation Topics</div>
           </div>
           <div class="stat-divider"></div>
           <div class="stat">
-            <div class="stat-num" data-count="9" data-suffix="★">۰</div>
-            <div class="stat-label">امتیاز کاربران</div>
+            <div class="stat-num" data-count="4.7" data-suffix="★">0</div>
+            <div class="stat-label" data-i18n="stats.rating">User Rating</div>
           </div>
         </div>
       </div>
@@ -142,12 +165,12 @@
                 <img src="assets/images/app-icon.png" alt="" />
               </div>
               <div class="screen-titles">
-                <div class="screen-title">سلام علی 👋</div>
-                <div class="screen-sub">بریم امروز یاد بگیریم!</div>
+                <div class="screen-title" data-i18n="mock.greeting">Hi Ali 👋</div>
+                <div class="screen-sub" data-i18n="mock.greetingSub">Let's learn today!</div>
               </div>
               <div class="screen-streak">
                 <span>🔥</span>
-                <span>۷</span>
+                <span>7</span>
               </div>
             </div>
 
@@ -155,8 +178,8 @@
               <div class="screen-card card-green">
                 <div class="card-icon">⚡</div>
                 <div class="card-text">
-                  <div class="card-title">هدف روزانه</div>
-                  <div class="card-meta">۳۰ از ۵۰ XP</div>
+                  <div class="card-title" data-i18n="mock.dailyGoal">Daily Goal</div>
+                  <div class="card-meta" data-i18n="mock.dailyGoalMeta">30 of 50 XP</div>
                   <div class="card-progress">
                     <div class="card-progress-fill" style="width: 60%"></div>
                   </div>
@@ -166,16 +189,16 @@
               <div class="screen-card card-purple">
                 <div class="card-icon">🎯</div>
                 <div class="card-text">
-                  <div class="card-title">ماموریت امروز</div>
-                  <div class="card-meta">سفارش غذا در رستوران</div>
+                  <div class="card-title" data-i18n="mock.todaysMission">Today's Mission</div>
+                  <div class="card-meta" data-i18n="mock.todaysMissionMeta">Ordering food at a restaurant</div>
                 </div>
               </div>
 
               <div class="screen-card card-teal">
                 <div class="card-icon">📚</div>
                 <div class="card-text">
-                  <div class="card-title">واژگان جدید</div>
-                  <div class="card-meta">۱۲ واژه آموختی</div>
+                  <div class="card-title" data-i18n="mock.newVocab">New Vocabulary</div>
+                  <div class="card-meta" data-i18n="mock.newVocabMeta">12 words learned</div>
                 </div>
               </div>
             </div>
@@ -198,11 +221,11 @@
 
         <div class="floating-badge badge-xp">
           <span class="badge-icon">⚡</span>
-          <span>+۵۰ XP</span>
+          <span>+50 XP</span>
         </div>
         <div class="floating-badge badge-streak">
           <span class="badge-icon">🔥</span>
-          <span>۷ روز</span>
+          <span data-i18n="badge.streak">7 days</span>
         </div>
       </div>
     </div>
@@ -220,23 +243,23 @@
       <div class="trust-row">
         <div class="trust-item">
           <span class="trust-icon">🇮🇷</span>
-          <span>ساخته‌شده برای ایرانیان</span>
+          <span data-i18n="trust.iran">Built for Iranians</span>
         </div>
         <div class="trust-item">
           <span class="trust-icon">🔒</span>
-          <span>حریم خصوصی شما محترم است</span>
+          <span data-i18n="trust.privacy">Your privacy respected</span>
         </div>
         <div class="trust-item">
           <span class="trust-icon">🤖</span>
-          <span>هوش مصنوعی پیشرفته</span>
+          <span data-i18n="trust.ai">Advanced AI</span>
         </div>
         <div class="trust-item">
           <span class="trust-icon">📱</span>
-          <span>اندروید ۸ به بالا</span>
+          <span data-i18n="trust.android">Android 8+</span>
         </div>
         <div class="trust-item">
           <span class="trust-icon">🎁</span>
-          <span>شروع رایگان</span>
+          <span data-i18n="trust.free">Free to start</span>
         </div>
       </div>
     </div>
@@ -246,11 +269,10 @@
   <section class="section features" id="features">
     <div class="container">
       <div class="section-head">
-        <span class="section-eyebrow">چرا آپ‌وورد؟</span>
-        <h2 class="section-title">همه‌چیز برای یادگیری واقعی زبان</h2>
-        <p class="section-subtitle">
-          آپ‌وورد یک اپلیکیشن آموزشی نیست؛ همراه کامل تو در سفر زبان‌آموزی است. از
-          اولین کلمه تا مکالمه روان، همه‌چیز در یک جا.
+        <span class="section-eyebrow" data-i18n="features.eyebrow">Why Upword?</span>
+        <h2 class="section-title" data-i18n="features.title">Everything for real language learning</h2>
+        <p class="section-subtitle" data-i18n="features.subtitle">
+          Upword isn't just an educational app — it's your complete companion on the language-learning journey. From your first word to fluent conversation, all in one place.
         </p>
       </div>
 
@@ -261,10 +283,9 @@
               <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </div>
-          <h3>مکالمه واقعی با هوش مصنوعی</h3>
-          <p>
-            با دستیار هوشمندی چت کن که خودش را به سطح تو سازگار می‌کند. موضوعات
-            روزمره مثل سفر، رستوران، کار و سلامت — بدون ترس از اشتباه کردن.
+          <h3 data-i18n="features.f1.title">Real AI Conversation</h3>
+          <p data-i18n="features.f1.desc">
+            Chat with a smart assistant that adapts to your level. Everyday topics like travel, restaurants, work, and health — without fear of making mistakes.
           </p>
         </article>
 
@@ -274,10 +295,9 @@
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </div>
-          <h3>ماموریت‌های تعاملی</h3>
-          <p>
-            در سناریوهای واقعی نقش بازی کن: مصاحبه شغلی، رزرو هتل، ویزیت پزشک. هر
-            ماموریت یک قدم به سمت روان‌تر صحبت کردن است.
+          <h3 data-i18n="features.f2.title">Interactive Missions</h3>
+          <p data-i18n="features.f2.desc">
+            Role-play in real scenarios: job interviews, hotel bookings, doctor visits. Each mission is a step toward speaking more fluently.
           </p>
         </article>
 
@@ -288,10 +308,9 @@
               <path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v4M8 23h8" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </div>
-          <h3>تمرین شدوینگ</h3>
-          <p>
-            گوش بده و تکرار کن. تلفظت را با تمرین‌های هدفمند اصلاح کن و اعتماد به
-            نفس صحبت کردن را در خودت بساز.
+          <h3 data-i18n="features.f3.title">Shadowing Practice</h3>
+          <p data-i18n="features.f3.desc">
+            Listen and repeat. Refine your pronunciation with targeted exercises and build the confidence to actually speak.
           </p>
         </article>
 
@@ -301,10 +320,9 @@
               <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </div>
-          <h3>واژگان هوشمند</h3>
-          <p>
-            کلمات جدید را در زمینه یاد بگیر، نه به صورت لیست خشک. هر واژه با مثال
-            واقعی و تلفظ بومی، در حافظه‌ات می‌ماند.
+          <h3 data-i18n="features.f4.title">Smart Vocabulary</h3>
+          <p data-i18n="features.f4.desc">
+            Learn new words in context, not as a dry list. Each word sticks with real examples and native pronunciation.
           </p>
         </article>
 
@@ -314,10 +332,9 @@
               <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </div>
-          <h3>سیستم XP و استریک</h3>
-          <p>
-            با هر تمرین امتیاز بگیر، استریک روزانه‌ات را حفظ کن و در سطح‌ها بالا
-            برو. یادگیری تبدیل به عادت لذت‌بخش می‌شود.
+          <h3 data-i18n="features.f5.title">XP & Streak System</h3>
+          <p data-i18n="features.f5.desc">
+            Earn XP with every exercise, keep your daily streak alive, and level up. Learning becomes a rewarding habit.
           </p>
         </article>
 
@@ -328,10 +345,9 @@
               <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </div>
-          <h3>مسیر شخصی‌سازی‌شده</h3>
-          <p>
-            از سطح مبتدی تا پیشرفته، مسیر یادگیری بر اساس پیشرفت تو تنظیم می‌شود.
-            هر کاربر تجربه‌ای منحصربه‌فرد دارد.
+          <h3 data-i18n="features.f6.title">Personalized Path</h3>
+          <p data-i18n="features.f6.desc">
+            From complete beginner to advanced, the learning path is tuned to your progress. Every user gets a unique experience.
           </p>
         </article>
       </div>
@@ -342,22 +358,22 @@
   <section class="section how" id="how">
     <div class="container">
       <div class="section-head">
-        <span class="section-eyebrow">چطور کار می‌کند</span>
-        <h2 class="section-title">در سه قدم شروع کن</h2>
-        <p class="section-subtitle">
-          از نصب تا اولین مکالمه واقعی، کمتر از ۵ دقیقه فاصله داری.
+        <span class="section-eyebrow" data-i18n="how.eyebrow">How it works</span>
+        <h2 class="section-title" data-i18n="how.title">Start in three steps</h2>
+        <p class="section-subtitle" data-i18n="how.subtitle">
+          From install to your first real conversation, less than 5 minutes away.
         </p>
       </div>
 
       <div class="steps">
         <div class="step">
-          <div class="step-number">۱</div>
+          <div class="step-number">1</div>
           <div class="step-turtle">
             <div id="stepTurtle1"></div>
           </div>
-          <h3>زبان و سطحت را انتخاب کن</h3>
-          <p>
-            زبان مادری، زبان هدف و سطح فعلی‌ات را مشخص کن تا مسیر شخصی تو ساخته شود.
+          <h3 data-i18n="how.s1.title">Pick your language and level</h3>
+          <p data-i18n="how.s1.desc">
+            Choose your native language, target language, and current level to build your personal path.
           </p>
         </div>
 
@@ -368,14 +384,13 @@
         </div>
 
         <div class="step">
-          <div class="step-number">۲</div>
+          <div class="step-number">2</div>
           <div class="step-turtle">
             <div id="stepTurtle2"></div>
           </div>
-          <h3>اولین مکالمه را شروع کن</h3>
-          <p>
-            یک موضوع انتخاب کن و با دستیار هوشمند شروع به چت کن. اشتباهاتت را همان
-            لحظه اصلاح می‌کند.
+          <h3 data-i18n="how.s2.title">Start your first conversation</h3>
+          <p data-i18n="how.s2.desc">
+            Pick a topic and start chatting with the AI assistant. It corrects your mistakes in real time.
           </p>
         </div>
 
@@ -386,14 +401,13 @@
         </div>
 
         <div class="step">
-          <div class="step-number">۳</div>
+          <div class="step-number">3</div>
           <div class="step-turtle">
             <div id="stepTurtle3"></div>
           </div>
-          <h3>هر روز تمرین کن و پیشرفت کن</h3>
-          <p>
-            با هدف روزانه، استریک و ماموریت‌های جدید، یادگیری به عادت لذت‌بخش
-            تبدیل می‌شود.
+          <h3 data-i18n="how.s3.title">Practice daily and progress</h3>
+          <p data-i18n="how.s3.desc">
+            With daily goals, streaks, and new missions, learning becomes a delightful habit.
           </p>
         </div>
       </div>
@@ -417,30 +431,28 @@
       </div>
 
       <div class="mascot-content">
-        <span class="section-eyebrow">لاکپشت آپ‌وورد</span>
-        <h2 class="section-title">همراهت در مسیر یادگیری</h2>
-        <p class="mascot-desc">
-          لاکپشت نماد صبر و استمرار است — همان چیزی که برای یادگیری زبان نیاز داری.
-          در هر قدم کنارت است: وقتی موفق می‌شوی جشن می‌گیرد، وقتی خسته می‌شوی بهت
-          انگیزه می‌دهد و وقتی هدفت را کامل می‌کنی آرامش می‌بخشد.
+        <span class="section-eyebrow" data-i18n="mascot.eyebrow">The Upword Turtle</span>
+        <h2 class="section-title" data-i18n="mascot.title">Your companion on the journey</h2>
+        <p class="mascot-desc" data-i18n="mascot.desc">
+          The turtle symbolizes patience and persistence — exactly what you need to learn a language. It's with you at every step: it celebrates when you succeed, motivates you when you're tired, and brings calm when you complete your goal.
         </p>
 
         <ul class="mascot-list">
           <li>
             <span class="check">✓</span>
-            <span>تشویق در هر موفقیت کوچک</span>
+            <span data-i18n="mascot.l1">Encouragement at every small win</span>
           </li>
           <li>
             <span class="check">✓</span>
-            <span>انیمیشن‌های زنده و دلپذیر</span>
+            <span data-i18n="mascot.l2">Lively, delightful animations</span>
           </li>
           <li>
             <span class="check">✓</span>
-            <span>حس همراهی در کل مسیر یادگیری</span>
+            <span data-i18n="mascot.l3">A sense of companionship throughout</span>
           </li>
           <li>
             <span class="check">✓</span>
-            <span>نماد صبر و استمرار در یادگیری</span>
+            <span data-i18n="mascot.l4">A symbol of patience and persistence</span>
           </li>
         </ul>
 
@@ -449,8 +461,9 @@
           target="_blank"
           rel="noopener"
           class="btn btn-primary btn-lg mascot-cta"
+          data-i18n="mascot.cta"
         >
-          همین حالا شروع کن
+          Get started now
         </a>
       </div>
     </div>
@@ -460,11 +473,10 @@
   <section class="section screens" id="screens">
     <div class="container">
       <div class="section-head">
-        <span class="section-eyebrow">نمای اپلیکیشن</span>
-        <h2 class="section-title">نگاهی به داخل آپ‌وورد</h2>
-        <p class="section-subtitle">
-          رابط کاربری ساده، شیک و فارسی — برای اینکه روی یادگیری تمرکز کنی، نه
-          نرم‌افزار را.
+        <span class="section-eyebrow" data-i18n="screens.eyebrow">App Preview</span>
+        <h2 class="section-title" data-i18n="screens.title">A look inside Upword</h2>
+        <p class="section-subtitle" data-i18n="screens.subtitle">
+          A simple, elegant, and Persian UI — so you focus on learning, not the software.
         </p>
       </div>
 
@@ -475,7 +487,7 @@
           <div class="phone-screen">
             <div class="screen-nav">
               <span>←</span>
-              <span class="screen-nav-title">مکالمه آزاد</span>
+              <span class="screen-nav-title" data-i18n="screen.chat.title">Free Talk</span>
               <span>⋮</span>
             </div>
             <div class="chat-bubble chat-ai" dir="ltr">
@@ -489,7 +501,7 @@
             </div>
             <div class="chat-feedback">
               <span class="feedback-icon">✨</span>
-              <span>عالی! جمله‌ات طبیعی بود.</span>
+              <span data-i18n="screen.chat.feedback">Great! Your sentence was natural.</span>
             </div>
             <div class="chat-input" dir="ltr">
               <span>Type a message...</span>
@@ -504,30 +516,30 @@
           <div class="phone-screen">
             <div class="screen-nav">
               <span>←</span>
-              <span class="screen-nav-title">دستاوردها</span>
+              <span class="screen-nav-title" data-i18n="screen.ach.title">Achievements</span>
               <span>🏆</span>
             </div>
             <div class="achievement-turtle">
               <div id="achievementTurtle"></div>
             </div>
-            <div class="achievement-title">دستاورد جدید!</div>
-            <div class="achievement-name">۷ روز استریک</div>
-            <div class="achievement-desc">یک هفته کامل تمرین کردی!</div>
+            <div class="achievement-title" data-i18n="screen.ach.subtitle">New Achievement!</div>
+            <div class="achievement-name" data-i18n="screen.ach.name">7-Day Streak</div>
+            <div class="achievement-desc" data-i18n="screen.ach.desc">A full week of practice!</div>
             <div class="achievement-reward">
-              <span class="reward-xp">+۱۰۰ XP</span>
+              <span class="reward-xp">+100 XP</span>
             </div>
             <div class="achievement-list">
               <div class="ach-item ach-done">
                 <span>🥇</span>
-                <span>اولین مکالمه</span>
+                <span data-i18n="screen.ach.a1">First Conversation</span>
               </div>
               <div class="ach-item ach-done">
                 <span>🔥</span>
-                <span>استریک ۷ روزه</span>
+                <span data-i18n="screen.ach.a2">7-Day Streak</span>
               </div>
               <div class="ach-item ach-locked">
                 <span>🎯</span>
-                <span>۱۰ ماموریت</span>
+                <span data-i18n="screen.ach.a3">10 Missions</span>
               </div>
             </div>
           </div>
@@ -539,11 +551,11 @@
           <div class="phone-screen">
             <div class="screen-nav">
               <span>←</span>
-              <span class="screen-nav-title">واژگان</span>
+              <span class="screen-nav-title" data-i18n="screen.vocab.title">Vocabulary</span>
               <span>🔍</span>
             </div>
             <div class="vocab-progress">
-              <div class="vocab-progress-text">۱۲ از ۲۰ واژه</div>
+              <div class="vocab-progress-text" data-i18n="screen.vocab.progress">12 of 20 words</div>
               <div class="vocab-progress-bar">
                 <div class="vocab-progress-fill" style="width: 60%"></div>
               </div>
@@ -551,13 +563,13 @@
             <div class="vocab-card">
               <div class="vocab-word">Serendipity</div>
               <div class="vocab-phonetic">/ˌsɛrənˈdɪpɪti/</div>
-              <div class="vocab-meaning">تصادف خوش</div>
+              <div class="vocab-meaning" data-i18n="screen.vocab.meaning">A lucky coincidence</div>
               <div class="vocab-example">
                 "Finding this café was pure serendipity."
               </div>
               <div class="vocab-actions">
-                <span class="vocab-btn">🔊 گوش بده</span>
-                <span class="vocab-btn vocab-btn-primary">می‌دانم</span>
+                <span class="vocab-btn" data-i18n="screen.vocab.listen">🔊 Listen</span>
+                <span class="vocab-btn vocab-btn-primary" data-i18n="screen.vocab.know">I know it</span>
               </div>
             </div>
           </div>
@@ -571,20 +583,20 @@
     <div class="container">
       <div class="stats-row">
         <div class="stat-block">
-          <div class="stat-block-num" data-count="6" data-suffix="">۰</div>
-          <div class="stat-block-label">زبان قابل یادگیری</div>
+          <div class="stat-block-num" data-count="6" data-suffix="">0</div>
+          <div class="stat-block-label" data-i18n="stats.languages">Languages</div>
         </div>
         <div class="stat-block">
-          <div class="stat-block-num" data-count="120" data-suffix="+">۰</div>
-          <div class="stat-block-label">موضوع متنوع</div>
+          <div class="stat-block-num" data-count="120" data-suffix="+">0</div>
+          <div class="stat-block-label" data-i18n="stats.topics">Topics</div>
         </div>
         <div class="stat-block">
-          <div class="stat-block-num" data-count="9" data-suffix="★">۰</div>
-          <div class="stat-block-label">امتیاز کاربران</div>
+          <div class="stat-block-num" data-count="4.7" data-suffix="★">0</div>
+          <div class="stat-block-label" data-i18n="stats.rating">Cafe Bazaar Rating</div>
         </div>
         <div class="stat-block">
-          <div class="stat-block-num" data-count="3" data-suffix="+">۰</div>
-          <div class="stat-block-label">سال تجربه تیم</div>
+          <div class="stat-block-num" data-count="13" data-suffix="">0</div>
+          <div class="stat-block-label" data-i18n="stats.votes">Verified Reviews</div>
         </div>
       </div>
     </div>
@@ -594,72 +606,113 @@
   <section class="section testimonials" id="testimonials">
     <div class="container">
       <div class="section-head">
-        <span class="section-eyebrow">نظرات کاربران</span>
-        <h2 class="section-title">کاربران آپ‌وورد چه می‌گویند؟</h2>
-        <p class="section-subtitle">
-          هزاران نفر با آپ‌وورد اعتماد به نفس صحبت کردن را پیدا کرده‌اند.
+        <span class="section-eyebrow" data-i18n="testi.eyebrow">User Reviews</span>
+        <h2 class="section-title" data-i18n="testi.title">What Upword users say</h2>
+        <p class="section-subtitle" data-i18n="testi.subtitle">
+          Real reviews from Cafe Bazaar — verbatim, untranslated. Average rating: 4.7 out of 5 from 13 votes.
         </p>
       </div>
 
       <div class="testimonial-grid">
+        <!-- Real Cafe Bazaar reviews — kept in original Persian -->
         <article class="testimonial">
-          <div class="stars">★★★★★</div>
-          <p class="testimonial-text">
-            «بعد از سال‌ها تلاش ناموفق برای یادگیری انگلیسی، بالاخره با آپ‌وورد تونستم
-            واقعاً صحبت کنم. مکالمه با هوش مصنوعی ترس از اشتباه کردن را از بین برد.»
-          </p>
-          <div class="testimonial-author">
-            <div class="author-avatar">س</div>
-            <div>
-              <div class="author-name">سارا محمدی</div>
-              <div class="author-role">دانشجوی ارشد</div>
-            </div>
+          <div class="testimonial-source">
+            <span class="source-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2L2 7v10l10 5 10-5V7l-10-5zm0 2.18L19.5 8 12 11.82 4.5 8 12 4.18zM4 9.5l7 3.5v7.18l-7-3.5V9.5zm9 10.68V13l7-3.5v7.18l-7 3.5z"/>
+              </svg>
+              Cafe Bazaar
+            </span>
+            <div class="stars">★★★★★</div>
           </div>
-        </article>
-
-        <article class="testimonial">
-          <div class="stars">★★★★★</div>
-          <p class="testimonial-text">
-            «ماموریت‌های واقع‌گرایانه فوق‌العاده است. قبل از سفر به ترکیه با ماموریت
-            فرودگاه تمرین کردم و واقعاً راحت بود. انگار قبلاً تجربه کرده بودم.»
+          <p class="testimonial-text" dir="rtl">
+            بی نظیر و کامل. همه چی و پوشش میده. بهترین قسمتش پیدا کردن تلفظ و استفاده روتین کلمه تو دیالوگ فیلم هاست. عاااالیه
           </p>
-          <div class="testimonial-author">
-            <div class="author-avatar">ر</div>
-            <div>
-              <div class="author-name">رضا کریمی</div>
-              <div class="author-role">مهندس نرم‌افزار</div>
-            </div>
-          </div>
-        </article>
-
-        <article class="testimonial">
-          <div class="stars">★★★★★</div>
-          <p class="testimonial-text">
-            «شدوینگ عالیه. تلفظم خیلی بهتر شده. لاکپشت‌های انیمیشنی هم بچه‌های
-            خانواده را عاشق این اپ کرده.»
+          <p class="testimonial-translation" data-i18n="testi.r1.translation">
+            "Incredible and complete. Covers everything. The best part is finding pronunciation and the routine use of words in movie dialogues. Aweeesome."
           </p>
           <div class="testimonial-author">
             <div class="author-avatar">م</div>
             <div>
-              <div class="author-name">مریم احمدی</div>
-              <div class="author-role">معلم زبان</div>
+              <div class="author-name">مهدی</div>
+              <div class="author-role" data-i18n="testi.r1.role">Cafe Bazaar User</div>
             </div>
           </div>
         </article>
 
         <article class="testimonial">
-          <div class="stars">★★★★★</div>
-          <p class="testimonial-text">
-            «استریک روزانه باعث شد واقعاً هر روز تمرین کنم. بعد از ۳ ماه، می‌تونم
-            بدون ترس با مشتری‌های خارجی چت کنم.»
+          <div class="testimonial-source">
+            <span class="source-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2L2 7v10l10 5 10-5V7l-10-5zm0 2.18L19.5 8 12 11.82 4.5 8 12 4.18zM4 9.5l7 3.5v7.18l-7-3.5V9.5zm9 10.68V13l7-3.5v7.18l-7 3.5z"/>
+              </svg>
+              Cafe Bazaar
+            </span>
+            <div class="stars">★★★★★</div>
+          </div>
+          <p class="testimonial-text" dir="rtl">
+            خیلی باحاله یه پکیج کامل از ابزارهای مختلف که توی تمام زمینه‌ها کمک میکنه
+          </p>
+          <p class="testimonial-translation" data-i18n="testi.r2.translation">
+            "Really cool — a complete package of different tools that helps in every area."
           </p>
           <div class="testimonial-author">
-            <div class="author-avatar">ا</div>
+            <div class="author-avatar">م</div>
             <div>
-              <div class="author-name">امیر رضایی</div>
-              <div class="author-role">صاحب کسب‌وکار</div>
+              <div class="author-name">مهران</div>
+              <div class="author-role" data-i18n="testi.r2.role">Cafe Bazaar User</div>
             </div>
           </div>
+        </article>
+
+        <article class="testimonial">
+          <div class="testimonial-source">
+            <span class="source-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2L2 7v10l10 5 10-5V7l-10-5zm0 2.18L19.5 8 12 11.82 4.5 8 12 4.18zM4 9.5l7 3.5v7.18l-7-3.5V9.5zm9 10.68V13l7-3.5v7.18l-7 3.5z"/>
+              </svg>
+              Cafe Bazaar
+            </span>
+            <div class="stars">★★★★★</div>
+          </div>
+          <p class="testimonial-text" dir="rtl">
+            برنامه خیلی خوب و کاربردی ای هستش و امکانات جالبی داره.
+          </p>
+          <p class="testimonial-translation" data-i18n="testi.r3.translation">
+            "A very good and practical app with interesting features."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">ر</div>
+            <div>
+              <div class="author-name">رضوانه</div>
+              <div class="author-role" data-i18n="testi.r3.role">Cafe Bazaar User</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial testimonial-summary">
+          <div class="testimonial-source">
+            <span class="source-badge source-badge-green">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2L2 7v10l10 5 10-5V7l-10-5zm0 2.18L19.5 8 12 11.82 4.5 8 12 4.18zM4 9.5l7 3.5v7.18l-7-3.5V9.5zm9 10.68V13l7-3.5v7.18l-7 3.5z"/>
+              </svg>
+              Cafe Bazaar
+            </span>
+            <div class="stars">★★★★★</div>
+          </div>
+          <div class="summary-rating">4.7 / 5</div>
+          <p class="testimonial-text summary-text" data-i18n="testi.summary">
+            Based on 13 verified votes on Cafe Bazaar — Upword maintains an excellent 4.7/5 rating. Join the growing community of happy learners.
+          </p>
+          <a
+            href="http://cafebazaar.ir/app/?id=ir.upword.twa"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-primary btn-sm"
+            data-i18n="testi.viewAll"
+          >
+            View on Cafe Bazaar
+          </a>
         </article>
       </div>
     </div>
@@ -669,65 +722,58 @@
   <section class="section faq" id="faq">
     <div class="container">
       <div class="section-head">
-        <span class="section-eyebrow">سوالات متداول</span>
-        <h2 class="section-title">هر چی می‌خوای بدونی</h2>
+        <span class="section-eyebrow" data-i18n="faq.eyebrow">FAQ</span>
+        <h2 class="section-title" data-i18n="faq.title">Everything you want to know</h2>
       </div>
 
       <div class="faq-list">
         <details class="faq-item" open>
           <summary>
-            <span>آیا آپ‌وورد رایگان است؟</span>
+            <span data-i18n="faq.q1">Is Upword free?</span>
             <span class="faq-icon">+</span>
           </summary>
-          <div class="faq-answer">
-            دانلود و شروع آپ‌وورد رایگان است. می‌توانید مکالمات روزانه، ماموریت‌ها
-            و تمرین شدوینگ را امتحان کنید. برای دسترسی به محتوای پیشرفته‌تر، ماموریت‌های
-            ویژه و زبان‌های بیشتر، می‌توانید خرید درون‌برنامه‌ای انجام دهید.
+          <div class="faq-answer" data-i18n="faq.a1">
+            Downloading and starting Upword is free. You can try daily conversations, missions, and shadowing practice. For access to advanced content, special missions, and more languages, you can make in-app purchases.
           </div>
         </details>
 
         <details class="faq-item">
           <summary>
-            <span>آیا برای استفاده به اینترنت نیاز دارم؟</span>
+            <span data-i18n="faq.q2">Do I need internet to use it?</span>
             <span class="faq-icon">+</span>
           </summary>
-          <div class="faq-answer">
-            برای مکالمه با هوش مصنوعی به اینترنت نیاز دارید. اما واژگان آموخته‌شده
-            و تمرین‌های شدوینگ را می‌توانید به صورت آفلاین مرور کنید.
+          <div class="faq-answer" data-i18n="faq.a2">
+            AI conversations require internet. However, you can review learned vocabulary and shadowing exercises offline.
           </div>
         </details>
 
         <details class="faq-item">
           <summary>
-            <span>چه زبان‌هایی پشتیبانی می‌شوند؟</span>
+            <span data-i18n="faq.q3">Which languages are supported?</span>
             <span class="faq-icon">+</span>
           </summary>
-          <div class="faq-answer">
-            در حال حاضر انگلیسی، ترکی، عربی، آلمانی، فرانسوی و اسپانیایی پشتیبانی
-            می‌شوند. زبان‌های بیشتری در راه است.
+          <div class="faq-answer" data-i18n="faq.a3">
+            Currently English, Turkish, Arabic, German, French, and Spanish are supported. More languages are on the way.
           </div>
         </details>
 
         <details class="faq-item">
           <summary>
-            <span>آیا داده‌های من امن هستند؟</span>
+            <span data-i18n="faq.q4">Is my data secure?</span>
             <span class="faq-icon">+</span>
           </summary>
-          <div class="faq-answer">
-            بله. تمام داده‌های یادگیری شما به صورت محلی روی دستگاه ذخیره می‌شود.
-            مکالمات فقط برای پردازش به سرویس هوش مصنوعی ارسال می‌شوند و نگه‌داری
-            نمی‌شوند.
+          <div class="faq-answer" data-i18n="faq.a4">
+            Yes. All your learning data is stored locally on your device. Conversations are only sent to the AI service for processing and are not retained.
           </div>
         </details>
 
         <details class="faq-item">
           <summary>
-            <span>چه سطحی از زبان را نیاز دارم؟</span>
+            <span data-i18n="faq.q5">What level do I need?</span>
             <span class="faq-icon">+</span>
           </summary>
-          <div class="faq-answer">
-            هیچ سطح خاصی لازم نیست. آپ‌وورد از مبتدی کامل تا پیشرفته پشتیبانی می‌کند.
-            در شروع، سطح تو شناسایی می‌شود و مسیر شخصی‌سازی می‌شود.
+          <div class="faq-answer" data-i18n="faq.a5">
+            No specific level needed. Upword supports complete beginners to advanced learners. At the start, your level is detected and your path is personalized.
           </div>
         </details>
       </div>
@@ -741,10 +787,9 @@
         <div class="cta-turtle">
           <div id="ctaTurtle"></div>
         </div>
-        <h2 class="cta-title">امروز اولین قدم رو بردار</h2>
-        <p class="cta-subtitle">
-          یادگیری زبان یک‌شبه اتفاق نمی‌افتد — اما با آپ‌وورد، هر روز یک قدم به هدفت
-          نزدیک‌تر می‌شوی. همین حالا شروع کن.
+        <h2 class="cta-title" data-i18n="cta.title">Take your first step today</h2>
+        <p class="cta-subtitle" data-i18n="cta.subtitle">
+          Language learning doesn't happen overnight — but with Upword, you take a step closer to your goal every day. Start now.
         </p>
         <a
           href="http://cafebazaar.ir/app/?id=ir.upword.twa"
@@ -755,9 +800,9 @@
           <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
             <path d="M5 20h14v-2H5v2zM12 2L7 7h3v6h4V7h3l-5-5z"/>
           </svg>
-          دانلود از کافه‌بazaar
+          <span data-i18n="cta.button">Download from Cafe Bazaar</span>
         </a>
-        <div class="cta-note">شروع رایگان • خرید درون‌برنامه‌ای برای محتوای کامل • نسخه ۲.۴۵.۷</div>
+        <div class="cta-note" data-i18n="cta.note">Free to start • In-app purchases for full content • v2.45.7</div>
       </div>
     </div>
   </section>
@@ -769,11 +814,10 @@
         <div class="footer-brand">
           <a href="#hero" class="brand">
             <img src="assets/images/app-icon.png" alt="Upword" class="brand-icon" />
-            <span class="brand-text">آپ‌وورد</span>
+            <span class="brand-text">Upword</span>
           </a>
-          <p class="footer-desc">
-            همراه هوشمندت برای یادگیری زبان از طریق مکالمه واقعی. ساخته‌شده با عشق
-            در ایران.
+          <p class="footer-desc" data-i18n="footer.desc">
+            Your smart companion for learning languages through real conversation. Built with love in Iran.
           </p>
           <div class="footer-social">
             <a href="https://github.com/mvaliolahi/upword-landing" target="_blank" rel="noopener" aria-label="GitHub">
@@ -790,31 +834,31 @@
         </div>
 
         <div class="footer-col">
-          <h4>محصول</h4>
-          <a href="#features">امکانات</a>
-          <a href="#how">چطور کار می‌کند</a>
-          <a href="#screens">نمای اپ</a>
-          <a href="#faq">سوالات متداول</a>
+          <h4 data-i18n="footer.product">Product</h4>
+          <a href="#features" data-i18n="nav.features">Features</a>
+          <a href="#how" data-i18n="nav.how">How it Works</a>
+          <a href="#screens" data-i18n="nav.screens">App Preview</a>
+          <a href="#faq" data-i18n="nav.faq">FAQ</a>
         </div>
 
         <div class="footer-col">
-          <h4>دانلود</h4>
-          <a href="http://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener">کافه‌بazaar</a>
-          <a href="#hero">اندروید</a>
-          <a href="#hero">نسخه ۲.۴۵.۷</a>
+          <h4 data-i18n="footer.download">Download</h4>
+          <a href="http://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener">Cafe Bazaar</a>
+          <a href="#hero" data-i18n="footer.android">Android</a>
+          <a href="#hero">v2.45.7</a>
         </div>
 
         <div class="footer-col">
-          <h4>درباره</h4>
-          <a href="https://github.com/mvaliolahi" target="_blank" rel="noopener">تیم توسعه</a>
-          <a href="https://github.com/mvaliolahi/upword-landing" target="_blank" rel="noopener">سورس لندینگ</a>
-          <a href="#testimonials">نظرات</a>
+          <h4 data-i18n="footer.about">About</h4>
+          <a href="https://github.com/mvaliolahi" target="_blank" rel="noopener" data-i18n="footer.team">Dev Team</a>
+          <a href="https://github.com/mvaliolahi/upword-landing" target="_blank" rel="noopener" data-i18n="footer.source">Landing Source</a>
+          <a href="#testimonials" data-i18n="nav.testimonials">Reviews</a>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <div>© ۲۰۲۶ آپ‌وورد — تمام حقوق محفوظ است.</div>
-        <div class="footer-made">ساخته‌شده با ❤️ در ایران</div>
+        <div data-i18n="footer.copyright">© 2026 Upword — All rights reserved.</div>
+        <div class="footer-made" data-i18n="footer.made">Made with ❤️ in Iran</div>
       </div>
     </div>
   </footer>
