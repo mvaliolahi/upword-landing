@@ -901,6 +901,12 @@ html[lang="fa"] .step-arrow svg {
   height: 110px;
   margin: 0 auto 18px;
 }
+/* turtle-swimming.json fills less of its canvas than the other two step animations,
+   so scale it up to look visually consistent with steps 2 and 3. */
+.step-turtle.step-turtle-1 svg {
+  transform: scale(1.6);
+  transform-origin: center;
+}
 .step h3 {
   font-size: 18px;
   font-weight: 800;
