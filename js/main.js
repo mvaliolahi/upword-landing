@@ -29,7 +29,6 @@
 
       'badge.streak': '7 days',
 
-      'trust.iran': 'Built for Iranians',
       'trust.privacy': 'Your privacy respected',
       'trust.ai': 'Advanced AI',
       'trust.android': 'Android 8+',
@@ -135,7 +134,6 @@
       'footer.android': 'Android',
       'footer.aboutApp': 'About Upword',
       'footer.copyright': '© 2026 Upword — All rights reserved.',
-      'footer.made': 'Made with ❤️ in Iran',
     },
 
     fa: {
@@ -159,7 +157,6 @@
 
       'badge.streak': '۷ روز',
 
-      'trust.iran': 'ساخته‌شده برای ایرانیان',
       'trust.privacy': 'حریم خصوصی شما محترم است',
       'trust.ai': 'هوش مصنوعی پیشرفته',
       'trust.android': 'اندروید ۸ به بالا',
@@ -265,7 +262,6 @@
       'footer.android': 'اندروید',
       'footer.aboutApp': 'درباره آپ ورد',
       'footer.copyright': '© ۲۰۲۶ آپ ورد — تمام حقوق محفوظ است.',
-      'footer.made': 'ساخته‌شده با ❤️ در ایران',
     }
   };
 
