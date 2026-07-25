@@ -490,7 +490,7 @@
 
   loadLottie('heroTurtle1', 'assets/lottie/turtle-swimming.json');
   loadLottie('heroTurtle2', 'assets/lottie/turtle-water.json');
-  loadLottie('stepTurtle1', 'assets/lottie/turtle-show.json');
+  loadLottie('stepTurtle1', 'assets/lottie/turtle-water.json');
   loadLottie('stepTurtle2', 'assets/lottie/turtle-success.json');
   loadLottie('stepTurtle3', 'assets/lottie/turtle-progress.json');
   loadLottie('mascotTurtle', 'assets/lottie/turtle-ninja.json');
