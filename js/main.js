@@ -1,5 +1,5 @@
 /* ============================================
-   Upword Landing — Main JavaScript
+   UpWord Landing — Main JavaScript
    Bilingual (English default + Persian toggle)
    ============================================ */
 
@@ -34,9 +34,9 @@
       'trust.android': 'Android 8+',
       'trust.free': 'Free to start',
 
-      'features.eyebrow': 'Why Upword?',
+      'features.eyebrow': 'Why UpWord?',
       'features.title': 'Everything for real language learning',
-      'features.subtitle': "Upword isn't just an educational app — it's your complete companion on the language-learning journey. From your first word to fluent conversation, all in one place.",
+      'features.subtitle': "UpWord isn't just an educational app — it's your complete companion on the language-learning journey. From your first word to fluent conversation, all in one place.",
       'features.f1.title': 'Real AI Conversation',
       'features.f1.desc': 'Chat with a smart assistant that adapts to your level. Everyday topics like travel, restaurants, work, and health — without fear of making mistakes.',
       'features.f2.title': 'Interactive Missions',
@@ -60,7 +60,7 @@
       'how.s3.title': 'Practice daily and progress',
       'how.s3.desc': 'With daily goals, streaks, and new missions, learning becomes a delightful habit.',
 
-      'mascot.eyebrow': 'The Upword Turtle',
+      'mascot.eyebrow': 'The UpWord Turtle',
       'mascot.title': 'Your companion on the journey',
       'mascot.desc': 'The turtle symbolizes patience and persistence — exactly what you need to learn a language. It\'s with you at every step: it celebrates when you succeed, motivates you when you\'re tired, and brings calm when you complete your goal.',
       'mascot.l1': 'Encouragement at every small win',
@@ -70,7 +70,7 @@
       'mascot.cta': 'Get started now',
 
       'screens.eyebrow': 'App Preview',
-      'screens.title': 'A look inside Upword',
+      'screens.title': 'A look inside UpWord',
       'screens.subtitle': 'A simple, elegant, and Persian UI — so you focus on learning, not the software.',
 
       'screen.chat.title': 'Free Talk',
@@ -98,7 +98,7 @@
       'mock.newVocabMeta': '12 words learned',
 
       'testi.eyebrow': 'User Reviews',
-      'testi.title': 'What Upword users say',
+      'testi.title': 'What UpWord users say',
       'testi.subtitle': 'Real reviews from Cafe Bazaar — verbatim, untranslated. Average rating: 4.7 out of 5 from 13 votes.',
       'testi.r1.translation': '"Incredible and complete. Covers everything. The best part is finding pronunciation and the routine use of words in movie dialogues. Aweeesome."',
       'testi.r1.role': 'Cafe Bazaar User',
@@ -106,13 +106,13 @@
       'testi.r2.role': 'Cafe Bazaar User',
       'testi.r3.translation': '"A very good and practical app with interesting features."',
       'testi.r3.role': 'Cafe Bazaar User',
-      'testi.summary': 'Based on 13 verified votes on Cafe Bazaar — Upword maintains an excellent 4.7/5 rating. Join the growing community of happy learners.',
+      'testi.summary': 'Based on 13 verified votes on Cafe Bazaar — UpWord maintains an excellent 4.7/5 rating. Join the growing community of happy learners.',
       'testi.viewAll': 'View on Cafe Bazaar',
 
       'faq.eyebrow': 'FAQ',
       'faq.title': 'Everything you want to know',
-      'faq.q1': 'Is Upword free?',
-      'faq.a1': 'Downloading and starting Upword is free. You can try daily conversations, missions, and shadowing practice. For access to advanced content, special missions, and more languages, you can make in-app purchases.',
+      'faq.q1': 'Is UpWord free?',
+      'faq.a1': 'Downloading and starting UpWord is free. You can try daily conversations, missions, and shadowing practice. For access to advanced content, special missions, and more languages, you can make in-app purchases.',
       'faq.q2': 'Do I need internet to use it?',
       'faq.a2': 'AI conversations require internet. However, you can review learned vocabulary and shadowing exercises offline.',
       'faq.q3': 'Which languages are supported?',
@@ -120,10 +120,10 @@
       'faq.q4': 'Is my data secure?',
       'faq.a4': 'Yes. All your learning data is stored locally on your device. Conversations are only sent to the AI service for processing and are not retained.',
       'faq.q5': 'What level do I need?',
-      'faq.a5': 'No specific level needed. Upword supports complete beginners to advanced learners. At the start, your level is detected and your path is personalized.',
+      'faq.a5': 'No specific level needed. UpWord supports complete beginners to advanced learners. At the start, your level is detected and your path is personalized.',
 
       'cta.title': 'Take your first step today',
-      'cta.subtitle': "Language learning doesn't happen overnight — but with Upword, you take a step closer to your goal every day. Start now.",
+      'cta.subtitle': "Language learning doesn't happen overnight — but with UpWord, you take a step closer to your goal every day. Start now.",
       'cta.button': 'Download from Cafe Bazaar',
       'cta.note': 'Free to start • In-app purchases for full content • v2.45.7',
 
@@ -132,8 +132,8 @@
       'footer.download': 'Download',
       'footer.about': 'About',
       'footer.android': 'Android',
-      'footer.aboutApp': 'About Upword',
-      'footer.copyright': '© 2026 Upword — All rights reserved.',
+      'footer.aboutApp': 'About UpWord',
+      'footer.copyright': '© 2026 UpWord — All rights reserved.',
     },
 
     fa: {

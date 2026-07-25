@@ -1,8 +1,8 @@
-# آپ‌وورد | Upword Landing Page
+# آپ‌وورد | UpWord Landing Page
 
 لندینگ پیج رسمی اپلیکیشن **آپ‌وورد** — یادگیری زبان با مکالمه واقعی هوش مصنوعی.
 
-Official landing page for the **Upword** language-learning app.
+Official landing page for the **UpWord** language-learning app.
 
 ---
 
