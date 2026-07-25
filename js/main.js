@@ -133,8 +133,7 @@
       'footer.download': 'Download',
       'footer.about': 'About',
       'footer.android': 'Android',
-      'footer.team': 'Dev Team',
-      'footer.source': 'Landing Source',
+      'footer.aboutApp': 'About Upword',
       'footer.copyright': '© 2026 Upword — All rights reserved.',
       'footer.made': 'Made with ❤️ in Iran',
     },
@@ -150,7 +149,7 @@
       'hero.pill': 'نسخه ۲.۴۵.۷ منتشر شد — با انیمیشن‌های لاکپشت جدید',
       'hero.title': 'زبان را با <span class="text-gradient">مکالمه واقعی</span> یاد بگیر',
       'hero.subtitle': 'نه حفظ کردن، نه تست‌های خسته‌کننده — مکالمه واقعی با دستیار هوش مصنوعی، ماموریت‌های تعاملی و تمرین شدوینگ. یاد بگیر چطور واقعاً صحبت کنی، نه فقط کلمات را حفظ کنی.',
-      'hero.ctaPrimary': 'دانلود از کافه‌بazaar',
+      'hero.ctaPrimary': 'دانلود از کافه بازار',
       'hero.ctaSecondary': 'چطور کار می‌کند؟',
 
       'stats.languages': 'زبان قابل یادگیری',
@@ -166,9 +165,9 @@
       'trust.android': 'اندروید ۸ به بالا',
       'trust.free': 'شروع رایگان',
 
-      'features.eyebrow': 'چرا آپ‌وورد؟',
+      'features.eyebrow': 'چرا آپ ورد؟',
       'features.title': 'همه‌چیز برای یادگیری واقعی زبان',
-      'features.subtitle': 'آپ‌وورد یک اپلیکیشن آموزشی نیست؛ همراه کامل تو در سفر زبان‌آموزی است. از اولین کلمه تا مکالمه روان، همه‌چیز در یک جا.',
+      'features.subtitle': 'آپ ورد یک اپلیکیشن آموزشی نیست؛ همراه کامل تو در سفر زبان‌آموزی است. از اولین کلمه تا مکالمه روان، همه‌چیز در یک جا.',
       'features.f1.title': 'مکالمه واقعی با هوش مصنوعی',
       'features.f1.desc': 'با دستیار هوشمندی چت کن که خودش را به سطح تو سازگار می‌کند. موضوعات روزمره مثل سفر، رستوران، کار و سلامت — بدون ترس از اشتباه کردن.',
       'features.f2.title': 'ماموریت‌های تعاملی',
@@ -192,7 +191,7 @@
       'how.s3.title': 'هر روز تمرین کن و پیشرفت کن',
       'how.s3.desc': 'با هدف روزانه، استریک و ماموریت‌های جدید، یادگیری به عادت لذت‌بخش تبدیل می‌شود.',
 
-      'mascot.eyebrow': 'لاکپشت آپ‌وورد',
+      'mascot.eyebrow': 'لاکپشت آپ ورد',
       'mascot.title': 'همراهت در مسیر یادگیری',
       'mascot.desc': 'لاکپشت نماد صبر و استمرار است — همان چیزی که برای یادگیری زبان نیاز داری. در هر قدم کنارت است: وقتی موفق می‌شوی جشن می‌گیرد، وقتی خسته می‌شوی بهت انگیزه می‌دهد و وقتی هدفت را کامل می‌کنی آرامش می‌بخشد.',
       'mascot.l1': 'تشویق در هر موفقیت کوچک',
@@ -202,7 +201,7 @@
       'mascot.cta': 'همین حالا شروع کن',
 
       'screens.eyebrow': 'نمای اپلیکیشن',
-      'screens.title': 'نگاهی به داخل آپ‌وورد',
+      'screens.title': 'نگاهی به داخل آپ ورد',
       'screens.subtitle': 'رابط کاربری ساده، شیک و فارسی — برای اینکه روی یادگیری تمرکز کنی، نه نرم‌افزار را.',
 
       'screen.chat.title': 'مکالمه آزاد',
@@ -230,21 +229,21 @@
       'mock.newVocabMeta': '۱۲ واژه آموختی',
 
       'testi.eyebrow': 'نظرات کاربران',
-      'testi.title': 'کاربران آپ‌وورد چه می‌گویند؟',
-      'testi.subtitle': 'نظرات واقعی از کافه‌بazaar — عین کلمه‌شون، بدون ترجمه. میانگین امتیاز: ۴.۷ از ۵ از ۱۳ رأی.',
+      'testi.title': 'کاربران آپ ورد چه می‌گویند؟',
+      'testi.subtitle': 'نظرات واقعی از کافه بازار — عین کلمه‌شون، بدون ترجمه. میانگین امتیاز: ۴.۷ از ۵ از ۱۳ رأی.',
       'testi.r1.translation': '«بی‌نظیر و کامل. همه‌چیز را پوشش می‌دهد. بهترین قسمتش پیدا کردن تلفظ و استفاده روتین کلمه در دیالوگ فیلم‌هاست. عاااالیه.»',
-      'testi.r1.role': 'کاربر کافه‌بazaar',
+      'testi.r1.role': 'کاربر کافه بازار',
       'testi.r2.translation': '«خیلی باحاله — یک پکیج کامل از ابزارهای مختلف که در همه زمینه‌ها کمک می‌کند.»',
-      'testi.r2.role': 'کاربر کافه‌بazaar',
+      'testi.r2.role': 'کاربر کافه بازار',
       'testi.r3.translation': '«برنامه خیلی خوب و کاربردی است و امکانات جالبی دارد.»',
-      'testi.r3.role': 'کاربر کافه‌بazaar',
-      'testi.summary': 'بر اساس ۱۳ رأی تأییدشده در کافه‌بazaar — آپ‌وورد امتیاز عالی ۴.۷ از ۵ را حفظ کرده. به جمع زبان‌آموزان راضی بپیوند.',
-      'testi.viewAll': 'مشاهده در کافه‌بazaar',
+      'testi.r3.role': 'کاربر کافه بازار',
+      'testi.summary': 'بر اساس ۱۳ رأی تأییدشده در کافه بازار — آپ ورد امتیاز عالی ۴.۷ از ۵ را حفظ کرده. به جمع زبان‌آموزان راضی بپیوند.',
+      'testi.viewAll': 'مشاهده در کافه بازار',
 
       'faq.eyebrow': 'سوالات متداول',
       'faq.title': 'هر چی می‌خوای بدونی',
-      'faq.q1': 'آیا آپ‌وورد رایگان است؟',
-      'faq.a1': 'دانلود و شروع آپ‌وورد رایگان است. می‌توانید مکالمات روزانه، ماموریت‌ها و تمرین شدوینگ را امتحان کنید. برای دسترسی به محتوای پیشرفته‌تر، ماموریت‌های ویژه و زبان‌های بیشتر، می‌توانید خرید درون‌برنامه‌ای انجام دهید.',
+      'faq.q1': 'آیا آپ ورد رایگان است؟',
+      'faq.a1': 'دانلود و شروع آپ ورد رایگان است. می‌توانید مکالمات روزانه، ماموریت‌ها و تمرین شدوینگ را امتحان کنید. برای دسترسی به محتوای پیشرفته‌تر، ماموریت‌های ویژه و زبان‌های بیشتر، می‌توانید خرید درون‌برنامه‌ای انجام دهید.',
       'faq.q2': 'آیا برای استفاده به اینترنت نیاز دارم؟',
       'faq.a2': 'برای مکالمه با هوش مصنوعی به اینترنت نیاز دارید. اما واژگان آموخته‌شده و تمرین‌های شدوینگ را می‌توانید به صورت آفلاین مرور کنید.',
       'faq.q3': 'چه زبان‌هایی پشتیبانی می‌شوند؟',
@@ -252,11 +251,11 @@
       'faq.q4': 'آیا داده‌های من امن هستند؟',
       'faq.a4': 'بله. تمام داده‌های یادگیری شما به صورت محلی روی دستگاه ذخیره می‌شود. مکالمات فقط برای پردازش به سرویس هوش مصنوعی ارسال می‌شوند و نگه‌داری نمی‌شوند.',
       'faq.q5': 'چه سطحی از زبان را نیاز دارم؟',
-      'faq.a5': 'هیچ سطح خاصی لازم نیست. آپ‌وورد از مبتدی کامل تا پیشرفته پشتیبانی می‌کند. در شروع، سطح تو شناسایی می‌شود و مسیر شخصی‌سازی می‌شود.',
+      'faq.a5': 'هیچ سطح خاصی لازم نیست. آپ ورد از مبتدی کامل تا پیشرفته پشتیبانی می‌کند. در شروع، سطح تو شناسایی می‌شود و مسیر شخصی‌سازی می‌شود.',
 
       'cta.title': 'امروز اولین قدم رو بردار',
-      'cta.subtitle': 'یادگیری زبان یک‌شبه اتفاق نمی‌افتد — اما با آپ‌وورد، هر روز یک قدم به هدفت نزدیک‌تر می‌شوی. همین حالا شروع کن.',
-      'cta.button': 'دانلود از کافه‌بazaar',
+      'cta.subtitle': 'یادگیری زبان یک‌شبه اتفاق نمی‌افتد — اما با آپ ورد، هر روز یک قدم به هدفت نزدیک‌تر می‌شوی. همین حالا شروع کن.',
+      'cta.button': 'دانلود از کافه بازار',
       'cta.note': 'شروع رایگان • خرید درون‌برنامه‌ای برای محتوای کامل • نسخه ۲.۴۵.۷',
 
       'footer.desc': 'همراه هوشمندت برای یادگیری زبان از طریق مکالمه واقعی. ساخته‌شده با عشق در ایران.',
@@ -264,9 +263,8 @@
       'footer.download': 'دانلود',
       'footer.about': 'درباره',
       'footer.android': 'اندروید',
-      'footer.team': 'تیم توسعه',
-      'footer.source': 'سورس لندینگ',
-      'footer.copyright': '© ۲۰۲۶ آپ‌وورد — تمام حقوق محفوظ است.',
+      'footer.aboutApp': 'درباره آپ ورد',
+      'footer.copyright': '© ۲۰۲۶ آپ ورد — تمام حقوق محفوظ است.',
       'footer.made': 'ساخته‌شده با ❤️ در ایران',
     }
   };
@@ -349,28 +347,68 @@
   function initLangSwitcher() {
     const langBtn = document.getElementById('langBtn');
     const langDropdown = document.getElementById('langDropdown');
+    if (!langBtn || !langDropdown) return;
 
-    if (langBtn && langDropdown) {
-      langBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        langDropdown.classList.toggle('open');
-      });
+    // ARIA + keyboard accessibility
+    langBtn.setAttribute('aria-haspopup', 'true');
+    langBtn.setAttribute('aria-expanded', 'false');
 
-      document.addEventListener('click', (e) => {
-        if (!langDropdown.contains(e.target) && !langBtn.contains(e.target)) {
-          langDropdown.classList.remove('open');
-        }
-      });
-
-      document.querySelectorAll('.lang-option').forEach((opt) => {
-        opt.addEventListener('click', () => {
-          const newLang = opt.getAttribute('data-lang');
-          setStoredLang(newLang);
-          applyLang(newLang);
-          langDropdown.classList.remove('open');
-        });
-      });
+    function openDropdown() {
+      langDropdown.classList.add('open');
+      langBtn.setAttribute('aria-expanded', 'true');
     }
+    function closeDropdown() {
+      langDropdown.classList.remove('open');
+      langBtn.setAttribute('aria-expanded', 'false');
+    }
+    function toggleDropdown() {
+      if (langDropdown.classList.contains('open')) closeDropdown();
+      else openDropdown();
+    }
+
+    // Click on the button — toggle the dropdown
+    langBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleDropdown();
+    });
+
+    // Touchstart — make sure mobile devices get the event reliably
+    langBtn.addEventListener('touchstart', (e) => {
+      e.stopPropagation();
+    }, { passive: true });
+
+    // Click outside — close dropdown
+    document.addEventListener('click', (e) => {
+      if (!langDropdown.contains(e.target) && !langBtn.contains(e.target)) {
+        closeDropdown();
+      }
+    });
+
+    // Escape key — close dropdown and return focus to the button
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && langDropdown.classList.contains('open')) {
+        closeDropdown();
+        langBtn.focus();
+      }
+    });
+
+    // Wire up each language option
+    document.querySelectorAll('.lang-option').forEach((opt) => {
+      const handler = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const newLang = opt.getAttribute('data-lang');
+        if (!SUPPORTED.includes(newLang)) return;
+        setStoredLang(newLang);
+        applyLang(newLang);
+        closeDropdown();
+      };
+      opt.addEventListener('click', handler);
+      // Keyboard support: Enter / Space already fire 'click' on <button>, but be defensive
+      opt.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') handler(e);
+      });
+    });
   }
 
   /* ===== Scroll progress bar ===== */
