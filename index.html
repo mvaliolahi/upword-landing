@@ -30,9 +30,10 @@
   />
 
   <!-- Lottie -->
-  <script src="https://cdn.jsdelivr.net/npm/lottie-web@5.12.2/build/player/lottie.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/lottie-web@5.12.2/build/player/lottie.min.js"></script>
 
-  <link rel="stylesheet" href="css/styles.css?v=8" />
+  <link rel="stylesheet" href="css/styles.css?v=10" />
+  <link rel="stylesheet" href="css/landing.css?v=14" />
 
   <!-- Pre-render: apply stored language BEFORE paint to avoid FOUC -->
   <script>
@@ -51,6 +52,7 @@
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main" data-i18n="nav.skip">Skip to content</a>
   <!-- ===== Top Progress Bar ===== -->
   <div class="scroll-progress" id="scrollProgress"></div>
 
@@ -106,13 +108,14 @@
         <span data-i18n="nav.download">Download</span>
       </a>
 
-      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false" aria-controls="navLinks">
         <span></span><span></span><span></span>
       </button>
     </div>
   </header>
 
   <!-- ===== Hero ===== -->
+  <main id="main" tabindex="-1">
   <section class="hero" id="hero">
     <div class="hero-bg">
       <div class="blob blob-1"></div>
@@ -124,13 +127,13 @@
       <div class="hero-content">
         <span class="pill">
           <span class="pill-dot"></span>
-          <span data-i18n="hero.pill">v2.45.7 released — with new turtle animations</span>
+          <span data-i18n="hero.pill">Your AI language companion</span>
         </span>
         <h1 class="hero-title">
-          <span data-i18n-html="hero.title">Learn a language through <span class="text-gradient">real conversation</span></span>
+          <span data-i18n-html="hero.title">A new language.<br><span class="text-gradient">A world closer.</span></span>
         </h1>
         <p class="hero-subtitle" data-i18n="hero.subtitle">
-          No memorization, no boring tests — real conversation with an AI assistant, interactive missions, and shadowing practice. Learn how to actually speak, not just memorize words.
+          The places you’ll go. The people you’ll meet. Find the words for all of it, with an AI companion that helps you speak with confidence.
         </p>
 
         <div class="hero-cta">
@@ -143,15 +146,17 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
               <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
             </svg>
-            <span data-i18n="hero.ctaPrimary">Download from Cafe Bazaar</span>
+            <span data-i18n="hero.ctaPrimary">Start learning free</span>
           </a>
           <a href="#how" class="btn btn-ghost btn-lg">
-            <span data-i18n="hero.ctaSecondary">How it works?</span>
+            <span data-i18n="hero.ctaSecondary">See how it works</span>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
               <path d="M19 12H5M12 5l-7 7 7 7" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </a>
         </div>
+
+        <p class="hero-note" data-i18n="hero.note">Available on Android · Download from Cafe Bazaar</p>
 
         <div class="hero-stats">
           <div class="stat">
@@ -171,84 +176,65 @@
         </div>
       </div>
 
-      <div class="hero-visual">
-        <div class="phone-mockup hero-phone">
-          <div class="phone-notch"></div>
-          <div class="phone-screen">
-            <div class="screen-header">
-              <div class="screen-avatar">
-                <img src="assets/images/app-icon.png" alt="" />
+      <figure class="hero-preview">
+        <div class="hero-visual">
+          <div class="conversation-studio">
+            <div class="studio-header">
+              <img src="assets/images/app-icon.png" alt="" width="40" height="40">
+              <div><strong>UpWord</strong><span data-i18n="hero.studioLabel">A space to find your voice</span></div>
+              <span class="studio-status" aria-hidden="true"></span>
+            </div>
+            <div class="studio-scene">
+              <div class="scene-copy">
+                <span class="scene-eyebrow" data-i18n="hero.sceneLabel">REAL LIFE, REHEARSED</span>
+                <h2 data-i18n="hero.sceneTitle">Your usual, please.</h2>
+                <span class="scene-level" data-i18n="hero.sceneLevel">At the café · English practice</span>
               </div>
-              <div class="screen-titles">
-                <div class="screen-title" data-i18n="mock.greeting">Hi Ali 👋</div>
-                <div class="screen-sub" data-i18n="mock.greetingSub">Let's learn today!</div>
-              </div>
-              <div class="screen-streak">
-                <span>🔥</span>
-                <span>7</span>
+              <svg class="scene-cup" aria-hidden="true" width="112" height="112" viewBox="0 0 112 112" fill="none">
+                <ellipse cx="53" cy="91" rx="43" ry="9" fill="currentColor" opacity=".12"/>
+                <path d="M80 42h8a15 15 0 0 1 0 30H77" stroke="currentColor" stroke-width="7"/>
+                <path d="M23 38h59v28a29.5 29.5 0 0 1-59 0V38Z" fill="currentColor" opacity=".92"/>
+                <ellipse cx="52.5" cy="38" rx="29.5" ry="7" fill="currentColor"/>
+                <ellipse cx="52.5" cy="38" rx="22" ry="4" fill="#173F32"/>
+                <path d="M43 24c-8-9 8-12 0-20m18 20c-8-9 8-12 0-20" stroke="currentColor" stroke-width="3" stroke-linecap="round" opacity=".65"/>
+              </svg>
+            </div>
+            <div class="studio-chat" lang="en" dir="ltr">
+              <span class="studio-speaker">YOUR AI COMPANION</span>
+              <p class="practice-bubble">Good morning! What can I get for you today?</p>
+              <p class="practice-bubble practice-answer">A cappuccino, please.<br>And a little more confidence.</p>
+              <div class="studio-feedback">
+                <span class="note-check" aria-hidden="true">✓</span>
+                <p><strong>A lovely way to start.</strong><span>Real words. Real-world confidence.</span></p>
               </div>
             </div>
-
-            <div class="screen-cards">
-              <div class="screen-card card-green">
-                <div class="card-icon">⚡</div>
-                <div class="card-text">
-                  <div class="card-title" data-i18n="mock.dailyGoal">Daily Goal</div>
-                  <div class="card-meta" data-i18n="mock.dailyGoalMeta">30 of 50 XP</div>
-                  <div class="card-progress">
-                    <div class="card-progress-fill" style="width: 60%"></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="screen-card card-purple">
-                <div class="card-icon">🎯</div>
-                <div class="card-text">
-                  <div class="card-title" data-i18n="mock.todaysMission">Today's Mission</div>
-                  <div class="card-meta" data-i18n="mock.todaysMissionMeta">Ordering food at a restaurant</div>
-                </div>
-              </div>
-
-              <div class="screen-card card-teal">
-                <div class="card-icon">📚</div>
-                <div class="card-text">
-                  <div class="card-title" data-i18n="mock.newVocab">New Vocabulary</div>
-                  <div class="card-meta" data-i18n="mock.newVocabMeta">12 words learned</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="screen-tabbar">
-              <div class="tab tab-active">🏠</div>
-              <div class="tab">💬</div>
-              <div class="tab">📖</div>
-              <div class="tab">👤</div>
+            <div class="studio-footer">
+              <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 10v4m4-8v12m4-15v18m4-15v12m4-8v4"/></svg>
+              <span data-i18n="hero.session">A little practice, every day</span>
+              <span class="studio-footer-line" aria-hidden="true"></span>
             </div>
           </div>
         </div>
-
-        <div class="floating-turtle floating-turtle-1">
-          <div id="heroTurtle1"></div>
-        </div>
-        <div class="floating-turtle floating-turtle-2">
-          <div id="heroTurtle2"></div>
-        </div>
-
-        <div class="floating-badge badge-xp">
-          <span class="badge-icon">⚡</span>
-          <span>+50 XP</span>
-        </div>
-        <div class="floating-badge badge-streak">
-          <span class="badge-icon">🔥</span>
-          <span data-i18n="badge.streak">7 days</span>
-        </div>
-      </div>
+        <figcaption class="preview-caption" data-i18n="hero.preview">Illustrative conversation preview</figcaption>
+      </figure>
     </div>
 
     <div class="hero-wave">
       <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L0,120Z" fill="#ffffff"/>
       </svg>
+    </div>
+  </section>
+
+  <section class="language-bar" aria-label="Languages you can learn">
+    <div class="container language-row">
+      <span class="language-intro" data-i18n="languages.label">YOUR NEXT CHAPTER, IN…</span>
+      <span><b lang="en">Hello</b><small data-i18n="languages.en">English</small></span>
+      <span><b lang="es">Hola</b><small data-i18n="languages.es">Spanish</small></span>
+      <span><b lang="fr">Bonjour</b><small data-i18n="languages.fr">French</small></span>
+      <span><b lang="de">Hallo</b><small data-i18n="languages.de">German</small></span>
+      <span><b lang="tr">Merhaba</b><small data-i18n="languages.tr">Turkish</small></span>
+      <span><b lang="ar">مرحباً</b><small data-i18n="languages.ar">Arabic</small></span>
     </div>
   </section>
 
@@ -281,9 +267,9 @@
     <div class="container">
       <div class="section-head">
         <span class="section-eyebrow" data-i18n="features.eyebrow">Why UpWord?</span>
-        <h2 class="section-title" data-i18n="features.title">Everything for real language learning</h2>
+        <h2 class="section-title" data-i18n="features.title">Less second-guessing. More speaking.</h2>
         <p class="section-subtitle" data-i18n="features.subtitle">
-          UpWord isn't just an educational app — it's your complete companion on the language-learning journey. From your first word to fluent conversation, all in one place.
+          The words, practice, and encouragement to take a new language out into the real world.
         </p>
       </div>
 
@@ -487,7 +473,7 @@
         <span class="section-eyebrow" data-i18n="screens.eyebrow">App Preview</span>
         <h2 class="section-title" data-i18n="screens.title">A look inside UpWord</h2>
         <p class="section-subtitle" data-i18n="screens.subtitle">
-          A simple, elegant, and Persian UI — so you focus on learning, not the software.
+          Conversation, vocabulary, and small wins. Explore these illustrative previews of your learning journey.
         </p>
       </div>
 
@@ -798,9 +784,9 @@
         <div class="cta-turtle">
           <div id="ctaTurtle"></div>
         </div>
-        <h2 class="cta-title" data-i18n="cta.title">Take your first step today</h2>
+        <h2 class="cta-title" data-i18n="cta.title">Your world is about to get a little bigger.</h2>
         <p class="cta-subtitle" data-i18n="cta.subtitle">
-          Language learning doesn't happen overnight — but with UpWord, you take a step closer to your goal every day. Start now.
+          A new language starts with one conversation. Make your first one today, with a companion by your side.
         </p>
         <a
           href="http://cafebazaar.ir/app/?id=ir.upword.twa"
@@ -818,6 +804,7 @@
     </div>
   </section>
 
+  </main>
   <!-- ===== Footer ===== -->
   <footer class="footer">
     <div class="container">
@@ -867,6 +854,6 @@
     </div>
   </footer>
 
-  <script src="js/main.js?v=8"></script>
+  <script defer src="js/main.js?v=13"></script>
 </body>
 </html>

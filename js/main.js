@@ -16,11 +16,29 @@
       'nav.faq': 'FAQ',
       'nav.download': 'Download',
 
-      'hero.pill': 'v2.45.7 released — with new turtle animations',
-      'hero.title': 'Learn a language through <span class="text-gradient">real conversation</span>',
-      'hero.subtitle': 'No memorization, no boring tests — real conversation with an AI assistant, interactive missions, and shadowing practice. Learn how to actually speak, not just memorize words.',
-      'hero.ctaPrimary': 'Download from Cafe Bazaar',
-      'hero.ctaSecondary': 'How it works?',
+      'hero.pill': 'Your AI language companion',
+      'hero.title': 'A new language.<br><span class="text-gradient">A world closer.</span>',
+      'hero.subtitle': 'The places you’ll go. The people you’ll meet. Find the words for all of it, with an AI companion that helps you speak with confidence.',
+      'hero.studioLabel': 'A space to find your voice',
+      'hero.sceneLabel': 'REAL LIFE, REHEARSED',
+      'hero.sceneTitle': 'Your usual, please.',
+      'hero.sceneLevel': 'At the café · English practice',
+      'hero.session': 'A little practice, every day',
+      'hero.ctaPrimary': 'Start learning free',
+      'hero.ctaSecondary': 'See how it works',
+      'hero.note': 'Available on Android · Download from Cafe Bazaar',
+      'hero.encourage': 'Small steps. Real confidence.',
+      'hero.encourageSub': 'Your next conversation starts here.',
+      'hero.practice': 'TODAY’S PRACTICE · AT THE CAFÉ',
+      'hero.preview': 'Illustrative conversation preview',
+      'nav.skip': 'Skip to content',
+      'languages.label': 'YOUR NEXT CHAPTER, IN…',
+      'languages.en': 'English',
+      'languages.es': 'Spanish',
+      'languages.fr': 'French',
+      'languages.de': 'German',
+      'languages.tr': 'Turkish',
+      'languages.ar': 'Arabic',
 
       'stats.languages': 'Languages',
       'stats.topics': 'Conversation Topics',
@@ -35,8 +53,8 @@
       'trust.free': 'Free to start',
 
       'features.eyebrow': 'Why UpWord?',
-      'features.title': 'Everything for real language learning',
-      'features.subtitle': "UpWord isn't just an educational app — it's your complete companion on the language-learning journey. From your first word to fluent conversation, all in one place.",
+      'features.title': 'Less second-guessing. More speaking.',
+      'features.subtitle': 'The words, practice, and encouragement to take a new language out into the real world.',
       'features.f1.title': 'Real AI Conversation',
       'features.f1.desc': 'Chat with a smart assistant that adapts to your level. Everyday topics like travel, restaurants, work, and health — without fear of making mistakes.',
       'features.f2.title': 'Interactive Missions',
@@ -71,7 +89,7 @@
 
       'screens.eyebrow': 'App Preview',
       'screens.title': 'A look inside UpWord',
-      'screens.subtitle': 'A simple, elegant, and Persian UI — so you focus on learning, not the software.',
+      'screens.subtitle': 'Conversation, vocabulary, and small wins. Explore these illustrative previews of your learning journey.',
 
       'screen.chat.title': 'Free Talk',
       'screen.chat.feedback': 'Great! Your sentence was natural.',
@@ -88,8 +106,8 @@
       'screen.vocab.listen': '🔊 Listen',
       'screen.vocab.know': 'I know it',
 
-      'mock.greeting': 'Hi Ali 👋',
-      'mock.greetingSub': "Let's learn today!",
+      'mock.greeting': 'A little better, every day.',
+      'mock.greetingSub': 'Let’s practice together.',
       'mock.dailyGoal': 'Daily Goal',
       'mock.dailyGoalMeta': '30 of 50 XP',
       'mock.todaysMission': "Today's Mission",
@@ -122,8 +140,8 @@
       'faq.q5': 'What level do I need?',
       'faq.a5': 'No specific level needed. UpWord supports complete beginners to advanced learners. At the start, your level is detected and your path is personalized.',
 
-      'cta.title': 'Take your first step today',
-      'cta.subtitle': "Language learning doesn't happen overnight — but with UpWord, you take a step closer to your goal every day. Start now.",
+      'cta.title': 'Your world is about to get a little bigger.',
+      'cta.subtitle': 'A new language starts with one conversation. Make your first one today, with a companion by your side.',
       'cta.button': 'Download from Cafe Bazaar',
       'cta.note': 'Free to start • In-app purchases for full content • v2.45.7',
 
@@ -144,11 +162,29 @@
       'nav.faq': 'سوالات',
       'nav.download': 'دانلود',
 
-      'hero.pill': 'نسخه ۲.۴۵.۷ منتشر شد — با انیمیشن‌های لاکپشت جدید',
-      'hero.title': 'زبان را با <span class="text-gradient">مکالمه واقعی</span> یاد بگیر',
-      'hero.subtitle': 'نه حفظ کردن، نه تست‌های خسته‌کننده — مکالمه واقعی با دستیار هوش مصنوعی، ماموریت‌های تعاملی و تمرین شدوینگ. یاد بگیر چطور واقعاً صحبت کنی، نه فقط کلمات را حفظ کنی.',
-      'hero.ctaPrimary': 'دانلود از کافه بازار',
-      'hero.ctaSecondary': 'چطور کار می‌کند؟',
+      'hero.pill': 'همراه هوشمند تو در یادگیری زبان',
+      'hero.title': 'یک زبان تازه.<br><span class="text-gradient">دنیایی نزدیک‌تر.</span>',
+      'hero.subtitle': 'جاهایی که می‌روی، آدم‌هایی که می‌شناسی. با همراه هوشمندت، کلمه‌های این تجربه‌ها را پیدا کن و با اعتمادبه‌نفس حرف بزن.',
+      'hero.studioLabel': 'جایی برای پیدا کردن صدایت',
+      'hero.sceneLabel': 'تمرینی برای زندگی واقعی',
+      'hero.sceneTitle': 'مثل همیشه، لطفاً.',
+      'hero.sceneLevel': 'در کافه · تمرین انگلیسی',
+      'hero.session': 'هر روز، کمی تمرین',
+      'hero.ctaPrimary': 'رایگان شروع کن',
+      'hero.ctaSecondary': 'ببین چطور کار می‌کند',
+      'hero.note': 'برای اندروید · دانلود از کافه بازار',
+      'hero.encourage': 'قدم‌های کوچک، اعتمادبه‌نفس واقعی',
+      'hero.encourageSub': 'مکالمه بعدی‌ات از اینجا شروع می‌شود.',
+      'hero.practice': 'تمرین امروز · در کافه',
+      'hero.preview': 'نمونه‌ای نمایشی از تمرین مکالمه',
+      'nav.skip': 'رفتن به محتوای اصلی',
+      'languages.label': 'فصل بعدی زندگی‌ات، به زبان…',
+      'languages.en': 'انگلیسی',
+      'languages.es': 'اسپانیایی',
+      'languages.fr': 'فرانسوی',
+      'languages.de': 'آلمانی',
+      'languages.tr': 'ترکی',
+      'languages.ar': 'عربی',
 
       'stats.languages': 'زبان قابل یادگیری',
       'stats.topics': 'موضوع مکالمه',
@@ -163,8 +199,8 @@
       'trust.free': 'شروع رایگان',
 
       'features.eyebrow': 'چرا آپ ورد؟',
-      'features.title': 'همه‌چیز برای یادگیری واقعی زبان',
-      'features.subtitle': 'آپ ورد یک اپلیکیشن آموزشی نیست؛ همراه کامل تو در سفر زبان‌آموزی است. از اولین کلمه تا مکالمه روان، همه‌چیز در یک جا.',
+      'features.title': 'تردید کمتر، مکالمه بیشتر',
+      'features.subtitle': 'کلمه‌ها، تمرین‌ها و دلگرمی لازم برای اینکه زبان تازه‌ات را در دنیای واقعی به کار بگیری.',
       'features.f1.title': 'مکالمه واقعی با هوش مصنوعی',
       'features.f1.desc': 'با دستیار هوشمندی چت کن که خودش را به سطح تو سازگار می‌کند. موضوعات روزمره مثل سفر، رستوران، کار و سلامت — بدون ترس از اشتباه کردن.',
       'features.f2.title': 'ماموریت‌های تعاملی',
@@ -199,7 +235,7 @@
 
       'screens.eyebrow': 'نمای اپلیکیشن',
       'screens.title': 'نگاهی به داخل آپ ورد',
-      'screens.subtitle': 'رابط کاربری ساده، شیک و فارسی — برای اینکه روی یادگیری تمرکز کنی، نه نرم‌افزار را.',
+      'screens.subtitle': 'مکالمه، واژگان و موفقیت‌های کوچک. این پیش‌نمایش‌های نمایشی، نگاهی به مسیر یادگیری تو هستند.',
 
       'screen.chat.title': 'مکالمه آزاد',
       'screen.chat.feedback': 'عالی! جمله‌ات طبیعی بود.',
@@ -216,8 +252,8 @@
       'screen.vocab.listen': '🔊 گوش بده',
       'screen.vocab.know': 'می‌دانم',
 
-      'mock.greeting': 'سلام علی 👋',
-      'mock.greetingSub': 'بریم امروز یاد بگیریم!',
+      'mock.greeting': 'هر روز، کمی بهتر',
+      'mock.greetingSub': 'بیا با هم تمرین کنیم.',
       'mock.dailyGoal': 'هدف روزانه',
       'mock.dailyGoalMeta': '۳۰ از ۵۰ XP',
       'mock.todaysMission': 'ماموریت امروز',
@@ -250,7 +286,7 @@
       'faq.q5': 'چه سطحی از زبان را نیاز دارم؟',
       'faq.a5': 'هیچ سطح خاصی لازم نیست. آپ ورد از مبتدی کامل تا پیشرفته پشتیبانی می‌کند. در شروع، سطح تو شناسایی می‌شود و مسیر شخصی‌سازی می‌شود.',
 
-      'cta.title': 'امروز اولین قدم رو بردار',
+      'cta.title': 'دنیایت کمی بزرگ‌تر می‌شود.',
       'cta.subtitle': 'یادگیری زبان یک‌شبه اتفاق نمی‌افتد — اما با آپ ورد، هر روز یک قدم به هدفت نزدیک‌تر می‌شوی. همین حالا شروع کن.',
       'cta.button': 'دانلود از کافه بازار',
       'cta.note': 'شروع رایگان • خرید درون‌برنامه‌ای برای محتوای کامل • نسخه ۲.۴۵.۷',
@@ -413,7 +449,7 @@
     const scrollTop = window.scrollY;
     const docHeight = document.documentElement.scrollHeight - window.innerHeight;
     const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
-    progressBar.style.width = pct + '%';
+    progressBar.style.transform = 'scaleX(' + Math.min(1, Math.max(0, pct / 100)) + ')';
   }
 
   /* ===== Navbar scrolled state ===== */
@@ -426,11 +462,17 @@
     }
   }
 
+  let scrollFrame = 0;
   function onScroll() {
-    updateScrollProgress();
-    updateNavbar();
+    if (scrollFrame) return;
+    scrollFrame = requestAnimationFrame(() => {
+      updateScrollProgress();
+      updateNavbar();
+      scrollFrame = 0;
+    });
   }
   window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
 
   /* ===== Mobile nav toggle ===== */
   const navToggle = document.getElementById('navToggle');
@@ -438,63 +480,120 @@
   navToggle.addEventListener('click', () => {
     navToggle.classList.toggle('active');
     navLinks.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', String(navLinks.classList.contains('open')));
   });
   navLinks.querySelectorAll('a').forEach((link) => {
     link.addEventListener('click', () => {
       navToggle.classList.remove('active');
       navLinks.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
     });
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && navLinks.classList.contains('open')) {
+      navLinks.classList.remove('open');
+      navToggle.classList.remove('active');
+      navToggle.setAttribute('aria-expanded', 'false');
+      navToggle.focus();
+    }
   });
 
   /* ===== Reveal on scroll ===== */
-  const revealEls = document.querySelectorAll(
-    '.feature-card, .step, .testimonial, .faq-item, .screen-mockup, .mascot-content, .mascot-visual, .section-head, .stats-row > *'
-  );
-  revealEls.forEach((el, i) => {
-    el.classList.add('reveal');
-    el.setAttribute('data-delay', String((i % 4) + 1));
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const activeReveals = new Map();
+  const motionTokens = getComputedStyle(document.documentElement);
+  const revealDuration = parseFloat(motionTokens.getPropertyValue('--motion-reveal'));
+  const revealStagger = parseFloat(motionTokens.getPropertyValue('--motion-stagger'));
+  const revealDistance = motionTokens.getPropertyValue('--motion-distance').trim();
+  const revealEasing = motionTokens.getPropertyValue('--ease-out').trim();
+
+  if ('IntersectionObserver' in window && 'animate' in Element.prototype) {
+    const revealEls = document.querySelectorAll(
+      '.hero-content > *, .hero-visual, .feature-card, .step, .testimonial, .screen-mockup, .mascot-content, .mascot-visual, .section-head, .stats-row > *, .cta-card'
+    );
+    const io = new IntersectionObserver((entries) => {
+      entries.filter((entry) => entry.isIntersecting).forEach((entry, index) => {
+        io.unobserve(entry.target);
+        if (reducedMotion.matches || entry.target.contains(document.activeElement)) return;
+        const animation = entry.target.animate([
+          { opacity: 0, transform: 'translateY(' + revealDistance + ')' },
+          { opacity: 1, transform: 'translateY(0)' },
+        ], {
+          duration: revealDuration,
+          delay: (index % 3) * revealStagger,
+          easing: revealEasing,
+          fill: 'backwards',
+        });
+        activeReveals.set(entry.target, animation);
+        animation.onfinish = animation.oncancel = () => activeReveals.delete(entry.target);
+      });
+    }, { threshold: 0.08 });
+    revealEls.forEach((el) => io.observe(el));
+  }
+
+  document.addEventListener('focusin', (event) => {
+    activeReveals.forEach((animation, el) => {
+      if (el.contains(event.target)) animation.cancel();
+    });
+  });
+  reducedMotion.addEventListener('change', () => {
+    if (reducedMotion.matches) activeReveals.forEach((animation) => animation.cancel());
   });
 
-  const io = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('in');
-          io.unobserve(entry.target);
-        }
-      });
-    },
-    { threshold: 0.12, rootMargin: '0px 0px -50px 0px' }
-  );
-  revealEls.forEach((el) => io.observe(el));
-
-  /* ===== Number counter animation ===== */
-  // Disabled for now — values are set directly by applyLang() to handle digit locale.
-  // Original animation logic kept for reference but bypassed to avoid double-render.
-  const counters = document.querySelectorAll('[data-count]');
-  // counters not animated — applyLang sets final value with correct digit system.
-
   /* ===== Lottie animations ===== */
-  function loadLottie(containerId, path, opts) {
+  const turtleStates = new Map();
+  function syncTurtle(state) {
+    if (!state.ready) return;
+    if (reducedMotion.matches) {
+      state.animation.goToAndStop(Math.round(state.animation.totalFrames * 0.4), true);
+      state.started = false;
+    } else if (!state.visible || document.hidden || state.completed) {
+      state.animation.pause();
+    } else if (!state.started) {
+      state.started = true;
+      state.animation.goToAndPlay(0, true);
+    } else {
+      state.animation.play();
+    }
+  }
+  const turtleObserver = 'IntersectionObserver' in window ? new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      const state = turtleStates.get(entry.target);
+      state.visible = entry.isIntersecting;
+      syncTurtle(state);
+    });
+  }, { threshold: 0.15 }) : null;
+  document.addEventListener('visibilitychange', () => turtleStates.forEach(syncTurtle));
+  reducedMotion.addEventListener('change', () => turtleStates.forEach(syncTurtle));
+
+  function loadLottie(containerId, path) {
     const el = document.getElementById(containerId);
     if (!el || typeof lottie === 'undefined') return;
-    lottie.loadAnimation({
+    const animation = lottie.loadAnimation({
       container: el,
       renderer: 'svg',
-      loop: opts && opts.loop !== undefined ? opts.loop : true,
-      autoplay: opts && opts.autoplay !== undefined ? opts.autoplay : true,
+      loop: false,
+      autoplay: false,
       path: path,
       rendererSettings: { preserveAspectRatio: 'xMidYMid meet' },
     });
+    const state = { animation, ready: false, visible: false, started: false, completed: false };
+    turtleStates.set(el, state);
+    animation.addEventListener('DOMLoaded', () => {
+      state.ready = true;
+      animation.goToAndStop(Math.round(animation.totalFrames * 0.4), true);
+      if (turtleObserver) turtleObserver.observe(el);
+      syncTurtle(state);
+    });
+    animation.addEventListener('complete', () => { state.completed = true; });
   }
 
-  loadLottie('heroTurtle1', 'assets/lottie/turtle-swimming.json');
-  loadLottie('heroTurtle2', 'assets/lottie/turtle-water.json');
   loadLottie('stepTurtle1', 'assets/lottie/turtle-swimming.json');
   loadLottie('stepTurtle2', 'assets/lottie/turtle-success.json');
   loadLottie('stepTurtle3', 'assets/lottie/turtle-progress.json');
   loadLottie('mascotTurtle', 'assets/lottie/turtle-ninja.json');
-  loadLottie('achievementTurtle', 'assets/lottie/turtle-success.json', { loop: true });
+  loadLottie('achievementTurtle', 'assets/lottie/turtle-success.json');
   loadLottie('ctaTurtle', 'assets/lottie/turtle-meditation.json');
 
   /* ===== Smooth scroll for anchor links (with navbar offset) ===== */
@@ -505,9 +604,10 @@
       const target = document.querySelector(href);
       if (!target) return;
       e.preventDefault();
-      const offset = 72;
+      const offset = navbar.offsetHeight;
       const top = target.getBoundingClientRect().top + window.scrollY - offset;
-      window.scrollTo({ top, behavior: 'smooth' });
+      window.scrollTo({ top, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+      if (target.id === 'main') target.focus({ preventScroll: true });
     });
   });
 
