@@ -7,14 +7,14 @@
   <title>UpWord — Learn Languages with Real AI Conversations</title>
   <meta
     name="description"
-    content="UpWord — Learn languages through real AI conversations, interactive missions, shadowing practice, and a personalized path. Download from Cafe Bazaar."
+    content="UpWord — Learn languages through real AI conversations, interactive missions, shadowing practice, and vocabulary review. Download from Cafe Bazaar."
   />
   <meta name="keywords" content="language learning, AI, UpWord, conversation, English, Persian, Cafe Bazaar" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="UpWord — Learn Languages with Real AI Conversations" />
-  <meta property="og:description" content="With UpWord, learn a language not by memorizing, but through real conversation." />
+  <meta property="og:description" content="With UpWord, learn a language through conversation practice, feedback, and review." />
   <meta property="og:image" content="assets/images/app-icon.png" />
 
   <!-- Favicon -->
@@ -33,7 +33,7 @@
   <script defer src="https://cdn.jsdelivr.net/npm/lottie-web@5.12.2/build/player/lottie.min.js"></script>
 
   <link rel="stylesheet" href="css/styles.css?v=10" />
-  <link rel="stylesheet" href="css/landing.css?v=14" />
+  <link rel="stylesheet" href="css/landing.css?v=15" />
 
   <!-- Pre-render: apply stored language BEFORE paint to avoid FOUC -->
   <script>
@@ -54,21 +54,21 @@
 <body>
   <a class="skip-link" href="#main" data-i18n="nav.skip">Skip to content</a>
   <!-- ===== Top Progress Bar ===== -->
-  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
 
   <!-- ===== Navbar ===== -->
   <header class="navbar" id="navbar">
     <div class="container nav-inner">
       <a href="#hero" class="brand" aria-label="UpWord">
-        <img src="assets/images/app-icon.png" alt="UpWord" class="brand-icon" />
+        <img src="assets/images/app-icon.png" alt="" width="40" height="40" class="brand-icon" />
         <span class="brand-text">UpWord</span>
       </a>
 
-      <nav class="nav-links" id="navLinks">
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
         <a href="#features" class="nav-link" data-i18n="nav.features">Features</a>
         <a href="#how" class="nav-link" data-i18n="nav.how">How it Works</a>
         <a href="#screens" class="nav-link" data-i18n="nav.screens">App Preview</a>
-        <a href="#testimonials" class="nav-link" data-i18n="nav.testimonials">Reviews</a>
+        <a href="#testimonials" class="nav-link" data-i18n="nav.testimonials">Learner stories</a>
         <a href="#faq" class="nav-link" data-i18n="nav.faq">FAQ</a>
       </nav>
 
@@ -97,7 +97,7 @@
       </div>
 
       <a
-        href="http://cafebazaar.ir/app/?id=ir.upword.twa"
+        href="https://cafebazaar.ir/app/?id=ir.upword.twa"
         target="_blank"
         rel="noopener"
         class="btn btn-primary btn-sm nav-cta"
@@ -127,18 +127,16 @@
       <div class="hero-content">
         <span class="pill">
           <span class="pill-dot"></span>
-          <span data-i18n="hero.pill">Your AI language companion</span>
+          <span data-i18n="hero.pill">A little practice. A more confident you.</span>
         </span>
         <h1 class="hero-title">
-          <span data-i18n-html="hero.title">A new language.<br><span class="text-gradient">A world closer.</span></span>
+          <span data-i18n-html="hero.title">Find your words.<br><span class="text-gradient">Then your voice.</span></span>
         </h1>
-        <p class="hero-subtitle" data-i18n="hero.subtitle">
-          The places you’ll go. The people you’ll meet. Find the words for all of it, with an AI companion that helps you speak with confidence.
-        </p>
+        <p class="hero-subtitle" data-i18n="hero.subtitle">Turn the language you know into conversations you can have. Practice everyday situations with AI, understand your mistakes, and come back a little more confident.</p>
 
         <div class="hero-cta">
           <a
-            href="http://cafebazaar.ir/app/?id=ir.upword.twa"
+            href="https://cafebazaar.ir/app/?id=ir.upword.twa"
             target="_blank"
             rel="noopener"
             class="btn btn-primary btn-lg"
@@ -146,34 +144,19 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
               <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
             </svg>
-            <span data-i18n="hero.ctaPrimary">Start learning free</span>
+            <span data-i18n="hero.ctaPrimary">Get UpWord for Android</span>
           </a>
-          <a href="#how" class="btn btn-ghost btn-lg">
-            <span data-i18n="hero.ctaSecondary">See how it works</span>
+          <a href="#practice" class="btn btn-ghost btn-lg">
+            <span data-i18n="hero.ctaSecondary">Explore a practice example</span>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
               <path d="M19 12H5M12 5l-7 7 7 7" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </a>
         </div>
 
-        <p class="hero-note" data-i18n="hero.note">Available on Android · Download from Cafe Bazaar</p>
+        <p class="hero-note" data-i18n="hero.note">Android 8+ · AI provider setup required. Provider usage may cost extra.</p>
 
-        <div class="hero-stats">
-          <div class="stat">
-            <div class="stat-num" data-count="6" data-suffix="">0</div>
-            <div class="stat-label" data-i18n="stats.languages">Languages</div>
-          </div>
-          <div class="stat-divider"></div>
-          <div class="stat">
-            <div class="stat-num" data-count="120" data-suffix="+">0</div>
-            <div class="stat-label" data-i18n="stats.topics">Conversation Topics</div>
-          </div>
-          <div class="stat-divider"></div>
-          <div class="stat">
-            <div class="stat-num" data-count="4.7" data-suffix="★">0</div>
-            <div class="stat-label" data-i18n="stats.rating">User Rating</div>
-          </div>
-        </div>
+        <ol class="learning-loop"><li><span>01</span><strong data-i18n="loop.speak">Practice a situation</strong></li><li><span>02</span><strong data-i18n="loop.learn">Learn from feedback</strong></li><li><span>03</span><strong data-i18n="loop.repeat">Revisit useful phrases</strong></li></ol>
       </div>
 
       <figure class="hero-preview">
@@ -181,13 +164,13 @@
           <div class="conversation-studio">
             <div class="studio-header">
               <img src="assets/images/app-icon.png" alt="" width="40" height="40">
-              <div><strong>UpWord</strong><span data-i18n="hero.studioLabel">A space to find your voice</span></div>
+              <div><strong>UpWord</strong><span data-i18n="hero.studioLabel">Your everyday speaking practice</span></div>
               <span class="studio-status" aria-hidden="true"></span>
             </div>
             <div class="studio-scene">
               <div class="scene-copy">
                 <span class="scene-eyebrow" data-i18n="hero.sceneLabel">REAL LIFE, REHEARSED</span>
-                <h2 data-i18n="hero.sceneTitle">Your usual, please.</h2>
+                <h2 data-i18n="hero.sceneTitle">One coffee. A first step.</h2>
                 <span class="scene-level" data-i18n="hero.sceneLevel">At the café · English practice</span>
               </div>
               <svg class="scene-cup" aria-hidden="true" width="112" height="112" viewBox="0 0 112 112" fill="none">
@@ -202,20 +185,20 @@
             <div class="studio-chat" lang="en" dir="ltr">
               <span class="studio-speaker">YOUR AI COMPANION</span>
               <p class="practice-bubble">Good morning! What can I get for you today?</p>
-              <p class="practice-bubble practice-answer">A cappuccino, please.<br>And a little more confidence.</p>
+              <p class="practice-bubble practice-answer">I want a cappuccino, please.</p>
               <div class="studio-feedback">
                 <span class="note-check" aria-hidden="true">✓</span>
-                <p><strong>A lovely way to start.</strong><span>Real words. Real-world confidence.</span></p>
+                <p><strong>Try a more polite request.</strong><span>“I’d like a cappuccino, please.”<br>Your sentence works. “I’d like” sounds softer.</span></p>
               </div>
             </div>
             <div class="studio-footer">
               <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 10v4m4-8v12m4-15v18m4-15v12m4-8v4"/></svg>
-              <span data-i18n="hero.session">A little practice, every day</span>
+              <span data-i18n="hero.session">Practice. Get feedback. Try again.</span>
               <span class="studio-footer-line" aria-hidden="true"></span>
             </div>
           </div>
         </div>
-        <figcaption class="preview-caption" data-i18n="hero.preview">Illustrative conversation preview</figcaption>
+        <figcaption class="preview-caption" data-i18n="hero.preview">Illustrative English practice, not a live AI conversation</figcaption>
       </figure>
     </div>
 
@@ -238,26 +221,23 @@
     </div>
   </section>
 
-  <!-- ===== Trust Bar ===== -->
-  <section class="trust-bar">
-    <div class="container">
-      <div class="trust-row">
-        <div class="trust-item">
-          <span class="trust-icon">🔒</span>
-          <span data-i18n="trust.privacy">Your privacy respected</span>
-        </div>
-        <div class="trust-item">
-          <span class="trust-icon">🤖</span>
-          <span data-i18n="trust.ai">Advanced AI</span>
-        </div>
-        <div class="trust-item">
-          <span class="trust-icon">📱</span>
-          <span data-i18n="trust.android">Android 8+</span>
-        </div>
-        <div class="trust-item">
-          <span class="trust-icon">🎁</span>
-          <span data-i18n="trust.free">Free to start</span>
-        </div>
+
+  <section class="section practice-section" id="practice">
+    <div class="container practice-grid">
+      <div class="section-head">
+        <span class="section-eyebrow" data-i18n="practice.eyebrow">A small example. A useful difference.</span>
+        <h2 class="section-title" data-i18n="practice.title">Don’t just spot a mistake.
+Understand the next step.</h2>
+        <p class="section-subtitle" data-i18n="practice.desc">Feedback is most useful when you can do something with it. Here is a worked English example of turning a correction into another attempt.</p>
+        <p class="example-note" data-i18n="practice.note">This is a fixed teaching example, not generated feedback or a live app session.</p>
+      </div>
+      <div class="lesson-example">
+        <p class="lesson-label" data-i18n="practice.label">Worked example · English · past tense</p>
+        <div class="lesson-attempt" lang="en" dir="ltr"><span>Your first try</span><p>“Yesterday I <mark>go</mark> to the café.”</p></div>
+        <details class="lesson-disclosure">
+          <summary><span data-i18n="practice.reveal">Show the correction and try again</span><span class="faq-icon" aria-hidden="true">+</span></summary>
+          <div class="lesson-answer" lang="en" dir="ltr"><p class="corrected-sentence">“Yesterday I <strong>went</strong> to the café.”</p><p>Use <strong>went</strong>, the past tense of <strong>go</strong>, because this happened yesterday.</p><div class="transfer-prompt"><span>Now make it yours</span><p>Where did you go last weekend?</p><small>Say or write a new sentence using “I went…”</small></div></div>
+        </details>
       </div>
     </div>
   </section>
@@ -266,11 +246,10 @@
   <section class="section features" id="features">
     <div class="container">
       <div class="section-head">
-        <span class="section-eyebrow" data-i18n="features.eyebrow">Why UpWord?</span>
-        <h2 class="section-title" data-i18n="features.title">Less second-guessing. More speaking.</h2>
-        <p class="section-subtitle" data-i18n="features.subtitle">
-          The words, practice, and encouragement to take a new language out into the real world.
-        </p>
+        <span class="section-eyebrow" data-i18n="features.eyebrow">Made for the moment you need to speak</span>
+        <h2 class="section-title" data-i18n="features.title">More than knowing a word.
+Knowing what to say.</h2>
+        <p class="section-subtitle" data-i18n="features.subtitle">Build your practice around useful conversations, then give the words and phrases another go.</p>
       </div>
 
       <div class="feature-grid">
@@ -280,10 +259,8 @@
               <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </div>
-          <h3 data-i18n="features.f1.title">Real AI Conversation</h3>
-          <p data-i18n="features.f1.desc">
-            Chat with a smart assistant that adapts to your level. Everyday topics like travel, restaurants, work, and health — without fear of making mistakes.
-          </p>
+          <h3 data-i18n="features.f1.title">A conversation, at your level</h3>
+          <p data-i18n="features.f1.desc">Choose a topic and a level. Reply by text or supported voice input, and get AI feedback on your sentences. There is room to make mistakes here.</p>
         </article>
 
         <article class="feature-card">
@@ -292,10 +269,8 @@
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </div>
-          <h3 data-i18n="features.f2.title">Interactive Missions</h3>
-          <p data-i18n="features.f2.desc">
-            Role-play in real scenarios: job interviews, hotel bookings, doctor visits. Each mission is a step toward speaking more fluently.
-          </p>
+          <h3 data-i18n="features.f2.title">Real situations. A clear mission.</h3>
+          <p data-i18n="features.f2.desc">Order a meal, check into a hotel, or rehearse a work conversation. Mission objectives give you something practical to work toward.</p>
         </article>
 
         <article class="feature-card">
@@ -305,10 +280,8 @@
               <path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v4M8 23h8" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </div>
-          <h3 data-i18n="features.f3.title">Shadowing Practice</h3>
-          <p data-i18n="features.f3.desc">
-            Listen and repeat. Refine your pronunciation with targeted exercises and build the confidence to actually speak.
-          </p>
+          <h3 data-i18n="features.f3.title">Listen. Repeat. Find your rhythm.</h3>
+          <p data-i18n="features.f3.desc">Use shadowing to listen to a phrase and repeat it aloud. Audio and speech recognition depend on your selected service and device.</p>
         </article>
 
         <article class="feature-card">
@@ -317,10 +290,8 @@
               <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </div>
-          <h3 data-i18n="features.f4.title">Smart Vocabulary</h3>
-          <p data-i18n="features.f4.desc">
-            Learn new words in context, not as a dry list. Each word sticks with real examples and native pronunciation.
-          </p>
+          <h3 data-i18n="features.f4.title">Keep the useful words close</h3>
+          <p data-i18n="features.f4.desc">Collect vocabulary and revisit saved mistakes. Make review part of your practice instead of leaving feedback behind in a chat.</p>
         </article>
 
         <article class="feature-card">
@@ -329,10 +300,8 @@
               <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </div>
-          <h3 data-i18n="features.f5.title">XP & Streak System</h3>
-          <p data-i18n="features.f5.desc">
-            Earn XP with every exercise, keep your daily streak alive, and level up. Learning becomes a rewarding habit.
-          </p>
+          <h3 data-i18n="features.f5.title">Small wins you can see</h3>
+          <p data-i18n="features.f5.desc">Daily goals, XP, streaks, and achievements make your practice visible. They track activity, not a certified language level.</p>
         </article>
 
         <article class="feature-card">
@@ -342,10 +311,8 @@
               <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </div>
-          <h3 data-i18n="features.f6.title">Personalized Path</h3>
-          <p data-i18n="features.f6.desc">
-            From complete beginner to advanced, the learning path is tuned to your progress. Every user gets a unique experience.
-          </p>
+          <h3 data-i18n="features.f6.title">You choose the starting point</h3>
+          <p data-i18n="features.f6.desc">Set your target language and select beginner, intermediate, or advanced practice. Adjust your level as your needs change.</p>
         </article>
       </div>
     </div>
@@ -356,10 +323,8 @@
     <div class="container">
       <div class="section-head">
         <span class="section-eyebrow" data-i18n="how.eyebrow">How it works</span>
-        <h2 class="section-title" data-i18n="how.title">Start in three steps</h2>
-        <p class="section-subtitle" data-i18n="how.subtitle">
-          From install to your first real conversation, less than 5 minutes away.
-        </p>
+        <h2 class="section-title" data-i18n="how.title">Your first conversation starts here.</h2>
+        <p class="section-subtitle" data-i18n="how.subtitle">A little setup first. Then a space to practice at your own pace.</p>
       </div>
 
       <div class="steps">
@@ -368,10 +333,8 @@
           <div class="step-turtle step-turtle-1">
             <div id="stepTurtle1"></div>
           </div>
-          <h3 data-i18n="how.s1.title">Pick your language and level</h3>
-          <p data-i18n="how.s1.desc">
-            Choose your native language, target language, and current level to build your personal path.
-          </p>
+          <h3 data-i18n="how.s1.title">Make it yours</h3>
+          <p data-i18n="how.s1.desc">Install the Android app. Choose your native language, target language, and current level.</p>
         </div>
 
         <div class="step-arrow">
@@ -385,10 +348,8 @@
           <div class="step-turtle">
             <div id="stepTurtle2"></div>
           </div>
-          <h3 data-i18n="how.s2.title">Start your first conversation</h3>
-          <p data-i18n="how.s2.desc">
-            Pick a topic and start chatting with the AI assistant. It corrects your mistakes in real time.
-          </p>
+          <h3 data-i18n="how.s2.title">Connect your AI provider</h3>
+          <p data-i18n="how.s2.desc">In AI settings, add credentials for a compatible provider and select a model. You need internet; availability and usage charges depend on that provider.</p>
         </div>
 
         <div class="step-arrow">
@@ -402,10 +363,8 @@
           <div class="step-turtle">
             <div id="stepTurtle3"></div>
           </div>
-          <h3 data-i18n="how.s3.title">Practice daily and progress</h3>
-          <p data-i18n="how.s3.desc">
-            With daily goals, streaks, and new missions, learning becomes a delightful habit.
-          </p>
+          <h3 data-i18n="how.s3.title">Choose a situation. Say something.</h3>
+          <p data-i18n="how.s3.desc">Open a conversation or mission. Try a reply, read the feedback, and practice a useful phrase again. Text is a good place to start.</p>
         </div>
       </div>
     </div>
@@ -428,40 +387,37 @@
       </div>
 
       <div class="mascot-content">
-        <span class="section-eyebrow" data-i18n="mascot.eyebrow">The UpWord Turtle</span>
-        <h2 class="section-title" data-i18n="mascot.title">Your companion on the journey</h2>
-        <p class="mascot-desc" data-i18n="mascot.desc">
-          The turtle symbolizes patience and persistence — exactly what you need to learn a language. It's with you at every step: it celebrates when you succeed, motivates you when you're tired, and brings calm when you complete your goal.
-        </p>
+        <span class="section-eyebrow" data-i18n="mascot.eyebrow">Small steps count</span>
+        <h2 class="section-title" data-i18n="mascot.title">A reason to return.
+At your own pace.</h2>
+        <p class="mascot-desc" data-i18n="mascot.desc">A daily goal gives you a starting point. XP and achievements mark the practice you put in. And our turtle is a reminder: progress takes patience, not perfection.</p>
 
         <ul class="mascot-list">
           <li>
             <span class="check">✓</span>
-            <span data-i18n="mascot.l1">Encouragement at every small win</span>
+            <span data-i18n="mascot.l1">Choose a daily goal</span>
           </li>
           <li>
             <span class="check">✓</span>
-            <span data-i18n="mascot.l2">Lively, delightful animations</span>
+            <span data-i18n="mascot.l2">See your practice add up</span>
           </li>
           <li>
             <span class="check">✓</span>
-            <span data-i18n="mascot.l3">A sense of companionship throughout</span>
+            <span data-i18n="mascot.l3">Celebrate your milestones</span>
           </li>
           <li>
             <span class="check">✓</span>
-            <span data-i18n="mascot.l4">A symbol of patience and persistence</span>
+            <span data-i18n="mascot.l4">Make room for another try</span>
           </li>
         </ul>
 
         <a
-          href="http://cafebazaar.ir/app/?id=ir.upword.twa"
+          href="https://cafebazaar.ir/app/?id=ir.upword.twa"
           target="_blank"
           rel="noopener"
           class="btn btn-primary btn-lg mascot-cta"
           data-i18n="mascot.cta"
-        >
-          Get started now
-        </a>
+        >Build your practice habit</a>
       </div>
     </div>
   </section>
@@ -575,39 +531,13 @@
     </div>
   </section>
 
-  <!-- ===== Stats Banner ===== -->
-  <section class="stats-banner">
-    <div class="container">
-      <div class="stats-row">
-        <div class="stat-block">
-          <div class="stat-block-num" data-count="6" data-suffix="">0</div>
-          <div class="stat-block-label" data-i18n="stats.languages">Languages</div>
-        </div>
-        <div class="stat-block">
-          <div class="stat-block-num" data-count="120" data-suffix="+">0</div>
-          <div class="stat-block-label" data-i18n="stats.topics">Topics</div>
-        </div>
-        <div class="stat-block">
-          <div class="stat-block-num" data-count="4.7" data-suffix="★">0</div>
-          <div class="stat-block-label" data-i18n="stats.rating">Cafe Bazaar Rating</div>
-        </div>
-        <div class="stat-block">
-          <div class="stat-block-num" data-count="13" data-suffix="">0</div>
-          <div class="stat-block-label" data-i18n="stats.votes">Verified Reviews</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- ===== Testimonials ===== -->
   <section class="section testimonials" id="testimonials">
     <div class="container">
       <div class="section-head">
         <span class="section-eyebrow" data-i18n="testi.eyebrow">User Reviews</span>
         <h2 class="section-title" data-i18n="testi.title">What UpWord users say</h2>
-        <p class="section-subtitle" data-i18n="testi.subtitle">
-          Real reviews from Cafe Bazaar — verbatim, untranslated. Average rating: 4.7 out of 5 from 13 votes.
-        </p>
+        <p class="section-subtitle" data-i18n="testi.subtitle">A few learner stories from the original Cafe Bazaar listing. See the store for current reviews and ratings.</p>
       </div>
 
       <div class="testimonial-grid">
@@ -620,9 +550,9 @@
               </svg>
               Cafe Bazaar
             </span>
-            <div class="stars">★★★★★</div>
+
           </div>
-          <p class="testimonial-text" dir="rtl">
+          <p class="testimonial-text" lang="fa" dir="rtl">
             بی نظیر و کامل. همه چی و پوشش میده. بهترین قسمتش پیدا کردن تلفظ و استفاده روتین کلمه تو دیالوگ فیلم هاست. عاااالیه
           </p>
           <p class="testimonial-translation" data-i18n="testi.r1.translation">
@@ -645,9 +575,9 @@
               </svg>
               Cafe Bazaar
             </span>
-            <div class="stars">★★★★★</div>
+
           </div>
-          <p class="testimonial-text" dir="rtl">
+          <p class="testimonial-text" lang="fa" dir="rtl">
             خیلی باحاله یه پکیج کامل از ابزارهای مختلف که توی تمام زمینه‌ها کمک میکنه
           </p>
           <p class="testimonial-translation" data-i18n="testi.r2.translation">
@@ -670,9 +600,9 @@
               </svg>
               Cafe Bazaar
             </span>
-            <div class="stars">★★★★★</div>
+
           </div>
-          <p class="testimonial-text" dir="rtl">
+          <p class="testimonial-text" lang="fa" dir="rtl">
             برنامه خیلی خوب و کاربردی ای هستش و امکانات جالبی داره.
           </p>
           <p class="testimonial-translation" data-i18n="testi.r3.translation">
@@ -695,14 +625,12 @@
               </svg>
               Cafe Bazaar
             </span>
-            <div class="stars">★★★★★</div>
+
           </div>
-          <div class="summary-rating">4.7 / 5</div>
-          <p class="testimonial-text summary-text" data-i18n="testi.summary">
-            Based on 13 verified votes on Cafe Bazaar — UpWord maintains an excellent 4.7/5 rating. Join the growing community of happy learners.
-          </p>
+          <div class="review-mark" aria-hidden="true">“</div>
+          <p class="testimonial-text summary-text" data-i18n="testi.summary">Curious what other learners think? Read the latest reviews, check the current app details, and decide whether UpWord fits your practice.</p>
           <a
-            href="http://cafebazaar.ir/app/?id=ir.upword.twa"
+            href="https://cafebazaar.ir/app/?id=ir.upword.twa"
             target="_blank"
             rel="noopener"
             class="btn btn-primary btn-sm"
@@ -726,12 +654,10 @@
       <div class="faq-list">
         <details class="faq-item" open>
           <summary>
-            <span data-i18n="faq.q1">Is UpWord free?</span>
+            <span data-i18n="faq.q1">What do I need to get started?</span>
             <span class="faq-icon">+</span>
           </summary>
-          <div class="faq-answer" data-i18n="faq.a1">
-            Downloading and starting UpWord is free. You can try daily conversations, missions, and shadowing practice. For access to advanced content, special missions, and more languages, you can make in-app purchases.
-          </div>
+          <div class="faq-answer" data-i18n="faq.a1">An Android 8+ device, internet for AI conversations, and credentials for a compatible AI provider. Check Cafe Bazaar for the current app price. AI usage is subject to your provider’s pricing and limits; downloading the app does not include an AI allowance.</div>
         </details>
 
         <details class="faq-item">
@@ -739,9 +665,7 @@
             <span data-i18n="faq.q2">Do I need internet to use it?</span>
             <span class="faq-icon">+</span>
           </summary>
-          <div class="faq-answer" data-i18n="faq.a2">
-            AI conversations require internet. However, you can review learned vocabulary and shadowing exercises offline.
-          </div>
+          <div class="faq-answer" data-i18n="faq.a2">AI conversations and generated feedback need internet. Saved content can remain on your device, but audio, speech recognition, and other connected features may still need a network connection.</div>
         </details>
 
         <details class="faq-item">
@@ -749,19 +673,15 @@
             <span data-i18n="faq.q3">Which languages are supported?</span>
             <span class="faq-icon">+</span>
           </summary>
-          <div class="faq-answer" data-i18n="faq.a3">
-            Currently English, Turkish, Arabic, German, French, and Spanish are supported. More languages are on the way.
-          </div>
+          <div class="faq-answer" data-i18n="faq.a3">The app offers English, Turkish, Arabic, German, French, and Spanish as target languages. Conversation, voice, and content availability can vary by language, device, and AI provider.</div>
         </details>
 
         <details class="faq-item">
           <summary>
-            <span data-i18n="faq.q4">Is my data secure?</span>
+            <span data-i18n="faq.q4">Where do my conversations go?</span>
             <span class="faq-icon">+</span>
           </summary>
-          <div class="faq-answer" data-i18n="faq.a4">
-            Yes. All your learning data is stored locally on your device. Conversations are only sent to the AI service for processing and are not retained.
-          </div>
+          <div class="faq-answer" data-i18n="faq.a4">Learning history is stored on your device. To generate replies and feedback, conversation content is sent to your configured AI service. Voice features may send audio to a speech provider. Those services have their own data and retention policies.</div>
         </details>
 
         <details class="faq-item">
@@ -769,9 +689,7 @@
             <span data-i18n="faq.q5">What level do I need?</span>
             <span class="faq-icon">+</span>
           </summary>
-          <div class="faq-answer" data-i18n="faq.a5">
-            No specific level needed. UpWord supports complete beginners to advanced learners. At the start, your level is detected and your path is personalized.
-          </div>
+          <div class="faq-answer" data-i18n="faq.a5">Choose beginner, intermediate, or advanced in the app. This is a self-selected practice level, not an automatic placement test or a language certification. AI feedback can be mistaken.</div>
         </details>
       </div>
     </div>
@@ -784,12 +702,11 @@
         <div class="cta-turtle">
           <div id="ctaTurtle"></div>
         </div>
-        <h2 class="cta-title" data-i18n="cta.title">Your world is about to get a little bigger.</h2>
-        <p class="cta-subtitle" data-i18n="cta.subtitle">
-          A new language starts with one conversation. Make your first one today, with a companion by your side.
-        </p>
+        <h2 class="cta-title" data-i18n="cta.title">Your next conversation
+starts with this one.</h2>
+        <p class="cta-subtitle" data-i18n="cta.subtitle">Give yourself a place to practice, make mistakes, and find the words you want to say.</p>
         <a
-          href="http://cafebazaar.ir/app/?id=ir.upword.twa"
+          href="https://cafebazaar.ir/app/?id=ir.upword.twa"
           target="_blank"
           rel="noopener"
           class="btn btn-primary btn-xl cta-btn"
@@ -799,7 +716,7 @@
           </svg>
           <span data-i18n="cta.button">Download from Cafe Bazaar</span>
         </a>
-        <div class="cta-note" data-i18n="cta.note">Free to start • In-app purchases for full content • v2.45.7</div>
+        <div class="cta-note" data-i18n="cta.note">Android 8+ · Internet and compatible AI provider credentials required. Provider charges may apply.</div>
       </div>
     </div>
   </section>
@@ -811,14 +728,14 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <a href="#hero" class="brand">
-            <img src="assets/images/app-icon.png" alt="UpWord" class="brand-icon" />
+            <img src="assets/images/app-icon.png" alt="" width="40" height="40" class="brand-icon" />
             <span class="brand-text">UpWord</span>
           </a>
           <p class="footer-desc" data-i18n="footer.desc">
-            Your smart companion for learning languages through real conversation. Built with love in Iran.
+            Your smart companion for learning languages through real conversation.
           </p>
           <div class="footer-social">
-            <a href="http://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener" aria-label="Cafe Bazaar">
+            <a href="https://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener" aria-label="Cafe Bazaar">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 2L2 7v10l10 5 10-5V7l-10-5zm0 2.18L19.5 8 12 11.82 4.5 8 12 4.18zM4 9.5l7 3.5v7.18l-7-3.5V9.5zm9 10.68V13l7-3.5v7.18l-7 3.5z"/>
               </svg>
@@ -836,14 +753,14 @@
 
         <div class="footer-col">
           <h4 data-i18n="footer.download">Download</h4>
-          <a href="http://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener">Cafe Bazaar</a>
+          <a href="https://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener">Cafe Bazaar</a>
           <a href="#hero" data-i18n="footer.android">Android</a>
           <a href="#hero">v2.45.7</a>
         </div>
 
         <div class="footer-col">
           <h4 data-i18n="footer.about">About</h4>
-          <a href="#testimonials" data-i18n="nav.testimonials">Reviews</a>
+          <a href="#testimonials" data-i18n="nav.testimonials">Learner stories</a>
           <a href="#hero" data-i18n="footer.aboutApp">About UpWord</a>
         </div>
       </div>
@@ -854,6 +771,6 @@
     </div>
   </footer>
 
-  <script defer src="js/main.js?v=13"></script>
+  <script defer src="js/main.js?v=16"></script>
 </body>
 </html>
