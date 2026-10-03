@@ -15,7 +15,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="آپ‌ورد | از «سلام» تا مکالمه‌های واقعی" />
   <meta property="og:description" content="درس‌های موضوعی، مکالمه با هوش مصنوعی، شدوینگ و گیمیفیکیشن — همه در یک اپ با طراحی شیشه‌ای." />
-  <meta property="og:image" content="assets/images/hero-girl.png" />
+  <meta property="og:image" content="assets/images/og-cover.png" />
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="assets/images/app-icon.png" />
@@ -180,7 +180,12 @@
 
       <figure class="hero-visual">
         <div class="hero-art">
-          <img src="assets/images/hero-girl.png" alt="تصویر نمایشی: کاربر آپ‌ورد در حال تبریک گفت‌وگو، همراه با لاک‌پشت نماد آپ‌ورد" width="720" height="960" data-i18n-alt="hero.alt" />
+          <div class="hero-scene">
+            <img src="assets/images/hero-tutor.webp" alt="دختر راهنمای آپ‌ورد با لبخند، کنار حروف و ستاره‌های شناور یادگیری" width="640" height="640" data-i18n-alt="hero.alt" />
+            <span class="hero-bubble" aria-hidden="true">Hello!</span>
+            <span class="hero-bubble hero-bubble-2" aria-hidden="true" lang="zh">你好!</span>
+            <span class="hero-bubble hero-bubble-3" aria-hidden="true" lang="ru">Привет!</span>
+          </div>
         </div>
 
         <!-- Floating: practice reminder notification -->
@@ -225,12 +230,12 @@
     <div class="container">
       <p class="lang-strip-label" data-i18n="languages.label">زبان مقصدت را انتخاب کن:</p>
       <ul class="lang-strip-row">
-        <li class="lang-item"><b lang="en">Hello</b><small data-i18n="languages.en">انگلیسی</small><span aria-hidden="true">🇬🇧</span></li>
-        <li class="lang-item"><b lang="es">Hola</b><small data-i18n="languages.es">اسپانیایی</small><span aria-hidden="true">🇪🇸</span></li>
-        <li class="lang-item"><b lang="fr">Bonjour</b><small data-i18n="languages.fr">فرانسوی</small><span aria-hidden="true">🇫🇷</span></li>
-        <li class="lang-item"><b lang="de">Hallo</b><small data-i18n="languages.de">آلمانی</small><span aria-hidden="true">🇩🇪</span></li>
-        <li class="lang-item"><b lang="tr">Merhaba</b><small data-i18n="languages.tr">ترکی</small><span aria-hidden="true">🇹🇷</span></li>
-        <li class="lang-item"><b lang="ar">مرحباً</b><small data-i18n="languages.ar">عربی</small><span aria-hidden="true">🇸🇦</span></li>
+        <li class="lang-item"><b lang="en">Hello!</b><small data-i18n="languages.en">انگلیسی</small><span aria-hidden="true">🇬🇧</span></li>
+        <li class="lang-item"><b lang="fa">سلام!</b><small data-i18n="languages.fa">فارسی</small><span aria-hidden="true">🇮🇷</span></li>
+        <li class="lang-item"><b lang="zh">你好!</b><small data-i18n="languages.zh">چینی</small><span aria-hidden="true">🇨🇳</span></li>
+        <li class="lang-item"><b lang="ru">Привет!</b><small data-i18n="languages.ru">روسی</small><span aria-hidden="true">🇷🇺</span></li>
+        <li class="lang-item"><b lang="de">Hallo!</b><small data-i18n="languages.de">آلمانی</small><span aria-hidden="true">🇩🇪</span></li>
+        <li class="lang-item"><b lang="ar">مرحباً!</b><small data-i18n="languages.ar">عربی</small><span aria-hidden="true">🇸🇦</span></li>
       </ul>
       <p class="lang-strip-note" data-i18n="languages.note">در اولین ورود انتخاب می‌شود و هر وقت خواستی، از تنظیمات یا صفحه اصلی عوضش کن.</p>
     </div>
@@ -674,7 +679,28 @@
                     <small data-i18n="home.vocabSub">۱۲ واژه یاد گرفتی</small>
                   </div>
                 </div>
+
+                <div class="home-topic">
+                  <div class="home-topic-info">
+                    <strong data-i18n="home.topicTitle">ادامه یادگیری</strong>
+                    <small data-i18n="home.topicSub">سلام و معرفی · درس ۲ از ۳</small>
+                    <div class="home-topic-bar"><span style="width: 60%"></span></div>
+                  </div>
+                  <div class="home-topic-ring">
+                    <svg class="ring" viewBox="0 0 48 48" width="44" height="44">
+                      <circle class="ring-bg" cx="24" cy="24" r="19"/>
+                      <circle class="ring-fill" cx="24" cy="24" r="19" style="stroke-dasharray:119; stroke-dashoffset:48"/>
+                    </svg>
+                    <b data-i18n="home.topicPct">۶۰٪</b>
+                  </div>
+                </div>
               </div>
+              <nav class="ph-tabs" aria-hidden="true">
+                <span class="tab active">🏠 <i data-i18n="tab.home">خانه</i></span>
+                <span class="tab">📚 <i data-i18n="tab.lessons">درس‌ها</i></span>
+                <span class="tab">💬 <i data-i18n="tab.chat">مکالمه</i></span>
+                <span class="tab">👤 <i data-i18n="tab.profile">پروفایل</i></span>
+              </nav>
             </div>
           </div>
         </div>
@@ -699,11 +725,23 @@
                   <span class="ach-xp" data-i18n="ach.xpVal">+۱۰۰ XP</span>
                 </div>
                 <div class="ach-list">
-                  <div class="ach-item done"><span>🥇</span><span data-i18n="ach.a1">اولین مکالمه</span><i>✓</i></div>
+                  <div class="ach-item done"><span>🗣️</span><span data-i18n="ach.a1">اولین مکالمه</span><i>✓</i></div>
                   <div class="ach-item done"><span>🔥</span><span data-i18n="ach.a2">۷ روز پیاپی</span><i>✓</i></div>
+                  <div class="ach-item done"><span>📚</span><span data-i18n="ach.a4">اولین موضوع</span><i>✓</i></div>
                   <div class="ach-item locked"><span>🎯</span><span data-i18n="ach.a3">۱۰ ماموریت</span><i>🔒</i></div>
+                  <div class="ach-item locked"><span>🏆</span><span data-i18n="ach.a5">سطح ۱۰</span><i>🔒</i></div>
+                </div>
+                <div class="ach-progress">
+                  <span data-i18n="ach.summary">۳ از ۲۴ دستاورد</span>
+                  <div class="ach-progress-bar"><span style="width: 12.5%"></span></div>
                 </div>
               </div>
+              <nav class="ph-tabs" aria-hidden="true">
+                <span class="tab">🏠 <i data-i18n="tab.home">خانه</i></span>
+                <span class="tab">📚 <i data-i18n="tab.lessons">درس‌ها</i></span>
+                <span class="tab">💬 <i data-i18n="tab.chat">مکالمه</i></span>
+                <span class="tab active">👤 <i data-i18n="tab.profile">پروفایل</i></span>
+              </nav>
             </div>
           </div>
         </div>
@@ -734,7 +772,30 @@
                     <span class="vocab-btn primary" lang="fa" dir="rtl" data-i18n="vocab.know">بلدم!</span>
                   </div>
                 </div>
+
+                <div class="vocab-mini" lang="en" dir="ltr">
+                  <div class="vm-main">
+                    <span class="vm-word">Serene</span>
+                    <span class="vm-phon">/səˈriːn/</span>
+                  </div>
+                  <span class="vm-mean" lang="fa" dir="rtl" data-i18n="vocab.m2">آرام و بی‌تکلف</span>
+                  <span class="vm-play" aria-hidden="true">🔊</span>
+                </div>
+                <div class="vocab-mini" lang="en" dir="ltr">
+                  <div class="vm-main">
+                    <span class="vm-word">Curious</span>
+                    <span class="vm-phon">/ˈkjʊəriəs/</span>
+                  </div>
+                  <span class="vm-mean" lang="fa" dir="rtl" data-i18n="vocab.m3">کنجکاو</span>
+                  <span class="vm-play" aria-hidden="true">🔊</span>
+                </div>
               </div>
+              <nav class="ph-tabs" aria-hidden="true">
+                <span class="tab">🏠 <i data-i18n="tab.home">خانه</i></span>
+                <span class="tab active">📚 <i data-i18n="tab.lessons">درس‌ها</i></span>
+                <span class="tab">💬 <i data-i18n="tab.chat">مکالمه</i></span>
+                <span class="tab">👤 <i data-i18n="tab.profile">پروفایل</i></span>
+              </nav>
             </div>
           </div>
         </div>

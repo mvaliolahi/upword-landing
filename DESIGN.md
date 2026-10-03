@@ -16,7 +16,8 @@ Container 1200px, gutters 24px (20 mobile). Sections clamp(72…112px) block pad
 
 ## 5. Components
 - Glass family: linear-gradient(165deg, rgba(255,255,255,.09/.055)), 1px rgba(255,255,255,.13) border, backdrop-blur 12–22px; raised variants add deep drop shadows and green glows.
-- Phone frame: 300px, radius 50, dark hardware gradient, punch-hole camera, inner screen emerald gradient; content is real HTML (courses with circular SVG progress rings, AI chat with correction feedback card, gamification profile with XP bar, gems, Iranian-week streak calendar, achievements).
+- Hero visual (v3): the app's own hero-card tutor (assets/images/hero-tutor.webp, alpha) on a deep-green aurora scene, with white greeting bubbles (Hello! / 你好! / Привет!) like the app's home hero card. og-cover.png (1200×630) composites the same tutor for social sharing.
+- Phone frame: 300px (preview phones 316px + min-height 660px screen — taller, realistic proportions), radius 50, dark hardware gradient, punch-hole camera, inner screen emerald gradient; content is real HTML (courses with circular SVG progress rings, AI chat with correction feedback card, gamification profile with XP bar, gems, Iranian-week streak calendar, achievements). Preview screens end in a bottom tab bar (Home/Lessons/Chat/Profile) mirroring the app's navigation.
 - Floating hero glass cards: Android-style practice-reminder notification, streak chip, XP chip — gently drifting, disabled under reduced motion.
 - Journey: 4 numbered glass steps over a dashed track with the swimming turtle Lottie.
 - Premium: free vs premium plan cards; premium carries a gradient border, glow, "most popular" badge and tier chips (monthly / 6-month / yearly·best / lifetime). No hardcoded prices — the note points to the in-app store panel.
@@ -28,7 +29,7 @@ Container 1200px, gutters 24px (20 mobile). Sections clamp(72…112px) block pad
 Reveal-on-scroll via IntersectionObserver + WAAPI (650ms, stagger 75ms max 3), cancelled by keyboard focus or prefers-reduced-motion. Orbs drift 26–38s; float cards bob 5.5–7s; waveform bars pulse; pill dot pulses once per 2.4s. Turtles (swimming/success/meditation) play once when visible, pause offscreen/background, static 40% frame under reduced motion. Native anchors smooth-scroll with navbar offset.
 
 ## 7. i18n mechanism
-211 data-i18n / data-i18n-html / data-i18n-alt keys, mirrored fa+en dictionaries in js/main.js. Pre-paint script applies the stored language (default fa/RTL) before first render; toggling persists in localStorage 'upword-lang'. Persian strings use Persian digits; English dictionary switches mockups to Latin digits automatically. `html[lang="en"]` drives font/line-height/tracking overrides and hides the redundant English topic subtitle.
+223 data-i18n / data-i18n-html / data-i18n-alt keys, mirrored fa+en dictionaries in js/main.js. The language strip and copy list only the six languages the app actually ships (English, Persian, Chinese, Russian, German, Arabic — the app's SupportedLanguages catalog). Pre-paint script applies the stored language (default fa/RTL) before first render; toggling persists in localStorage 'upword-lang'. Persian strings use Persian digits; English dictionary switches mockups to Latin digits automatically. `html[lang="en"]` drives font/line-height/tracking overrides and hides the redundant English topic subtitle.
 
 ## 8. Accessibility constraints
 WCAG AA contrast on dark green, visible focus rings, skip link, aria-labels on nav/switcher/toggle, aria-hidden decorative mockups, Escape closes menu/dropdown, reduced-motion kills all perpetual animation. Static HTML ships with full Persian content so the page works without JS.

@@ -457,7 +457,7 @@ html[lang="en"] .hero-subtitle { line-height: 1.8; }
 .hero-chips li span[aria-hidden] { font-size: 15px; }
 
 /* Hero visual */
-.hero-visual { position: relative; margin-inline: auto; max-width: 480px; }
+.hero-visual { position: relative; margin-inline: auto; max-width: 460px; }
 
 .hero-art {
   position: relative;
@@ -469,11 +469,47 @@ html[lang="en"] .hero-subtitle { line-height: 1.8; }
   backdrop-filter: blur(16px);
   box-shadow: 0 48px 100px -48px rgba(0, 0, 0, 0.85), 0 0 90px -30px var(--green-glow);
 }
-.hero-art img {
+
+/* v3 — the app's own hero-card tutor (night_hero_tutor.webp, alpha) floats
+   on a deep-green aurora scene, exactly like the app's home hero card. */
+.hero-scene {
+  position: relative;
   border-radius: 26px;
+  overflow: hidden;
+  background:
+    radial-gradient(130% 90% at 50% -10%, rgba(34, 197, 94, 0.30), transparent 62%),
+    radial-gradient(90% 70% at 90% 110%, rgba(233, 228, 243, 0.14), transparent 58%),
+    radial-gradient(70% 55% at 8% 100%, rgba(245, 231, 174, 0.10), transparent 60%),
+    linear-gradient(180deg, #10331F 0%, #0A2415 55%, #071B10 100%);
+}
+.hero-scene img {
+  display: block;
   width: 100%;
-  aspect-ratio: 3 / 4;
-  object-fit: cover;
+  height: auto;
+}
+
+/* Greeting bubbles — same white pill as the app's home hero card */
+.hero-bubble {
+  position: absolute;
+  top: 20px;
+  inset-inline-end: 22px;
+  padding: 7px 14px;
+  border-radius: 13px;
+  background: #FFFFFF;
+  color: #0B1E2D;
+  font-size: 13.5px;
+  font-weight: 800;
+  font-family: var(--font-en);
+  letter-spacing: 0.01em;
+  box-shadow: 0 10px 26px -8px rgba(0, 0, 0, 0.55);
+  animation: bubble-float 5s ease-in-out infinite alternate;
+}
+.hero-bubble-2 { top: 66px; inset-inline-end: auto; inset-inline-start: 16px; animation-delay: 0.6s; }
+.hero-bubble-3 { top: auto; bottom: 26px; inset-inline-end: 40px; animation-delay: 1.1s; }
+
+@keyframes bubble-float {
+  from { transform: translateY(0); }
+  to { transform: translateY(-7px); }
 }
 
 /* Floating glass cards */
@@ -1144,9 +1180,109 @@ html[lang="en"] .bcard p { line-height: 1.7; }
 }
 
 /* ===== Preview gallery ===== */
-.preview-grid { display: flex; justify-content: center; align-items: flex-start; gap: 30px; }
-.preview-phone { flex: none; }
+.preview-grid { display: flex; justify-content: center; align-items: flex-start; gap: 26px; }
+.preview-phone { flex: none; width: 316px; }
 .preview-center { transform: translateY(-18px) scale(1.04); z-index: 2; }
+
+/* v3 — owner request: taller preview phones. The screen gets a realistic
+   phone height (≈2.2:1) and content spreads from status bar to tab bar. */
+.preview-phone .phone-screen {
+  min-height: 660px;
+  display: flex;
+  flex-direction: column;
+}
+.preview-phone .ph-app { flex: 1; }
+
+/* Bottom tab bar — mirrors the app's navigation */
+.ph-tabs {
+  margin-top: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
+  padding: 8px 10px 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  background: rgba(0, 0, 0, 0.22);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+.ph-tabs .tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 6px 0 4px;
+  border-radius: 12px;
+  font-size: 9.5px;
+  color: var(--ink-mute);
+}
+.ph-tabs .tab i { font-style: normal; }
+.ph-tabs .tab.active {
+  color: var(--green-lite);
+  background: rgba(34, 197, 94, 0.14);
+}
+
+/* Home screen — "continue learning" topic card */
+.home-topic {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+}
+.home-topic-info { flex: 1; min-width: 0; }
+.home-topic-info strong { display: block; font-size: 12.5px; }
+.home-topic-info small { display: block; font-size: 10px; color: var(--ink-mute); margin-top: 2px; }
+.home-topic-bar {
+  margin-top: 7px;
+  height: 5px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+.home-topic-bar span { display: block; height: 100%; border-radius: 999px; background: var(--green); box-shadow: 0 0 8px rgba(34, 197, 94, 0.5); }
+.home-topic-ring { position: relative; flex: none; width: 44px; height: 44px; }
+.home-topic-ring b {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: 9.5px;
+  font-weight: 800;
+  color: var(--green-lite);
+}
+
+/* Achievements screen — summary progress */
+.ach-progress { margin-top: 2px; }
+.ach-progress span { display: block; font-size: 10px; color: var(--ink-mute); margin-bottom: 5px; }
+.ach-progress-bar { height: 5px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); overflow: hidden; }
+.ach-progress-bar span { display: block; height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--green), #7CE8A4); }
+
+/* Vocabulary screen — compact next-word rows */
+.vocab-mini {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.vm-main { display: flex; align-items: baseline; gap: 7px; min-width: 0; }
+.vm-word { font-size: 13.5px; font-weight: 700; color: var(--ink); font-family: var(--font-en); }
+.vm-phon { font-size: 9.5px; color: var(--ink-mute); font-family: var(--font-en); }
+.vm-mean { margin-inline-start: auto; font-size: 10.5px; color: var(--ink-soft); }
+.vm-play {
+  flex: none;
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(34, 197, 94, 0.16);
+  font-size: 11px;
+}
 .preview-note { text-align: center; margin-top: 40px; font-size: 12.5px; color: var(--ink-mute); }
 
 /* home mockup */
@@ -1636,6 +1772,8 @@ html[lang="en"] .cta-subtitle { line-height: 1.8; }
   .bcard.span2 { grid-column: span 1; }
 
   .phone { width: 272px; }
+  .preview-phone .phone-screen { min-height: 580px; }
+  .preview-phone { width: 300px; }
   .footer-grid { grid-template-columns: 1fr; gap: 26px; }
   .footer-col { display: flex; flex-wrap: wrap; gap: 8px 18px; }
   .footer-col h4 { width: 100%; }
@@ -1649,7 +1787,7 @@ html[lang="en"] .cta-subtitle { line-height: 1.8; }
 
 /* ===== Reduced motion ===== */
 @media (prefers-reduced-motion: reduce) {
-  .orb, .float-notif, .float-chip, .waveform i, .pill-dot, .day i { animation: none !important; }
+  .orb, .float-notif, .float-chip, .waveform i, .pill-dot, .day i, .hero-bubble { animation: none !important; }
   .btn, .bcard, .review, .journey-step, .lang-item, .footer-social a { transition: none !important; }
   * { scroll-behavior: auto !important; }
 }
