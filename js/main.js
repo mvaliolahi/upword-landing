@@ -1,6 +1,6 @@
 /* ============================================
    UpWord Landing — Main JavaScript
-   Bilingual (English default + Persian toggle)
+   Bilingual: Persian (default, rtl) + English (ltr)
    ============================================ */
 
 (function () {
@@ -8,354 +8,488 @@
 
   /* ===== i18n dictionary ===== */
   const I18N = {
-    en: {
-      "loop.repeat": "Revisit useful phrases",
-
-      "loop.learn": "Learn from feedback",
-
-      "loop.speak": "Practice a situation",
-
-      "practice.note": "This is a fixed teaching example, not generated feedback or a live app session.",
-
-      "practice.reveal": "Show the correction and try again",
-
-      "practice.label": "Worked example · English · past tense",
-
-      "practice.desc": "Feedback is most useful when you can do something with it. Here is a worked English example of turning a correction into another attempt.",
-
-      "practice.title": "Don’t just spot a mistake.\nUnderstand the next step.",
-
-      "practice.eyebrow": "A small example. A useful difference.",
-
-      'nav.features': 'Features',
-      'nav.how': 'How it Works',
-      'nav.screens': 'App Preview',
-      "nav.testimonials": "Learner stories",
-      'nav.faq': 'FAQ',
-      'nav.download': 'Download',
-
-      "hero.pill": "A little practice. A more confident you.",
-      "hero.title": "Find your words.<br><span class=\"text-gradient\">Then your voice.</span>",
-      "hero.subtitle": "Turn the language you know into conversations you can have. Practice everyday situations with AI, understand your mistakes, and come back a little more confident.",
-      "hero.studioLabel": "Your everyday speaking practice",
-      'hero.sceneLabel': 'REAL LIFE, REHEARSED',
-      "hero.sceneTitle": "One coffee. A first step.",
-      'hero.sceneLevel': 'At the café · English practice',
-      "hero.session": "Practice. Get feedback. Try again.",
-      "hero.ctaPrimary": "Get UpWord for Android",
-      "hero.ctaSecondary": "Explore a practice example",
-      "hero.note": "Android 8+ · AI provider setup required. Provider usage may cost extra.",
-      'hero.encourage': 'Small steps. Real confidence.',
-      'hero.encourageSub': 'Your next conversation starts here.',
-      'hero.practice': 'TODAY’S PRACTICE · AT THE CAFÉ',
-      "hero.preview": "Illustrative English practice, not a live AI conversation",
-      'nav.skip': 'Skip to content',
-      'languages.label': 'YOUR NEXT CHAPTER, IN…',
-      'languages.en': 'English',
-      'languages.es': 'Spanish',
-      'languages.fr': 'French',
-      'languages.de': 'German',
-      'languages.tr': 'Turkish',
-      'languages.ar': 'Arabic',
-
-      'stats.languages': 'Languages',
-      'stats.topics': 'Conversation Topics',
-      'stats.rating': 'User Rating',
-      'stats.votes': 'Verified Reviews',
-
-      'badge.streak': '7 days',
-
-      'trust.privacy': 'Your privacy respected',
-      'trust.ai': 'Advanced AI',
-      'trust.android': 'Android 8+',
-      'trust.free': 'Free to start',
-
-      "features.eyebrow": "Made for the moment you need to speak",
-      "features.title": "More than knowing a word.\nKnowing what to say.",
-      "features.subtitle": "Build your practice around useful conversations, then give the words and phrases another go.",
-      "features.f1.title": "A conversation, at your level",
-      "features.f1.desc": "Choose a topic and a level. Reply by text or supported voice input, and get AI feedback on your sentences. There is room to make mistakes here.",
-      "features.f2.title": "Real situations. A clear mission.",
-      "features.f2.desc": "Order a meal, check into a hotel, or rehearse a work conversation. Mission objectives give you something practical to work toward.",
-      "features.f3.title": "Listen. Repeat. Find your rhythm.",
-      "features.f3.desc": "Use shadowing to listen to a phrase and repeat it aloud. Audio and speech recognition depend on your selected service and device.",
-      "features.f4.title": "Keep the useful words close",
-      "features.f4.desc": "Collect vocabulary and revisit saved mistakes. Make review part of your practice instead of leaving feedback behind in a chat.",
-      "features.f5.title": "Small wins you can see",
-      "features.f5.desc": "Daily goals, XP, streaks, and achievements make your practice visible. They track activity, not a certified language level.",
-      "features.f6.title": "You choose the starting point",
-      "features.f6.desc": "Set your target language and select beginner, intermediate, or advanced practice. Adjust your level as your needs change.",
-
-      'how.eyebrow': 'How it works',
-      "how.title": "Your first conversation starts here.",
-      "how.subtitle": "A little setup first. Then a space to practice at your own pace.",
-      "how.s1.title": "Make it yours",
-      "how.s1.desc": "Install the Android app. Choose your native language, target language, and current level.",
-      "how.s2.title": "Connect your AI provider",
-      "how.s2.desc": "In AI settings, add credentials for a compatible provider and select a model. You need internet; availability and usage charges depend on that provider.",
-      "how.s3.title": "Choose a situation. Say something.",
-      "how.s3.desc": "Open a conversation or mission. Try a reply, read the feedback, and practice a useful phrase again. Text is a good place to start.",
-
-      "mascot.eyebrow": "Small steps count",
-      "mascot.title": "A reason to return.\nAt your own pace.",
-      "mascot.desc": "A daily goal gives you a starting point. XP and achievements mark the practice you put in. And our turtle is a reminder: progress takes patience, not perfection.",
-      "mascot.l1": "Choose a daily goal",
-      "mascot.l2": "See your practice add up",
-      "mascot.l3": "Celebrate your milestones",
-      "mascot.l4": "Make room for another try",
-      "mascot.cta": "Build your practice habit",
-
-      'screens.eyebrow': 'App Preview',
-      'screens.title': 'A look inside UpWord',
-      'screens.subtitle': 'Conversation, vocabulary, and small wins. Explore these illustrative previews of your learning journey.',
-
-      'screen.chat.title': 'Free Talk',
-      'screen.chat.feedback': 'Great! Your sentence was natural.',
-      'screen.ach.title': 'Achievements',
-      'screen.ach.subtitle': 'New Achievement!',
-      'screen.ach.name': '7-Day Streak',
-      'screen.ach.desc': 'A full week of practice!',
-      'screen.ach.a1': 'First Conversation',
-      'screen.ach.a2': '7-Day Streak',
-      'screen.ach.a3': '10 Missions',
-      'screen.vocab.title': 'Vocabulary',
-      'screen.vocab.progress': '12 of 20 words',
-      'screen.vocab.meaning': 'A lucky coincidence',
-      'screen.vocab.listen': '🔊 Listen',
-      'screen.vocab.know': 'I know it',
-
-      'mock.greeting': 'A little better, every day.',
-      'mock.greetingSub': 'Let’s practice together.',
-      'mock.dailyGoal': 'Daily Goal',
-      'mock.dailyGoalMeta': '30 of 50 XP',
-      'mock.todaysMission': "Today's Mission",
-      'mock.todaysMissionMeta': 'Ordering food at a restaurant',
-      'mock.newVocab': 'New Vocabulary',
-      'mock.newVocabMeta': '12 words learned',
-
-      'testi.eyebrow': 'User Reviews',
-      'testi.title': 'What UpWord users say',
-      "testi.subtitle": "A few learner stories from the original Cafe Bazaar listing. See the store for current reviews and ratings.",
-      'testi.r1.translation': '"Incredible and complete. Covers everything. The best part is finding pronunciation and the routine use of words in movie dialogues. Aweeesome."',
-      'testi.r1.role': 'Cafe Bazaar User',
-      'testi.r2.translation': '"Really cool — a complete package of different tools that helps in every area."',
-      'testi.r2.role': 'Cafe Bazaar User',
-      'testi.r3.translation': '"A very good and practical app with interesting features."',
-      'testi.r3.role': 'Cafe Bazaar User',
-      "testi.summary": "Curious what other learners think? Read the latest reviews, check the current app details, and decide whether UpWord fits your practice.",
-      'testi.viewAll': 'View on Cafe Bazaar',
-
-      'faq.eyebrow': 'FAQ',
-      'faq.title': 'Everything you want to know',
-      "faq.q1": "What do I need to get started?",
-      "faq.a1": "An Android 8+ device, internet for AI conversations, and credentials for a compatible AI provider. Check Cafe Bazaar for the current app price. AI usage is subject to your provider’s pricing and limits; downloading the app does not include an AI allowance.",
-      'faq.q2': 'Do I need internet to use it?',
-      "faq.a2": "AI conversations and generated feedback need internet. Saved content can remain on your device, but audio, speech recognition, and other connected features may still need a network connection.",
-      'faq.q3': 'Which languages are supported?',
-      "faq.a3": "The app offers English, Turkish, Arabic, German, French, and Spanish as target languages. Conversation, voice, and content availability can vary by language, device, and AI provider.",
-      "faq.q4": "Where do my conversations go?",
-      "faq.a4": "Learning history is stored on your device. To generate replies and feedback, conversation content is sent to your configured AI service. Voice features may send audio to a speech provider. Those services have their own data and retention policies.",
-      'faq.q5': 'What level do I need?',
-      "faq.a5": "Choose beginner, intermediate, or advanced in the app. This is a self-selected practice level, not an automatic placement test or a language certification. AI feedback can be mistaken.",
-
-      "cta.title": "Your next conversation\nstarts with this one.",
-      "cta.subtitle": "Give yourself a place to practice, make mistakes, and find the words you want to say.",
-      'cta.button': 'Download from Cafe Bazaar',
-      "cta.note": "Android 8+ · Internet and compatible AI provider credentials required. Provider charges may apply.",
-
-      'footer.desc': 'Your smart companion for learning languages through real conversation.',
-      'footer.product': 'Product',
-      'footer.download': 'Download',
-      'footer.about': 'About',
-      'footer.android': 'Android',
-      'footer.aboutApp': 'About UpWord',
-      'footer.copyright': '© 2026 UpWord — All rights reserved.',
-    },
-
     fa: {
-      "loop.repeat": "جمله‌های کاربردی را مرور کن",
-
-      "loop.learn": "از بازخورد یاد بگیر",
-
-      "loop.speak": "مکالمه را تمرین کن",
-
-      "practice.note": "این مثال از پیش نوشته شده و بخشی از یک مکالمه زنده با هوش مصنوعی نیست.",
-
-      "practice.reveal": "شکل درست جمله و تمرین بعدی را ببین",
-
-      "practice.label": "نمونه تمرین · انگلیسی · زمان گذشته",
-
-      "practice.desc": "دیدن شکل درست جمله، تازه شروع یادگیری است. در این مثال انگلیسی، دلیل اشتباه را می‌فهمی و همان نکته را در جمله‌ای تازه به کار می‌بری.",
-
-      "practice.title": "اشتباهت را بشناس.\nدفعه بعد بهتر بگو.",
-
-      "practice.eyebrow": "یک مثال ساده، یک نکته کاربردی",
-
+      'nav.skip': 'رفتن به محتوای اصلی',
       'nav.features': 'امکانات',
-      "nav.how": "راهنمای شروع",
-      "nav.screens": "نگاهی به اپ",
-      "nav.testimonials": "تجربه کاربران",
-      "nav.faq": "پرسش‌های رایج",
+      'nav.journey': 'مسیر یادگیری',
+      'nav.preview': 'پیش‌نمایش اپ',
+      'nav.premium': 'پرمیوم',
+      'nav.reviews': 'تجربه کاربران',
+      'nav.faq': 'پرسش‌های رایج',
       'nav.download': 'دانلود',
 
-      "hero.pill": "هر بار تمرین، یک قدم بااعتمادبه‌نفس‌تر",
-      "hero.title": "کلمه‌ها را بلدی.<br><span class=\"text-gradient\">حالا حرف بزن.</span>",
-      "hero.subtitle": "وقت آن است که از کلمه‌هایی که بلدی استفاده کنی. مکالمه‌های روزمره را با هوش مصنوعی تمرین کن، از اشتباهاتت یاد بگیر و راحت‌تر حرف بزن.",
-      "hero.studioLabel": "همراه تو در تمرین مکالمه",
-      "hero.sceneLabel": "تمرین برای موقعیت‌های واقعی",
-      "hero.sceneTitle": "یک قهوه، شروع یک مکالمه.",
-      'hero.sceneLevel': 'در کافه · تمرین انگلیسی',
-      "hero.session": "تمرین کن، بازخورد بگیر، دوباره امتحان کن.",
-      "hero.ctaPrimary": "دانلود آپ‌ورد برای اندروید",
-      "hero.ctaSecondary": "نمونه تمرین را ببین",
-      "hero.note": "اندروید ۸ به بالا · سرویس هوش مصنوعی را باید جداگانه تنظیم کنی. استفاده از آن ممکن است هزینه داشته باشد.",
-      'hero.encourage': 'قدم‌های کوچک، اعتمادبه‌نفس واقعی',
-      "hero.encourageSub": "مکالمه بعدی‌ات از همین‌جا شروع می‌شود.",
-      'hero.practice': 'تمرین امروز · در کافه',
-      "hero.preview": "نمونه‌ای از تمرین انگلیسی؛ این مکالمه زنده نیست.",
-      "nav.skip": "رفتن به محتوای اصلی",
-      "languages.label": "به چه زبانی می‌خواهی حرف بزنی؟",
+      'hero.pill': 'نسخه ۲.۸۵ · با طراحی شیشه‌ای جدید',
+      'hero.title': 'از «سلام» تا<br /><span class="text-gradient">مکالمه‌های واقعی</span>',
+      'hero.subtitle': 'آپ‌ورد برای فارسی‌زبان‌ها ساخته شده: درس‌های کوتاه و موضوعی، تمرین مکالمه با هوش مصنوعی، تمرین شدوینگ و مرور هوشمند — همه در یک اپلیکیشن با طراحی شیشه‌ای که دوستش داری.',
+      'hero.ctaBazaar': 'دانلود از کافه بازار',
+      'hero.ctaMyket': 'دانلود از مایکت',
+      'hero.free': 'شروع رایگان · موضوع اول سطح A1 با سه درس',
+      'hero.chip1': '۶ زبان مقصد',
+      'hero.chip2': '۳ درس در هر موضوع',
+      'hero.chip3': 'اندروید ۸ به بالا',
+      'hero.alt': 'تصویر نمایشی: کاربر آپ‌ورد در حال تبریک گفت‌وگو، همراه با لاک‌پشت نماد آپ‌ورد',
+      'hero.notifTitle': 'یادآور تمرین',
+      'hero.notifBody': 'وقت تمرین امروزه! ۱۰ دقیقه کافیه 🐢',
+      'hero.notifNow': 'شروع تمرین',
+      'hero.notifLater': 'بعداً',
+      'hero.streakCard': '۷ روز پیاپی',
+      'hero.streakSub': 'زنجیره تمرینت قطع نشده!',
+      'hero.xpCard': '‎+۸۰ XP',
+      'hero.xpSub': 'سطح ۵ · پیشرفت عالی',
+      'hero.caption': 'تصویر نمایشی از حال‌وهوای آپ‌ورد',
+
+      'mock.time': '۹:۴۱',
+      'mock.notifTime': '۲۰:۰۰',
+      'mock.xpNum': '۱٬۲۴۰',
+      'mock.gemNum': '۱۲۰',
+
+      'languages.label': 'زبان مقصدت را انتخاب کن:',
       'languages.en': 'انگلیسی',
       'languages.es': 'اسپانیایی',
       'languages.fr': 'فرانسوی',
       'languages.de': 'آلمانی',
       'languages.tr': 'ترکی',
       'languages.ar': 'عربی',
+      'languages.note': 'در اولین ورود انتخاب می‌شود و هر وقت خواستی، از تنظیمات یا صفحه اصلی عوضش کن.',
 
-      'stats.languages': 'زبان قابل یادگیری',
-      'stats.topics': 'موضوع مکالمه',
-      'stats.rating': 'امتیاز کاربران',
-      'stats.votes': 'نظرات تأییدشده',
+      'journey.eyebrow': 'مسیر یادگیری',
+      'journey.title': 'چهار قدم تا اولین مکالمه',
+      'journey.subtitle': 'از اولین ورود تا گفت‌وگوهای روان، آپ‌ورد قدم‌به‌قدم همراهته.',
+      'journey.s1.title': 'زبان و سطحت را انتخاب کن',
+      'journey.s1.desc': 'در اولین ورود، زبان مقصد و سطحت را انتخاب می‌کنی — مبتدی (A1) بهترین نقطه شروع است. هر وقت خواستی از تنظیمات تغییرش بده.',
+      'journey.s2.title': 'درس‌ها را قدم‌به‌قدم جلو برو',
+      'journey.s2.desc': 'هر موضوع — مثل «سلام و معرفی» — سه درس کوتاه دارد: واژه‌ها، جمله‌های کاربردی و تمرین. پیشرفت هر درس در حلقه‌ای دایره‌ای نمایش داده می‌شود.',
+      'journey.s3.title': 'مکالمه را با هوش مصنوعی تمرین کن',
+      'journey.s3.desc': 'آموخته‌هایت را در مکالمه واقعی به کار ببر؛ جواب می‌گیری، اشتباه‌هایت اصلاح می‌شود و راه‌های بهتر گفتن را یاد می‌گیری.',
+      'journey.s4.title': 'پیشرفتت را ببین و ادامه بده',
+      'journey.s4.desc': 'XP، سطح، جواهر و دستاوردها پیشرفتت را نشان می‌دهند و یادآور تمرین کمک می‌کند روتین یادگیری‌ات قطع نشود.',
 
-      "badge.streak": "۷ روز پیاپی",
+      'features.eyebrow': 'امکانات، جز به جز',
+      'features.title': 'هر چیزی که برای یادگیری لازم داری، سر جایش است',
+      'features.subtitle': 'آپ‌ورد فقط یک اپ مکالمه یا فقط یک اپ واژگان نیست؛ همه ابزارهای یادگیری، کنار هم و هماهنگ با هم.',
 
-      'trust.privacy': 'حریم خصوصی شما محترم است',
-      'trust.ai': 'هوش مصنوعی پیشرفته',
-      'trust.android': 'اندروید ۸ به بالا',
-      'trust.free': 'شروع رایگان',
+      'f1.eyebrow': 'دوره‌های ساختاریافته',
+      'f1.title': 'موضوع به موضوع، درس به درس',
+      'f1.desc': 'یادگیری از سطح A1 و موضوع‌های کاربردی زندگی روزمره شروع می‌شود: «سلام و معرفی»، خانواده، خرید و…. هر موضوع سه درس کوتاه دارد و پیشرفت هر درس در حلقه‌ای دایره‌ای نشان داده می‌شود. موضوع اول برای همه رایگان است تا بدون ریسک شروع کنی.',
+      'f1.b1': 'درس‌های کوتاه ۵ تا ۱۰ دقیقه‌ای',
+      'f1.b2': 'حلقه پیشرفت دایره‌ای برای هر درس',
+      'f1.b3': 'موضوع اول A1 کاملاً رایگان',
+      'f1.b4': 'واژه‌ها همراه با تلفظ و مثال',
 
-      "features.eyebrow": "برای وقتی که می‌خواهی حرف بزنی",
-      "features.title": "فقط کلمه یاد نگیر.\nیاد بگیر چه بگویی.",
-      "features.subtitle": "با مکالمه‌های کاربردی تمرین کن و با مرور واژه‌ها و جمله‌ها، آموخته‌هایت را به کار بگیر.",
-      "features.f1.title": "مکالمه‌ای متناسب با سطح تو",
-      "features.f1.desc": "موضوع و سطح تمرینت را انتخاب کن. پاسخ را بنویس یا، اگر دستگاه و سرویس انتخابی‌ات پشتیبانی می‌کنند، با صدا جواب بده. برای جمله‌هایت بازخورد بگیر و بدون نگرانی از اشتباه کردن تمرین کن.",
-      "features.f2.title": "هر موقعیت، یک ماموریت",
-      "features.f2.desc": "غذا سفارش بده، اتاق هتل بگیر یا برای یک گفت‌وگوی کاری آماده شو. هر ماموریت هدف مشخصی دارد تا بدانی چه چیزی را تمرین می‌کنی.",
-      "features.f3.title": "گوش بده و همراهش تکرار کن",
-      "features.f3.desc": "در تمرین شدوینگ، جمله را می‌شنوی و با صدای بلند تکرار می‌کنی تا با آهنگ و ریتم زبان آشنا شوی. پخش صدا و تشخیص گفتار به دستگاه و سرویس انتخابی‌ات بستگی دارد.",
-      "features.f4.title": "واژه‌های کاربردی را فراموش نکن",
-      "features.f4.desc": "واژه‌های تازه را ذخیره کن و اشتباهات قبلی‌ات را مرور کن. به نکته‌هایی که یاد گرفته‌ای برگرد تا بازخوردها فقط در مکالمه باقی نمانند.",
-      "features.f5.title": "تمرینت را ببین، انگیزه بگیر",
-      "features.f5.desc": "هدف روزانه، امتیاز، روزهای پیاپی تمرین و دستاوردها به تو نشان می‌دهند چقدر تمرین کرده‌ای. این‌ها نشانه فعالیت تو هستند و سطح زبانت را تعیین نمی‌کنند.",
-      "features.f6.title": "از سطح خودت شروع کن",
-      "features.f6.desc": "زبان موردنظرت و سطح مبتدی، متوسط یا پیشرفته را انتخاب کن. هر وقت تمرین‌ها برایت آسان یا سخت شدند، سطح را تغییر بده.",
+      'courses.screenTitle': 'درس‌ها',
+      'courses.topic': 'سلام و معرفی',
+      'courses.free': 'رایگان',
+      'courses.l1': 'درس ۱ · سلام کردن',
+      'courses.done': 'کامل شد ✓',
+      'courses.l2': 'درس ۲ · معرفی خودت',
+      'courses.current': 'در حال یادگیری · ۶۰٪',
+      'courses.l3': 'درس ۳ · سؤال کردن',
+      'courses.locked': 'قفل · درس قبلی را کامل کن',
+      'courses.nextTopic': 'خانواده و دوستان',
+      'courses.premiumBadge': 'پرمیوم',
 
-      "how.eyebrow": "راهنمای شروع",
-      "how.title": "تا اولین مکالمه، سه قدم فاصله داری.",
-      "how.subtitle": "تنظیمات اولیه را انجام بده و بعد، با خیال راحت تمرین را شروع کن.",
-      "how.s1.title": "زبان و سطحت را انتخاب کن",
-      "how.s1.desc": "آپ‌ورد را روی گوشی اندرویدی‌ات نصب کن. زبان مادری، زبانی که می‌خواهی یاد بگیری و سطح فعلی‌ات را مشخص کن.",
-      "how.s2.title": "هوش مصنوعی را راه‌اندازی کن",
-      "how.s2.desc": "در تنظیمات هوش مصنوعی، اطلاعات دسترسی به یک سرویس سازگار را وارد کن و مدل دلخواهت را انتخاب کن. برای استفاده به اینترنت نیاز داری؛ هزینه و محدودیت‌ها به همان سرویس بستگی دارد.",
-      "how.s3.title": "اولین مکالمه‌ات را شروع کن",
-      "how.s3.desc": "یک موضوع یا ماموریت انتخاب کن. پاسخ بده، بازخورد را بخوان و جمله‌های کاربردی را دوباره تمرین کن. برای شروع می‌توانی پاسخ‌هایت را بنویسی.",
+      'f2.eyebrow': 'مکالمه با هوش مصنوعی',
+      'f2.title': 'همراهی که همیشه وقت دارد',
+      'f2.desc': 'با هوش مصنوعی درباره موضوع‌های واقعی حرف بزن: سفارش قهوه، معرفی خودت، تعریف روزت. جمله‌هایت بازخورد می‌گیرد، شکل درست‌تر و مؤدبانه‌تر را یاد می‌گیری و کم‌کم اعتمادبه‌نفس گفتاری‌ات ساخته می‌شود — با متن یا صدا.',
+      'f2.b1': 'بازخورد و اصلاح روی هر جمله',
+      'f2.b2': 'موضوع‌های واقعی زندگی روزمره',
+      'f2.b3': 'ورودی متنی و صوتی',
+      'f2.b4': 'بدون خجالت — هر بار بهتر از قبل',
 
-      "mascot.eyebrow": "قدم‌های کوچک مهم‌اند",
-      "mascot.title": "هر روز، کمی تمرین.\nبا سرعت خودت.",
-      "mascot.desc": "با یک هدف روزانه شروع کن و قدم‌هایی را که برداشته‌ای در امتیازها و دستاوردهایت ببین. لاک‌پشت آپ‌ورد هم یادت می‌اندازد که برای پیشرفت، لازم نیست بی‌نقص باشی؛ کافی است با حوصله ادامه بدهی.",
-      "mascot.l1": "یک هدف روزانه انتخاب کن",
-      "mascot.l2": "حاصل تمرین‌هایت را ببین",
-      "mascot.l3": "موفقیت‌های کوچکت را جشن بگیر",
-      "mascot.l4": "به خودت فرصت دوباره بده",
-      "mascot.cta": "تمرین را به عادت تبدیل کن",
+      'chat.partner': 'شریک تمرین',
+      'chat.online': 'آنلاین',
+      'chat.fbTitle': 'یک نکته کوچک',
+      'chat.fbBody': '«goed» درست نیست؛ گذشته‌ی «go» می‌شود «went»: I went to the cafe.',
+      'chat.placeholder': 'بنویس یا بگو…',
 
-      "screens.eyebrow": "نگاهی به اپ",
-      "screens.title": "در آپ‌ورد چه خبر است؟",
-      "screens.subtitle": "از تمرین مکالمه تا مرور واژگان و ثبت دستاوردها؛ این نمونه‌های نمایشی، حال‌وهوای یادگیری در آپ‌ورد را نشان می‌دهند.",
+      'f3.eyebrow': 'گیمیفیکیشن',
+      'f3.title': 'انگیزه، هر روز تازه می‌شود',
+      'f3.desc': 'هدف روزانه، XP و سطح، جواهر، دستاوردها و زنجیره روزهای پیاپی — همه کنار هم، تمرین کردن را به عادتی تبدیل می‌کنند که با میل ادامه می‌دهی. تقویم هفته با استاندارد ایران (شنبه تا جمعه) و تیک روزهای تمرین‌شده، پیشرفتت را یک‌جا نشان می‌دهد.',
+      'f3.b1': 'هدف روزانه و زنجیره روزهای پیاپی',
+      'f3.b2': 'XP، سطح و جواهر',
+      'f3.b3': 'دستاوردها و مدال‌های یادگیری',
+      'f3.b4': 'یادآور تمرین هوشمند',
 
-      'screen.chat.title': 'مکالمه آزاد',
-      'screen.chat.feedback': 'عالی! جمله‌ات طبیعی بود.',
-      'screen.ach.title': 'دستاوردها',
-      'screen.ach.subtitle': 'دستاورد جدید!',
-      "screen.ach.name": "۷ روز تمرین پیاپی",
-      'screen.ach.desc': 'یک هفته کامل تمرین کردی!',
-      'screen.ach.a1': 'اولین مکالمه',
-      "screen.ach.a2": "۷ روز تمرین پیاپی",
-      'screen.ach.a3': '۱۰ ماموریت',
-      'screen.vocab.title': 'واژگان',
-      "screen.vocab.progress": "۱۲ واژه از ۲۰ واژه",
-      "screen.vocab.meaning": "اتفاق خوشایند و غیرمنتظره",
-      'screen.vocab.listen': '🔊 گوش بده',
-      "screen.vocab.know": "بلدم",
+      'game.name': 'سارا',
+      'game.level': 'سطح ۵ · Learner',
+      'game.gemsVal': '💎 ۱۲۰',
+      'game.xpLabel': 'امتیاز تجربه (XP)',
+      'game.xpVal': '۷۲۰ / ۱۰۰۰',
+      'game.streakVal': '🔥 ۷',
+      'game.streak': 'روز پیاپی',
+      'game.xpTotalVal': '⚡ ۱٬۲۴۰',
+      'game.xpTotal': 'کل XP',
+      'game.trophyVal': '🏆 ۱۲',
+      'game.trophies': 'دستاورد',
+      'game.weekTitle': 'این هفته',
+      'game.ach1': 'اولین مکالمه',
+      'game.ach2': '۷ روز پیاپی',
+      'game.ach3': '۱۰ ماموریت',
 
-      'mock.greeting': 'هر روز، کمی بهتر',
-      'mock.greetingSub': 'بیا با هم تمرین کنیم.',
-      'mock.dailyGoal': 'هدف روزانه',
-      "mock.dailyGoalMeta": "۳۰ امتیاز از ۵۰ امتیاز",
-      'mock.todaysMission': 'ماموریت امروز',
-      'mock.todaysMissionMeta': 'سفارش غذا در رستوران',
-      'mock.newVocab': 'واژگان جدید',
-      "mock.newVocabMeta": "۱۲ واژه یاد گرفته‌ای",
+      'bento.eyebrow': 'جزئیاتی که تجربه را می‌سازند',
+      'bento.title': 'یک اپ، همه ابزارها',
+      'b1.title': 'تمرین شدوینگ',
+      'b1.desc': 'جمله را گوش بده، همراه با آن تکرار کن و ریتم و تلفظ زبان را در ذهنت و گفتارت بنشان.',
+      'b2.title': 'یادآور تمرین',
+      'b2.desc': 'نوتیفیکیشن هوشمند در ساعتی که خودت انتخاب می‌کنی؛ روتین یادگیری‌ات قطع نمی‌شود.',
+      'b3.title': 'طراحی شیشه‌ای',
+      'b3.desc': 'رابط کاربری مدرن با پنل‌های شیشه‌ای، انیمیشن‌های نرم و رنگ آرامش‌بخش سبز.',
+      'b4.title': '۶ زبان مقصد',
+      'b4.desc': 'انگلیسی، اسپانیایی، فرانسوی، آلمانی، ترکی و عربی — در هر زمان قابل تغییر.',
+      'b5.title': 'متن یا صدا',
+      'b5.desc': 'با کیبورد بنویس یا با میکروفون حرف بزن؛ با همان که راحت‌تر شروع کن.',
+      'b6.title': 'داده‌هایت مال خودت',
+      'b6.desc': 'تاریخچه یادگیری روی دستگاهت ذخیره می‌شود؛ فقط برای پاسخ AI به سرویس انتخابی‌ات ارسال می‌شود.',
+      'b7.title': 'ساخته‌شده برای ایران',
+      'b7.desc': 'پرداخت ریالی و امن از کافه بازار و مایکت، تقویم هفته‌ی ایرانی و تجربه فارسی‌اول.',
+      'b8.title': 'زبانت را هر وقت خواستی عوض کن',
+      'b8.desc': 'از صفحه اصلی و با یک لمس، زبان مقصدت را عوض کن و یادگیری زبان جدید را شروع کن.',
 
-      'testi.eyebrow': 'نظرات کاربران',
-      "testi.title": "کاربران درباره آپ‌ورد چه می‌گویند؟",
-      "testi.subtitle": "چند نظر از کاربران در صفحه اولیه آپ‌ورد در کافه بازار. برای دیدن تازه‌ترین نظرها و امتیازها، به صفحه اپ در فروشگاه سر بزن.",
+      'preview.eyebrow': 'پیش‌نمایش اپ',
+      'preview.title': 'نگاهی به داخل آپ‌ورد',
+      'preview.subtitle': 'از صفحه اصلی تا مکالمه و دستاوردها — این نمونه‌های نمایشی، حال‌وهوای واقعی اپ را نشان می‌دهند.',
+      'preview.note': 'همه‌ی صفحات بالا نمونه‌های نمایشی هستند تا حس واقعی اپ را بگیری.',
+
+      'home.greeting': 'سلام، سارا 👋',
+      'home.sub': 'امروز چ تمرین می‌کنیم؟',
+      'home.streakVal': '🔥 ۷',
+      'home.goalTitle': 'هدف امروز',
+      'home.goalPct': '۶۰٪',
+      'home.goalSub': '۳۰ از ۵۰ XP',
+      'home.mission': 'ماموریت امروز',
+      'home.missionSub': 'سفارش دادن در کافه',
+      'home.vocab': 'واژگان جدید',
+      'home.vocabSub': '۱۲ واژه یاد گرفتی',
+
+      'ach.title': 'دستاوردها',
+      'ach.subtitle': 'دستاورد جدید!',
+      'ach.name': '۷ روز پیاپی',
+      'ach.desc': 'یک هفته کامل تمرین کردی!',
+      'ach.xpVal': '+۱۰۰ XP',
+      'ach.a1': 'اولین مکالمه',
+      'ach.a2': '۷ روز پیاپی',
+      'ach.a3': '۱۰ ماموریت',
+
+      'vocab.title': 'واژگان',
+      'vocab.progress': '۱۲ واژه از ۲۰ واژه',
+      'vocab.meaning': 'اتفاق خوشایند و غیرمنتظره',
+      'vocab.listen': 'گوش بده',
+      'vocab.know': 'بلدم!',
+
+      'premium.eyebrow': 'رایگان شروع کن، هر وقت خواستی ارتقا بده',
+      'premium.title': 'ساده شروع کن. وقتی رضایت داشتی، کامل کن.',
+      'premium.subtitle': 'بدون کارت بانکی و بدون فشار — موضوع اول برای همیشه رایگان است.',
+      'premium.badge': 'انتخاب بیشتر کاربران',
+      'premium.free.title': 'رایگان',
+      'premium.free.price': '۰ تومان · همیشه',
+      'premium.free.f1': 'موضوع اول سطح A1: «سلام و معرفی» با ۳ درس',
+      'premium.free.f2': 'مکالمه‌های اولیه با هوش مصنوعی',
+      'premium.free.f3': 'واژگان و مرور پایه',
+      'premium.free.f4': 'گیمیفیکیشن کامل: XP، سطح، دستاوردها',
+      'premium.free.cta': 'دانلود و شروع رایگان',
+      'premium.pro.title': 'پرمیوم',
+      'premium.pro.price': 'همه مسیر، بدون قفل',
+      'premium.pro.f1': 'همه موضوع‌های A1 و سطوح بالاتر',
+      'premium.pro.f2': 'مکالمه نامحدود با هوش مصنوعی',
+      'premium.pro.f3': 'تمرین شدوینگ کامل',
+      'premium.pro.f4': 'یادآور و آمار پیشرفته',
+      'premium.pro.f5': 'پشتیبانی زنجیره‌ی پیشرفت',
+      'premium.tier1': 'ماهانه',
+      'premium.tier2': 'شش‌ماهه',
+      'premium.tier3': 'سالانه · بهترین انتخاب',
+      'premium.tier4': 'مادام‌العمر',
+      'premium.note': 'قیمت‌ها در صفحه پرداخت داخل اپ و بر اساس پنل فروشگاه (کافه بازار / مایکت) نمایش داده می‌شوند. پرداخت امن و ریالی از طریق همان فروشگاه انجام می‌شود.',
+
+      'testi.eyebrow': 'تجربه کاربران',
+      'testi.title': 'کاربران درباره آپ‌ورد چه می‌گویند؟',
+      'testi.subtitle': 'چند نظر واقعی از کاربران آپ‌ورد در کافه بازار. برای تازه‌ترین امتیازها به صفحه اپ سر بزن.',
       'testi.r1.translation': '«بی‌نظیر و کامل. همه‌چیز را پوشش می‌دهد. بهترین قسمتش پیدا کردن تلفظ و استفاده روتین کلمه در دیالوگ فیلم‌هاست. عاااالیه.»',
       'testi.r1.role': 'کاربر کافه بازار',
-      'testi.r2.translation': '«خیلی باحاله — یک پکیج کامل از ابزارهای مختلف که در همه زمینه‌ها کمک می‌کند.»',
+      'testi.r2.translation': '«خیلی باحاله؛ یک پکیج کامل از ابزارهای مختلف که در همه زمینه‌ها کمک می‌کند.»',
       'testi.r2.role': 'کاربر کافه بازار',
       'testi.r3.translation': '«برنامه خیلی خوب و کاربردی است و امکانات جالبی دارد.»',
       'testi.r3.role': 'کاربر کافه بازار',
-      "testi.summary": "دوست داری تجربه بقیه را هم بخوانی؟ نظرهای تازه و اطلاعات اپ را در کافه بازار ببین و تصمیم بگیر که آپ‌ورد برای تمرین تو مناسب است یا نه.",
+      'testi.summary': 'دوست داری تجربه بقیه را هم بخوانی؟ تازه‌ترین نظرها و امتیازها را در صفحه آپ‌ورد در کافه بازار ببین.',
       'testi.viewAll': 'مشاهده در کافه بازار',
 
-      "faq.eyebrow": "پرسش‌های رایج",
-      "faq.title": "پیش از شروع، بیشتر بدان",
-      "faq.q1": "برای شروع چه چیزهایی لازم دارم؟",
-      "faq.a1": "یک دستگاه با اندروید ۸ یا بالاتر، اینترنت و اطلاعات دسترسی به یک سرویس هوش مصنوعی سازگار لازم داری. قیمت فعلی اپ را در کافه بازار ببین. هزینه و سقف استفاده از هوش مصنوعی را سرویس انتخابی‌ات مشخص می‌کند؛ با دانلود اپ، اعتبار استفاده از هوش مصنوعی دریافت نمی‌کنی.",
-      'faq.q2': 'آیا برای استفاده به اینترنت نیاز دارم؟',
-      "faq.a2": "برای مکالمه با هوش مصنوعی و دریافت بازخورد به اینترنت نیاز داری. محتوای ذخیره‌شده روی دستگاه می‌ماند، اما پخش صدا، تشخیص گفتار و بعضی قابلیت‌های دیگر ممکن است همچنان به اینترنت نیاز داشته باشند.",
-      'faq.q3': 'چه زبان‌هایی پشتیبانی می‌شوند؟',
-      "faq.a3": "می‌توانی انگلیسی، ترکی، عربی، آلمانی، فرانسوی یا اسپانیایی را به‌عنوان زبان یادگیری انتخاب کنی. امکانات مکالمه، صدا و محتوای در دسترس ممکن است بسته به زبان، دستگاه و سرویس هوش مصنوعی متفاوت باشد.",
-      "faq.q4": "اطلاعات مکالمه‌هایم کجا ذخیره یا ارسال می‌شود؟",
-      "faq.a4": "تاریخچه یادگیری روی دستگاهت ذخیره می‌شود. برای دریافت پاسخ و بازخورد، متن مکالمه به سرویس هوش مصنوعی انتخابی‌ات ارسال می‌شود. هنگام استفاده از امکانات صوتی هم ممکن است صدایت به سرویس پردازش گفتار فرستاده شود. نحوه استفاده از این اطلاعات و مدت نگهداری آن‌ها به سیاست‌های هر سرویس بستگی دارد.",
-      "faq.q5": "برای استفاده باید در چه سطحی باشم؟",
-      "faq.a5": "می‌توانی سطح مبتدی، متوسط یا پیشرفته را انتخاب کنی. این انتخاب فقط سطح تمرین‌ها را مشخص می‌کند؛ آپ‌ورد آزمون تعیین سطح خودکار برگزار نمی‌کند و مدرک زبان نمی‌دهد. بازخورد هوش مصنوعی هم ممکن است اشتباه باشد.",
+      'faq.eyebrow': 'پرسش‌های رایج',
+      'faq.title': 'هر چیزی که ممکن است بپرسی',
+      'faq.q1': 'چطور شروع کنم؟',
+      'faq.a1': 'از کافه بازار یا مایکت دانلود کن، در اولین ورود زبان مقصد و سطحت را انتخاب کن و موضوع رایگان «سلام و معرفی» را با سه درس شروع کن — بدون نیاز به پرداخت.',
+      'faq.q2': 'پرمیوم چیست و چطور آن را بخرم؟',
+      'faq.a2': 'پرمیوم همه موضوع‌ها، مکالمه نامحدود و امکانات کامل را باز می‌کند. خرید از داخل اپ و به‌صورت امن از طریق کافه بازار یا مایکت انجام می‌شود؛ قیمت‌ها در پنل فروشگاه داخل اپ نمایش داده می‌شوند و پرداخت ریالی است.',
+      'faq.q3': 'چه زبان‌هایی می‌توانم یاد بگیرم؟',
+      'faq.a3': 'انگلیسی، اسپانیایی، فرانسوی، آلمانی، ترکی و عربی. زبان مقصد را در اولین ورود انتخاب می‌کنی و هر وقت خواستی از تنظیمات یا صفحه اصلی تغییرش می‌دهی.',
+      'faq.q4': 'مکالمه با هوش مصنوعی چطور کار می‌کند؟',
+      'faq.a4': 'برای مکالمه و دریافت بازخورد به اینترنت نیاز داری و باید سرویس هوش مصنوعی سازگار را در تنظیمات اپ متصل کنی. هزینه و محدودیت استفاده به سرویس انتخابی‌ات بستگی دارد؛ همراه دانلود اپ اعتبار رایگان تعلق نمی‌گیرد.',
+      'faq.q5': 'اطلاعات من کجا ذخیره می‌شود؟',
+      'faq.a5': 'تاریخچه یادگیری و پیشرفتت روی دستگاه خودت ذخیره می‌شود. برای دریافت پاسخ و بازخورد، متن مکالمه به سرویس هوش مصنوعی انتخابی‌ات ارسال می‌شود؛ نحوه استفاده و نگهداری داده‌ها به سیاست‌های همان سرویس بستگی دارد.',
+      'faq.q6': 'در چه سطحی باید باشم؟',
+      'faq.a6': 'سطح خودت را انتخاب می‌کنی (مثلاً A1 برای مبتدی). این انتخاب فقط سطح تمرین‌ها را مشخص می‌کند؛ آپ‌ورد آزمون تعیین سطح خودکار برگزار نمی‌کند و مدرک زبان نمی‌دهد. بازخورد هوش مصنوعی هم ممکن است گاهی اشتباه باشد.',
+      'faq.q7': 'یادآور تمرین چطور کار می‌کند؟',
+      'faq.a7': 'در تنظیمات، ساعت دلخواه یادآور را انتخاب می‌کنی و آپ‌ورد همان‌وقت با نوتیفیکیشنی دوستانه یادت می‌اندازد. روی اندروید ۱۳ به بالا باید اجازه نوتیفیکیشن را به اپ بدهی تا یادآور کار کند.',
 
-      "cta.title": "اولین جمله را بگو.\nراه می‌افتی.",
-      "cta.subtitle": "جایی برای تمرین، اشتباه کردن و یاد گرفتن؛ تا هر بار راحت‌تر حرف بزنی.",
-      'cta.button': 'دانلود از کافه بازار',
-      "cta.note": "اندروید ۸ به بالا · به اینترنت و اطلاعات دسترسی به یک سرویس هوش مصنوعی سازگار نیاز داری. استفاده از سرویس ممکن است هزینه جداگانه داشته باشد.",
+      'cta.title': 'اولین جمله‌ات را<br />همین امروز بگو.',
+      'cta.subtitle': 'دانلود کن، موضوع رایگان را شروع کن و ببین یادگیری زبان چقدر می‌تواند لذت‌بخش باشد. لاک‌پشت آپ‌ورد کنارته — قدم‌به‌قدم و با حوصله.',
+      'cta.bazaar': 'دانلود از کافه بازار',
+      'cta.myket': 'دانلود از مایکت',
+      'cta.note': 'اندروید ۸ به بالا · موضوع اول رایگان · پرداخت پرمیوم از داخل اپ',
 
-      "footer.desc": "همراه هوشمند تو برای یادگیری زبان با تمرین مکالمه.",
+      'footer.desc': 'همراه هوشمند فارسی‌زبان‌ها برای یادگیری زبان با مکالمه، درس و تمرین.',
       'footer.product': 'محصول',
       'footer.download': 'دانلود',
-      "footer.about": "درباره ما",
-      'footer.android': 'اندروید',
-      "footer.aboutApp": "درباره آپ‌ورد",
-      "footer.copyright": "© ۲۰۲۶ آپ‌ورد — تمامی حقوق محفوظ است.",
+      'footer.about': 'درباره',
+      'footer.android': 'اندروید ۸+',
+      'footer.copyright': '© ۲۰۲۶ آپ‌ورد — تمامی حقوق محفوظ است.',
+    },
+
+    en: {
+      'nav.skip': 'Skip to content',
+      'nav.features': 'Features',
+      'nav.journey': 'Learning path',
+      'nav.preview': 'App preview',
+      'nav.premium': 'Premium',
+      'nav.reviews': 'Reviews',
+      'nav.faq': 'FAQ',
+      'nav.download': 'Download',
+
+      'hero.pill': 'v2.85 · fresh glass design',
+      'hero.title': 'From “hello” to<br /><span class="text-gradient">real conversations</span>',
+      'hero.subtitle': 'UpWord is built for Persian speakers: short topic-based lessons, AI conversation practice, shadowing drills, and smart review — all in one beautifully glass-designed app.',
+      'hero.ctaBazaar': 'Download from Cafe Bazaar',
+      'hero.ctaMyket': 'Download from Myket',
+      'hero.free': 'Free to start · first A1 topic with three lessons',
+      'hero.chip1': '6 target languages',
+      'hero.chip2': '3 lessons per topic',
+      'hero.chip3': 'Android 8 and up',
+      'hero.alt': 'Illustration: an UpWord learner greeting, with the UpWord turtle mascot',
+      'hero.notifTitle': 'Practice reminder',
+      'hero.notifBody': 'Time for today’s practice! 10 minutes is enough 🐢',
+      'hero.notifNow': 'Start now',
+      'hero.notifLater': 'Later',
+      'hero.streakCard': '7-day streak',
+      'hero.streakSub': 'Your practice chain is alive!',
+      'hero.xpCard': '+80 XP',
+      'hero.xpSub': 'Level 5 · great progress',
+      'hero.caption': 'An illustrative glimpse of the UpWord experience',
+
+      'mock.time': '9:41',
+      'mock.notifTime': '8:00 PM',
+      'mock.xpNum': '1,240',
+      'mock.gemNum': '120',
+
+      'languages.label': 'Pick your target language:',
+      'languages.en': 'English',
+      'languages.es': 'Spanish',
+      'languages.fr': 'French',
+      'languages.de': 'German',
+      'languages.tr': 'Turkish',
+      'languages.ar': 'Arabic',
+      'languages.note': 'Chosen on first launch — and changeable anytime from settings or the home screen.',
+
+      'journey.eyebrow': 'Your learning path',
+      'journey.title': 'Four steps to your first conversation',
+      'journey.subtitle': 'From first launch to fluent chats, UpWord walks with you step by step.',
+      'journey.s1.title': 'Pick your language & level',
+      'journey.s1.desc': 'On first launch you choose your target language and level — A1 beginner is the best starting point. Change it anytime in settings.',
+      'journey.s2.title': 'Move through lessons step by step',
+      'journey.s2.desc': 'Every topic — like “Hello & Introduction” — has three short lessons: words, useful phrases, and practice. Each lesson shows its progress in a circular ring.',
+      'journey.s3.title': 'Practice conversation with AI',
+      'journey.s3.desc': 'Put what you learned into real conversations — get replies, see your mistakes corrected, and learn better ways to say it.',
+      'journey.s4.title': 'See your progress, keep going',
+      'journey.s4.desc': 'XP, levels, gems, and achievements visualize your progress — and practice reminders keep your routine alive.',
+
+      'features.eyebrow': 'Every feature, piece by piece',
+      'features.title': 'Everything you need to learn, exactly where it belongs',
+      'features.subtitle': 'UpWord isn’t just a chat app or a vocab app — it’s every learning tool, together and in sync.',
+
+      'f1.eyebrow': 'Structured courses',
+      'f1.title': 'Topic by topic, lesson by lesson',
+      'f1.desc': 'Learning starts at A1 with practical everyday topics: “Hello & Introduction”, family, shopping and more. Each topic has three short lessons with progress rings — and the first topic is free for everyone, so you can start risk-free.',
+      'f1.b1': 'Short 5–10 minute lessons',
+      'f1.b2': 'Circular progress ring for every lesson',
+      'f1.b3': 'First A1 topic completely free',
+      'f1.b4': 'Words with pronunciation and examples',
+
+      'courses.screenTitle': 'Lessons',
+      'courses.topic': 'Hello & Introduction',
+      'courses.free': 'Free',
+      'courses.l1': 'Lesson 1 · Saying hello',
+      'courses.done': 'Completed ✓',
+      'courses.l2': 'Lesson 2 · Introducing yourself',
+      'courses.current': 'In progress · 60%',
+      'courses.l3': 'Lesson 3 · Asking questions',
+      'courses.locked': 'Locked · finish the previous lesson',
+      'courses.nextTopic': 'Family & Friends',
+      'courses.premiumBadge': 'Premium',
+
+      'f2.eyebrow': 'AI conversation',
+      'f2.title': 'A partner who always has time',
+      'f2.desc': 'Talk about real situations: ordering coffee, introducing yourself, sharing your day. Your sentences get feedback, you learn more natural phrasing, and your speaking confidence grows — by text or voice.',
+      'f2.b1': 'Feedback and corrections on every sentence',
+      'f2.b2': 'Real everyday situations',
+      'f2.b3': 'Text and voice input',
+      'f2.b4': 'No embarrassment — better every time',
+
+      'chat.partner': 'Practice partner',
+      'chat.online': 'Online',
+      'chat.fbTitle': 'A quick note',
+      'chat.fbBody': '“goed” isn’t right — the past of “go” is “went”: I went to the cafe.',
+      'chat.placeholder': 'Type or speak…',
+
+      'f3.eyebrow': 'Gamification',
+      'f3.title': 'Motivation, refreshed every day',
+      'f3.desc': 'A daily goal, XP and levels, gems, achievements, and streaks — together they turn practice into a habit you actually want to keep. The week calendar follows the Iranian week (Saturday to Friday) with checkmarks on your practice days.',
+      'f3.b1': 'Daily goal and streak chain',
+      'f3.b2': 'XP, levels, and gems',
+      'f3.b3': 'Achievements and learning medals',
+      'f3.b4': 'Smart practice reminders',
+
+      'game.name': 'Sara',
+      'game.level': 'Level 5 · Learner',
+      'game.gemsVal': '💎 120',
+      'game.xpLabel': 'Experience points (XP)',
+      'game.xpVal': '720 / 1000',
+      'game.streakVal': '🔥 7',
+      'game.streak': 'day streak',
+      'game.xpTotalVal': '⚡ 1,240',
+      'game.xpTotal': 'Total XP',
+      'game.trophyVal': '🏆 12',
+      'game.trophies': 'Achievements',
+      'game.weekTitle': 'This week',
+      'game.ach1': 'First conversation',
+      'game.ach2': '7-day streak',
+      'game.ach3': '10 missions',
+
+      'bento.eyebrow': 'The details that make the experience',
+      'bento.title': 'One app, every tool',
+      'b1.title': 'Shadowing practice',
+      'b1.desc': 'Listen to a phrase, repeat along with it, and internalize the rhythm and pronunciation of the language.',
+      'b2.title': 'Practice reminders',
+      'b2.desc': 'A friendly notification at the hour you choose — your learning routine never breaks.',
+      'b3.title': 'Glass design',
+      'b3.desc': 'A modern UI with frosted-glass panels, smooth animations, and a calming green palette.',
+      'b4.title': '6 target languages',
+      'b4.desc': 'English, Spanish, French, German, Turkish, and Arabic — switchable anytime.',
+      'b5.title': 'Text or voice',
+      'b5.desc': 'Type with the keyboard or speak into the mic — start with whatever feels easier.',
+      'b6.title': 'Your data stays yours',
+      'b6.desc': 'Your learning history is stored on your device; it’s only sent to your chosen AI service to generate replies.',
+      'b7.title': 'Built for Iran',
+      'b7.desc': 'Rial payments via Cafe Bazaar and Myket, the Iranian week calendar, and a Persian-first experience.',
+      'b8.title': 'Switch languages anytime',
+      'b8.desc': 'From the home screen, switch your target language with one tap and start a new one.',
+
+      'preview.eyebrow': 'App preview',
+      'preview.title': 'A look inside UpWord',
+      'preview.subtitle': 'From the home screen to conversations and achievements — these illustrative previews show the real feel of the app.',
+      'preview.note': 'The screens above are illustrative examples, so you can feel the real app.',
+
+      'home.greeting': 'Hi, Sara 👋',
+      'home.sub': 'What shall we practice today?',
+      'home.streakVal': '🔥 7',
+      'home.goalTitle': 'Today’s goal',
+      'home.goalPct': '60%',
+      'home.goalSub': '30 of 50 XP',
+      'home.mission': 'Today’s mission',
+      'home.missionSub': 'Ordering at a café',
+      'home.vocab': 'New vocabulary',
+      'home.vocabSub': '12 words learned',
+
+      'ach.title': 'Achievements',
+      'ach.subtitle': 'New achievement!',
+      'ach.name': '7-Day Streak',
+      'ach.desc': 'A full week of practice!',
+      'ach.xpVal': '+100 XP',
+      'ach.a1': 'First conversation',
+      'ach.a2': '7-day streak',
+      'ach.a3': '10 missions',
+
+      'vocab.title': 'Vocabulary',
+      'vocab.progress': '12 of 20 words',
+      'vocab.meaning': 'A happy, unexpected coincidence',
+      'vocab.listen': 'Listen',
+      'vocab.know': 'I know it!',
+
+      'premium.eyebrow': 'Start free, upgrade anytime',
+      'premium.title': 'Start simple. Go all-in when you love it.',
+      'premium.subtitle': 'No credit card, no pressure — the first topic stays free forever.',
+      'premium.badge': 'Most popular choice',
+      'premium.free.title': 'Free',
+      'premium.free.price': '0 Toman · forever',
+      'premium.free.f1': 'First A1 topic: “Hello & Introduction” with 3 lessons',
+      'premium.free.f2': 'Initial AI conversations',
+      'premium.free.f3': 'Vocabulary and basic review',
+      'premium.free.f4': 'Full gamification: XP, levels, achievements',
+      'premium.free.cta': 'Download & start free',
+      'premium.pro.title': 'Premium',
+      'premium.pro.price': 'The whole path, unlocked',
+      'premium.pro.f1': 'All A1 topics and higher levels',
+      'premium.pro.f2': 'Unlimited AI conversations',
+      'premium.pro.f3': 'Full shadowing practice',
+      'premium.pro.f4': 'Advanced reminders and stats',
+      'premium.pro.f5': 'Streak protection & progress support',
+      'premium.tier1': 'Monthly',
+      'premium.tier2': '6 months',
+      'premium.tier3': 'Yearly · best choice',
+      'premium.tier4': 'Lifetime',
+      'premium.note': 'Prices are shown in the in-app payment screen based on the store panel (Cafe Bazaar / Myket). Payment is secure, in Rial, through the same store.',
+
+      'testi.eyebrow': 'Learner stories',
+      'testi.title': 'What UpWord users say',
+      'testi.subtitle': 'A few real reviews from UpWord users on Cafe Bazaar. Visit the store page for the latest ratings.',
+      'testi.r1.translation': '“Incredible and complete. Covers everything. The best part is finding pronunciation and everyday word usage in movie dialogues. Aweeesome.”',
+      'testi.r1.role': 'Cafe Bazaar user',
+      'testi.r2.translation': '“Really cool — a complete package of different tools that helps in every area.”',
+      'testi.r2.role': 'Cafe Bazaar user',
+      'testi.r3.translation': '“A very good and practical app with interesting features.”',
+      'testi.r3.role': 'Cafe Bazaar user',
+      'testi.summary': 'Curious what other learners think? Read the latest reviews and ratings on UpWord’s Cafe Bazaar page.',
+      'testi.viewAll': 'View on Cafe Bazaar',
+
+      'faq.eyebrow': 'FAQ',
+      'faq.title': 'Everything you might ask',
+      'faq.q1': 'How do I get started?',
+      'faq.a1': 'Download from Cafe Bazaar or Myket, pick your target language and level on first launch, and start the free “Hello & Introduction” topic with three lessons — no payment needed.',
+      'faq.q2': 'What is Premium and how do I buy it?',
+      'faq.a2': 'Premium unlocks every topic, unlimited conversation, and the full feature set. Purchase happens inside the app, securely through Cafe Bazaar or Myket; prices are shown in the store panel inside the app and payment is in Rial.',
+      'faq.q3': 'Which languages can I learn?',
+      'faq.a3': 'English, Spanish, French, German, Turkish, and Arabic. You choose your target language on first launch and can change it anytime from settings or the home screen.',
+      'faq.q4': 'How does the AI conversation work?',
+      'faq.a4': 'Conversations and feedback need internet, and you connect a compatible AI service in the app’s settings. Usage costs and limits depend on your chosen provider; downloading the app does not include free AI credit.',
+      'faq.q5': 'Where is my data stored?',
+      'faq.a5': 'Your learning history and progress stay on your device. To generate replies and feedback, conversation text is sent to your chosen AI service; how that data is handled follows the provider’s own policies.',
+      'faq.q6': 'What level should I be?',
+      'faq.a6': 'You choose your own level (for example A1 for beginners). It only sets the difficulty of practice — UpWord doesn’t run an automatic placement test and doesn’t issue certificates. AI feedback can also be wrong sometimes.',
+      'faq.q7': 'How do practice reminders work?',
+      'faq.a7': 'In settings you pick your preferred reminder time, and UpWord sends a friendly notification at that hour. On Android 13 and above, you need to grant the notification permission for reminders to work.',
+
+      'cta.title': 'Say your first sentence<br />today.',
+      'cta.subtitle': 'Download, start the free topic, and see how enjoyable language learning can be. The UpWord turtle is with you — step by step, at your own pace.',
+      'cta.bazaar': 'Download from Cafe Bazaar',
+      'cta.myket': 'Download from Myket',
+      'cta.note': 'Android 8+ · first topic free · premium purchase inside the app',
+
+      'footer.desc': 'The smart companion for Persian speakers learning languages through conversation, lessons, and practice.',
+      'footer.product': 'Product',
+      'footer.download': 'Download',
+      'footer.about': 'About',
+      'footer.android': 'Android 8+',
+      'footer.copyright': '© 2026 UpWord — All rights reserved.',
     }
   };
-
-  /* ===== Persian numeral conversion ===== */
-  function toPersianDigits(num) {
-    const persian = ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'];
-    return String(num).replace(/\d/g, (d) => persian[d]);
-  }
-  function toEnglishDigits(num) {
-    return String(num).replace(/[۰-۹]/g, (d) => '۰۱۲۳۴۵۶۷۸۹'.indexOf(d));
-  }
 
   /* ===== Language management ===== */
   const STORAGE_KEY = 'upword-lang';
   const SUPPORTED = ['en', 'fa'];
+  const DEFAULT_LANG = 'fa';
 
   function getStoredLang() {
     try {
       const stored = localStorage.getItem(STORAGE_KEY);
       if (stored && SUPPORTED.includes(stored)) return stored;
     } catch (e) {}
-    return 'en'; // default to English
+    return DEFAULT_LANG;
   }
 
   function setStoredLang(lang) {
@@ -363,14 +497,14 @@
   }
 
   function applyLang(lang) {
-    if (!SUPPORTED.includes(lang)) lang = 'en';
+    if (!SUPPORTED.includes(lang)) lang = DEFAULT_LANG;
     const dict = I18N[lang];
     const html = document.documentElement;
 
     html.lang = lang;
     html.dir = lang === 'fa' ? 'rtl' : 'ltr';
 
-    // Apply translations
+    // Plain-text translations
     document.querySelectorAll('[data-i18n]').forEach((el) => {
       const key = el.getAttribute('data-i18n');
       if (dict[key] !== undefined) {
@@ -378,7 +512,7 @@
       }
     });
 
-    // HTML-content translations (allow inline markup like <span>)
+    // HTML-content translations (inline markup like <span>)
     document.querySelectorAll('[data-i18n-html]').forEach((el) => {
       const key = el.getAttribute('data-i18n-html');
       if (dict[key] !== undefined) {
@@ -386,28 +520,20 @@
       }
     });
 
-    // Update lang switcher UI
+    // Alt-text translations
+    document.querySelectorAll('[data-i18n-alt]').forEach((el) => {
+      const key = el.getAttribute('data-i18n-alt');
+      if (dict[key] !== undefined) {
+        el.setAttribute('alt', dict[key]);
+      }
+    });
+
+    // Language switcher UI
     const langCurrent = document.getElementById('langCurrent');
-    if (langCurrent) langCurrent.textContent = lang.toUpperCase();
+    if (langCurrent) langCurrent.textContent = lang === 'fa' ? 'فا' : 'EN';
 
     document.querySelectorAll('.lang-option').forEach((opt) => {
       opt.classList.toggle('active', opt.getAttribute('data-lang') === lang);
-    });
-
-    // Re-render counters for the new digit system
-    recountStats(lang);
-  }
-
-  function recountStats(lang) {
-    // Reset and re-animate counters with the appropriate digit system
-    document.querySelectorAll('[data-count]').forEach((el) => {
-      const target = parseFloat(el.getAttribute('data-count'));
-      const suffix = el.getAttribute('data-suffix') || '';
-      if (lang === 'fa') {
-        el.textContent = toPersianDigits(target) + suffix;
-      } else {
-        el.textContent = target + suffix;
-      }
     });
   }
 
@@ -417,7 +543,6 @@
     const langDropdown = document.getElementById('langDropdown');
     if (!langBtn || !langDropdown) return;
 
-    // ARIA + keyboard accessibility
     langBtn.setAttribute('aria-haspopup', 'true');
     langBtn.setAttribute('aria-expanded', 'false');
 
@@ -434,25 +559,20 @@
       else openDropdown();
     }
 
-    // Click on the button — toggle the dropdown
     langBtn.addEventListener('click', (e) => {
       e.stopPropagation();
       toggleDropdown();
     });
-
-    // Touchstart — make sure mobile devices get the event reliably
     langBtn.addEventListener('touchstart', (e) => {
       e.stopPropagation();
     }, { passive: true });
 
-    // Click outside — close dropdown
     document.addEventListener('click', (e) => {
       if (!langDropdown.contains(e.target) && !langBtn.contains(e.target)) {
         closeDropdown();
       }
     });
 
-    // Escape key — close dropdown and return focus to the button
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && langDropdown.classList.contains('open')) {
         closeDropdown();
@@ -460,7 +580,6 @@
       }
     });
 
-    // Wire up each language option
     document.querySelectorAll('.lang-option').forEach((opt) => {
       const handler = (e) => {
         e.preventDefault();
@@ -473,7 +592,6 @@
         langBtn.focus();
       };
       opt.addEventListener('click', handler);
-      // Keyboard support: Enter / Space already fire 'click' on <button>, but be defensive
       opt.addEventListener('keydown', (e) => {
         if (e.key === 'Enter' || e.key === ' ') handler(e);
       });
@@ -483,6 +601,7 @@
   /* ===== Scroll progress bar ===== */
   const progressBar = document.getElementById('scrollProgress');
   function updateScrollProgress() {
+    if (!progressBar) return;
     const scrollTop = window.scrollY;
     const docHeight = document.documentElement.scrollHeight - window.innerHeight;
     const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
@@ -492,11 +611,9 @@
   /* ===== Navbar scrolled state ===== */
   const navbar = document.getElementById('navbar');
   function updateNavbar() {
-    if (window.scrollY > 20) {
-      navbar.classList.add('scrolled');
-    } else {
-      navbar.classList.remove('scrolled');
-    }
+    if (!navbar) return;
+    if (window.scrollY > 20) navbar.classList.add('scrolled');
+    else navbar.classList.remove('scrolled');
   }
 
   let scrollFrame = 0;
@@ -514,40 +631,40 @@
   /* ===== Mobile nav toggle ===== */
   const navToggle = document.getElementById('navToggle');
   const navLinks = document.getElementById('navLinks');
-  navToggle.addEventListener('click', () => {
-    navToggle.classList.toggle('active');
-    navLinks.classList.toggle('open');
-    navToggle.setAttribute('aria-expanded', String(navLinks.classList.contains('open')));
-  });
-  navLinks.querySelectorAll('a').forEach((link) => {
-    link.addEventListener('click', () => {
-      navToggle.classList.remove('active');
-      navLinks.classList.remove('open');
-      navToggle.setAttribute('aria-expanded', 'false');
+  if (navToggle && navLinks) {
+    navToggle.addEventListener('click', () => {
+      navToggle.classList.toggle('active');
+      navLinks.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', String(navLinks.classList.contains('open')));
     });
-  });
-
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape' && navLinks.classList.contains('open')) {
-      navLinks.classList.remove('open');
-      navToggle.classList.remove('active');
-      navToggle.setAttribute('aria-expanded', 'false');
-      navToggle.focus();
-    }
-  });
+    navLinks.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        navToggle.classList.remove('active');
+        navLinks.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && navLinks.classList.contains('open')) {
+        navLinks.classList.remove('open');
+        navToggle.classList.remove('active');
+        navToggle.setAttribute('aria-expanded', 'false');
+        navToggle.focus();
+      }
+    });
+  }
 
   /* ===== Reveal on scroll ===== */
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const activeReveals = new Map();
   const motionTokens = getComputedStyle(document.documentElement);
-  const revealDuration = parseFloat(motionTokens.getPropertyValue('--motion-reveal'));
-  const revealStagger = parseFloat(motionTokens.getPropertyValue('--motion-stagger'));
-  const revealDistance = motionTokens.getPropertyValue('--motion-distance').trim();
-  const revealEasing = motionTokens.getPropertyValue('--ease-out').trim();
+  const revealDuration = parseFloat(motionTokens.getPropertyValue('--t-reveal')) || 650;
+  const revealEasing = 'cubic-bezier(0.16, 1, 0.3, 1)';
+  const revealDistance = '26px';
 
   if ('IntersectionObserver' in window && 'animate' in Element.prototype) {
     const revealEls = document.querySelectorAll(
-      '.hero-content > *, .hero-visual, .feature-card, .step, .testimonial, .screen-mockup, .mascot-content, .mascot-visual, .section-head, .stats-row > *, .cta-card'
+      '.hero-content > *, .hero-visual, .lang-strip .container > *, .section-head, .journey-step, .feature-row > *, .bcard, .preview-phone, .preview-note, .plan, .review, .faq-item, .cta-card, .footer-grid > *'
     );
     const io = new IntersectionObserver((entries) => {
       entries.filter((entry) => entry.isIntersecting).forEach((entry, index) => {
@@ -558,7 +675,7 @@
           { opacity: 1, transform: 'translateY(0)' },
         ], {
           duration: revealDuration,
-          delay: (index % 3) * revealStagger,
+          delay: (index % 3) * 75,
           easing: revealEasing,
           fill: 'backwards',
         });
@@ -574,9 +691,11 @@
       if (el.contains(event.target)) animation.cancel();
     });
   });
-  reducedMotion.addEventListener('change', () => {
-    if (reducedMotion.matches) activeReveals.forEach((animation) => animation.cancel());
-  });
+  if (reducedMotion.addEventListener) {
+    reducedMotion.addEventListener('change', () => {
+      if (reducedMotion.matches) activeReveals.forEach((animation) => animation.cancel());
+    });
+  }
 
   /* ===== Lottie animations ===== */
   const turtleStates = new Map();
@@ -597,12 +716,15 @@
   const turtleObserver = 'IntersectionObserver' in window ? new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       const state = turtleStates.get(entry.target);
+      if (!state) return;
       state.visible = entry.isIntersecting;
       syncTurtle(state);
     });
   }, { threshold: 0.15 }) : null;
   document.addEventListener('visibilitychange', () => turtleStates.forEach(syncTurtle));
-  reducedMotion.addEventListener('change', () => turtleStates.forEach(syncTurtle));
+  if (reducedMotion.addEventListener) {
+    reducedMotion.addEventListener('change', () => turtleStates.forEach(syncTurtle));
+  }
 
   function loadLottie(containerId, path) {
     const el = document.getElementById(containerId);
@@ -626,11 +748,8 @@
     animation.addEventListener('complete', () => { state.completed = true; });
   }
 
-  loadLottie('stepTurtle1', 'assets/lottie/turtle-swimming.json');
-  loadLottie('stepTurtle2', 'assets/lottie/turtle-success.json');
-  loadLottie('stepTurtle3', 'assets/lottie/turtle-progress.json');
-  loadLottie('mascotTurtle', 'assets/lottie/turtle-ninja.json');
-  loadLottie('achievementTurtle', 'assets/lottie/turtle-success.json');
+  loadLottie('journeyTurtle', 'assets/lottie/turtle-swimming.json');
+  loadLottie('achTurtle', 'assets/lottie/turtle-success.json');
   loadLottie('ctaTurtle', 'assets/lottie/turtle-meditation.json');
 
   /* ===== Smooth scroll for anchor links (with navbar offset) ===== */
@@ -641,9 +760,12 @@
       const target = document.querySelector(href);
       if (!target) return;
       e.preventDefault();
-      const offset = navbar.offsetHeight;
+      const offset = navbar ? navbar.offsetHeight : 0;
       const top = target.getBoundingClientRect().top + window.scrollY - offset;
-      window.scrollTo({ top, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+      window.scrollTo({
+        top,
+        behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth',
+      });
       if (target.id === 'main') target.focus({ preventScroll: true });
     });
   });
@@ -661,8 +783,7 @@
   });
 
   /* ===== Initial render ===== */
-  const initialLang = getStoredLang();
-  applyLang(initialLang);
+  applyLang(getStoredLang());
   initLangSwitcher();
   updateScrollProgress();
   updateNavbar();
