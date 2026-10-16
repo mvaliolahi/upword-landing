@@ -11,10 +11,20 @@ Official landing page for the **UpWord** language-learning app.
 ```
 upword-landing/
 ├── index.html              # صفحه اصلی لندینگ (فارسی پیش‌فرض + انگلیسی)
+├── blog/
+│   ├── index.html          # صفحه اصلی وبلاگ (لیست مقالات)
+│   ├── posts.json          # فهرست مقالات (هر مقاله جدید یک ردیف)
+│   └── articles/           # مقالات + قالب آماده _template.html
 ├── css/
-│   └── styles.css          # سیستم طراحی شیشه‌ای سبز تیره + فونت‌های self-host
+│   ├── styles.css          # سیستم طراحی شیشه‌ای سبز تیره + فونت‌های self-host
+│   └── blog.css            # استایل صفحات وبلاگ و مقالات
 ├── js/
-│   └── main.js             # دوزبانه، انیمیشن، Lottie (lazy)، تعاملات
+│   ├── main.js             # دوزبانه، انیمیشن، Lottie (lazy)، تعاملات
+│   └── blog.js             # رندر لیست مقالات از posts.json
+├── feed.xml                # فید RSS مقالات
+├── sitemap.xml             # نقشه سایت (لندینگ + وبلاگ + مقالات)
+├── robots.txt              # دسترسی خزنده‌ها + معرفی sitemap
+├── CNAME                   # دامنه اختصاصی upword.ir
 ├── assets/
 │   ├── images/             # آیکون اپ + تصویر هیرو (responsive srcset) + orb های pre-baked
 │   ├── fonts/              # فونت‌های متغیر self-host (Vazirmatn / Inter / Space Grotesk)
@@ -22,6 +32,7 @@ upword-landing/
 │   │   └── vendor/         # lottie-light player (local)
 │   └── lottie/             # انیمیشن‌های لاک‌پشت
 ├── .nojekyll               # غیرفعال‌سازی Jekyll در GitHub Pages
+├── BLOG-GUIDE.md           # راهنمای گام‌به‌گام انتشار مقاله روزانه
 ├── DESIGN.md               # مستندات سیستم طراحی
 └── README.md
 ```
@@ -33,6 +44,14 @@ upword-landing/
 - 🧩 نمایش **جز به جز ارزش اپ**: درس‌های ساختاریافته A1 با حلقه پیشرفت دایره‌ای، مکالمه AI با بازخورد، تمرین شدوینگ، گیمیفیکیشن (XP / سطح / جواهر / دستاورد / زنجیره روزها با تقویم ایرانی)، یادآور تمرین، ۷ زبان و…
 - 📱 موکاپ‌های اپ با HTML/CSS خالص (صفحه اصلی، درس‌ها، چت، دستاوردها، واژگان)
 - 💎 بخش **رایگان vs پرمیوم** با طرح‌های اشتراک (بدون قیمت hardcoded — قیمت‌ها از پنل فروشگاه)
+## سئو و AEO | SEO & Answer Engine Optimization
+
+- **Canonical + og:url + Twitter Card** با آدرس مطلق دامنه (`https://upword.ir`) و تصویر og مطلق (1200×630)
+- **JSON-LD کامل** با `@graph`: WebSite + Organization + SoftwareApplication (با featureList و downloadUrl) + **FAQPage** (۷ پرسش/پاسخ عین متن صفحه — واجب برای نمایش Rich Result)
+- **پشتیبانی از `?lang=en`**: نسخه انگلیسی لندینگ با لینک مستقیم قابل اشتراک‌گذاری است و `og:locale:alternate` هم تنظیم شده
+- **robots.txt + sitemap.xml** — sitemap شامل لندینگ، وبلاگ و تک‌تک مقالات با `lastmod` و `changefreq` روزانه برای وبلاگ
+- **feed.xml (RSS 2.0)** برای اشتراک و کشف سریع محتوای تازه
+- مقالات: **BlogPosting + BreadcrumbList + FAQPage** به‌ازای هر مقاله + باکس «پاسخ کوتاه» ۴۰-۶۰ واژه‌ای در ابتدای مقاله (برای موتورهای پاسخ مثل ChatGPT/Perplexity) + زیرعنوان‌های پرسشی
 - 🛍 دکمه‌های دانلود از **کافه بازار** و **مایکت**
 - 🐢 انیمیشن‌های Lottie لاک‌پشت (شنا، موفقیت، مدیتیشن)
 - ♿️ دسترس‌پذیری: کنتراست AA، فوکوس مرئی، skip-link، reduced-motion، Escape برای منوها

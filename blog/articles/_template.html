@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#04231A">
+<!-- ============ جایگزین‌های قالب (۶ مورد) ============
+     1) <title>  و description  پایین
+     2) canonical و آدرس‌های og/twitter  (اسم فایل خودت را بگذار)
+     3) تاریخ‌ها: article:published_time / datePublished / dateModified  و <time datetime>
+     4) عنوان و توضیح در JSON-LD (headline / description / wordCount / keywords)
+     5) متن مقاله داخل <div class="prose">
+     6) FAQ و مقالات مرتبط (لینک‌ها را به‌روز کن)
+     به‌خاطر بسپار: posts.json + sitemap.xml + feed.xml هم ردیف جدید می‌گیرند (راهنما: BLOG-GUIDE.md)
+=================================================== -->
+<title>{{عنوان مقاله}} | آپ‌ورد</title>
+<meta name="description" content="{{خلاصه مقاله در یک یا دو جمله؛ حداکثر ۱۶۰ کاراکتر}}">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://upword.ir/blog/articles/{{slug}}.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{عنوان مقاله}}">
+<meta property="og:description" content="{{خلاصه مقاله}}">
+<meta property="og:url" content="https://upword.ir/blog/articles/{{slug}}.html">
+<meta property="og:site_name" content="آپ‌ورد (UpWord)">
+<meta property="og:locale" content="fa_IR">
+<meta property="og:image" content="https://upword.ir/assets/images/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:published_time" content="{{2026-10-18T09:00:00+03:30}}">
+<meta property="article:modified_time" content="{{2026-10-18T09:00:00+03:30}}">
+<meta property="article:section" content="{{دسته‌بندی}}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{عنوان مقاله}}">
+<meta name="twitter:description" content="{{خلاصه مقاله}}">
+<meta name="twitter:image" content="https://upword.ir/assets/images/og-cover.png">
+<link rel="icon" type="image/png" href="/assets/images/app-icon.png">
+<link rel="apple-touch-icon" href="/assets/images/app-icon.png">
+<link rel="preload" href="/assets/fonts/vazirmatn-ar.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://upword.ir/blog/articles/{{slug}}.html#article",
+      "headline": "{{عنوان مقاله}}",
+      "description": "{{خلاصه مقاله}}",
+      "inLanguage": "fa-IR",
+      "image": "https://upword.ir/assets/images/og-cover.png",
+      "datePublished": "{{2026-10-18T09:00:00+03:30}}",
+      "dateModified": "{{2026-10-18T09:00:00+03:30}}",
+      "wordCount": {{800}},
+      "keywords": "{{کلمات کلیدی با کاما}}",
+      "articleSection": "{{دسته‌بندی}}",
+      "author": { "@id": "https://upword.ir/#organization" },
+      "publisher": { "@id": "https://upword.ir/#organization" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://upword.ir/blog/articles/{{slug}}.html" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "خانه", "item": "https://upword.ir/" },
+        { "@type": "ListItem", "position": 2, "name": "مقالات", "item": "https://upword.ir/blog/" },
+        { "@type": "ListItem", "position": 3, "name": "{{عنوان کوتاه مسیر}}" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "{{پرسش ۱؟}}",
+          "acceptedAnswer": { "@type": "Answer", "text": "{{پاسخ ۱ (متنِ عیناً همان پاسخ داخل صفحه)}} " }
+        },
+        {
+          "@type": "Question",
+          "name": "{{پرسش ۲؟}}",
+          "acceptedAnswer": { "@type": "Answer", "text": "{{پاسخ ۲}}" }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<link rel="stylesheet" href="/css/styles.css?v=22">
+<link rel="stylesheet" href="/css/blog.css?v=1">
+</head>
+<body>
+<div class="bg-scene" aria-hidden="true">
+<div class="orb orb-a"></div>
+<div class="orb orb-b"></div>
+<div class="orb orb-c"></div>
+<div class="bg-grain"></div>
+</div>
+<header class="navbar" id="navbar">
+<div class="container nav-inner">
+<a href="/" class="brand" aria-label="آپ‌ورد">
+<img src="/assets/images/app-icon.png" alt="" width="40" height="40" class="brand-icon">
+<span class="brand-text">آپ‌ورد</span>
+</a>
+<nav class="nav-links" aria-label="ناوبری وبلاگ">
+<a href="/" class="nav-link">صفحه اصلی</a>
+<a href="/blog/" class="nav-link">مقالات</a>
+</nav>
+<a href="https://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener" class="btn btn-primary btn-sm nav-cta">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+<span>دانلود اپ</span>
+</a>
+</div>
+</header>
+<main id="main" class="blog-page">
+<div class="container">
+<div class="article-wrap">
+<nav class="crumbs" aria-label="مسیر صفحه">
+<a href="/">خانه</a><span class="sep">/</span>
+<a href="/blog/">مقالات</a><span class="sep">/</span>
+<span class="cur">{{عنوان کوتاه}}</span>
+</nav>
+<article class="article-card">
+<div class="article-head">
+<span class="post-chip">{{دسته‌بندی}}</span>
+<h1>{{عنوان مقاله (H1)}</h1>
+<div class="article-meta">
+<span><time datetime="2026-10-18">🗓 {{۲۶ مهر ۱۴۰۵}}</time></span>
+<span>⏱ {{۷}} دقیقه مطالعه</span>
+<span>✍ تیم آپ‌ورد</span>
+</div>
+</div>
+<div class="short-answer">
+<span class="sa-label">⚡ پاسخ کوتاه</span>
+<p>{{پاسخ کوتاه ۴۰ تا ۶۰ واژه‌ای؛ مستقیم و بدون مقدمه — این متن مهم‌ترین بخش مقاله برای موتورهای پاسخ است.}}</p>
+</div>
+<div class="prose">
+<p>{{پاراگراف مقدمه: سه تا پنج جمله که مسئله را از دید خواننده واقعی می‌گوید و وعده مقاله را می‌دهد.}}</p>
+
+<h2>{{ زیرعنوان ۱ (ترجیحاً به شکل پرسش یا عبارت کلیدی) }}</h2>
+<p>{{پاراگراف کامل ۴ تا ۶ جمله.}}</p>
+<p>{{پاراگراف دوم بخش.}}</p>
+
+<h2>{{ زیرعنوان ۲ }}</h2>
+<p>{{محتوا... برای فهرست‌ها از ul / ol، برای مقایسه از table و برای نقل‌قول از blockquote استفاده کن.}}</p>
+<ul>
+<li><strong>{{مورد}}:</strong> {{توضیح.}}</li>
+<li><strong>{{مورد}}:</strong> {{توضیح.}}</li>
+</ul>
+
+<h2>{{ زیرعنوان پایانی / جمع‌بندی }}</h2>
+<p>{{جمع‌بندی و معرفی طبیعی اپ (لینک دانلود با &lt;a href="https://cafebazaar.ir/app/?id=ir.upword.twa"&gt;کافه بازار&lt;/a&gt; و &lt;a href="https://myket.ir/app/ir.upword.twa"&gt;مایکت&lt;/a&gt;)}}</p>
+</div>
+
+<section class="article-faq" aria-label="پرسش‌های رایج">
+<h2>پرسش‌های رایج</h2>
+<details class="faq-item" open>
+<summary><span>{{پرسش ۱؟}}</span></summary>
+<div class="faq-answer">{{پاسخ ۱ — متن باید با متن JSON-LD بالای صفحه عیناً یکی باشد.}}</div>
+</details>
+<details class="faq-item">
+<summary><span>{{پرسش ۲؟}}</span></summary>
+<div class="faq-answer">{{پاسخ ۲}}</div>
+</details>
+</section>
+
+<section class="related" aria-label="مقالات مرتبط">
+<h2>مقالات مرتبط</h2>
+<div class="related-grid">
+<a href="/blog/articles/{{slug-مقاله-مرتبط}}.html">
+<span class="rel-cat">{{دسته}}</span>
+<span class="rel-title">{{عنوان مقاله مرتبط}}</span>
+<span class="rel-meta">⏱ {{۷}} دقیقه مطالعه</span>
+</a>
+<a href="/blog/articles/{{slug-مقاله-مرتبط-۲}}.html">
+<span class="rel-cat">{{دسته}}</span>
+<span class="rel-title">{{عنوان مقاله مرتبط دوم}}</span>
+<span class="rel-meta">⏱ {{۸}} دقیقه مطالعه</span>
+</a>
+</div>
+</section>
+</article>
+
+<section class="blog-cta">
+<h2>{{تیتر دعوت به اقدام}}</h2>
+<p>{{یک جمله درباره اپ: موضوع اول رایگان، درس کوتاه، مکالمه با هوش مصنوعی و شدوینگ.}}</p>
+<div class="cta-buttons">
+<a href="https://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener" class="btn btn-primary btn-lg">دانلود از کافه بازار</a>
+<a href="https://myket.ir/app/ir.upword.twa" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">دانلود از مایکت</a>
+</div>
+</section>
+</div>
+</div>
+</main>
+<footer class="blog-footer">
+<div class="container inner">
+<div class="links">
+<a href="/">صفحه اصلی</a>
+<a href="/blog/">مقالات</a>
+<a href="https://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener">کافه بازار</a>
+<a href="https://myket.ir/app/ir.upword.twa" target="_blank" rel="noopener">مایکت</a>
+</div>
+<span class="cr">© ۲۰۲۶ آپ‌ورد — تمامی حقوق محفوظ است.</span>
+</div>
+</footer>
+</body>
+</html>

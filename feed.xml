@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>مقالات آموزش زبان آپ‌ورد</title>
+    <link>https://upword.ir/blog/</link>
+    <description>راهنماها و نکته‌های عملی یادگیری زبان برای فارسی‌زبان‌ها: یادگیری انگلیسی در خانه، مکالمه با هوش مصنوعی، روش شدوینگ، واژگان و انگیزه.</description>
+    <language>fa-ir</language>
+    <lastBuildDate>Sat, 17 Oct 2026 09:00:00 +0330</lastBuildDate>
+    <atom:link href="https://upword.ir/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>یادگیری انگلیسی در خانه؛ راهنمای عملی برای فارسی‌زبان‌ها</title>
+      <link>https://upword.ir/blog/articles/english-at-home.html</link>
+      <guid isPermaLink="true">https://upword.ir/blog/articles/english-at-home.html</guid>
+      <description>چطور بدون کلاس و استاد، در خانه انگلیسی یاد بگیریم؟ راهنمای گام‌به‌گام با برنامه روزانه ۲۰ دقیقه‌ای، تمرین چهار مهارت، اشتباه‌های رایج و ابزارهای پیشنهادی.</description>
+      <pubDate>Sat, 17 Oct 2026 09:00:00 +0330</pubDate>
+      <category>یادگیری انگلیسی</category>
+    </item>
+
+    <item>
+      <title>تمرین مکالمه انگلیسی با هوش مصنوعی؛ راهنمای کامل شروع</title>
+      <link>https://upword.ir/blog/articles/ai-conversation-practice.html</link>
+      <guid isPermaLink="true">https://upword.ir/blog/articles/ai-conversation-practice.html</guid>
+      <description>با هوش مصنوعی مکالمه انگلیسی تمرین کنید: بهترین موقعیت‌های گفت‌وگو، نحوه گرفتن بازخورد، محدودیت‌ها و یک برنامه تمرین چهار هفته‌ای.</description>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0330</pubDate>
+      <category>مکالمه و هوش مصنوعی</category>
+    </item>
+
+    <item>
+      <title>روش شدوینگ (Shadowing) چیست و چرا تلفظ شما را متحول می‌کند؟</title>
+      <link>https://upword.ir/blog/articles/shadowing-technique.html</link>
+      <guid isPermaLink="true">https://upword.ir/blog/articles/shadowing-technique.html</guid>
+      <description>آموزش کامل شدوینگ برای بهبود تلفظ و روانی گفتار انگلیسی: اجرا در ۵ قدم، انواع تمرین، اشتباه‌های رایج و منابع پیشنهادی.</description>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0330</pubDate>
+      <category>تلفظ و شنیداری</category>
+    </item>
+  </channel>
+</rss>
