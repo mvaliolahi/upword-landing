@@ -5,8 +5,17 @@
     <link>https://upword.ir/blog/</link>
     <description>راهنماها و نکته‌های عملی یادگیری زبان برای فارسی‌زبان‌ها: یادگیری انگلیسی در خانه، مکالمه با هوش مصنوعی، روش شدوینگ، واژگان و انگیزه.</description>
     <language>fa-ir</language>
-    <lastBuildDate>Sat, 17 Oct 2026 09:00:00 +0330</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 09:00:00 +0330</lastBuildDate>
     <atom:link href="https://upword.ir/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>دریافت کلید API رایگان از OpenRouter و وصل‌کردنش به آپ‌ورد؛ راهنمای قدم‌به‌قدم از صفر</title>
+      <link>https://upword.ir/blog/articles/free-openai-compatible-api.html</link>
+      <guid isPermaLink="true">https://upword.ir/blog/articles/free-openai-compatible-api.html</guid>
+      <description>برای کاربران غیرفنی: کلید API چیست، چطور در OpenRouter حساب رایگان بسازیم، کلید بگیریم و در تنظیمات هوش مصنوعی آپ‌ورد وارد کنیم — با همه‌ی جزئیات و مدل‌های رایگان پیشنهادی.</description>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0330</pubDate>
+      <category>راهنمای فنی ساده</category>
+    </item>
 
     <item>
       <title>یادگیری انگلیسی در خانه؛ راهنمای عملی برای فارسی‌زبان‌ها</title>

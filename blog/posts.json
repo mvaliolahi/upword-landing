@@ -1,6 +1,16 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "posts": [
+    {
+      "slug": "free-openai-compatible-api",
+      "url": "articles/free-openai-compatible-api.html",
+      "title": "دریافت کلید API رایگان از OpenRouter و وصل‌کردنش به آپ‌ورد؛ راهنمای قدم‌به‌قدم از صفر",
+      "desc": "برای کاربران غیرفنی: کلید API چیست، چطور در OpenRouter حساب رایگان بسازیم، کلید بگیریم و در تنظیمات هوش مصنوعی آپ‌ورد وارد کنیم — با همه‌ی جزئیات و مدل‌های رایگان پیشنهادی.",
+      "category": "راهنمای فنی ساده",
+      "date": "2026-10-18",
+      "dateFa": "۲۶ مهر ۱۴۰۵",
+      "minutes": 12
+    },
     {
       "slug": "english-at-home",
       "url": "articles/english-at-home.html",
