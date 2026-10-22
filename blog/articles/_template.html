@@ -4,13 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#04231A">
-<!-- ============ جایگزین‌های قالب (۶ مورد) ============
+<!-- ============ جایگزین‌های قالب (۷ مورد) ============
      1) <title>  و description  پایین
      2) canonical و آدرس‌های og/twitter  (اسم فایل خودت را بگذار)
-     3) تاریخ‌ها: article:published_time / datePublished / dateModified  و <time datetime>
-     4) عنوان و توضیح در JSON-LD (headline / description / wordCount / keywords)
-     5) متن مقاله داخل <div class="prose">
-     6) FAQ و مقالات مرتبط (لینک‌ها را به‌روز کن)
+     3) تصویر کاور: فایل covers/<slug>.jpg (۱۳۴۴×۷۶۸، راهنما: BLOG-GUIDE.md قدم ۱)
+        — نام slug در og:image / twitter:image / JSON-LD و figure پایین هم عوض می‌شود
+     4) تاریخ‌ها: article:published_time / datePublished / dateModified  و <time datetime>
+     5) عنوان و توضیح در JSON-LD (headline / description / wordCount / keywords)
+     6) متن مقاله داخل <div class="prose">
+     7) FAQ و مقالات مرتبط (لینک‌ها را به‌روز کن)
      به‌خاطر بسپار: posts.json + sitemap.xml + feed.xml هم ردیف جدید می‌گیرند (راهنما: BLOG-GUIDE.md)
 =================================================== -->
 <title>{{عنوان مقاله}} | آپ‌ورد</title>
@@ -23,16 +25,16 @@
 <meta property="og:url" content="https://upword.ir/blog/articles/{{slug}}.html">
 <meta property="og:site_name" content="آپ‌ورد (UpWord)">
 <meta property="og:locale" content="fa_IR">
-<meta property="og:image" content="https://upword.ir/assets/images/og-cover.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image" content="https://upword.ir/blog/covers/{{slug}}.jpg">
+<meta property="og:image:width" content="1344">
+<meta property="og:image:height" content="768">
 <meta property="article:published_time" content="{{2026-10-18T09:00:00+03:30}}">
 <meta property="article:modified_time" content="{{2026-10-18T09:00:00+03:30}}">
 <meta property="article:section" content="{{دسته‌بندی}}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{عنوان مقاله}}">
 <meta name="twitter:description" content="{{خلاصه مقاله}}">
-<meta name="twitter:image" content="https://upword.ir/assets/images/og-cover.png">
+<meta name="twitter:image" content="https://upword.ir/blog/covers/{{slug}}.jpg">
 <link rel="icon" type="image/png" href="/assets/images/app-icon.png">
 <link rel="apple-touch-icon" href="/assets/images/app-icon.png">
 <link rel="preload" href="/assets/fonts/vazirmatn-ar.woff2" as="font" type="font/woff2" crossorigin>
@@ -46,7 +48,7 @@
       "headline": "{{عنوان مقاله}}",
       "description": "{{خلاصه مقاله}}",
       "inLanguage": "fa-IR",
-      "image": "https://upword.ir/assets/images/og-cover.png",
+      "image": "https://upword.ir/blog/covers/{{slug}}.jpg",
       "datePublished": "{{2026-10-18T09:00:00+03:30}}",
       "dateModified": "{{2026-10-18T09:00:00+03:30}}",
       "wordCount": {{800}},
@@ -82,8 +84,8 @@
   ]
 }
 </script>
-<link rel="stylesheet" href="/css/styles.css?v=22">
-<link rel="stylesheet" href="/css/blog.css?v=1">
+<link rel="stylesheet" href="/css/styles.css?v=25">
+<link rel="stylesheet" href="/css/blog.css?v=2">
 </head>
 <body>
 <div class="bg-scene" aria-hidden="true">
@@ -116,7 +118,8 @@
 <a href="/blog/">مقالات</a><span class="sep">/</span>
 <span class="cur">{{عنوان کوتاه}}</span>
 </nav>
-<article class="article-card">
+<article class="article-card has-cover">
+<figure class="article-cover"><img src="../covers/{{slug}}.jpg" alt="" width="1344" height="768" loading="eager" decoding="async"></figure>
 <div class="article-head">
 <span class="post-chip">{{دسته‌بندی}}</span>
 <h1>{{عنوان مقاله (H1)}</h1>

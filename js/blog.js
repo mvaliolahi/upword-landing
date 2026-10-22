@@ -7,13 +7,38 @@
 
   function fmt(n) { return String(n).replace(/\d/g, function (d) { return "۰۱۲۳۴۵۶۷۸۹"[+d]; }); }
 
+  /* v123 — the cover card: full-bleed cover art on top, category chip pinned
+     over its corner, then title/desc/meta. Cards without a cover keep the old
+     chip-first layout via the no-cover class (the glyph slab shows instead). */
   function card(post) {
     var a = document.createElement("a");
-    a.className = "post-card";
+    a.className = "post-card" + (post.cover ? " has-cover" : " post-card--plain");
     a.href = post.url || ("articles/" + post.slug + ".html");
-    var chip = document.createElement("span");
-    chip.className = "post-chip";
-    chip.textContent = post.category || "یادگیری زبان";
+    if (post.cover) {
+      var cov = document.createElement("span");
+      cov.className = "post-cover";
+      var img = document.createElement("img");
+      img.src = post.cover;
+      img.alt = "";
+      img.loading = "lazy";
+      img.decoding = "async";
+      img.width = "1344";
+      img.height = "768";
+      cov.appendChild(img);
+      var chip = document.createElement("span");
+      chip.className = "post-chip post-chip--over";
+      chip.textContent = post.category || "یادگیری زبان";
+      cov.appendChild(chip);
+      a.appendChild(cov);
+    }
+    var body = document.createElement("span");
+    body.className = "post-body";
+    if (!post.cover) {
+      var chip2 = document.createElement("span");
+      chip2.className = "post-chip";
+      chip2.textContent = post.category || "یادگیری زبان";
+      body.appendChild(chip2);
+    }
     var h = document.createElement("h2");
     h.textContent = post.title;
     var p = document.createElement("p");
@@ -32,10 +57,10 @@
     go.className = "post-go";
     go.setAttribute("aria-hidden", "true");
     go.textContent = "←";
-    a.appendChild(chip);
-    a.appendChild(h);
-    a.appendChild(p);
-    a.appendChild(meta);
+    body.appendChild(h);
+    body.appendChild(p);
+    body.appendChild(meta);
+    a.appendChild(body);
     a.appendChild(go);
     return a;
   }

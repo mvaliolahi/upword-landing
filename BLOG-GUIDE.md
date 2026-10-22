@@ -23,7 +23,7 @@ upword-landing/
 
 ---
 
-## ✅ پنج قدم انتشار
+## ✅ شش قدم انتشار
 
 ### قدم ۱ — ساخت فایل مقاله
 
@@ -32,6 +32,11 @@ upword-landing/
    `best-english-podcasts.html` یا `how-to-remember-vocabulary.html`
    - فقط حروف کوچک انگلیسی، خط تیره (-) و بدون فاصله.
    - این نام همان slug مقاله است.
+3. **تصویر کاور مقاله** را بساز و در پوشه `blog/covers/` با نام `<slug>.jpg` ذخیره کن:
+   - ابعاد **۱۳۴۴×۷۶۸** (افقی ۱۶:۹ تقریبی)، فرمت JPG، حجم حدود ۵۰ تا ۱۵۰ کیلوبایت.
+   - سبک همه‌ی کاورهای فعلی: تصویرسازی سه‌بعدی نرم و دوستانه با پس‌زمینه سبز تیره‌ی برند، **بدون متن داخل تصویر**.
+   - برای ساخت می‌توانی از ابزارهای تصویرسازی هوش مصنوعی استفاده کنی؛ فقط عبارت «soft 3D clay render, Pixar-style, deep dark emerald green background, no text» را در پرامپت نگه دار تا ست کاورها یکدست بماند.
+   - یک مقاله بدون کاور در اپلیکیشن هم درست نمایش داده می‌شود (جایگزین شیشه‌ای نشان می‌دهد)، اما هر مقاله کاور خودش را دارد.
 
 ### قدم ۲ — پر کردن قالب
 
@@ -61,12 +66,14 @@ upword-landing/
   "title": "عنوان فارسی مقاله",
   "desc": "خلاصه دو خطی که در کارت وبلاگ نمایش داده می‌شود.",
   "category": "یادگیری انگلیسی",
+  "cover": "covers/best-english-podcasts.jpg",
   "date": "2026-10-18",
   "dateFa": "۲۶ مهر ۱۴۰۵",
   "minutes": 7
 }
 ```
 
+- `cover` مسیر تصویر کاور نسبت به پوشه وبلاگ (فایل را در قدم ۱ ساخته‌ای)
 - `date` میلادی به شکل `YYYY-MM-DD`
 - `dateFa` تاریخ شمسی
 - `minutes` زمان تقریبی مطالعه
@@ -95,6 +102,7 @@ upword-landing/
   <description>خلاصه مقاله</description>
   <pubDate>Sun, 18 Oct 2026 09:00:00 +0330</pubDate>
   <category>یادگیری انگلیسی</category>
+  <enclosure url="https://upword.ir/blog/covers/best-english-podcasts.jpg" type="image/jpeg" length="102400"/>
 </item>
 ```
 

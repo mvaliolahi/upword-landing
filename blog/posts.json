@@ -9,7 +9,8 @@
       "category": "راهنمای فنی ساده",
       "date": "2026-10-18",
       "dateFa": "۲۶ مهر ۱۴۰۵",
-      "minutes": 12
+      "minutes": 12,
+      "cover": "covers/free-openai-compatible-api.jpg"
     },
     {
       "slug": "english-at-home",
@@ -19,7 +20,8 @@
       "category": "یادگیری انگلیسی",
       "date": "2026-10-17",
       "dateFa": "۲۵ مهر ۱۴۰۵",
-      "minutes": 8
+      "minutes": 8,
+      "cover": "covers/english-at-home.jpg"
     },
     {
       "slug": "ai-conversation-practice",
@@ -29,7 +31,8 @@
       "category": "مکالمه و هوش مصنوعی",
       "date": "2026-10-16",
       "dateFa": "۲۴ مهر ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/ai-conversation-practice.jpg"
     },
     {
       "slug": "shadowing-technique",
@@ -39,7 +42,8 @@
       "category": "تلفظ و شنیداری",
       "date": "2026-10-15",
       "dateFa": "۲۳ مهر ۱۴۰۵",
-      "minutes": 7
+      "minutes": 7,
+      "cover": "covers/shadowing-technique.jpg"
     }
   ]
 }
