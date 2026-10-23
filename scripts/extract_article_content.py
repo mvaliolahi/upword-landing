@@ -11,7 +11,7 @@ types in future articles degrade gracefully WITHOUT an app release):
   {"type":"callout","label":"⚡ پاسخ کوتاه","spans":[...]}
   {"type":"ul"|"ol","items":[[span,...],...]}
   {"type":"table","header":[".."],"rows":[[".."],..]}
-  {"type":"faq","items":[{"q":"..","a":[span,...]}]}
+  {"type":"faq","qa":[{"q":"..","a":[span,...]}]}
 Inline span: {"t":"text","b":bool,"c":bool,"href":"url"}
 """
 import json, os, re
@@ -306,14 +306,14 @@ class ArticleParser(HTMLParser):
 
     def _close_faq_section(self):
         if self.faq_items:
-            self.blocks.append({'type': 'faq', 'items': self.faq_items})
+            self.blocks.append({'type': 'faq', 'qa': self.faq_items})
             self.faq_items = []
         self.mode = None
 
     def close(self):
         super().close()
         if self.faq_items:
-            self.blocks.append({'type': 'faq', 'items': self.faq_items})
+            self.blocks.append({'type': 'faq', 'qa': self.faq_items})
 
 
 def extract(slug, post):
