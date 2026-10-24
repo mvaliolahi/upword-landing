@@ -374,7 +374,7 @@ def extract(slug, post):
     path = article_path(slug)
     html = open(path, encoding='utf-8').read()
     html = re.sub(r'<script[\s\S]*?</script>', '', html)
-    if slug == 'chinese-course':
+    if slug in ('chinese-course', 'english-course'):
         return extract_hub(post)
     p = ArticleParser()
     p.feed(html)
@@ -393,12 +393,12 @@ def extract_hub(post):
     """The course hub is a lesson INDEX, not prose: the reader gets the
     hero paragraph + one summary line per phase; the 50 lesson links live
     on the web page (the reader's browser action)."""
-    html = open(os.path.join(BLOG, 'chinese-course.html'), encoding='utf-8').read()
+    html = open(os.path.join(BLOG, post['slug'] + '.html'), encoding='utf-8').read()
     html = re.sub(r'<script[\s\S]*?</script>', '', html)
     meta = {k: post.get(k, '') for k in ('slug', 'title', 'desc', 'category', 'cover', 'date', 'dateFa')}
     meta['minutes'] = post.get('minutes', 5)
     blocks = []
-    hero = re.search(r'<div class="course-hero">[\s\S]*?<p>([\s\S]*?)</p>', html)
+    hero = re.search(r'class="[^"]*course-hero[^"]*"[\s\S]*?<p>([\s\S]*?)</p>', html)
     if hero:
         blocks.append({'type': 'p', 'spans': [{'t': re.sub(r'\s+', ' ', hero.group(1)).strip()}]})
     phases = re.findall(r'<h2>(فاز[^<]*)</h2><p class="phase-desc">([\s\S]*?)</p>', html)
@@ -406,7 +406,7 @@ def extract_hub(post):
         text = re.sub(r'<[^>]+>', '', desc)
         text = re.sub(r'\s+', ' ', text).strip()
         blocks.append({'type': 'p', 'spans': [{'t': title + ' — ' + text}]})
-    cta = re.search(r'<h2>(در گوشی\u200cات[^<]*)</h2>\s*<p>([\s\S]*?)</p>', html)
+    cta = re.search(r'<h2>(در گوشی[^<]*)</h2>\s*<p[^>]*>([\s\S]*?)</p>', html)
     if cta:
         blocks.append({'type': 'callout', 'label': cta.group(1),
                        'spans': [{'t': re.sub(r'\s+', ' ', cta.group(2)).strip()}]})
