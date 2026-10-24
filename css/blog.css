@@ -148,3 +148,27 @@
   .nav-links{gap:2px}
   .nav-link{padding:8px 9px;font-size:13px}
 }
+
+/* ── Chinese course (v129): example boxes + lesson nav ─────────────── */
+.zh-ex{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;margin:14px 0 18px;padding:14px 18px;background:rgba(34,197,94,.06);border:1px solid rgba(34,197,94,.22);border-radius:14px}
+.zh-ex .zh{font-size:19px;font-weight:700;color:var(--ink);line-height:1.9}
+.zh-ex .py{direction:ltr;font-family:vazirmatn-latin,Inter,sans-serif;font-size:13.5px;font-weight:600;color:var(--green-lite,#86efac);letter-spacing:.2px}
+.zh-ex .fa{font-size:14px;color:var(--ink-soft)}
+.zh-ex .tag{font-size:11px;font-weight:800;color:#04271a;background:var(--green-lite,#86efac);border-radius:8px;padding:2px 8px;margin-inline-end:4px}
+.lesson-nav{display:flex;justify-content:space-between;gap:12px;margin:34px 0 4px}
+.lesson-nav a{flex:1;display:flex;flex-direction:column;gap:4px;background:var(--glass);border:1px solid var(--glass-border);border-radius:16px;padding:14px 16px;text-decoration:none;color:inherit;font-size:13.5px;line-height:1.9;transition:border-color .25s}
+.lesson-nav a:hover{border-color:rgba(34,197,94,.4)}
+.lesson-nav a .lbl{font-size:11px;font-weight:800;color:var(--green-lite,#86efac)}
+.lesson-nav a.next{text-align:left}
+.lesson-nav a.hub{flex:0 0 auto;justify-content:center;align-items:center;text-align:center;color:var(--green-lite,#86efac);font-weight:700}
+@media (max-width:640px){.lesson-nav a.hub{display:none}}
+
+/* ── Chinese course banner on the blog index ─────────────────────────── */
+.course-banner{margin:26px 0 6px}
+.course-card{display:flex;flex-direction:column;gap:9px;background:linear-gradient(135deg,rgba(34,197,94,.16),rgba(34,197,94,.05));border:1px solid rgba(34,197,94,.35);border-radius:22px;padding:26px 28px;text-decoration:none;color:inherit;position:relative;overflow:hidden;transition:transform .25s,border-color .25s}
+.course-card:hover{transform:translateY(-3px);border-color:rgba(34,197,94,.55)}
+.course-card .cc-eyebrow{font-size:12px;font-weight:800;color:var(--green-lite,#4ADE80);letter-spacing:.3px}
+.course-card .cc-title{font-size:clamp(19px,3vw,26px);font-weight:900;line-height:1.8;color:var(--ink)}
+.course-card .cc-zh{font-weight:700;color:var(--green-lite,#4ADE80);margin-inline-start:10px;font-size:.85em}
+.course-card .cc-desc{font-size:14.5px;line-height:2.15;color:var(--ink-soft);max-width:640px}
+.course-card .cc-cta{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:800;color:#04271a;background:var(--green-lite,#4ADE80);border-radius:12px;padding:9px 18px;margin-top:6px;align-self:flex-start}
