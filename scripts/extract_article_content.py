@@ -115,9 +115,19 @@ class ArticleParser(HTMLParser):
         self.faq_a = None
         self.col = None             # head/label collector
         self.head_part = None       # chip|h1|meta
+        # v130 — .zh-ex example blocks → dedicated `zh` blocks (the app's
+        # native example card + per-example TTS), and <blockquote> → `quote`.
+        self.zhex = None            # {'zh','py','fa'} text parts while inside
+        self.zhex_part = None       # current span class collector
+        self.zhex_col = None        # SpanCollector for the current part
+        self.quote_col = None       # blockquote inline collector
 
     # ── helpers ────────────────────────────────────────────────────────
     def _active_col(self):
+        if self.zhex_col is not None:
+            return self.zhex_col
+        if self.quote_col is not None:
+            return self.quote_col
         if self.cur is None:
             return None
         if self.cur['type'] in ('ul', 'ol'):
@@ -178,6 +188,18 @@ class ArticleParser(HTMLParser):
                 self.in_table = True
                 self.table = {'header': [], 'rows': []}
                 return
+            if tag == 'div' and 'zh-ex' in cls:
+                self.zhex = {'zh': '', 'py': '', 'fa': ''}
+                return
+            if self.zhex is not None and tag == 'span':
+                part = 'zh' if 'zh' in cls else ('py' if 'py' in cls else ('fa' if 'fa' in cls else None))
+                if part:
+                    self.zhex_part = part
+                    self.zhex_col = SpanCollector()
+                return
+            if tag == 'blockquote':
+                self.quote_col = SpanCollector()
+                return
             if tag in ('h2', 'h3'):
                 self.cur = {'type': tag, 'col': SpanCollector()}
             elif tag == 'p':
@@ -234,6 +256,29 @@ class ArticleParser(HTMLParser):
             return
 
         if self.mode == 'prose':
+            if self.zhex is not None:
+                if tag == 'span' and self.zhex_col is not None:
+                    self.zhex[self.zhex_part] = re.sub(
+                        r'\s+', ' ', ''.join(s['t'] for s in self.zhex_col.result())).strip()
+                    self.zhex_part = None
+                    self.zhex_col = None
+                elif tag == 'div':
+                    z = self.zhex
+                    self.zhex = None
+                    if z and (z['zh'] or z['py'] or z['fa']):
+                        # Flat spans keep OLD apps rendering the full text
+                        # (unknown block type degrades to a paragraph) —
+                        # the forward-compat contract of the native reader.
+                        flat = ' · '.join(x for x in (z['zh'], z['py'], z['fa']) if x)
+                        self.blocks.append({'type': 'zh', 'zh': z['zh'], 'py': z['py'],
+                                            'fa': z['fa'], 'spans': [{'t': flat}]})
+                return
+            if tag == 'blockquote' and self.quote_col is not None:
+                spans = spans_to(self.quote_col.result())
+                self.quote_col = None
+                if spans:
+                    self.blocks.append({'type': 'quote', 'spans': spans})
+                return
             if self.in_table:
                 if tag in ('th', 'td') and self.cell is not None:
                     txt = re.sub(r'\s+', ' ', ''.join(s['t'] for s in self.cell.result())).strip()
@@ -316,10 +361,21 @@ class ArticleParser(HTMLParser):
             self.blocks.append({'type': 'faq', 'qa': self.faq_items})
 
 
+def article_path(slug):
+    """The hub page lives at blog/<slug>.html; every other post at
+    blog/articles/<slug>.html."""
+    in_articles = os.path.join(BLOG, 'articles', slug + '.html')
+    if os.path.exists(in_articles):
+        return in_articles
+    return os.path.join(BLOG, slug + '.html')
+
+
 def extract(slug, post):
-    path = os.path.join(BLOG, 'articles', slug + '.html')
+    path = article_path(slug)
     html = open(path, encoding='utf-8').read()
     html = re.sub(r'<script[\s\S]*?</script>', '', html)
+    if slug == 'chinese-course':
+        return extract_hub(post)
     p = ArticleParser()
     p.feed(html)
     p.close()
@@ -330,6 +386,30 @@ def extract(slug, post):
         blocks.append({'type': 'callout', 'label': p.callout.get('label', ''),
                        'spans': p.callout['spans']})
     blocks += [b for b in p.blocks if b]
+    return {'meta': meta, 'blocks': blocks}
+
+
+def extract_hub(post):
+    """The course hub is a lesson INDEX, not prose: the reader gets the
+    hero paragraph + one summary line per phase; the 50 lesson links live
+    on the web page (the reader's browser action)."""
+    html = open(os.path.join(BLOG, 'chinese-course.html'), encoding='utf-8').read()
+    html = re.sub(r'<script[\s\S]*?</script>', '', html)
+    meta = {k: post.get(k, '') for k in ('slug', 'title', 'desc', 'category', 'cover', 'date', 'dateFa')}
+    meta['minutes'] = post.get('minutes', 5)
+    blocks = []
+    hero = re.search(r'<div class="course-hero">[\s\S]*?<p>([\s\S]*?)</p>', html)
+    if hero:
+        blocks.append({'type': 'p', 'spans': [{'t': re.sub(r'\s+', ' ', hero.group(1)).strip()}]})
+    phases = re.findall(r'<h2>(فاز[^<]*)</h2><p class="phase-desc">([\s\S]*?)</p>', html)
+    for title, desc in phases:
+        text = re.sub(r'<[^>]+>', '', desc)
+        text = re.sub(r'\s+', ' ', text).strip()
+        blocks.append({'type': 'p', 'spans': [{'t': title + ' — ' + text}]})
+    cta = re.search(r'<h2>(در گوشی\u200cات[^<]*)</h2>\s*<p>([\s\S]*?)</p>', html)
+    if cta:
+        blocks.append({'type': 'callout', 'label': cta.group(1),
+                       'spans': [{'t': re.sub(r'\s+', ' ', cta.group(2)).strip()}]})
     return {'meta': meta, 'blocks': blocks}
 
 
