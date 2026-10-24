@@ -9,7 +9,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 8
+      "minutes": 8,
+      "cover": "covers/zh-course-p1.jpg",
+      "content": "content/chinese-from-zero.json"
     },
     {
       "slug": "pinyin-system",
@@ -19,7 +21,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p1.jpg",
+      "content": "content/pinyin-system.json"
     },
     {
       "slug": "pinyin-finals",
@@ -29,7 +33,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 10
+      "minutes": 10,
+      "cover": "covers/zh-course-p1.jpg",
+      "content": "content/pinyin-finals.json"
     },
     {
       "slug": "four-tones",
@@ -39,7 +45,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 10
+      "minutes": 10,
+      "cover": "covers/zh-course-p1.jpg",
+      "content": "content/four-tones.json"
     },
     {
       "slug": "tone-sandhi",
@@ -49,7 +57,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p1.jpg",
+      "content": "content/tone-sandhi.json"
     },
     {
       "slug": "chinese-characters",
@@ -59,7 +69,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 10
+      "minutes": 10,
+      "cover": "covers/zh-course-p1.jpg",
+      "content": "content/chinese-characters.json"
     },
     {
       "slug": "chinese-radicals",
@@ -69,7 +81,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p1.jpg",
+      "content": "content/chinese-radicals.json"
     },
     {
       "slug": "stroke-order",
@@ -79,7 +93,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p1.jpg",
+      "content": "content/stroke-order.json"
     },
     {
       "slug": "simplified-vs-traditional",
@@ -89,7 +105,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 8
+      "minutes": 8,
+      "cover": "covers/zh-course-p1.jpg",
+      "content": "content/simplified-vs-traditional.json"
     },
     {
       "slug": "first-conversations",
@@ -99,7 +117,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p1.jpg",
+      "content": "content/first-conversations.json"
     },
     {
       "slug": "shi-sentences",
@@ -109,7 +129,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p2.jpg",
+      "content": "content/shi-sentences.json"
     },
     {
       "slug": "chinese-pronouns",
@@ -119,7 +141,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 8
+      "minutes": 8,
+      "cover": "covers/zh-course-p2.jpg",
+      "content": "content/chinese-pronouns.json"
     },
     {
       "slug": "numbers-0-99",
@@ -129,7 +153,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 8
+      "minutes": 8,
+      "cover": "covers/zh-course-p2.jpg",
+      "content": "content/numbers-0-99.json"
     },
     {
       "slug": "big-numbers-money",
@@ -139,7 +165,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p2.jpg",
+      "content": "content/big-numbers-money.json"
     },
     {
       "slug": "measure-words",
@@ -149,7 +177,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 10
+      "minutes": 10,
+      "cover": "covers/zh-course-p2.jpg",
+      "content": "content/measure-words.json"
     },
     {
       "slug": "telling-time",
@@ -159,7 +189,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p2.jpg",
+      "content": "content/telling-time.json"
     },
     {
       "slug": "you-exist",
@@ -169,7 +201,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p2.jpg",
+      "content": "content/you-exist.json"
     },
     {
       "slug": "verbs-no-conjugation",
@@ -179,7 +213,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p2.jpg",
+      "content": "content/verbs-no-conjugation.json"
     },
     {
       "slug": "adverb-placement",
@@ -189,7 +225,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p2.jpg",
+      "content": "content/adverb-placement.json"
     },
     {
       "slug": "mental-verbs",
@@ -199,7 +237,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p2.jpg",
+      "content": "content/mental-verbs.json"
     },
     {
       "slug": "question-words",
@@ -209,7 +249,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p2.jpg",
+      "content": "content/question-words.json"
     },
     {
       "slug": "particle-le",
@@ -219,7 +261,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 10
+      "minutes": 10,
+      "cover": "covers/zh-course-p2.jpg",
+      "content": "content/particle-le.json"
     },
     {
       "slug": "guo-experience-durations",
@@ -229,7 +273,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p2.jpg",
+      "content": "content/guo-experience-durations.json"
     },
     {
       "slug": "progressive-zai",
@@ -239,7 +285,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 8
+      "minutes": 8,
+      "cover": "covers/zh-course-p2.jpg",
+      "content": "content/progressive-zai.json"
     },
     {
       "slug": "sentence-final-particles",
@@ -249,7 +297,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p2.jpg",
+      "content": "content/sentence-final-particles.json"
     },
     {
       "slug": "location-directions",
@@ -259,7 +309,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p3.jpg",
+      "content": "content/location-directions.json"
     },
     {
       "slug": "bi-comparison",
@@ -269,7 +321,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 8
+      "minutes": 8,
+      "cover": "covers/zh-course-p3.jpg",
+      "content": "content/bi-comparison.json"
     },
     {
       "slug": "adjectives-degree",
@@ -279,7 +333,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p3.jpg",
+      "content": "content/adjectives-degree.json"
     },
     {
       "slug": "de-modification",
@@ -289,7 +345,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p3.jpg",
+      "content": "content/de-modification.json"
     },
     {
       "slug": "shi-de-emphasis",
@@ -299,7 +357,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 8
+      "minutes": 8,
+      "cover": "covers/zh-course-p3.jpg",
+      "content": "content/shi-de-emphasis.json"
     },
     {
       "slug": "ba-construction",
@@ -309,7 +369,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p3.jpg",
+      "content": "content/ba-construction.json"
     },
     {
       "slug": "bei-passive",
@@ -319,7 +381,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 8
+      "minutes": 8,
+      "cover": "covers/zh-course-p3.jpg",
+      "content": "content/bei-passive.json"
     },
     {
       "slug": "resultative-complements",
@@ -329,7 +393,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p3.jpg",
+      "content": "content/resultative-complements.json"
     },
     {
       "slug": "directional-complements",
@@ -339,7 +405,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p3.jpg",
+      "content": "content/directional-complements.json"
     },
     {
       "slug": "serial-verbs",
@@ -349,7 +417,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 8
+      "minutes": 8,
+      "cover": "covers/zh-course-p3.jpg",
+      "content": "content/serial-verbs.json"
     },
     {
       "slug": "conditionals",
@@ -359,7 +429,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p3.jpg",
+      "content": "content/conditionals.json"
     },
     {
       "slug": "potential-complements",
@@ -369,7 +441,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p3.jpg",
+      "content": "content/potential-complements.json"
     },
     {
       "slug": "word-building",
@@ -379,7 +453,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p3.jpg",
+      "content": "content/word-building.json"
     },
     {
       "slug": "shopping-haggling",
@@ -389,7 +465,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 10
+      "minutes": 10,
+      "cover": "covers/zh-course-p4.jpg",
+      "content": "content/shopping-haggling.json"
     },
     {
       "slug": "restaurant-chinese",
@@ -399,7 +477,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 10
+      "minutes": 10,
+      "cover": "covers/zh-course-p4.jpg",
+      "content": "content/restaurant-chinese.json"
     },
     {
       "slug": "travel-chinese",
@@ -409,7 +489,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 10
+      "minutes": 10,
+      "cover": "covers/zh-course-p6.jpg",
+      "content": "content/travel-chinese.json"
     },
     {
       "slug": "directions-transport",
@@ -419,7 +501,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p4.jpg",
+      "content": "content/directions-transport.json"
     },
     {
       "slug": "phone-and-chat",
@@ -429,7 +513,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p4.jpg",
+      "content": "content/phone-and-chat.json"
     },
     {
       "slug": "emotions-doctor",
@@ -439,7 +525,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p4.jpg",
+      "content": "content/emotions-doctor.json"
     },
     {
       "slug": "polite-chinese",
@@ -449,7 +537,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p4.jpg",
+      "content": "content/polite-chinese.json"
     },
     {
       "slug": "culture-in-language",
@@ -459,7 +549,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p4.jpg",
+      "content": "content/culture-in-language.json"
     },
     {
       "slug": "reading-chinese",
@@ -469,7 +561,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 10
+      "minutes": 10,
+      "cover": "covers/zh-course-p5.jpg",
+      "content": "content/reading-chinese.json"
     },
     {
       "slug": "guessing-characters",
@@ -479,7 +573,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p5.jpg",
+      "content": "content/guessing-characters.json"
     },
     {
       "slug": "mastery-resources",
@@ -489,7 +585,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 9
+      "minutes": 9,
+      "cover": "covers/zh-course-p5.jpg",
+      "content": "content/mastery-resources.json"
     },
     {
       "slug": "90-day-roadmap",
@@ -499,7 +597,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 10
+      "minutes": 10,
+      "cover": "covers/zh-course-p5.jpg",
+      "content": "content/90-day-roadmap.json"
     },
     {
       "slug": "chinese-course",
@@ -509,7 +609,9 @@
       "category": "آموزش زبان چینی",
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
-      "minutes": 3
+      "minutes": 3,
+      "cover": "covers/zh-course-p1.jpg",
+      "content": "content/chinese-course.json"
     },
     {
       "slug": "free-openai-compatible-api",
