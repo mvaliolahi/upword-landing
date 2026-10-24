@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p5.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 923,
+      "wordCount": 1540,
       "keywords": "مدیریت حادثه, incident management, prod is down, postmortem",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>مدیریتِ حادثه؛ وقتی prod واقعاً down است</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۱۰ دقیقه مطالعه</span>
+<span>⏱ ۱۶ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -130,6 +130,48 @@
 <div class="zh-ex"><span class="zh">IC (you): Facts first: 5xx at 30%, EU-heavy, started 14:02. Dara on metrics, Sara on customer comms, I run the bridge. Theories to the thread, actions to me.</span><span class="fa">فرمانده (تو): اول واقعیت‌ها: ۵xx در ۳۰٪، اروپا-محور، از ۱۴:۰۲. دارا روی متریک‌ها، سارا روی ارتباطِ مشتری، من پل رو می‌رانم. فرضیه‌ها تو thread، اقدام‌ها پیشِ من.</span></div>
 <div class="zh-ex"><span class="zh">Dara: Working theory — the pool change didn't account for EU failover. — You: Noted as theory. Rollback's running; if errors drop when it lands, we upgrade it to confirmed.</span><span class="fa">دارا: فرضیه — تغییرِ پول، فِیل‌اوورِ اروپا رو حساب نکرده بود. — تو: به‌عنوانِ فرضیه ثبت شد. رول‌بک روونه؛ اگه با فرودش خطاها افت کرد، به «تأییدشده» ارتقاش می‌دیم.</span></div>
 <div class="zh-ex"><span class="zh">You: 14:30 — rollback complete, errors at baseline, p99 normal. Monitoring 30 min, then all-clear. Postmortem Friday 10:00 — blameless, bring timelines.</span><span class="fa">تو: ۱۴:۳۰ — رول‌بک کامل، خطاها عادی، p99 نرمال. ۳۰ دقیقه پایش، بعد اعلامِ امنیت. پست‌مورتم جمعه ۱۰ — بی‌اتهام، تایم‌لاین‌هاتون رو بیارید.</span></div>
+<h2>اشتباه‌های رایجِ فارسی‌زبان‌ها در همین درس</h2>
+<p>این بخش را با یک قرارداد بخوان: هر ❌ یعنی «مغزِ فارسی‌زبانت این را می‌سازد و طبیعی است»، و هر ✅ یعنی «این همان چیزی است که گیرندهٔ انگلیسی‌زبان می‌شنود». خطاها اثرِ مستقیمِ ترجمهٔ ذهنیِ فارسی به انگلیسی‌اند؛ با هر جفت بلند تکرار کن تا شکلِ درست در گوشت نشست کند.</p>
+<div class="zh-ex"><span class="zh">❌ Dara's deploy broke the production — I will tell him to be careful.</span><span class="fa">❌ روایتِ فارسیِ حادثه با فاعلِ آدمی شروع می‌شود («فلانی خرابش کرد»)، اما انگلیسیِ حادثه فرایند را نشانه می‌گیرد، نه شخص را. جملهٔ با نامِ همکار، تیم را ساکت و دفاعی می‌کند و قاعدهٔ بی‌اتهامی را همان‌جا می‌شکند.</span></div>
+<div class="zh-ex"><span class="zh">✅ Working theory: a DB pool change in the last deploy likely triggered this — rollback is running.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ The problem solved and everything returned normal.</span><span class="fa">❌ «مسئله حل شد» با فعلِ کاملاً فعال فرستاده می‌شود: The problem solved یعنی «مسئله حل کرد»! حل‌شدن صرفِ مجهول می‌خواهد: is resolved. و «به حالتِ عادی برگشت» هم return نمی‌گیرد — زبانِ حادثه برایِ برگشتنِ متریک‌ها back to baseline می‌گوید.</span></div>
+<div class="zh-ex"><span class="zh">✅ The issue is resolved — error rates are back to baseline.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ We are working on it and will inform you when it finished.</span><span class="fa">❌ «تا حل شود خبر می‌کنیم» ترجمهٔ مستقیمِ فارسی است و وعدهٔ بی‌زمان می‌سازد؛ زبانِ حادثه همان‌جا زمانِ آپدیتِ بعدی را قول می‌دهد. سکوتِ بی‌برنامه در کانال وحشت می‌سازد؛ وعدهٔ آپدیتِ بعدی، همان سکوت را بی‌خطر می‌کند.</span></div>
+<div class="zh-ex"><span class="zh">✅ Rollback is at 3/12 pods — next update at 14:30, sooner if anything changes.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<h2>تمرین‌های این درس — چهار قدم، بی‌عجله</h2>
+<p>حادثه، تمرینِ نوشتنِ زیرِ فشار است؛ هر چهار را با تایمرِ پنج‌دقیقه‌ای اول خودت بلند بگو، بعد پاسخ را باز کن.</p>
+<ol>
+<li>اولین خطِ اعلامِ حادثه را بنویس: قطعیِ checkout از ساعت ۱۴:۰۲ برایِ حدود ۳۰٪ کاربرها؛ کانالِ جنگ: #inc-042. (قالبِ درس: سطح + سیستم + دامنه + زمان + کانال)</li>
+<li>جملهٔ اتهام‌دار را بازنویسی کن: «Sara's config change broke the cache.» — فرایند را نشانه بگیر، نه آدم را.</li>
+<li>دارا در پلِ جنگ می‌گوید: «I think it's the DNS.» — حرفش را با برچسبِ درست در بریفِ وضعیت ثبت کن.</li>
+<li>بریفِ پایانِ حادثه را بنویس: خطاها ۳۰ دقیقه در سطحِ پایه مانده، پایش برداشته می‌شود، پست‌مورتم جمعه ساعت ۱۰.</li>
+</ol>
+<section class="article-faq" aria-label="پاسخ تمرین‌ها">
+<h2>پاسخ تمرین‌ها — اول خودت جواب بده، بعد باز کن</h2>
+
+<details class="faq-item" open>
+<summary><span>پاسخ تمرین ۱</span></summary>
+<div class="faq-answer"><strong>P1 — checkout is degraded for ~30% of users since 14:02. Channel: #inc-042.</strong> چهار قطعهٔ اعلام همین‌قدر فشرده است: سطح، سیستم، دامنه و زمان، و در آخر آدرسِ کانال. خطِ اولِ تمیز، تمامِ وحشتِ کانال را می‌خواباند.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۲</span></summary>
+<div class="faq-answer"><strong>A cache config change in the last deploy is the likely trigger — we're rolling it back now.</strong> اسمِ فرایند جایِ اسمِ آدم می‌نشیند؛ در پست‌مورتمِ بی‌اتهام سؤال «چه چیزی اشتباه شد» است، نه «چه کسی».</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۳</span></summary>
+<div class="faq-answer"><strong>CAUSE (working theory): DNS propagation — not yet confirmed.</strong> برچسبِ working theory حدس را از واقعیت جدا می‌کند؛ تا متریک تأیید نکند هیچ چیزی confirmed نمی‌شود — همین مرز، قلبِ بی‌اتهامی است.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۴</span></summary>
+<div class="faq-answer"><strong>All-clear: error rates have been at baseline for 30 minutes. Monitoring is standing down. Postmortem Friday at 10:00 — blameless; bring your timelines.</strong> جملهٔ پایانی دو کار می‌کند: قفلِ امنیت + قرارِ یادگیری؛ بدونِ این دو، حادثه «بسته» نمی‌شود، فقط «تمام» می‌شود.</div>
+</details>
+
+</section>
+<h2>چالشِ امروز</h2>
+<blockquote>🎯 برایِ آخرین قطعی یا باگِ جدیِ تیم‌تان یک بریفِ چهارخطیِ STATUS / CAUSE / ACTION / NEXT UPDATE بنویس — حتی اگر هفته‌ها پیش بوده؛ عضلهٔ حادثه با بازنویسی ساخته می‌شود.</blockquote>
 <h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
 <ul>
 <li><strong>فرضیه را برچسب بزن</strong> — «working theory» و «confirmed» را قاطی نکن — اعلامِ حدس به‌عنوانِ واقعیت در حادثه، خطای هفت‌ساله می‌سازد.</li>

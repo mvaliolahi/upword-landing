@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p5.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 1013,
+      "wordCount": 1633,
       "keywords": "مصاحبه staff engineer, senior interview, سازمانی مصاحبه, org interview",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>مصاحبه‌های staff+؛ حلِ مسئلهٔ سازمانی و اثرِ بدونِ اختیار</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۱۱ دقیقه مطالعه</span>
+<span>⏱ ۱۷ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -128,6 +128,48 @@
 <div class="zh-ex"><span class="zh">Interviewer: How would you improve our code review process? — You: First question back: what hurts most today — speed, quality, or tone? The fix is different for each.</span><span class="fa">مصاحبه‌گر: فرایندِ کدریویو ما رو چطور بهتر می‌کنی؟ — تو: اول یه سوالِ برگردان: امروز چی بیشتر اذیت می‌کنه — سرعت، کیفیت، یا لحن؟ درمانِ هر کدوم فرق داره.</span></div>
 <div class="zh-ex"><span class="zh">Interviewer: Say speed — PRs sit for days. — You: My guess: they're too big. But I'd confirm with data before changing anything — a two-sprint experiment: PR cap at 300 lines, measure merge time. If it moves, keep; if not, next hypothesis. Process is product.</span><span class="fa">مصاحبه‌گر: فرض کن سرعت — PRها روزها می‌شینن. — تو: حدسم: زیادی بزرگن. ولی قبل از هر تغییری با داده تأییدش می‌کنم — آزمایشِ دو-اسپرینته: سقفِ PR رویِ ۳۰۰ خط، اندازه‌گیریِ زمانِ مرج. جابه‌جا شد، نگه می‌داریم؛ نه، فرضیهٔ بعدی. فرایند، محصوله.</span></div>
 <div class="zh-ex"><span class="zh">Interviewer: And if the data says size isn't the problem? — You: Then I was wrong cheaply — two sprints, not two quarters. That's the whole point of small experiments: wrong fast, right eventually.</span><span class="fa">مصاحبه‌گر: و اگه داده گفت اندازه مشکل نیست؟ — تو: اون‌وقت ارزون اشتباه کردم — دو اسپرینت، نه دو فصل. کلِ نکتهٔ آزمایشِ کوچیک همینه: سریع اشتباه، آخرش درست.</span></div>
+<h2>اشتباه‌های رایجِ فارسی‌زبان‌ها در همین درس</h2>
+<p>این بخش را با یک قرارداد بخوان: هر ❌ یعنی «مغزِ فارسی‌زبانت این را می‌سازد و طبیعی است»، و هر ✅ یعنی «این همان چیزی است که گیرندهٔ انگلیسی‌زبان می‌شنود». خطاها اثرِ مستقیمِ ترجمهٔ ذهنیِ فارسی به انگلیسی‌اند؛ با هر جفت بلند تکرار کن تا شکلِ درست در گوشت نشست کند.</p>
+<div class="zh-ex"><span class="zh">❌ It depends on the situation.</span><span class="fa">❌ «بسته به موقعیت» در فارسی جوابِ کامل و حرفه‌ای است و ذهن همان را می‌فرستد؛ اما در مصاحبهٔ سطحِ staff، dependsِ برهنه طفره خوانده می‌شود. dependsِ دوتایی — گزینهٔ الف اگر…، گزینهٔ ب اگر… — نامِ دیگرِ تحلیل است.</span></div>
+<div class="zh-ex"><span class="zh">✅ Depends on the read/write ratio — if it's read-heavy, I'd cache first; if it's write-heavy, I'd queue first.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ We did it org-wide — huge success, very big impact.</span><span class="fa">❌ بزرگ‌نمایی از عادتِ تعریفِ فارسی می‌آید («مقاوم بود، عالی شد»)؛ اما مصاحبه‌گرِ staff ابزارِ شکارِ بزرگ‌نمایی را دارد. فرمولِ امن: دامنهٔ صادقانه + جملهٔ generalized — تعمیمِ الگو امتیازِ واقعی است، نه وسعتِ ادعا.</span></div>
+<div class="zh-ex"><span class="zh">✅ Honestly, it started with one team — but the pattern generalized: the checklist is now the default for three teams.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ To improve your code review, everyone must review within 24 hours.</span><span class="fa">❌ ذهنِ ما جوابِ آماده را افتخار می‌داند و نسخهٔ اول را می‌فرستد؛ اما در سطحِ staff، سؤالِ برگردانِ شفاف‌ساز خودش امتیاز است — چارچوب و گوشِ دادن را هم‌زمان نشان می‌دهد و فرایندِ فکر را می‌فروشد، نه فقط جواب را.</span></div>
+<div class="zh-ex"><span class="zh">✅ First question back: what hurts most today — speed, quality, or tone? The fix is different for each.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<h2>تمرین‌های این درس — چهار قدم، بی‌عجله</h2>
+<p>سطحِ staff یعنی جواب‌هایی که فرایندِ فکر را نشان می‌دهند؛ هر چهار را اول خودت بگو، بعد پاسخ را باز کن.</p>
+<ol>
+<li>سؤال: «Should we put a cache or a queue in front of this service?» — جوابِ dependsِ دوتایی بده.</li>
+<li>داستانِ تو فقط یک تیم را گرفته، نه کلِ سازمان را. جملهٔ صداقت + تعمیم را بگو.</li>
+<li>مصاحبه‌گر: «How would you improve our code review process?» — با سؤالِ برگردان شروع کن.</li>
+<li>آزمایشِ دوسپرینتی‌ات جواب نداد. جملهٔ «اشتباهِ ارزان» را بگو.</li>
+</ol>
+<section class="article-faq" aria-label="پاسخ تمرین‌ها">
+<h2>پاسخ تمرین‌ها — اول خودت جواب بده، بعد باز کن</h2>
+
+<details class="faq-item" open>
+<summary><span>پاسخ تمرین ۱</span></summary>
+<div class="faq-answer"><strong>"Depends on the read/write ratio — if it's read-heavy, I'd cache first and measure the hit rate; if it's write-heavy, I'd queue first and absorb the bursts."</strong> گزینه + شرط + سنجش؛ همین ساختار، «طفره» را به «تحلیل» تبدیل می‌کند.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۲</span></summary>
+<div class="faq-answer"><strong>"Honestly, one team — but the pattern generalized: the staged-rollout checklist we wrote is now the default for three teams, and that's the part I'd repeat anywhere."</strong> دامنهٔ صادقانه، جملهٔ generalized و درسِ قابلِ انتقال؛ مصاحبه‌گرِ staff دنبالِ همین پُل از «یک تیم» به «سیستم» است.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۳</span></summary>
+<div class="faq-answer"><strong>"First question back: what hurts most today — speed, quality, or tone? The fix is different for each."</strong> سؤالِ سه‌گزینه، امضای staff است: قبل از نسخهٔ تجویزی، فرایندِ تشخیص — همان‌طور که پزشکِ خوب اول می‌پرسد بعد نسخه می‌نویسد.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۴</span></summary>
+<div class="faq-answer"><strong>"Then I was wrong cheaply — two sprints, not two quarters. That's the whole point of small experiments: wrong fast, right eventually."</strong> این جمله نشان می‌دهد برایِ اشتباه، بودجه و روش داری؛ ریسکِ محاسبه‌شده زبانِ روزمرهٔ سطحِ staff است.</div>
+</details>
+
+</section>
+<h2>چالشِ امروز</h2>
+<blockquote>🎯 یکی از تصمیم‌های فنیِ امسال را با فرمولِ دوتایی در دو جملهٔ انگلیسی بنویس و بلند بگو — «اگر الف، می‌کردم X؛ اگر ب، می‌کردم Y» — این قالب، جوابِ ثابتِ سؤال‌های «بستگی دارد»ی مصاحبه‌های آینده‌ات است.</blockquote>
 <h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
 <ul>
 <li><strong>سوالِ برگردانِ سه‌گزینه</strong> — «Speed, quality, or tone?» — در هر سوالِ فرضیِ فرایندی، اول پرسشِ شفاف‌ساز؛ فرایندِ فکر، امتیاز است نه جوابِ فوری.</li>

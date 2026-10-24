@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 916,
+      "wordCount": 1453,
       "keywords": "واژگان برنامه نویسی, coding vocabulary, function loop bug, commit merge deploy",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>واژگانِ برنامه‌نویسی؛ از variable تا deployment</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۱۰ دقیقه مطالعه</span>
+<span>⏱ ۱۵ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -181,6 +181,48 @@
 <div class="zh-ex"><span class="zh">You: Got a sec? The search endpoint throws a 500 when the query has special characters. — Colleague: Special like what?</span><span class="fa">تو: یه ثانیه داری؟ endpoint جستجو وقتی کوئری کاراکترِ خاص داره 500 می‌اندازه. — همکار: خاص مثلِ چی؟</span></div>
 <div class="zh-ex"><span class="zh">You: Persian commas, mostly. The parser raises an exception and nothing catches it, so the whole request dies. — Colleague: Ah — classic. Let's catch and sanitize at the input boundary.</span><span class="fa">تو: بیشتر ویرگولِ فارسی. پارسر exception می‌اندازه و هیچ‌کس نمی‌گیردش، پس کلِ درخواست می‌میره. — همکار: آ — کلاسیک. بیا سمتِ ورودی بگیریم و پاک‌سازی کنیم.</span></div>
 <div class="zh-ex"><span class="zh">You: Exactly — sanitize first, then parse. I'll write the fix and a test with Persian commas. — Colleague: And the empty catch down there — the one that swallows errors? That's a separate ticket, please!</span><span class="fa">تو: دقیقاً — اول پاک‌سازی، بعد پارس. فیکس و یه تست با ویرگولِ فارسی می‌نویسم. — همکار: و اون کچِ خالی پایین — همونی که خطاها رو قورت می‌ده؟ اون تیکتِ جدا باشه لطفاً!</span></div>
+<h2>اشتباه‌های رایجِ فارسی‌زبان‌ها در همین درس</h2>
+<p>این بخش را با یک قرارداد بخوان: هر ❌ یعنی «مغزِ فارسی‌زبانت این را می‌سازد و طبیعی است»، و هر ✅ یعنی «این همان چیزی است که گیرندهٔ انگلیسی‌زبان می‌شنود». خطاها اثرِ مستقیمِ ترجمهٔ ذهنیِ فارسی به انگلیسی‌اند؛ با هر جفت بلند تکرار کن تا شکلِ درست در گوشت نشست کند.</p>
+<div class="zh-ex"><span class="zh">❌ The function returns back a boolean.</span><span class="fa">❌ «بر»می‌گرداند را مغز ذره‌ذره ترجمه می‌کند و back اضافه می‌آورد؛ اما return خودش «بر» را دارد — returns back تکرارِ بی‌معناست. رایج‌ترین خطای گفتارِ کدیِ فارسی‌زبان‌ها، همین backِ سرگردان است.</span></div>
+<div class="zh-ex"><span class="zh">✅ The function returns a boolean.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ I committed my codes.</span><span class="fa">❌ «کدهای من» در فارسی جمع می‌شود؛ اما code در انگلیسیِ فنی جمع‌ناپذیر است: my code، the codebase. codes یعنی چند نظامِ کدنویسی — و آن هم به‌ندرت و در جای دیگر.</span></div>
+<div class="zh-ex"><span class="zh">✅ I committed my code.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ The test is failed.</span><span class="fa">❌ «تست رد شد» را مغز با is failed قاب می‌کند؛ اما fail اینجا فعلِ اصلی است: the test failed. در CI همه فعل می‌گویند — the build fails، the test fails — و جملهٔ تو باید هم‌صدا با ماشین باشد.</span></div>
+<div class="zh-ex"><span class="zh">✅ The test failed.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<h2>تمرین‌های این درس — چهار قدم، بی‌عجله</h2>
+<p>فعلِ درست و اسمِ درست، زبانِ کد است؛ تمرین‌ها را با جملهٔ کاملِ گفتاری اجرا کن.</p>
+<ol>
+<li>جای خالی: «The loop ___ (breaks / returns) when it finds a match, and the function ___ (returns / gives) a boolean.»</li>
+<li>اصلاح کن: "I committed my codes, but the test is failed — it throws a null pointer when the list is empty."</li>
+<li>چرخهٔ حیاتِ کد را به ترتیب بگو: از نوشتن تا production — هشت فعلِ پشت‌سرهم.</li>
+<li>محیط‌ها را بگو و یک جملهٔ واقعی بساز: «فیکس رویِ staging است — آمادهٔ دپلوی به prod».</li>
+</ol>
+<section class="article-faq" aria-label="پاسخ تمرین‌ها">
+<h2>پاسخ تمرین‌ها — اول خودت جواب بده، بعد باز کن</h2>
+
+<details class="faq-item" open>
+<summary><span>پاسخ تمرین ۱</span></summary>
+<div class="faq-answer"><strong>breaks</strong> و <strong>returns</strong> — حلقه break می‌خورد و تابع return می‌دهد؛ give در زبانِ کد جایی ندارد. فعلِ هر اسمِ فنی را با خودش قفل کن: the loop breaks، the function returns.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۲</span></summary>
+<div class="faq-answer"><strong>"I committed my code, but the test failed — it throws a null pointer when the list is empty."</strong> — code بی‌جمع و failed بیِ is؛ دو قالبِ کوچکی که گفتارِ کدت را حرفه‌ای می‌کنند.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۳</span></summary>
+<div class="faq-answer"><strong>write → commit → push → review → merge → build → test → deploy</strong> — هشت‌ضربِ خطِ تولیدِ کد؛ در استندآپ هر روز بخشی از همین خط را روایت می‌کنی.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۴</span></summary>
+<div class="faq-answer"><strong>local → dev/staging → production</strong>. جمله: <strong>"The fix is on staging, ready to deploy to prod."</strong> — سه محیط و یک جملهٔ آماده؛ rollback هم هم‌خانوادهٔ همین خط است: "We rolled back the last release."</div>
+</details>
+
+</section>
+<h2>چالشِ امروز</h2>
+<blockquote>🎯 امروز سه جملهٔ کدیِ واقعی دربارهٔ کارِ خودت بلند بگو — "This function takes an ID…", "The loop breaks when…", "I committed the fix — it's up for review." — اسمِ فنی را با فعلِ درستش بگو، نه با ترجمهٔ ذهن‌ات.</blockquote>
 <h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
 <ul>
 <li><strong>وابستگی را با on بگو</strong> — depend on — نهِ depend from/of. سه فعلِ دیگر: rely on, build on, run on — هر چهار on می‌گیرند؛ قاعدهٔ یک‌خطی.</li>

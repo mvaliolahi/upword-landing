@@ -102,6 +102,7 @@ class ArticleParser(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.mode = None            # None|head|callout|prose|faq
+        self.mode_before_faq = None # v-deepen — prose restoration after mid-body FAQ
         self.meta_title = ''
         self.blocks = []
         self.callout = {}
@@ -150,6 +151,9 @@ class ArticleParser(HTMLParser):
             self.mode = 'prose'
             return
         if tag == 'section' and 'article-faq' in cls:
+            # v-deepen — drill-answer sections can appear MID-PROSE; remember
+            # where we were so closing returns to prose, not to nothing.
+            self.mode_before_faq = self.mode
             self.mode = 'faq'
             return
         if tag in ('section', 'footer') and self.mode == 'faq':
@@ -325,6 +329,12 @@ class ArticleParser(HTMLParser):
                     self.faq_items.append({'q': q, 'a': a})
                 self.faq_q = None
                 self.faq_a = None
+            elif tag in ('section', 'footer'):
+                # v-deepen — close the FAQ section on its OWN closing tag
+                # (previously this only happened when the NEXT section
+                # opened, or at EOF — so a mid-prose drill-answers section
+                # swallowed every block that followed it).
+                self._close_faq_section()
             return
 
     def handle_data(self, data):
@@ -353,7 +363,11 @@ class ArticleParser(HTMLParser):
         if self.faq_items:
             self.blocks.append({'type': 'faq', 'qa': self.faq_items})
             self.faq_items = []
-        self.mode = None
+        # v-deepen — a mid-prose drill-answers section hands the parser
+        # BACK to prose; the trailing article (dialogue, grammar, tips…)
+        # keeps flowing instead of being silently dropped.
+        self.mode = 'prose' if self.mode_before_faq == 'prose' else None
+        self.mode_before_faq = None
 
     def close(self):
         super().close()

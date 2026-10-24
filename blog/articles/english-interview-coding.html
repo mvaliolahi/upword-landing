@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 1044,
+      "wordCount": 1547,
       "keywords": "مصاحبه فنی, coding interview, clarifying questions, thinking out loud",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>مصاحبهٔ فنی ۱؛ حلِ مسئله با صدای بلند</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۱۱ دقیقه مطالعه</span>
+<span>⏱ ۱۶ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -131,6 +131,48 @@
 <div class="zh-ex"><span class="zh">Interviewer: Non-empty, case-sensitive, ASCII. — You: So my plan: one pass to count, one pass to find — O(n) twice, O(1) space since the alphabet is fixed. Writing it now.</span><span class="fa">مصاحبه‌گر: غیرخالی، حساس، ASCII. — تو: پس نقشه‌م: یه پاس شمارش، یه پاس پیدا کردن — دوبار O(n)، فضای O(1) چون الفبا ثابته. می‌نویسمش.</span></div>
 <div class="zh-ex"><span class="zh">You: Let me trace: "swiss" — counts are s:3, w:1, i:1. Second pass finds w. Edge case: all repeated — return -1. That's the contract.</span><span class="fa">تو: ردیابی کنم: «swiss» — شمارش‌ها s:3, w:1, i:1. پاسِ دوم w رو پیدا می‌کنه. حالتِ لبه: همه تکراری — -۱ برمی‌گردونیم. قرارداد همینه.</span></div>
 <div class="zh-ex"><span class="zh">Interviewer: Solid. What if the string is a stream — can't hold it? — You: Then a second pass is impossible — I'd need a different structure… honestly, this smells like a bounded queue problem. Can I think out loud?</span><span class="fa">مصاحبه‌گر: محکم. اگه رشته استِرِم باشه — نگهش نداشتیم؟ — تو: اون‌وقت پاسِ دوم غیرممکنه — ساختارِ متفاوتی لازمه… راستش بوی مسئلهٔ صفِ محدود می‌ده. می‌شه بلند فکر کنم؟</span></div>
+<h2>اشتباه‌های رایجِ فارسی‌زبان‌ها در همین درس</h2>
+<p>این بخش را با یک قرارداد بخوان: هر ❌ یعنی «مغزِ فارسی‌زبانت این را می‌سازد و طبیعی است»، و هر ✅ یعنی «این همان چیزی است که گیرندهٔ انگلیسی‌زبان می‌شنود». خطاها اثرِ مستقیمِ ترجمهٔ ذهنیِ فارسی به انگلیسی‌اند؛ با هر جفت بلند تکرار کن تا شکلِ درست در گوشت نشست کند.</p>
+<div class="zh-ex"><span class="zh">❌ I will solve it with hash map.</span><span class="fa">❌ دو گره در یک جمله: فارسی حرفِ تعریف ندارد و a جا می‌افتد؛ و will قول می‌دهد — مصاحبه راه‌حلِ ذهنیِ در-دستِ تکامل می‌خواهد، I'd پیشنهاد می‌دهد. حلِ مسئله با شرطیِ نرم شروع می‌شود نه با قول.</span></div>
+<div class="zh-ex"><span class="zh">✅ I'd solve it with a hash map.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ The time of this solution is n square.</span><span class="fa">❌ «مربعِ n» مستقیم n square می‌شود؛ نشانهٔ استاندارد O(n²) است و خواندنش «او-ان-اسکوئر» یا quadratic — مصاحبه‌گر فقط زبانِ استاندارد را می‌شنود، n square صدای ترجمه است.</span></div>
+<div class="zh-ex"><span class="zh">✅ This runs in O(n²) time — quadratic.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ Let me to think a moment.</span><span class="fa">❌ «بگذار یک لحظه فکر کنم» بعد از let me مصدرِ با to می‌سازد، چون «اجازه‌یِ دادن» در ذهن با to گره خورده؛ بعد از let me فعلِ خام می‌آید — let me think، بدونِ to.</span></div>
+<div class="zh-ex"><span class="zh">✅ Let me think for a second.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<h2>تمرین‌های این درس — چهار قدم، بی‌عجله</h2>
+<p>مصاحبهٔ کدنویسی، گفتارِ حینِ فکرکردن است؛ چهار تمرین را بلند و با وقفهٔ طبیعی اجرا کن، بعد پاسخ‌ها را باز کن.</p>
+<ol>
+<li>برای مسئلهٔ «اولین کاراکترِ یکتا» دو سؤالِ شفاف‌ساز دربارهٔ ورودی بپرس.</li>
+<li>پیچیدگیِ راهِ بی‌رحمانه را کامل بگو: دو حلقهٔ تو-در-تو — زمان و فضا، هر دو.</li>
+<li>جملهٔ معاوضه را کامل کن: «I can trade ___ for ___: one pass with a hash map gives…»</li>
+<li>ردیابی را بلند اجرا کن: برای رشتهٔ swiss شمارش‌ها را بگو و پاسِ دوم را گزارش کن.</li>
+</ol>
+<section class="article-faq" aria-label="پاسخ تمرین‌ها">
+<h2>پاسخ تمرین‌ها — اول خودت جواب بده، بعد باز کن</h2>
+
+<details class="faq-item" open>
+<summary><span>پاسخ تمرین ۱</span></summary>
+<div class="faq-answer">نمونه: <strong>"Quick clarifications — can the string be empty? And is it case-sensitive?"</strong> شفاف‌سازی امتیازِ مستقلِ مصاحبه است؛ سکوتِ شروعِ فوری، نمرهٔ communication را می‌سوزاند.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۲</span></summary>
+<div class="faq-answer"><strong>"The brute force is O(n²) — two nested loops, and constant space."</strong> دو بُعدِ پیچیدگی همیشه با هم گفته می‌شوند؛ جملهٔ نصفه در مصاحبه، فکرِ نصفه شنیده می‌شود.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۳</span></summary>
+<div class="faq-answer"><strong>"...trade memory for speed: one pass with a hash map gives O(n) time at O(n) space."</strong> معاوضه با trade X for Y — «حافظه را با سرعت»؛ for یعنی «به‌عوضِ»، نه «به».</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۴</span></summary>
+<div class="faq-answer"><strong>"Let me trace: swiss — counts are s:3, w:1, i:1. The second pass finds w."</strong> ردیابیِ بلند هم تستِ ذهنی است هم نمایشِ ذهنِ منظم؛ نمره، مسیرِ فکر را هم می‌خرد.</div>
+</details>
+
+</section>
+<h2>چالشِ امروز</h2>
+<blockquote>🎯 امروز یک مسئلهٔ سادهٔ برنامه‌نویسی را بلند حل کن — شفاف‌سازی، طرح، ردیابی، همه با صدا. مصاحبه از گوشِ تمرین‌ندیده عبور نمی‌کند.</blockquote>
 <h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
 <ul>
 <li><strong>شفاف‌سازی = امتیاز</strong> — سه-چهار سوالِ آغازین، امتیازِ مستقلِ مصاحبه است — سکوتِ شروعِ فوری، نمرهٔ communication را می‌سوزاند.</li>

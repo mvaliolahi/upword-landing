@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 983,
+      "wordCount": 1552,
       "keywords": "گیت انگلیسی, git phrases, pull request, merge conflict",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>گیت به انگلیسی؛ commit, pull request و merge بدون تصادف</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۱۰ دقیقه مطالعه</span>
+<span>⏱ ۱۶ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -185,6 +185,48 @@
 <div class="zh-ex"><span class="zh">You: Heads-up — my branch has a conflict with main. Looks like the same file we both touched. — Lead: Ah, the config refactor. Want to pair for five minutes?</span><span class="fa">تو: خبر — برنچم با main کنفلیکت داره. ظاهراً همون فایلی که هر دومان دست زدیم. — لید: آ، ری‌فکتورِ کانفیگ. پنج دقیقه پِر می‌شیم؟</span></div>
 <div class="zh-ex"><span class="zh">You: Yes please — I don't want to break the release. — Lead: Take theirs for the config lines, keep yours for the feature part. Then rebase and push.</span><span class="fa">تو: لطفاً — نمی‌خوام ریلیز رو خراب کنم. — لید: خطوطِ کانفیگ رو نسخهٔ اونا رو نگه دار، بخشِ فیچر رو مالِ خودت. بعد ری‌بیس و پوش.</span></div>
 <div class="zh-ex"><span class="zh">You: Done — clean diff now, tests green. Thanks — conflict on shared config is exactly the thing I didn't want to learn the hard way. — Lead: That's what the team is for!</span><span class="fa">تو: تمام شد — دیف تمیزه، تست‌ها سبز. ممنون — کنفلیکت رویِ کانفیگِ مشترک دقیقاً همون چیزی بود که نمی‌خواستم از راهِ سخت یاد بگیرم. — لید: تیم برایِ همینه!</span></div>
+<h2>اشتباه‌های رایجِ فارسی‌زبان‌ها در همین درس</h2>
+<p>این بخش را با یک قرارداد بخوان: هر ❌ یعنی «مغزِ فارسی‌زبانت این را می‌سازد و طبیعی است»، و هر ✅ یعنی «این همان چیزی است که گیرندهٔ انگلیسی‌زبان می‌شنود». خطاها اثرِ مستقیمِ ترجمهٔ ذهنیِ فارسی به انگلیسی‌اند؛ با هر جفت بلند تکرار کن تا شکلِ درست در گوشت نشست کند.</p>
+<div class="zh-ex"><span class="zh">❌ I will push my branch to the GitHub.</span><span class="fa">❌ «به گیت‌هاب» را مغز با the قاب می‌کند؛ اما اسمِ پلتفرم‌ها برهنه می‌نشینند: to GitHub، to Slack، to AWS. حرفِ تعریفِ اضافی، ردِ ترجمهٔ ذهن است — حتی وقتی همه‌چیزِ دیگر درست است.</span></div>
+<div class="zh-ex"><span class="zh">✅ I'll push my branch to GitHub.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ Can you merge my code?</span><span class="fa">❌ «مرج کن» مرزِ بازبینی را می‌پرد؛ در تیمِ انگلیسی کد مستقیم merge نمی‌شود: اول review، بعد address the comments، بعد merge. گفتارِ گیت همین ترتیب را با فعل‌های خودش زنده نگه می‌دارد.</span></div>
+<div class="zh-ex"><span class="zh">✅ Could you review my PR when you get a chance?</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ We have conflict between our branches.</span><span class="fa">❌ «تعارضِ بینِ شاخه‌ها» را مغز با between می‌سازد؛ اما جملهٔ ثابتِ تیم‌ها شخصی و ساده است: I have a merge conflict with main — با مالکیتِ I. کمک‌خواستنِ شفاف، زودتر از گزارشِ مبهم می‌آید.</span></div>
+<div class="zh-ex"><span class="zh">✅ I have a merge conflict with main.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<h2>تمرین‌های این درس — چهار قدم، بی‌عجله</h2>
+<p>گیتِ گفتاری را با جملهٔ کامل تمرین کن — انگار پیامِ اسلکِ تیم را همین حالا می‌نویسی.</p>
+<ol>
+<li>پیامِ چهارخطیِ PR را بساز برای «افزودنِ retry به کلاینتِ پرداخت»: What & Why / How / Testing / Notes.</li>
+<li>اصلاح کن: "I opened pull request for merge my feature. We have conflict between branches."</li>
+<li>جمله‌های خرابی را بگو: فورس‌پوشِ اشتباهی به شاخهٔ اشتراکی — اعلام + عذرخواهی + اقدام.</li>
+<li>جای خالی: «I'll ___ off main, then open a PR and ___ your comments before we merge.»</li>
+</ol>
+<section class="article-faq" aria-label="پاسخ تمرین‌ها">
+<h2>پاسخ تمرین‌ها — اول خودت جواب بده، بعد باز کن</h2>
+
+<details class="faq-item" open>
+<summary><span>پاسخ تمرین ۱</span></summary>
+<div class="faq-answer">نمونه: <strong>"What & Why: adds retry logic to the payment client. How: exponential backoff, capped at 5 tries. Testing: unit tests + a manual charge on staging. Notes: the diff looks big, but half is a generated file."</strong> — چهار خطی که نصفِ سؤال‌های بازبین را قبل از پرسیدن جواب می‌دهد.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۲</span></summary>
+<div class="faq-answer"><strong>"I opened a PR for my feature — it's ready for review. Also, I have a merge conflict with main — could you pair with me for five minutes?"</strong> — PR با حرفِ تعریف و ready for review؛ و کنفلیکت با مالکیتِ I و شاخهٔ main.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۳</span></summary>
+<div class="faq-answer"><strong>"Heads-up: I force-pushed to the shared branch by accident — I'm fixing it now, sorry!"</strong> — heads-up + شرح + اقدام + عذرخواهی؛ در تیم‌های سالم، اعلامِ سریعِ خرابی امتیاز است نه جریمه.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۴</span></summary>
+<div class="faq-answer"><strong>branch</strong> و <strong>address</strong> — "I'll branch off main … and address your comments before we merge." دو فعلِ گیت که چرخهٔ کارِ تیمی را می‌سازند: شاخه‌زدن و پاسخ‌دادن.</div>
+</details>
+
+</section>
+<h2>چالشِ امروز</h2>
+<blockquote>🎯 در پیامِ کاریِ بعدی‌ات سه فعلِ این درس را در جایِ درست بگذار — branch off، open a PR، address the comments — و اگر کنفلیکتی در کار است با مالکیتِ خودت اعلامش کن؛ گفتارِ درستِ گیت، اولین روزِ حرفه‌ای‌ات را امن می‌کند.</blockquote>
 <h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
 <ul>
 <li><strong>اعلامِ خرابی با heads-up</strong> — هر خرابیِ گیت با heads-up + اقدام: «Heads-up: I force-pushed by accident — fixing now.» — اعلامِ سریع، نصفِ جِرم نیست؛ تمامِ حرفه‌ای‌بودن است.</li>

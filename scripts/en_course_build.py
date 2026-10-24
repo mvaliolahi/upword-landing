@@ -28,6 +28,15 @@ EXPANSION_FILES = [
     'en_expand_data_4',   # lessons 55-72
     'en_expand_data_5',   # lessons 73-90
 ]
+# v-deepen wave (mistakes + drills + challenge), 5 files × 18 lessons
+DEEPEN_FILES = [
+    'en_deepen_data_1',   # lessons 1-18
+    'en_deepen_data_2',   # lessons 19-36
+    'en_deepen_data_3',   # lessons 37-54
+    'en_deepen_data_4',   # lessons 55-72
+    'en_deepen_data_5',   # lessons 73-81
+    'en_deepen_data_6',   # lessons 82-90
+]
 
 
 def load_all():
@@ -44,6 +53,14 @@ def load_all():
         spec.loader.exec_module(mod)
         if hasattr(mod, 'EXPANSIONS'):
             lib.apply_expansions(lessons, mod.EXPANSIONS)
+    # v-deepen: AFTER expansions — the mistakes/drills/challenge sections
+    # then land between grammar/dialogue and the closing tips section.
+    for name in DEEPEN_FILES:
+        spec = importlib.util.spec_from_file_location(name, os.path.join(SCRIPTS, name + '.py'))
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        if hasattr(mod, 'DEEPEN'):
+            lib.apply_deepening(lessons, mod.DEEPEN)
     return lessons
 
 

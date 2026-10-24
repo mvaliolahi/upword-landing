@@ -79,6 +79,19 @@ def render_block(b) -> str:
         return out + '\n</ol>'
     if kind == 'quote':
         return f'\n<blockquote>{inline(b[1])}</blockquote>'
+    if kind == 'faq':
+        # v-deepen — mid-body drill answers: the SAME <details.faq-item>
+        # pattern the article FAQ uses (the extractor routes any
+        # <section.article-faq> to a `faq` block → the app's expandable
+        # glass cards; the web keeps its native details toggle).
+        out = ('\n<section class="article-faq" aria-label="پاسخ تمرین‌ها">\n'
+               '<h2>پاسخ تمرین‌ها — اول خودت جواب بده، بعد باز کن</h2>\n')
+        for i, (q, a) in enumerate(b[1]):
+            out += (f'\n<details class="faq-item"{" open" if i == 0 else ""}>\n'
+                    f'<summary><span>{inline(q)}</span></summary>\n'
+                    f'<div class="faq-answer">{inline(a)}</div>\n</details>\n')
+        out += '\n</section>'
+        return out
     if kind == 'callout':
         return (f'\n<div class="short-answer"><span class="sa-label">{b[1]}</span>'
                 f'\n<p>{inline(b[2])}</p></div>')
@@ -502,6 +515,68 @@ def apply_expansions(lessons, expansions):
         if exp.get('tips'):
             tip_items = [t if isinstance(t, str) else ('**' + t[0] + '** — ' + t[1]) for t in exp['tips']]
             les['sections'].append({'h2': 'نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند', 'blocks': [('ul', tip_items)]})
+    return lessons
+
+
+def apply_deepening(lessons, deepen):
+    """v-deepen (the owner's «گسترش درس‌به‌درس» wave): append each lesson's
+    MISTAKES + DRILLS(+ tap-to-reveal answers) + daily CHALLENGE sections
+    right BEFORE the conversation-tips section (when present), so lessons
+    still close on tips + takeaway.
+
+    Deepen dict: slug -> {
+        'mistakes':  [(wrong_en, right_en, why_fa), ...]          # 2-4
+        'drills':    (intro_fa, [exercise_fa...], [(q, a)...])    # 4-6 + answers
+        'challenge': str_fa
+    }"""
+    by_slug = {l['slug']: l for l in lessons}
+    TIPS_H2 = 'نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند'
+    for slug, deep in deepen.items():
+        les = by_slug.get(slug)
+        if les is None:
+            continue
+        sections = []
+
+        # ── 1. اشتباه‌های رایجِ فارسی‌زبان‌ها ─────────────────────────────
+        mistakes = deep.get('mistakes') or []
+        if mistakes:
+            blocks = [('p', 'این بخش را با یک قرارداد بخوان: هر ❌ یعنی «مغزِ فارسی‌زبانت '
+                            'این را می‌سازد و طبیعی است»، و هر ✅ یعنی «این همان چیزی است که '
+                            'گیرندهٔ انگلیسی‌زبان می‌شنود». خطاها اثرِ مستقیمِ ترجمهٔ ذهنیِ '
+                            'فارسی به انگلیسی‌اند؛ با هر جفت بلند تکرار کن تا شکلِ درست در '
+                            'گوشت نشست کند.')]
+            for wrong, right, why in mistakes:
+                blocks.append(('ex', f'❌ {wrong}', f'❌ {why}'))
+                blocks.append(('ex', f'✅ {right}', '✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.'))
+            sections.append({'h2': 'اشتباه‌های رایجِ فارسی‌زبان‌ها در همین درس', 'blocks': blocks})
+
+        # ── 2. تمرین‌های این درس (+ پاسخ‌های بازشدنی) ─────────────────────
+        drills = deep.get('drills')
+        if drills:
+            intro, items, answers = drills
+            blocks = [('p', intro), ('ol', items)]
+            if answers:
+                blocks.append(('faq', answers))
+            sections.append({'h2': 'تمرین‌های این درس — چهار قدم، بی‌عجله', 'blocks': blocks})
+
+        # ── 3. چالشِ امروز ───────────────────────────────────────────────
+        if deep.get('challenge'):
+            # A `quote` (not a callout): the extractor hoists the ONE
+            # callout of each article to the reader's top as «پاسخ کوتاه»
+            # — that slot belongs to the lesson takeaway, so the challenge
+            # renders as the accent-bar quote card instead.
+            sections.append({'h2': 'چالشِ امروز', 'blocks': [
+                ('quote', '🎯 ' + deep['challenge']),
+            ]})
+
+        if not sections:
+            continue
+        idx = len(les['sections'])
+        for i, sec in enumerate(les['sections']):
+            if sec['h2'] == TIPS_H2:
+                idx = i
+                break
+        les['sections'][idx:idx] = sections
     return lessons
 
 

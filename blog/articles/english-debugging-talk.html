@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 993,
+      "wordCount": 1582,
       "keywords": "دیباگ انگلیسی, debugging phrases, steps to reproduce, bug report",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>دیباگ به انگلیسی؛ توصیفِ مشکل، فرضیه‌سازی و «found it!»</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۱۰ دقیقه مطالعه</span>
+<span>⏱ ۱۷ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -130,6 +130,48 @@
 <div class="zh-ex"><span class="zh">You: Got 30 minutes to pair? The payments retry is haunted — works in staging, dies in prod. — Colleague: Haunted, my favorite kind. Show me the logs.</span><span class="fa">تو: ۳۰ دقیقه وقت داری پِر شیم؟ retryِ پرداخت جن‌زده‌ست — تو staging کار می‌کنه، تو prod می‌میره. — همکار: جن‌زده، نوعِ موردعلاقه‌ام. لاگ‌ها رو نشونم بده.</span></div>
 <div class="zh-ex"><span class="zh">Colleague: See this gap? Two retries, same millisecond. — You: Oh. It's a race — both fire before the first one finishes. — Colleague: There it is.</span><span class="fa">همکار: این فاصله رو می‌بینی؟ دو retry، همون میلی‌ثانیه. — تو: او. یه رِیسه — هر دو شلیک می‌شن قبل از اینکه اولی تموم شه. — همکار: پیداش کردیم.</span></div>
 <div class="zh-ex"><span class="zh">You: I'll add an idempotency key so the second one becomes a no-op. Regression test too. — Colleague: And I'll write the runbook entry — "millisecond retries" — so the next haunted case dies faster.</span><span class="fa">تو: کلیدِ idempotency اضافه می‌کنم که دومی بی‌اثر شه. تستِ رگرسیون هم. — همکار: و من ران‌بوکش رو می‌نویسم — «retryهای میلی‌ثانیه‌ای» — تا جنِ بعدی زودتر بمیره.</span></div>
+<h2>اشتباه‌های رایجِ فارسی‌زبان‌ها در همین درس</h2>
+<p>این بخش را با یک قرارداد بخوان: هر ❌ یعنی «مغزِ فارسی‌زبانت این را می‌سازد و طبیعی است»، و هر ✅ یعنی «این همان چیزی است که گیرندهٔ انگلیسی‌زبان می‌شنود». خطاها اثرِ مستقیمِ ترجمهٔ ذهنیِ فارسی به انگلیسی‌اند؛ با هر جفت بلند تکرار کن تا شکلِ درست در گوشت نشست کند.</p>
+<div class="zh-ex"><span class="zh">❌ This bug is from three days.</span><span class="fa">❌ فارسیِ «سه روزه است» با از/from ترجمه می‌شود؛ مدتْ for است — from نقطهٔ شروع را نشان می‌دهد نه طولِ دوره را. و «سه روزه جان می‌دهد» در انگلیسیِ زنده با حالِ کامل گفته می‌شود: It's been failing.</span></div>
+<div class="zh-ex"><span class="zh">✅ It's been failing for three days.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ The error is happen only when the server is busy.</span><span class="fa">❌ «اتفاق می‌افتد» ذهنِ فارسی را به is + فعلِ خام می‌کشاند؛ happen فعلِ کاملِ ساده است. و قیدِ only چسبیده به فعل می‌نشیند، نه پراکنده در جمله. under load هم همان «بارِ زیاد»ِ تیم‌هاست.</span></div>
+<div class="zh-ex"><span class="zh">✅ The error only happens when the server is under load.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ I tested it, it works in my machine.</span><span class="fa">❌ دو گرهِ معروف در یک جمله: ویرگولِ چسبنده (comma splice) که با خطِ تیره حل می‌شود، و in به‌جای on — «روی ماشینِ من» یعنی on my machine؛ همین جمله ضرب‌المثلِ دنیای دِو است، دست‌کم درستش بگو!</span></div>
+<div class="zh-ex"><span class="zh">✅ I tested it — it works on my machine.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<h2>تمرین‌های این درس — چهار قدم، بی‌عجله</h2>
+<p>زبانِ شکارِ باگ، زنجیرهٔ حدس و حذف است؛ چهار تمرین را بلند اجرا کن و بعد پاسخ‌ها را باز کن — استنتاجِ نصفه‌گفته، استنتاجِ نصفه‌فروخته است.</p>
+<ol>
+<li>زنجیرهٔ استنتاج را کامل کن: «It ___ (can) be the DNS — localhost fails too. It ___ (must) be the connection pool.»</li>
+<li>ترجمه کن: «خودِ کوئری را حذف کردم؛ پس فقط کانفیگِ اتصال می‌ماند.» — با قالبِ ruled out / leaves.</li>
+<li>حالتِ بی‌ثباتِ معروف را گزارش کن: در staging کار می‌کند، در prod می‌میرد، لوکال هم بازسازی نمی‌شود.</li>
+<li>نتیجه را برای تیکت بنویس: «معلوم شد رِیس بین دو retry بود — هر دو قبل از تمام‌شدنِ اولی شلیک شدند» + بگو تستِ regression برایش چه می‌شود — با It turned out.</li>
+</ol>
+<section class="article-faq" aria-label="پاسخ تمرین‌ها">
+<h2>پاسخ تمرین‌ها — اول خودت جواب بده، بعد باز کن</h2>
+
+<details class="faq-item" open>
+<summary><span>پاسخ تمرین ۱</span></summary>
+<div class="faq-answer"><strong>can't … must</strong> — <strong>"It can't be the DNS — localhost fails too. It must be the connection pool."</strong> استنتاجِ منفی با can't، استنتاجِ قوی با must؛ جفتِ مقدسِ دیباگ.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۲</span></summary>
+<div class="faq-answer"><strong>"I've ruled out the query itself — that leaves the connection config."</strong> ruled out + that leaves: حذفِ مرحله‌ای، مسیرِ فکرت را برای هم‌تیمی شفاف می‌کند؛ شکارِ باگ رؤیای دیدنی نیست، گزارشِ راه‌رفته است.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۳</span></summary>
+<div class="faq-answer">نمونه: <strong>"It works in staging but dies in prod — I can't reproduce it locally, even under the same load."</strong> کنتراست + بازنشدنیِ صادقانه؛ همین یک قید، نصفِ تیم را به سمتِ درستِ مشکل می‌فرستد.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۴</span></summary>
+<div class="faq-answer"><strong>"It turned out to be a race between the two retries — both fired before the first one finished. I've added a regression test so it can't sneak back in."</strong> پایانِ هر شکار turned out to be است و بیمه‌اش regression test؛ نوشته‌شده در تیکت، دانش می‌ماند.</div>
+</details>
+
+</section>
+<h2>چالشِ امروز</h2>
+<blockquote>🎯 باگِ بازِ فعلی‌ات را برای یک همکار در سه جمله روایت کن: نشانه، حذف‌شده‌ها، حدسِ بعدی — و زنجیره را همان‌جا در تیکت کامنت کن.</blockquote>
 <h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
 <ul>
 <li><strong>can't → must → leaves</strong> — زنجیرهٔ استنتاج را بلند بگو: «نمی‌تونه X باشه… حتماً Yئه… پس فقط Z می‌مونه» — شنونده، مسیرِ فکرت را می‌خرد نه فقط جواب را.</li>

@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p5.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 1040,
+      "wordCount": 1589,
       "keywords": "rfc, پروپوزال فنی, technical proposal, design document",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>RFC و پروپوزال فنی؛ متنی که تصمیمِ بزرگ را می‌سازد</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۱۱ دقیقه مطالعه</span>
+<span>⏱ ۱۷ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -135,6 +135,48 @@
 <div class="zh-ex"><span class="zh">Reviewer: The consequences section undersells the ops load — sharding isn't free. — Author (you): Fair — adding a paragraph: on-call gets a new runbook and two new dashboards, called out in §5.2.</span><span class="fa">ریلویوئر: بخشِ پیامدها بارِ اپس رو کم‌فروش می‌کنه — شاردکردن مجانی نیست. — نویسنده (تو): درسته — یه پاراگراف اضافه می‌کنم: آن‌کال ران‌بوکِ جدید و دو داشبوردِ جدید می‌گیره، در §5.2 مشخص.</span></div>
 <div class="zh-ex"><span class="zh">Reviewer: And I'd question the Q3 assumption for option 2 — hiring might slip. — You: Good challenge — softening that line to "pending hiring" instead of a hard Q3. More honest.</span><span class="fa">ریلویوئر: و فرضِ Q3 گزینهٔ ۲ رو زیر سوال می‌برم — استخدام ممکنه بخوره عقب. — تو: چالشِ خوبیه — اون خط رو به «در انتظارِ استخدام» نرم می‌کنم به‌جای Q3ِ قطعی. صادقانه‌تر.</span></div>
 <div class="zh-ex"><span class="zh">Reviewer: With those two changes, I'm a clear yes. — You: Perfect — updating now, and tagging you in the diff. Decision deadline stands: Friday EOD.</span><span class="fa">ریلویوئر: با همین دو تغییر، جوابم کاملاً بله‌ست. — تو: عالیه — آپدیت می‌کنم و تو دیف تگت می‌کنم. ضرب‌الاجلِ تصمیم سرِ جاشه: جمعه آخرِ روز.</span></div>
+<h2>اشتباه‌های رایجِ فارسی‌زبان‌ها در همین درس</h2>
+<p>این بخش را با یک قرارداد بخوان: هر ❌ یعنی «مغزِ فارسی‌زبانت این را می‌سازد و طبیعی است»، و هر ✅ یعنی «این همان چیزی است که گیرندهٔ انگلیسی‌زبان می‌شنود». خطاها اثرِ مستقیمِ ترجمهٔ ذهنیِ فارسی به انگلیسی‌اند؛ با هر جفت بلند تکرار کن تا شکلِ درست در گوشت نشست کند.</p>
+<div class="zh-ex"><span class="zh">❌ I think we should choose Option B because I believe it is better.</span><span class="fa">❌ «به نظرم / باور دارم» را مثل ادبِ گفتاری همه‌جا می‌چسبانیم؛ اما سندِ تصمیم با زبانِ سوم‌شخصِ بی‌هیجان نوشته می‌شود: فاعل، تصمیم و سیستم است و دلیل، عدد — نه سلیقه.</span></div>
+<div class="zh-ex"><span class="zh">✅ Option B was chosen because it halves p99 without adding new infrastructure.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ This document wants to change the queue system.</span><span class="fa">❌ «این سند در صدد است…» ترجمهٔ صافِ نثرِ اداریِ فارسی است و wants در سندِ انگلیسی بچه‌گونه صدا می‌دهد. فعلِ رسمیِ سند propose است: This document proposes…</span></div>
+<div class="zh-ex"><span class="zh">✅ This document proposes sharding the current queue.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ The system currently has problem with the hot partition.</span><span class="fa">❌ فارسی حرفِ تعریف ندارد؛ انگلیسی اما اسمِ مفردِ شمارش‌پذیر را بی‌ a یا the رها نمی‌کند. همین حرفِ کوچک، مرزِ «متنِ ترجمه‌شده» و «متنِ سنیور» را مشخص می‌کند.</span></div>
+<div class="zh-ex"><span class="zh">✅ The system currently has a problem with the hot partition.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<h2>تمرین‌های این درس — چهار قدم، بی‌عجله</h2>
+<p>سندنویسی ورزشِ حذف است: حذفِ «من»، حذفِ هیجان، حذفِ ابهام؛ هر پاسخ را اول بلند بگو، بعد باز کن.</p>
+<ol>
+<li>این جملهٔ احساسی را به زبانِ بی‌طرفِ سند تبدیل کن: «I really feel the current queue is very slow and it worries me.»</li>
+<li>شش سرفصلِ استانداردِ یک RFC را به ترتیب نام ببر.</li>
+<li>ریسک را با قالبِ درس بنویس: ریسک = بارِ اضافهٔ آن‌کال (دو داشبوردِ جدید و یک ران‌بوک)؛ جبران = یک آموزشِ یک‌ساعته و دو هفته هم‌راهیِ ناظر.</li>
+<li>این جملهٔ ردِ تند را به سبکِ RFC بازنویسی کن: «Option A? No way, nobody wants that.»</li>
+</ol>
+<section class="article-faq" aria-label="پاسخ تمرین‌ها">
+<h2>پاسخ تمرین‌ها — اول خودت جواب بده، بعد باز کن</h2>
+
+<details class="faq-item" open>
+<summary><span>پاسخ تمرین ۱</span></summary>
+<div class="faq-answer">نمونه: <strong>"The current queue's p99 doubles every quarter as traffic grows."</strong> — احساس حذف شد و جایش عدد نشست؛ سند با داده متقاعد می‌کند، نه با نگرانی.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۲</span></summary>
+<div class="faq-answer"><strong>Summary → Background → Proposal → Alternatives Considered → Consequences → Open Questions</strong> — شش‌تایی که خوانندهٔ سنیور دنبالش می‌گردد؛ نویسندهٔ سنیور هم پیش از سطرِ اول، همین شش را خالی می‌کند.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۳</span></summary>
+<div class="faq-answer">نمونه: <strong>"The main risk is added on-call load: two new dashboards and a new runbook; the mitigation is a one-hour training and a two-week shadow rotation."</strong> — جفتِ «ریسک؛ جبران» همان چیزی است که بازبین می‌خواهد؛ ریسکِ بی‌جبران در سند یعنی ناتمامی.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۴</span></summary>
+<div class="faq-answer">نمونه: <strong>"Option A was rejected: keeping the current queue doubles p99 every quarter as traffic grows."</strong> — فعلِ موردیِ was rejected + دلیلِ عددی؛ ردِ بی‌دلیل در سند فقط یک «نظر» است، نه تصمیم.</div>
+</details>
+
+</section>
+<h2>چالشِ امروز</h2>
+<blockquote>🎯 یک تصمیمِ واقعیِ این هفته‌ات را در قالبِ شش سرفصلِ RFC بنویس — حتی با پاراگراف‌های تک‌جمله‌ای؛ قالب را یک بار با دستِ خودت بسازی، برای همیشه مالِ تو می‌شود.</blockquote>
 <h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
 <ul>
 <li><strong>بدیل‌ها را با دلیلِ رد بنویس</strong> — «rejected because…» — بخشِ بدیل‌ها، جایی است که سندِ تو «تولی» را جواب می‌دهد؛ نصفِ اعتبارِ RFC همین‌جاست.</li>

@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 1098,
+      "wordCount": 1639,
       "keywords": "مصاحبه سیستم دیزاین, system design interview, trade offs, scalable design",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>مصاحبهٔ فنی ۲؛ system design از «یک میلیون کاربر» به بالا</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۱۲ دقیقه مطالعه</span>
+<span>⏱ ۱۷ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -170,6 +170,48 @@
 <div class="zh-ex"><span class="zh">Interviewer: Design a news feed for 10 million users. — You: First, shape: read-heavy? The scrolling is reads; posting is writes — I'd guess 100:1. Confirmable?</span><span class="fa">مصاحبه‌گر: یه فید برایِ ۱۰ میلیون کاربر طراحی کن. — تو: اول شکل: خوانا-محوره؟ اسکرول خواندنه، پست‌گذاشتن نوشتن — حدسم ۱۰۰:۱. تأیید می‌شه؟</span></div>
 <div class="zh-ex"><span class="zh">Interviewer: Close enough — say 50:1. — You: Then the feed is a materialized list per user, updated async. The hot path is only reads from cache — Redis in front of the store.</span><span class="fa">مصاحبه‌گر: نزدیک — مثلاً ۵۰:۱. — تو: پس فید یه لیستِ از پیش‌ساخته برای هر کاربره که async آپدیت می‌شه. مسیرِ داغ فقط خواندن از کشه — ردیس جلوی ذخیره.</span></div>
 <div class="zh-ex"><span class="zh">You: The interesting trade-off is fan-out: push on write is fast to read but expensive for celebrities. Hybrid: push for normal users, pull for the famous ones. — Interviewer: That's the answer I was fishing for. — You: Ha! I've been burned by a celebrity's fan-out before — never again.</span><span class="fa">تو: trade-offِ جالب fan-oute: push رویِ نوشتن، سریع‌تر برایِ خواندن ولی برای سلبریتی‌ها گرونه. هیبرید: push برای کاربرهای عادی، pull برای معروف‌ها. — مصاحبه‌گر: همون جوابیه که دنبالش بودم. — تو: ها! یه بار فن‌اوتِ یه سلبریتی من رو سوخته — دیگه هرگز.</span></div>
+<h2>اشتباه‌های رایجِ فارسی‌زبان‌ها در همین درس</h2>
+<p>این بخش را با یک قرارداد بخوان: هر ❌ یعنی «مغزِ فارسی‌زبانت این را می‌سازد و طبیعی است»، و هر ✅ یعنی «این همان چیزی است که گیرندهٔ انگلیسی‌زبان می‌شنود». خطاها اثرِ مستقیمِ ترجمهٔ ذهنیِ فارسی به انگلیسی‌اند؛ با هر جفت بلند تکرار کن تا شکلِ درست در گوشت نشست کند.</p>
+<div class="zh-ex"><span class="zh">❌ I will use from Redis for the cache.</span><span class="fa">❌ فارسیِ «استفاده از Redis» حرفِ اضافهٔ از را به فعل می‌چسباند؛ use گذراست و مستقیم مفعول می‌گیرد — use from صدای ترجمهٔ نسل‌هاست. و در طراحی، Redis جلوی دیتابیس می‌نشیند: in front of، نه فقط use.</span></div>
+<div class="zh-ex"><span class="zh">✅ I'd put Redis in front of the database for caching.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ This system can handle one million user.</span><span class="fa">❌ بعد از عددِ بزرگ، اسم جمع می‌شود: a million users؛ فارسیِ «یک میلیون کاربر» بدونِ s می‌ماند و حرفِ تعریفِ a هم غالباً جا می‌افتد. مقیاسْ شمرده می‌خواهد: عدد + جمع + حرفِ تعریف.</span></div>
+<div class="zh-ex"><span class="zh">✅ The system can handle a million users.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ If the traffic increases, we increase the servers.</span><span class="fa">❌ «سرورها را بیشتر می‌کنیم» با increase تکرار می‌شود؛ مقیاس در انگلیسیِ سیستم‌ها فعلِ خودش را دارد: scale horizontally / scale up. increase the servers صدای گزارشِ فارسی است، scale زبانِ طراحی است.</span></div>
+<div class="zh-ex"><span class="zh">✅ If traffic grows, we scale horizontally — add more nodes behind the load balancer.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<h2>تمرین‌های این درس — چهار قدم، بی‌عجله</h2>
+<p>طراحیِ سیستم، گفتارِ trade-off است؛ چهار تمرین را با صدای مصاحبهٔ واقعی بگو — عدد، گزینه، معاوضه — بعد باز کن.</p>
+<ol>
+<li>«بستگی دارد» را با دو گزینه ببند: نسبتِ خواندن/نوشتن ۱۰۰:۱ — چه می‌کنی؟ (دو جمله)</li>
+<li>عدد را بلند حساب کن: «۵۰ میلیون کاربر در روز، یعنی چند درخواست در ثانیه؟»</li>
+<li>جملهٔ سازگاری را کامل کن: «برایِ دسترس‌پذیری، سازگاریِ نهاییِ شمارنده‌ها را در عوضِ آن ___ می‌کنیم.»</li>
+<li>افتِ مؤدبانه را توضیح بده: p99 پرید — کاربر چه می‌بیند؟ (دو جمله)</li>
+</ol>
+<section class="article-faq" aria-label="پاسخ تمرین‌ها">
+<h2>پاسخ تمرین‌ها — اول خودت جواب بده، بعد باز کن</h2>
+
+<details class="faq-item" open>
+<summary><span>پاسخ تمرین ۱</span></summary>
+<div class="faq-answer">نمونه: <strong>"It depends on the read/write ratio — at 100:1 I'd cache aggressively; if writes were heavy, I'd shard first."</strong> depends بدونِ گزینه دوری است؛ با دو گزینه، تحلیل است.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۲</span></summary>
+<div class="faq-answer"><strong>"Fifty million a day is about 600 requests per second — call it a thousand at peak."</strong> حسابِ بلندِ عدد، تُردِ شروعِ طراحی است؛ عددِ شمرده، درِ بحث را باز می‌کند.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۳</span></summary>
+<div class="faq-answer"><strong>"...we accept eventual consistency on the counters in exchange for availability."</strong> قالبِ ثابت: accept X in exchange for Y. معاوضهٔ فنی «در عوضِ» با in exchange for گفته می‌شود، نه با ترجمهٔ زیروروی instead of.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۴</span></summary>
+<div class="faq-answer">نمونه: <strong>"If p99 spikes, we degrade gracefully — serve the cached page with a 'cached' badge rather than an error."</strong> افتِ مؤدبانه یعنی بخشی می‌میرد، کل نمی‌میرد؛ همین جمله، بلوغِ طراحی را نشان می‌دهد.</div>
+</details>
+
+</section>
+<h2>چالشِ امروز</h2>
+<blockquote>🎯 یک سیستمِ آشنا (فیدِ شبکهٔ اجتماعیِ محبوبت) را در سه جمله برای دوستِ غیرفنی طراحی کن: نسبتِ خواندن/نوشتن با عدد، یک trade-off با I'd — و بعد بپرس چه چیزی گیرش کرد.</blockquote>
 <h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
 <ul>
 <li><strong>عددِ اول را خودت بگو</strong> — قبل از طراحی، اعداد را بلند حساب کن (QPS, ratio) — «صد میلیون در روز یعنی هزار در ثانیه» — عددِ شمرده، درهای مصاحبه را باز می‌کند.</li>

@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 1033,
+      "wordCount": 1617,
       "keywords": "توضیح کد به انگلیسی, explaining code, walk through, at a high level",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>توضیح‌دادنِ کد؛ «این تابع چه‌کاره است؟» به انگلیسی</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۱۱ دقیقه مطالعه</span>
+<span>⏱ ۱۷ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -169,6 +169,48 @@
 <div class="zh-ex"><span class="zh">Lead: Walk me through this function — why generate the URL here and not in the gateway? — You: Fair question. The gateway doesn't have the storage credentials — by design.</span><span class="fa">لید: این تابع رو برام توضیح بده — چرا URL رو همین‌جا می‌سازی نه تو گیت‌وی؟ — تو: سوالِ درستیه. گیت‌وی اعتبارنامهٔ ذخیره‌ساز رو نداره — عمداً.</span></div>
 <div class="zh-ex"><span class="zh">Lead: So it's a security boundary thing? — You: Exactly. Centralizing the signing here means one audit point — if the gateway did it, we'd spread credentials wider than we need.</span><span class="fa">لید: پس ماجرای مرزِ امنیتیه؟ — تو: دقیقاً. متمرکزکردنِ امضا این‌جا یعنی یه نقطهٔ حسابرسی — اگه گیت‌وی انجامش می‌داد، اعتبارنامه‌ها رو گسترده‌تر از نیاز پخش می‌کردیم.</span></div>
 <div class="zh-ex"><span class="zh">Lead: Good reasoning. One nit — the function name could say so: signUploadUrl instead of handle. — You: Agreed — renaming now. Thanks, that's the kind of review that makes the codebase readable.</span><span class="fa">لید: استدلالِ خوبیه. یه جزئی — اسمِ تابع می‌تونست همینو بگه: signUploadUrl به‌جای handle. — تو: موافقم — همین الان اسمش رو عوض می‌کنم. ممنون، این همون ریلویوئه که کدبیس رو خوانا می‌کنه.</span></div>
+<h2>اشتباه‌های رایجِ فارسی‌زبان‌ها در همین درس</h2>
+<p>این بخش را با یک قرارداد بخوان: هر ❌ یعنی «مغزِ فارسی‌زبانت این را می‌سازد و طبیعی است»، و هر ✅ یعنی «این همان چیزی است که گیرندهٔ انگلیسی‌زبان می‌شنود». خطاها اثرِ مستقیمِ ترجمهٔ ذهنیِ فارسی به انگلیسی‌اند؛ با هر جفت بلند تکرار کن تا شکلِ درست در گوشت نشست کند.</p>
+<div class="zh-ex"><span class="zh">❌ I explain you this function.</span><span class="fa">❌ توضیح‌دادنِ «به شما» را مغز با explain you می‌سازد؛ اما explain حرفِ اضافه می‌خواهد: explain it to you. راهِ حرفه‌ای اما قالبِ آماده است: Let me walk you through it — چهار کلمه که توضیح را به سفرِ مهندسی می‌برد.</span></div>
+<div class="zh-ex"><span class="zh">✅ Let me walk you through this function.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ This function is for to check the token.</span><span class="fa">❌ «برایِ بررسیِ توکن» را مغز با for to می‌سازد — ترکیبی که در انگلیسی وجود ندارد. توضیحِ کد، فعلِ ساده و مستقیم می‌خواهد: This function checks…؛ کارِ تابع با فعلش گفته می‌شود، نه با فلسفهٔ وجودیِ for.</span></div>
+<div class="zh-ex"><span class="zh">✅ This function checks the token.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ If the token is invalid, it gives error.</span><span class="fa">❌ «خطا می‌دهد» را مغز با gives error ترجمه می‌کند؛ اما فعلِ فنیِ خطا throw است: it throws an error. همین یک فعل، گزارشِ باگ و توضیحِ کدت را از ترجمه به حرفه‌ای می‌برد.</span></div>
+<div class="zh-ex"><span class="zh">✅ If the token is invalid, it throws an error.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<h2>تمرین‌های این درس — چهار قدم، بی‌عجله</h2>
+<p>توضیحِ کد مهارتِ زبانیِ جداست؛ تمرین‌ها را با کدِ واقعیِ ذهنِ خودت اجرا کن و بلند بگو.</p>
+<ol>
+<li>سه سطحِ توضیح را برای یک سرویسِ احرازِ هویت بگو: دیدِ کلی ← مسیرِ داده ← تصمیم.</li>
+<li>اصلاح کن: "I explain you: this function is for to check the token, and if it is empty it gives error."</li>
+<li>قالبِ تشبیه را اجرا کن: «مثلِ مترجمِ بینِ دو API به آن فکر کن» + نتیجه برای مخاطبِ غیرِفنی.</li>
+<li>جوابِ «چرا این‌طور نوشتی؟» را بگو: دلیل + بدیل — کشِ در حافظه در برابرِ ردیس.</li>
+</ol>
+<section class="article-faq" aria-label="پاسخ تمرین‌ها">
+<h2>پاسخ تمرین‌ها — اول خودت جواب بده، بعد باز کن</h2>
+
+<details class="faq-item" open>
+<summary><span>پاسخ تمرین ۱</span></summary>
+<div class="faq-answer">نمونه: <strong>"At a high level, this service handles authentication. The flow goes: the client sends a token, we validate it against the auth service, then attach the user to the request. We cached the result because the auth call is the slowest part."</strong> — سه سطح، سه قالب؛ سطح را با مخاطب انتخاب کن.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۲</span></summary>
+<div class="faq-answer"><strong>"Let me walk you through it: this function checks the token — if it's missing, it throws an error."</strong> — سه گرهِ یک‌جا باز شد: walk you through، فعلِ سادهٔ checks و throw. توضیحِ تمیز، کوتاه‌تر از ترجمهٔ درست است!</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۳</span></summary>
+<div class="faq-answer"><strong>"Think of it as a translator between two APIs. This fix means faster logins for our users."</strong> — تشبیه + نتیجه؛ برای مدیر و مشتری همین دو جمله کافی است و هیچ اسمِ فنی‌ای نمی‌خواهد.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۴</span></summary>
+<div class="faq-answer"><strong>"I chose the in-memory cache for speed. Redis would be more durable, but for this use case it wasn't worth the extra hop."</strong> — دلیل + بدیلِ منصفانه؛ بی‌حالتِ دفاعی، با لحنِ مهندسِ خبره.</div>
+</details>
+
+</section>
+<h2>چالشِ امروز</h2>
+<blockquote>🎯 یک تابعِ واقعی از کدت را امروز برای «هیچ‌کس» بلند توضیح بده — با Let me walk you through it شروع کن و با The gist is… تمام کن؛ ده‌دقیقه‌ای که جلسهٔ بعدی‌ات را جلو می‌اندازد.</blockquote>
 <h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
 <ul>
 <li><strong>سه‌سطح را با مخاطب چین</strong> — مدیر: At a high level. همکار: مسیر + تصمیم. جونیور: خط‌به‌خط. سطحِ اشتباه، توضیحِ خوب را هدر می‌دهد.</li>

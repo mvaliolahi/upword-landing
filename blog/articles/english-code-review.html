@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 924,
+      "wordCount": 1463,
       "keywords": "کدریویو, code review phrases, بازخورد فنی, nit suggestion",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>کدریویو؛ دادنِ بازخوردِ فنی و گرفتنش بدونِ زخم</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۱۰ دقیقه مطالعه</span>
+<span>⏱ ۱۵ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -161,6 +161,48 @@
 <div class="zh-ex"><span class="zh">Reviewer: Blocking — this swallows the error, and we just got burned by that in payments. — You: Fair. I'll log and rethrow. — Reviewer: That's all I wanted.</span><span class="fa">ریلویوئر: بلاک — این خطا رو قورت می‌ده، و تازه تو پرداخت از همین سوخته بودیم. — تو: درسته. لاگ می‌کنم و دوباره می‌اندازمش. — ریلویوئر: همین می‌خواستم.</span></div>
 <div class="zh-ex"><span class="zh">Reviewer: Nit: this name, `data2`… future-us will suffer. — You: Ha! Renamed to `pricingSnapshot`. — Reviewer: LGTM with that one nit.</span><span class="fa">ریلویوئر: جزئی — این اسم، data2… خودِ آیندهٔ ما زجر می‌کشه. — تو: ها! به pricingSnapshot تغییرش دادم. — ریلویوئر: LGTM با همین جزئی.</span></div>
 <div class="zh-ex"><span class="zh">You: Pushed — PTAL. And thanks for the burn-mark story, honestly — context like that is why I'd rather have reviews than ship blind. — Reviewer: Same. That's the whole job.</span><span class="fa">تو: پوش شد — یه نگاه دیگه. و ممنون از داستانِ سوختگی — زمینه‌ی این‌جوری دلیلِ ترجیحِ ریلویو به شِپِ کوره. — ریلویوئر: منم. کلِ کار همینه.</span></div>
+<h2>اشتباه‌های رایجِ فارسی‌زبان‌ها در همین درس</h2>
+<p>این بخش را با یک قرارداد بخوان: هر ❌ یعنی «مغزِ فارسی‌زبانت این را می‌سازد و طبیعی است»، و هر ✅ یعنی «این همان چیزی است که گیرندهٔ انگلیسی‌زبان می‌شنود». خطاها اثرِ مستقیمِ ترجمهٔ ذهنیِ فارسی به انگلیسی‌اند؛ با هر جفت بلند تکرار کن تا شکلِ درست در گوشت نشست کند.</p>
+<div class="zh-ex"><span class="zh">❌ This code is wrong, please fix it.</span><span class="fa">❌ فارسیِ «این کد غلطه» نقد را با قاطعیتِ حکم می‌فرستد؛ کامنتِ ریلویوی حرفه‌ای رفتارِ کد را هدف می‌گیرد نه «درستی»ِ نویسنده را، و با could we نرم می‌شود. wrong حکم است؛ swallows the error مشاهده است.</span></div>
+<div class="zh-ex"><span class="zh">✅ This swallows the error — could we log and rethrow here?</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ Please do the necessary changes.</span><span class="fa">❌ ترجمهٔ اداریِ «تغییراتِ لازم را اعمال فرمایید» تهِ کامنت خالی است؛ «تغییراتِ لازم» دقیقاً همان چیزی است که ریلویو باید اسمش را ببرد. کامنتِ خوب = فهرستِ مشخص + برچسبِ درجه (Nit/Blocking).</span></div>
+<div class="zh-ex"><span class="zh">✅ Two nits: rename `data2` to `pricingSnapshot`, and this loop could be a helper — non-blocking.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ There is a problem in this line.</span><span class="fa">❌ «مشکل دارد» بدونِ حرفِ تعریف می‌ماند و «در خطِ چهل‌ودو» با in ترجمه می‌شود؛ قراردادِ ریلویو on line 42 است، مثلِ شماره‌گذاریِ صفحه. و مشکل را دقیق و بی‌تهدید توصیف کن، نه با لفظِ کلی.</span></div>
+<div class="zh-ex"><span class="zh">✅ I think there's an issue on line 42 — the loop starts at 1 instead of 0.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<h2>تمرین‌های این درس — چهار قدم، بی‌عجله</h2>
+<p>چهار تمرینِ ریلویو-نویسی؛ هر پاسخ را اول بلند بگو و بنویس، بعد باز کن — کامنتِ خوب، آینهٔ ذهنِ منظم است.</p>
+<ol>
+<li>این کامنت را نرم و فنی‌اش کن: «This loop is bad. Delete it.» — با برچسب و مودالِ مشورتی.</li>
+<li>جملهٔ شرطیِ دوم را کامل کن: «If this ___ (be) a public API, I ___ (rename) it.»</li>
+<li>به PRی که فقط یک Nit دارد جوابِ کوتاهِ کامل بده — دو جمله، با رأیِ روشن.</li>
+<li>ترجمه کن: «نمی‌دانم چرا این بررسی لازم است. اگر ورودی خالی باشد چه می‌شود؟» — با برچسبِ Question.</li>
+</ol>
+<section class="article-faq" aria-label="پاسخ تمرین‌ها">
+<h2>پاسخ تمرین‌ها — اول خودت جواب بده، بعد باز کن</h2>
+
+<details class="faq-item" open>
+<summary><span>پاسخ تمرین ۱</span></summary>
+<div class="faq-answer">نمونه: <strong>"Question: do we need this loop at all? A hash map would do the job in one pass."</strong> — «bad» رفت، برچسب آمد، مودال نشست؛ همان نقد، بدونِ زخم.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۲</span></summary>
+<div class="faq-answer"><strong>were … I'd rename</strong> — <strong>"If this were a public API, I'd rename it."</strong> were با همهٔ سوژه‌ها و 'd برای نتیجهٔ فرضی؛ این است نرم‌ترین صدای ریلویو.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۳</span></summary>
+<div class="faq-answer">نمونه: <strong>"Just the one nit, then LGTM — ship it."</strong> رأیِ نهایی را با برچسب بده؛ «خوبه ولی…» مرج را معلق می‌کند.</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۴</span></summary>
+<div class="faq-answer"><strong>"Question: I'm not sure why we need this check — what happens if the input is empty?"</strong> برچسب + عدمِ قطعیتِ صادقانه + سؤالِ مشخص؛ سه لایهٔ کامنتِ بی‌جنگ.</div>
+</details>
+
+</section>
+<h2>چالشِ امروز</h2>
+<blockquote>🎯 در ریلویوی بعدی‌ات یک کامنت را با قالبِ سه‌لایه بنویس: برچسب (Nit/Question/Blocking) + رفتارِ مشخص + مودالِ مشورتی؛ اگر ریلویویی در راه نیست، یکی از کامنت‌های قبلی‌ات را بازنویسی کن.</blockquote>
 <h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
 <ul>
 <li><strong>Happy to be wrong</strong> — پایانِ کامنتِ نظر-محور: «happy to be wrong here» — علامتِ آگاهیِ تیمی؛ نظر می‌دهی، جنگ نمی‌کنی.</li>
