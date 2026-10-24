@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#04231A">
+<title>درس ۵۳ از ۹۰ · توضیح‌دادنِ کد؛ «این تابع چه‌کاره است؟» به انگلیسی | آپ‌ورد</title>
+<meta name="description" content="مهارتِ نهاییِ فنیِ نیمهٔ اولِ فاز ۴: توضیحِ کد و معماری به زبانِ ساده — با قالب‌های آمادهٔ walk through, at a high level, the flow goes, و ادبِ «نکتهٔ بهتر ممکن است وجود داشته باشد».">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://upword.ir/blog/articles/english-explaining-code.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="درس ۵۳ از ۹۰ · توضیح‌دادنِ کد؛ «این تابع چه‌کاره است؟» به انگلیسی">
+<meta property="og:description" content="مهارتِ نهاییِ فنیِ نیمهٔ اولِ فاز ۴: توضیحِ کد و معماری به زبانِ ساده — با قالب‌های آمادهٔ walk through, at a high level, the flow goes, و ادبِ «نکتهٔ بهتر ممکن است وجود داشته باشد».">
+<meta property="og:url" content="https://upword.ir/blog/articles/english-explaining-code.html">
+<meta property="og:site_name" content="آپ‌ورد (UpWord)">
+<meta property="og:locale" content="fa_IR">
+<meta property="og:image" content="https://upword.ir/blog/covers/en-course-p4.jpg">
+<meta property="og:image:width" content="1344">
+<meta property="og:image:height" content="768">
+<meta property="article:published_time" content="2026-10-24T09:00:00+03:30">
+<meta property="article:modified_time" content="2026-10-24T09:00:00+03:30">
+<meta property="article:section" content="آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="درس ۵۳ از ۹۰ · توضیح‌دادنِ کد؛ «این تابع چه‌کاره است؟» به انگلیسی">
+<meta name="twitter:description" content="مهارتِ نهاییِ فنیِ نیمهٔ اولِ فاز ۴: توضیحِ کد و معماری به زبانِ ساده — با قالب‌های آمادهٔ walk through, at a high level, the flow goes, و ادبِ «نکتهٔ بهتر ممکن است وجود داشته باشد».">
+<meta name="twitter:image" content="https://upword.ir/blog/covers/en-course-p4.jpg">
+<link rel="icon" type="image/png" href="/assets/images/app-icon.png">
+<link rel="apple-touch-icon" type="image/png" href="/assets/images/app-icon.png">
+<link rel="preload" href="/assets/fonts/vazirmatn-ar.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://upword.ir/blog/articles/english-explaining-code.html#article",
+      "headline": "درس ۵۳ از ۹۰ · توضیح‌دادنِ کد؛ «این تابع چه‌کاره است؟» به انگلیسی",
+      "description": "مهارتِ نهاییِ فنیِ نیمهٔ اولِ فاز ۴: توضیحِ کد و معماری به زبانِ ساده — با قالب‌های آمادهٔ walk through, at a high level, the flow goes, و ادبِ «نکتهٔ بهتر ممکن است وجود داشته باشد».",
+      "inLanguage": "fa-IR",
+      "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
+      "datePublished": "2026-10-24T09:00:00+03:30",
+      "dateModified": "2026-10-24T09:00:00+03:30",
+      "wordCount": 583,
+      "keywords": "توضیح کد به انگلیسی, explaining code, walk through, at a high level",
+      "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
+      "author": { "@id": "https://upword.ir/#organization" },
+      "publisher": { "@id": "https://upword.ir/#organization" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://upword.ir/blog/articles/english-explaining-code.html" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "خانه", "item": "https://upword.ir/" },
+        { "@type": "ListItem", "position": 2, "name": "دورهٔ ۹۰ درسی انگلیسی", "item": "https://upword.ir/blog/english-course.html" },
+        { "@type": "ListItem", "position": 3, "name": "درس ۵۳" }
+      ]
+    },{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"مخاطبم غیرِ فنی است (مدیر/مشتری) — چه‌طور توضیح بدهم؟","acceptedAnswer":{"@type":"Answer","text":"فرمولِ سه‌گامِ غیرِفنی: **تشبیه + نتیجه + بدونِ اسمِ فنی**: &quot;Think of it as a security guard at the door. This fix means faster logins for our users.&quot; (مثل نگهبانِ در ورودی. این فیکس یعنی ورودِ سریع‌تر برای کاربرها.) اسمِ فنی که لازم نیست نیاور — اگر پرسید، یک‌جمله‌ای تعریفش کن و برگرد به نتیجه. این مهارت، درس ۸۲ (گفتگو با غیرِفنی‌ها) را کامل می‌کند؛ فعلاً قالبِ تشبیه+نتیجه را تمرین کن."}},{"@type":"Question","name":"در مصاحبه، توضیحِ کد چطور متفاوت است؟","acceptedAnswer":{"@type":"Answer","text":"در مصاحبه، بلند فکرکردن (thinking out loud) امتیاز است، نه ضعف: &quot;Let me think out loud for a second… I'd start by clarifying the input size — that decides brute force or not.&quot; جوابِ کامل را نگه ندار؛ مسیرِ تصمیم را نشان بده — مصاحبه‌گر فنی، «صدای فکر» را می‌خواهد. و هر تصمیم را با چرا بگوی: &quot;I'll use a hash map here because lookups are O(1).&quot; — همین جمله‌ها در درس ۶۱ برمی‌گردند و کامل می‌شوند."}}]}
+  ]
+}
+</script>
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/css/blog.css">
+</head>
+<body>
+<div class="bg-scene" aria-hidden="true">
+<div class="orb orb-a"></div>
+<div class="orb orb-b"></div>
+<div class="orb orb-c"></div>
+<div class="bg-grain"></div>
+</div>
+<header class="navbar" id="navbar">
+<div class="container nav-inner">
+<a href="/" class="brand" aria-label="آپ‌ورد">
+<img src="/assets/images/app-icon.png" alt="" width="40" height="40" class="brand-icon">
+<span class="brand-text">آپ‌ورد</span>
+</a>
+<nav class="nav-links" aria-label="ناوبری وبلاگ">
+<a href="/" class="nav-link">صفحه اصلی</a>
+<a href="/blog/" class="nav-link">مقالات</a>
+<a href="/blog/english-course.html" class="nav-link">دورهٔ انگلیسی</a>
+<a href="/blog/chinese-course.html" class="nav-link">دورهٔ چینی</a>
+</nav>
+<a href="https://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener" class="btn btn-primary btn-sm nav-cta">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+<span>دانلود اپ</span>
+</a>
+</div>
+</header>
+<main id="main" class="blog-page">
+<div class="container">
+<div class="article-wrap">
+<nav class="crumbs" aria-label="مسیر صفحه">
+<a href="/">خانه</a><span class="sep">/</span>
+<a href="/blog/english-course.html">دورهٔ ۹۰ درسی انگلیسی</a><span class="sep">/</span>
+<span class="cur">درس ۵۳ از ۹۰</span>
+</nav>
+<article class="article-card">
+<div class="article-head">
+<span class="post-chip">آموزش زبان انگلیسی (دورهٔ ۹۰ درسی) · درس ۵۳ از ۹۰</span>
+<h1>توضیح‌دادنِ کد؛ «این تابع چه‌کاره است؟» به انگلیسی</h1>
+<div class="article-meta">
+<span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
+<span>⏱ ۶ دقیقه مطالعه</span>
+<span>✍ تیم آپ‌ورد</span>
+</div>
+</div>
+<div class="short-answer">
+<span class="sa-label">⚡ پاسخ کوتاه</span>
+<p>توضیحِ کد سه سطح دارد: دیدِ کلی (at a high level, this service handles…), مسیرِ داده (the flow goes from A to B), و جزئیاتِ تصمیم (we chose X because Y). قالب‌های طلایی: "Let me walk you through it" و "In a nutshell…" — و هنرِ شنیدنِ «چرا این‌طور نوشتی؟» بدون حالتِ دفاعی.</p>
+</div>
+<figure class="article-cover">
+<img src="/blog/covers/en-course-p4.jpg" alt="" width="1344" height="768" loading="lazy">
+<figcaption>درس ۵۳ از ۹۰ — توضیح‌دادنِ کد؛ «این تابع چه‌کاره است؟» به انگلیسی</figcaption>
+</figure>
+<div class="prose">
+<p>تواناییِ نوشتنِ کد با کیفیت ثابت می‌شود؛ اما «توضیحِ کد» است که در ریلویو، جلسه و مصاحبه ارزیابی می‌شود. برای زبانِ دوم، این سخت‌ترین بخش فنی است چون هم‌زمان باید فکر و جمله و ساختار بدهی. راه‌حل همان قالب‌های ثابت است: وقتی اسکلتِ توضیح از حفظ باشد، مغز فقط روی محتوا می‌ماند.</p>
+<p>این درس را با کدِ واقعیِ خودت تمرین کن: یک فایلِ را انتخاب کن و توضیحش را بلند بده — یا در پیامِ صوتی به خودت یا با اپِ مکالمهٔ آپورد. جلسهٔ بعدی که کسی پرسید «what does this do?», جوابِ تو آماده است.</p>
+<h2>سه سطحِ توضیح؛ کلی ← مسیر ← تصمیم</h2>
+<p><strong>۱) دیدِ کلی (کلان):</strong> "At a high level, this service handles user authentication. It sits between the app and the user database." (در یک نگاه: این سرویس احرازِ هویت را هندل می‌کند — بینِ اپ و دیتابیسِ کاربر نشسته.) <strong>۲) مسیرِ داده:</strong> "The flow goes like this: the client sends a token, we validate it against the auth service, then attach the user to the request." (جریان این‌طوره: کلاینت توکن می‌فرسته، ما با سرویسِ احراز چکش می‌کنیم، بعد کاربر رو به درخواست می‌چسبونیم.) <strong>۳) تصمیم:</strong> "We cached the result because the auth call is the slowest part of the request." (کَش کردیم چون صدا زدنِ احراز کندترین قسمتِ درخواست‌ه.) — این سه سطح، کلِ توضیحِ فنی را پوشش می‌دهند؛ سطح را با مخاطب انتخاب کن: مدیر؟ سطحِ ۱. همکار؟ ۲ و ۳.</p>
+<h2>قالب‌های طلایی؛ جعبهٔ ابزارِ توضیح</h2>
+<table><thead><tr>
+<th>قالب</th>
+<th>کی</th>
+<th>نمونه</th>
+</tr></thead><tbody>
+<tr>
+<td>Let me walk you through it.</td>
+<td>شروعِ توضیحِ خط‌به‌خط</td>
+<td>Let me walk you through the main function.</td>
+</tr>
+<tr>
+<td>In a nutshell, …</td>
+<td>خلاصهٔ یک‌نفسی</td>
+<td>In a nutshell, it's a message queue for events.</td>
+</tr>
+<tr>
+<td>The idea is (that)…</td>
+<td>ایدهٔ اصلی</td>
+<td>The idea is to keep the hot path fast.</td>
+</tr>
+<tr>
+<td>Basically, …</td>
+<td>ساده‌سازی</td>
+<td>Basically, we retry three times, then give up.</td>
+</tr>
+<tr>
+<td>Think of it as…</td>
+<td>تشبیه</td>
+<td>Think of it as a translator between two APIs.</td>
+</tr>
+<tr>
+<td>The catch is…</td>
+<td>نکتهٔ پنهان</td>
+<td>The catch is: it only works on weekdays.</td>
+</tr>
+<tr>
+<td>Long story short, …</td>
+<td>جمع‌بندی</td>
+<td>Long story short, we cut page load in half.</td>
+</tr>
+</tbody></table>
+<div class="zh-ex"><span class="zh">Let me walk you through it: the request hits the gateway, the gateway calls this service, and this service decides which database to read from.</span><span class="fa">بذار خط‌به‌خط بگم: درخواست می‌رسه به گیت‌وی، گیت‌وی این سرویس رو صدا می‌زنه، و این سرویس تصمیم می‌گیره از کدوم دیتابیس بخونه.</span></div>
+<h2>پرسیده‌شدن از کدت؛ بدونِ حالتِ دفاعی</h2>
+<p>سوالِ کلاسیکِ ریلویو: <strong>"Why did you do it this way?"</strong> — سه قالبِ جوابِ حرفه‌ای: <strong>۱) دلیل + بدیل:</strong> "I chose the in-memory cache for speed. Redis would be more durable, but for this use case it wasn't worth the extra hop." (سرعت بود؛ ردیس بادوام‌تره ولی برای این کِیس نمی‌ارزید.) <strong>۲) اعترافِ محترمانه:</strong> "Honestly, that's a fair point — I can switch it to the async version." (نکتهٔ منصفانه‌ایه — می‌تونم به نسخهٔ async عوضش کنم.) <strong>۳) مرزِ دانش:</strong> "I'm not sure about the trade-off there — let me check with the platform team." — هیچ‌کدام دفاعی نیستند؛ هر سه، جمله‌های مهندسِ خبره‌اند. و توضیحِ جریانِ طولانی را قطعه‌بندی کن: <strong>"First… then… and finally…"</strong> — شنونده همراهت می‌ماند.</p>
+<div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
+<p>توضیحِ کد سه‌سطحی: کلی (at a high level), مسیر (the flow goes…), تصمیم (we chose X because Y). جعبه‌قالب: walk you through it / in a nutshell / think of it as / the catch is. جوابِ «چرا این‌طور؟» سه‌قالبی: دلیل+بدیل، اعترافِ منصفانه، مرزِ دانش. تمرینِ این درس: کدِ واقعیِ خودت را بلند توضیح کن — جلسه‌ی بعد، این تمرین حرف اول را می‌زند.</p></div>
+</div>
+<nav class="lesson-nav" aria-label="ناوبری دوره">
+<a class="prev" href="/blog/articles/english-coding-vocabulary.html"><span class="lbl">← درس قبلی</span><span>واژگانِ برنامه‌نویسی؛ از variable تا deployment</span></a>
+<a class="hub" href="/blog/english-course.html">📘 فهرست دوره</a>
+<a class="next" href="/blog/articles/english-git-teamwork.html"><span class="lbl">درس بعدی →</span><span>گیت به انگلیسی؛ commit, pull request و merge بدون تصادف</span></a>
+</nav>
+
+<section class="article-faq" aria-label="پرسش‌های رایج">
+<h2>پرسش‌های رایج</h2>
+<details class="faq-item" open>
+<summary><span>مخاطبم غیرِ فنی است (مدیر/مشتری) — چه‌طور توضیح بدهم؟</span></summary>
+<div class="faq-answer">فرمولِ سه‌گامِ غیرِفنی: **تشبیه + نتیجه + بدونِ اسمِ فنی**: "Think of it as a security guard at the door. This fix means faster logins for our users." (مثل نگهبانِ در ورودی. این فیکس یعنی ورودِ سریع‌تر برای کاربرها.) اسمِ فنی که لازم نیست نیاور — اگر پرسید، یک‌جمله‌ای تعریفش کن و برگرد به نتیجه. این مهارت، درس ۸۲ (گفتگو با غیرِفنی‌ها) را کامل می‌کند؛ فعلاً قالبِ تشبیه+نتیجه را تمرین کن.</div>
+</details><details class="faq-item">
+<summary><span>در مصاحبه، توضیحِ کد چطور متفاوت است؟</span></summary>
+<div class="faq-answer">در مصاحبه، بلند فکرکردن (thinking out loud) امتیاز است، نه ضعف: "Let me think out loud for a second… I'd start by clarifying the input size — that decides brute force or not." جوابِ کامل را نگه ندار؛ مسیرِ تصمیم را نشان بده — مصاحبه‌گر فنی، «صدای فکر» را می‌خواهد. و هر تصمیم را با چرا بگوی: "I'll use a hash map here because lookups are O(1)." — همین جمله‌ها در درس ۶۱ برمی‌گردند و کامل می‌شوند.</div>
+</details>
+</section>
+
+</article>
+
+<section class="blog-cta">
+<h2>انگلیسی را همین امروز در گوشی‌ات تمرین کن</h2>
+<p>واژه‌های این درس را هر جا که دیدی با منوی «ذخیره در آپ‌ورد» به فلش‌کارت‌هایت اضافه کن؛ الگوریتم مرور فاصله‌دار سرِ موعد یادآوری‌شان می‌کند، تلفظ‌شان را می‌شنوی و در مکالمهٔ هوش مصنوعی همان‌جا که لازم است استفاده‌شان می‌کنی.</p>
+<div class="cta-buttons">
+<a href="https://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener" class="btn btn-primary btn-lg">دانلود از کافه بازار</a>
+<a href="https://myket.ir/app/ir.upword.twa" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">دانلود از مایکت</a>
+</div>
+</section>
+</div>
+</div>
+</main>
+<footer class="blog-footer">
+<div class="container inner">
+<div class="links">
+<a href="/">صفحه اصلی</a>
+<a href="/blog/">مقالات</a>
+<a href="/blog/english-course.html">دورهٔ ۹۰ درسی انگلیسی</a>
+<a href="/blog/chinese-course.html">دورهٔ زبان چینی</a>
+</div>
+<p class="copy">© ۲۰۲۶ آپ‌ورد — ساخته‌شده برای فارسی‌زبان‌ها</p>
+</div>
+</footer>
+<script src="/js/main.js" defer></script>
+<script src="/js/blog.js" defer></script>
+</body>
+</html>

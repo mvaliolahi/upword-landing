@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#04231A">
+<title>درس ۸۲ از ۹۰ · مدیریتِ حادثه؛ وقتی prod واقعاً down است | آپ‌ورد</title>
+<meta name="description" content="زبانِ شبِ سخت: اعلامِ حادثه (P1 — checkout is down), قالبِ بریفِ دقیقه‌ای (status/impact/next step), نقش‌ها (incident commander), و postmortemِ بی‌اتهام — گفتارِ آرام در قلبِ آشوب.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://upword.ir/blog/articles/english-incident-management.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="درس ۸۲ از ۹۰ · مدیریتِ حادثه؛ وقتی prod واقعاً down است">
+<meta property="og:description" content="زبانِ شبِ سخت: اعلامِ حادثه (P1 — checkout is down), قالبِ بریفِ دقیقه‌ای (status/impact/next step), نقش‌ها (incident commander), و postmortemِ بی‌اتهام — گفتارِ آرام در قلبِ آشوب.">
+<meta property="og:url" content="https://upword.ir/blog/articles/english-incident-management.html">
+<meta property="og:site_name" content="آپ‌ورد (UpWord)">
+<meta property="og:locale" content="fa_IR">
+<meta property="og:image" content="https://upword.ir/blog/covers/en-course-p5.jpg">
+<meta property="og:image:width" content="1344">
+<meta property="og:image:height" content="768">
+<meta property="article:published_time" content="2026-10-24T09:00:00+03:30">
+<meta property="article:modified_time" content="2026-10-24T09:00:00+03:30">
+<meta property="article:section" content="آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="درس ۸۲ از ۹۰ · مدیریتِ حادثه؛ وقتی prod واقعاً down است">
+<meta name="twitter:description" content="زبانِ شبِ سخت: اعلامِ حادثه (P1 — checkout is down), قالبِ بریفِ دقیقه‌ای (status/impact/next step), نقش‌ها (incident commander), و postmortemِ بی‌اتهام — گفتارِ آرام در قلبِ آشوب.">
+<meta name="twitter:image" content="https://upword.ir/blog/covers/en-course-p5.jpg">
+<link rel="icon" type="image/png" href="/assets/images/app-icon.png">
+<link rel="apple-touch-icon" type="image/png" href="/assets/images/app-icon.png">
+<link rel="preload" href="/assets/fonts/vazirmatn-ar.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://upword.ir/blog/articles/english-incident-management.html#article",
+      "headline": "درس ۸۲ از ۹۰ · مدیریتِ حادثه؛ وقتی prod واقعاً down است",
+      "description": "زبانِ شبِ سخت: اعلامِ حادثه (P1 — checkout is down), قالبِ بریفِ دقیقه‌ای (status/impact/next step), نقش‌ها (incident commander), و postmortemِ بی‌اتهام — گفتارِ آرام در قلبِ آشوب.",
+      "inLanguage": "fa-IR",
+      "image": "https://upword.ir/blog/covers/en-course-p5.jpg",
+      "datePublished": "2026-10-24T09:00:00+03:30",
+      "dateModified": "2026-10-24T09:00:00+03:30",
+      "wordCount": 527,
+      "keywords": "مدیریت حادثه, incident management, prod is down, postmortem",
+      "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
+      "author": { "@id": "https://upword.ir/#organization" },
+      "publisher": { "@id": "https://upword.ir/#organization" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://upword.ir/blog/articles/english-incident-management.html" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "خانه", "item": "https://upword.ir/" },
+        { "@type": "ListItem", "position": 2, "name": "دورهٔ ۹۰ درسی انگلیسی", "item": "https://upword.ir/blog/english-course.html" },
+        { "@type": "ListItem", "position": 3, "name": "درس ۸۲" }
+      ]
+    },{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"من on-call تازه‌شده‌ام و از alert می‌ترسم!","acceptedAnswer":{"@type":"Answer","text":"ترسِ اول، امضای مسئولیتِ گرفته‌شده است — اما سه ضامنِ عملی: ۱) **runbook از قبل بخوان:** برای هر alert یک داک هست؛ در آرامشِ روز یک‌بار بخوانش تا شبِ سخت فقط «اجرا» باشد. 2) **قانونِ دو-نفره:** اولین حادثه‌هایت را با همکارتِ باتجربه شیفت بگیر: &quot;Can I shadow your next page?&quot; (میشه سایهٔ پیجِ بعدیت باشم؟) ۳) جملهٔ نجاتِ بریفِ اولیه: **&quot;Paged on high CPU. Investigating — will post a status in 10 minutes.&quot;** (پیجِ CPU بالا. دارم بررسی می‌کنم — تا ۱۰ دقیقه وضعیت می‌نویسم.) همین یک جمله، آدرنالینِ تو و تیم را نصف می‌کند چون «کسی داره کار می‌کنه» را اعلام می‌کند."}},{"@type":"Question","name":"مشتری/مدیرِ عجولانه وسطِ حادثه پیام می‌دهد!","acceptedAnswer":{"@type":"Answer","text":"نقشِ comms lead همین را حذف می‌کند؛ اگر ندارید، خودت این سه‌جمله‌ای را هر ۳۰ دقیقه بیرون بده: **&quot;We know, we're on it. Current impact: X. Next update in 30 minutes.&quot;** (می‌دونیم، روشیم. تأثیرِ فعلی: X. آپدیتِ بعدی ۳۰ دقیقهٔ دیگه.) قولِ «آپدیتِ بعدی» را همیشه بده و همیشه نگه‌دار — حتی اگر خبر، «هنوز چیزی عوض نشده» باشد؛ سکوت، وحشت می‌سازد و آپدیتِ منظم، اعتماد. و به هیچ‌وقت در میانهٔ حادثه، تخمینِ «دقیق» نده: **&quot;Likely minutes, not hours — but I'll confirm in the next update.&quot;**"}}]}
+  ]
+}
+</script>
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/css/blog.css">
+</head>
+<body>
+<div class="bg-scene" aria-hidden="true">
+<div class="orb orb-a"></div>
+<div class="orb orb-b"></div>
+<div class="orb orb-c"></div>
+<div class="bg-grain"></div>
+</div>
+<header class="navbar" id="navbar">
+<div class="container nav-inner">
+<a href="/" class="brand" aria-label="آپ‌ورد">
+<img src="/assets/images/app-icon.png" alt="" width="40" height="40" class="brand-icon">
+<span class="brand-text">آپ‌ورد</span>
+</a>
+<nav class="nav-links" aria-label="ناوبری وبلاگ">
+<a href="/" class="nav-link">صفحه اصلی</a>
+<a href="/blog/" class="nav-link">مقالات</a>
+<a href="/blog/english-course.html" class="nav-link">دورهٔ انگلیسی</a>
+<a href="/blog/chinese-course.html" class="nav-link">دورهٔ چینی</a>
+</nav>
+<a href="https://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener" class="btn btn-primary btn-sm nav-cta">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+<span>دانلود اپ</span>
+</a>
+</div>
+</header>
+<main id="main" class="blog-page">
+<div class="container">
+<div class="article-wrap">
+<nav class="crumbs" aria-label="مسیر صفحه">
+<a href="/">خانه</a><span class="sep">/</span>
+<a href="/blog/english-course.html">دورهٔ ۹۰ درسی انگلیسی</a><span class="sep">/</span>
+<span class="cur">درس ۸۲ از ۹۰</span>
+</nav>
+<article class="article-card">
+<div class="article-head">
+<span class="post-chip">آموزش زبان انگلیسی (دورهٔ ۹۰ درسی) · درس ۸۲ از ۹۰</span>
+<h1>مدیریتِ حادثه؛ وقتی prod واقعاً down است</h1>
+<div class="article-meta">
+<span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
+<span>⏱ ۶ دقیقه مطالعه</span>
+<span>✍ تیم آپ‌ورد</span>
+</div>
+</div>
+<div class="short-answer">
+<span class="sa-label">⚡ پاسخ کوتاه</span>
+<p>در حادثه، زبان باید «فشرده و بی‌هیجان» باشد: اعلام (P1: checkout down, ~30% of users affected), قالبِ هر آپدیت (impact / cause-so-far / next action / ETA), و تفکیکِ نقش‌ها. جملهٔ طلایی: "Facts first, theories second." و در postmortem: "The system allowed a bad deploy — the fix is systemic, not personal."</p>
+</div>
+<figure class="article-cover">
+<img src="/blog/covers/en-course-p5.jpg" alt="" width="1344" height="768" loading="lazy">
+<figcaption>درس ۸۲ از ۹۰ — مدیریتِ حادثه؛ وقتی prod واقعاً down است</figcaption>
+</figure>
+<div class="prose">
+<p>حادثهٔ production، شبِ امتحانِ همهٔ مهارت‌های این دوره است: فنی، سازمانی و زبانی — هم‌زمان. تیم‌های حرفه‌ای برای همین، «زبانِ حادثه» را از قبل تمرین می‌کنند: جملهایِ کوتاهِ قالب‌دار که در فشارِ آدرنالین هم بی‌ابهام می‌مانند. این درس همان زبان است: از لحظهٔ اولِ پیامِ alert تا جلسهٔ postmortem.</p>
+<p>قاعدهٔ فرهنگیِ بنیادین: در حادثه، «آرامشِ صوتی» گمراه‌کننده نیست؛ فرماندهی است. صدای پُرتنش در کانالِ حادثه، همه را کندتر می‌کند؛ جمله‌های کوتاهِ بی‌هیجان، همه را تیزتر.</p>
+<h2>لحظهٔ صفر؛ اعلام و صف‌بندی</h2>
+<div class="zh-ex"><span class="zh">P1 — checkout is returning 5xx for ~30% of users since 14:02 UTC. All hands who know the payments flow, please join #inc-331. I am incident commander until relieved.</span><span class="fa">P1 — تسویه از ۱۴:۰۲ UTC برای ~۳۰٪ کاربرها 5xx می‌دهد. هر کی جریانِ پرداخت رو می‌شناسه بیاد تو #inc-331. من فرماندهِ حادثه‌ام تا جایگزین شم.</span></div>
+<p>سه جزءِ اعلام: <strong>شدت و مختصات</strong> (P1/P2 + چه سیستمی + از چه ساعتی + چند درصدِ کاربر), <strong>کانالِ جنگ</strong> (#inc-XXX — کانالِ تازه، نه کانالِ تیم), <strong>نقش‌ها</strong> — incident commander (فرمانده: تصمیم و پروسه), comms lead (ارتباط: آپدیت‌های بیرونی), ops (دستِ اجرا). اگر فرمانده ندارید، خودت باش و بگو — جمله‌اش همان امضاست. سوالِ اولِ جذب‌شدن‌ها: <strong>"Who's on it and what do you need from me?"</strong> (کی روشه و از من چی لازمه؟)</p>
+<h2>ریتمِ حادثه؛ بریفِ هر ده‌دقیقه</h2>
+<p>قالبِ آپدیتِ دوره‌ای (فرمانده می‌نویسد، در کانال + برای ذی‌نفع‌ها): <strong>"14:20 STATUS: 5xx at ~30%, EU-heavy. CAUSE (working theory): last deploy's DB pool change; not confirmed. ACTION: rolling back deploy now, ETA 10 min. NEXT UPDATE: 14:30."</strong> — چهار خط: وضعیت/تئوری/اقدام/زمانِ آپدیتِ بعدی. قاعدهٔ فکری: <strong>Facts first, theories second</strong> — نظریه را حتماً به‌عنوان «working theory» برچسب بزن تا تصمیم‌ها با حدس‌ها قاطی نشوند. و جمله‌های کانالِ جنگ: <strong>"Rollback is running, 3 of 12 pods done."</strong> · <strong>"I need someone on the DB metrics — can you take it, Sara?"</strong> · <strong>"Heads-up: I'm about to failover — confirm you're ready."</strong> — هر پیام، یک فعلِ در حالِ انجام یا یک درخواستِ نام‌دار.</p>
+<div class="zh-ex"><span class="zh">14:30 STATUS: rollback complete, 5xx back to baseline (<0.1%). Monitoring for 30 min before all-clear. NEXT: postmortem tomorrow 10am.</span><span class="fa">۱۴:۳۰ وضعیت: رول‌بک کامل، خطا به حالتِ عادی برگشت (زیرِ ۰/۱٪). ۳۰ دقیقه پایش قبل از اعلامِ امنیت. بعدی: پست‌مورتم فردا ۱۰ صبح.</span></div>
+<h2>Postmortem؛ دادگاهِ سیستم، نه آدم</h2>
+<p>سندِ postmortem (درس ۵۹ را کامل می‌کند): <strong>What happened / Impact / Timeline / Root cause / What went well / Action items.</strong> قواعدِ زبانیِ بی‌اتهام: عاملیت را به سیستم بده — <strong>"The deploy pipeline allowed an incompatible migration to ship" نهِ «Jack shipped…»</strong>؛ نکتهٔ جالبش این است که هم چابک‌تر است هم دقیق‌تر. در جلسه: <strong>"The goal is blameless analysis — we assume everyone acted reasonably with the information they had."</strong> (هدف، تحلیلِ بی‌اتهامه — فرض می‌کنیم همه با اطلاعِ خودشون معقول رفتار کردن.) و بندِ جمع‌بندیِ معجزه‌گر: <strong>"If a perfectly reasonable person could have made this same mistake, the fix belongs in the system."</strong> — Action items با مالک و تاریخ، وگرنه پست‌مورتم، ادبیات است نه مهندسی.</p>
+<div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
+<p>زبانِ حادثه: اعلامِ چهارجزئی (شدت/سیستم/زمان/درصد + کانال + فرمانده), آپدیتِ ده‌دقیقه‌ایِ چهارخطی (STATUS/working theory/ACTION/NEXT), جمله‌های «فعل یا درخواستِ نام‌دار», و postmortemِ blameless که عاملیتش با سیستم است. آرامشِ صوتی، فرماندهی است — و قاعدهٔ طلاییِ فکر: facts first, theories second.</p></div>
+</div>
+<nav class="lesson-nav" aria-label="ناوبری دوره">
+<a class="prev" href="/blog/articles/english-cross-team-politics.html"><span class="lbl">← درس قبلی</span><span>ارتباطِ بین‌تیمی و سازمان؛ نفوذِ بدونِ اختیار</span></a>
+<a class="hub" href="/blog/english-course.html">📘 فهرست دوره</a>
+<a class="next" href="/blog/articles/english-performance-reviews.html"><span class="lbl">درس بعدی →</span><span>ارزیابیِ عملکرد؛ خودنویسی، گفتگو و مذاکرهٔ رشد</span></a>
+</nav>
+
+<section class="article-faq" aria-label="پرسش‌های رایج">
+<h2>پرسش‌های رایج</h2>
+<details class="faq-item" open>
+<summary><span>من on-call تازه‌شده‌ام و از alert می‌ترسم!</span></summary>
+<div class="faq-answer">ترسِ اول، امضای مسئولیتِ گرفته‌شده است — اما سه ضامنِ عملی: ۱) **runbook از قبل بخوان:** برای هر alert یک داک هست؛ در آرامشِ روز یک‌بار بخوانش تا شبِ سخت فقط «اجرا» باشد. 2) **قانونِ دو-نفره:** اولین حادثه‌هایت را با همکارتِ باتجربه شیفت بگیر: "Can I shadow your next page?" (میشه سایهٔ پیجِ بعدیت باشم؟) ۳) جملهٔ نجاتِ بریفِ اولیه: **"Paged on high CPU. Investigating — will post a status in 10 minutes."** (پیجِ CPU بالا. دارم بررسی می‌کنم — تا ۱۰ دقیقه وضعیت می‌نویسم.) همین یک جمله، آدرنالینِ تو و تیم را نصف می‌کند چون «کسی داره کار می‌کنه» را اعلام می‌کند.</div>
+</details><details class="faq-item">
+<summary><span>مشتری/مدیرِ عجولانه وسطِ حادثه پیام می‌دهد!</span></summary>
+<div class="faq-answer">نقشِ comms lead همین را حذف می‌کند؛ اگر ندارید، خودت این سه‌جمله‌ای را هر ۳۰ دقیقه بیرون بده: **"We know, we're on it. Current impact: X. Next update in 30 minutes."** (می‌دونیم، روشیم. تأثیرِ فعلی: X. آپدیتِ بعدی ۳۰ دقیقهٔ دیگه.) قولِ «آپدیتِ بعدی» را همیشه بده و همیشه نگه‌دار — حتی اگر خبر، «هنوز چیزی عوض نشده» باشد؛ سکوت، وحشت می‌سازد و آپدیتِ منظم، اعتماد. و به هیچ‌وقت در میانهٔ حادثه، تخمینِ «دقیق» نده: **"Likely minutes, not hours — but I'll confirm in the next update."**</div>
+</details>
+</section>
+
+</article>
+
+<section class="blog-cta">
+<h2>انگلیسی را همین امروز در گوشی‌ات تمرین کن</h2>
+<p>واژه‌های این درس را هر جا که دیدی با منوی «ذخیره در آپ‌ورد» به فلش‌کارت‌هایت اضافه کن؛ الگوریتم مرور فاصله‌دار سرِ موعد یادآوری‌شان می‌کند، تلفظ‌شان را می‌شنوی و در مکالمهٔ هوش مصنوعی همان‌جا که لازم است استفاده‌شان می‌کنی.</p>
+<div class="cta-buttons">
+<a href="https://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener" class="btn btn-primary btn-lg">دانلود از کافه بازار</a>
+<a href="https://myket.ir/app/ir.upword.twa" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">دانلود از مایکت</a>
+</div>
+</section>
+</div>
+</div>
+</main>
+<footer class="blog-footer">
+<div class="container inner">
+<div class="links">
+<a href="/">صفحه اصلی</a>
+<a href="/blog/">مقالات</a>
+<a href="/blog/english-course.html">دورهٔ ۹۰ درسی انگلیسی</a>
+<a href="/blog/chinese-course.html">دورهٔ زبان چینی</a>
+</div>
+<p class="copy">© ۲۰۲۶ آپ‌ورد — ساخته‌شده برای فارسی‌زبان‌ها</p>
+</div>
+</footer>
+<script src="/js/main.js" defer></script>
+<script src="/js/blog.js" defer></script>
+</body>
+</html>

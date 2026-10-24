@@ -13,333 +13,555 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://upword.ir/blog/articles/free-openai-compatible-api.html</loc>
-    <lastmod>2026-10-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/english-at-home.html</loc>
-    <lastmod>2026-10-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/ai-conversation-practice.html</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/shadowing-technique.html</loc>
-    <lastmod>2026-10-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://upword.ir/blog/chinese-course.html</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/chinese-from-zero.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/pinyin-system.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/pinyin-finals.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/four-tones.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/tone-sandhi.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/chinese-characters.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/chinese-radicals.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/stroke-order.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/simplified-vs-traditional.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/first-conversations.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/shi-sentences.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/chinese-pronouns.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/numbers-0-99.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/big-numbers-money.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/measure-words.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/telling-time.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/you-exist.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/verbs-no-conjugation.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/adverb-placement.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/mental-verbs.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/question-words.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/particle-le.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/guo-experience-durations.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/progressive-zai.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/sentence-final-particles.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/location-directions.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/bi-comparison.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/adjectives-degree.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/de-modification.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/shi-de-emphasis.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/ba-construction.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/bei-passive.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/resultative-complements.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/directional-complements.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/serial-verbs.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/conditionals.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/potential-complements.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/word-building.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/shopping-haggling.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/restaurant-chinese.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/travel-chinese.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/directions-transport.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/phone-and-chat.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/emotions-doctor.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/polite-chinese.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/culture-in-language.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/reading-chinese.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/guessing-characters.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/mastery-resources.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://upword.ir/blog/articles/90-day-roadmap.html</loc>
-    <lastmod>2026-10-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-</urlset>
+
+<url>
+<loc>https://upword.ir/blog/english-course.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-from-zero.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-alphabet-sounds.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-greetings.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-introduce-yourself.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-verb-to-be.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-this-that-here.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-numbers-money.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-telling-time.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-days-dates.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-family-people.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-colors-adjectives.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-home-objects.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-food-basics.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-shopping-basics.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-level1-review.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-present-simple.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-daily-routine.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-present-continuous.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-restaurant-order.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-supermarket.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-taking-taxi.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-public-transport.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-asking-directions.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-doctor-visit.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-pharmacy.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-clothes-shopping.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-phone-calls.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-making-appointments.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-weather-smalltalk.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-describing-people.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-home-neighbors.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-past-simple-1.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-level2-review.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-past-simple-2.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-telling-stories.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-future-plans.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-airport-travel.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-hotel-stay.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-renting-apartment.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-utilities-bills.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-emergencies.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-present-perfect.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-making-friends.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-opinions-feelings.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-emails-basics.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-resume-cv.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-job-interview.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-first-day-at-work.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-workplace-basics.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-level3-review.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-tech-foundations.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-coding-vocabulary.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-explaining-code.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-git-teamwork.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-daily-standup.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-code-review.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-debugging-talk.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-agile-scrum.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-technical-writing.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-slack-communication.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-interview-coding.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-interview-system-design.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-behavioral-interview.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-demos-presentations.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-estimations-deadlines.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-product-client-talks.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-one-on-ones-feedback.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-disagreeing-technically.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-joining-new-team.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-mentoring-juniors.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-conferences-networking.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-level4-review.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-register-tone.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-work-idioms.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-phrasal-verbs-work.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-leading-meetings.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-writing-rfcs.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-exec-presentations.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-salary-negotiation.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-remote-async.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-cross-team-politics.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-incident-management.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-performance-reviews.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-cultural-pragmatics.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-humor-banter.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-technical-leadership.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-open-source.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-staff-interviews.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-continuous-learning.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://upword.ir/blog/articles/english-final-roadmap.html</loc>
+<lastmod>2026-10-24</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url></urlset>

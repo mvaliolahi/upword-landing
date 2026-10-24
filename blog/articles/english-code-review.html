@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#04231A">
+<title>درس ۵۶ از ۹۰ · کدریویو؛ دادنِ بازخوردِ فنی و گرفتنش بدونِ زخم | آپ‌ورد</title>
+<meta name="description" content="هنرِ گفتارِ ریلویو: قالب‌های سه‌درجه‌ای (must-fix, suggestion, nit), عبارت‌های نرمِ فنی (would you consider…?), و پاسخِ حرفه‌ای به کامنت — از «good catch» تا «خب، پس چرا خودت این‌طور ننوشتی!»">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://upword.ir/blog/articles/english-code-review.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="درس ۵۶ از ۹۰ · کدریویو؛ دادنِ بازخوردِ فنی و گرفتنش بدونِ زخم">
+<meta property="og:description" content="هنرِ گفتارِ ریلویو: قالب‌های سه‌درجه‌ای (must-fix, suggestion, nit), عبارت‌های نرمِ فنی (would you consider…?), و پاسخِ حرفه‌ای به کامنت — از «good catch» تا «خب، پس چرا خودت این‌طور ننوشتی!»">
+<meta property="og:url" content="https://upword.ir/blog/articles/english-code-review.html">
+<meta property="og:site_name" content="آپ‌ورد (UpWord)">
+<meta property="og:locale" content="fa_IR">
+<meta property="og:image" content="https://upword.ir/blog/covers/en-course-p4.jpg">
+<meta property="og:image:width" content="1344">
+<meta property="og:image:height" content="768">
+<meta property="article:published_time" content="2026-10-24T09:00:00+03:30">
+<meta property="article:modified_time" content="2026-10-24T09:00:00+03:30">
+<meta property="article:section" content="آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="درس ۵۶ از ۹۰ · کدریویو؛ دادنِ بازخوردِ فنی و گرفتنش بدونِ زخم">
+<meta name="twitter:description" content="هنرِ گفتارِ ریلویو: قالب‌های سه‌درجه‌ای (must-fix, suggestion, nit), عبارت‌های نرمِ فنی (would you consider…?), و پاسخِ حرفه‌ای به کامنت — از «good catch» تا «خب، پس چرا خودت این‌طور ننوشتی!»">
+<meta name="twitter:image" content="https://upword.ir/blog/covers/en-course-p4.jpg">
+<link rel="icon" type="image/png" href="/assets/images/app-icon.png">
+<link rel="apple-touch-icon" type="image/png" href="/assets/images/app-icon.png">
+<link rel="preload" href="/assets/fonts/vazirmatn-ar.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://upword.ir/blog/articles/english-code-review.html#article",
+      "headline": "درس ۵۶ از ۹۰ · کدریویو؛ دادنِ بازخوردِ فنی و گرفتنش بدونِ زخم",
+      "description": "هنرِ گفتارِ ریلویو: قالب‌های سه‌درجه‌ای (must-fix, suggestion, nit), عبارت‌های نرمِ فنی (would you consider…?), و پاسخِ حرفه‌ای به کامنت — از «good catch» تا «خب، پس چرا خودت این‌طور ننوشتی!»",
+      "inLanguage": "fa-IR",
+      "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
+      "datePublished": "2026-10-24T09:00:00+03:30",
+      "dateModified": "2026-10-24T09:00:00+03:30",
+      "wordCount": 538,
+      "keywords": "کدریویو, code review phrases, بازخورد فنی, nit suggestion",
+      "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
+      "author": { "@id": "https://upword.ir/#organization" },
+      "publisher": { "@id": "https://upword.ir/#organization" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://upword.ir/blog/articles/english-code-review.html" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "خانه", "item": "https://upword.ir/" },
+        { "@type": "ListItem", "position": 2, "name": "دورهٔ ۹۰ درسی انگلیسی", "item": "https://upword.ir/blog/english-course.html" },
+        { "@type": "ListItem", "position": 3, "name": "درس ۵۶" }
+      ]
+    },{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"ریلویور تندگوی است و کامنت‌ها زخم‌اند — چه کنم؟","acceptedAnswer":{"@type":"Answer","text":"سه پله: ۱) قالب را از خودت نگیر: «This is wrong» را به «رو کد نظر می‌ده» ترجمه کن — و جوابِ سردِ حرفه‌ای بده (بالاتر). ۲) اگر لحنِ واقعاً بی‌ادبانه تکرار شد، خصوصی و آرام: **&quot;Hey, your technical points are always solid — the tone sometimes makes it hard to process. Could we keep it a bit softer?&quot;** ۳) اگر ادامه کرد، مدیر/لید را در جریان بگذار — تیمِ سالم، تیکتِ لحن هم دارد. اما ۹۰٪ موارد، همان پلهٔ یک کافی است: جوابِ آرامِ بی‌دفاعی، خودش لحن را بعد از دو-سه ریلویو نرم می‌کند."}},{"@type":"Question","name":"چطور ریلویوگرِ خوبی شوم وقتی جونیورم؟","acceptedAnswer":{"@type":"Answer","text":"سه امانتِ ریلویوگرِ جونیور: **۱) سوال بپرس** — سوالِ واقعی، کامنتِ محترم است: «Curious — why not use the standard library here?» **۲) چیزی که یاد گرفتی را بگو**: «TIL you can do this with pattern matching — nice.» **۳) تست و UX را چک کن** — چشمِ تازه، خطاهایی می‌بیند که چشمِ خبره عادت کرده است. جونیورِ ریلویوگرِ فعال، سریع‌ترین مسیرِ ارتقای فنی-اجتماعی است."}}]}
+  ]
+}
+</script>
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/css/blog.css">
+</head>
+<body>
+<div class="bg-scene" aria-hidden="true">
+<div class="orb orb-a"></div>
+<div class="orb orb-b"></div>
+<div class="orb orb-c"></div>
+<div class="bg-grain"></div>
+</div>
+<header class="navbar" id="navbar">
+<div class="container nav-inner">
+<a href="/" class="brand" aria-label="آپ‌ورد">
+<img src="/assets/images/app-icon.png" alt="" width="40" height="40" class="brand-icon">
+<span class="brand-text">آپ‌ورد</span>
+</a>
+<nav class="nav-links" aria-label="ناوبری وبلاگ">
+<a href="/" class="nav-link">صفحه اصلی</a>
+<a href="/blog/" class="nav-link">مقالات</a>
+<a href="/blog/english-course.html" class="nav-link">دورهٔ انگلیسی</a>
+<a href="/blog/chinese-course.html" class="nav-link">دورهٔ چینی</a>
+</nav>
+<a href="https://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener" class="btn btn-primary btn-sm nav-cta">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+<span>دانلود اپ</span>
+</a>
+</div>
+</header>
+<main id="main" class="blog-page">
+<div class="container">
+<div class="article-wrap">
+<nav class="crumbs" aria-label="مسیر صفحه">
+<a href="/">خانه</a><span class="sep">/</span>
+<a href="/blog/english-course.html">دورهٔ ۹۰ درسی انگلیسی</a><span class="sep">/</span>
+<span class="cur">درس ۵۶ از ۹۰</span>
+</nav>
+<article class="article-card">
+<div class="article-head">
+<span class="post-chip">آموزش زبان انگلیسی (دورهٔ ۹۰ درسی) · درس ۵۶ از ۹۰</span>
+<h1>کدریویو؛ دادنِ بازخوردِ فنی و گرفتنش بدونِ زخم</h1>
+<div class="article-meta">
+<span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
+<span>⏱ ۶ دقیقه مطالعه</span>
+<span>✍ تیم آپ‌ورد</span>
+</div>
+</div>
+<div class="short-answer">
+<span class="sa-label">⚡ پاسخ کوتاه</span>
+<p>کدریویو دو نیمهٔ جداشدنی ندارد — دادن و گرفتنِ نظرِ فنی، هر دو با قالب می‌آیند. دادن: دسته‌بندیِ کامنت‌ها (nit / suggestion / blocking) و سوال‌بستن به‌جای حکم (Would you consider…?). گرفتن: thanks, good catch — و جداکردنِ «کد» از «خود».</p>
+</div>
+<figure class="article-cover">
+<img src="/blog/covers/en-course-p4.jpg" alt="" width="1344" height="768" loading="lazy">
+<figcaption>درس ۵۶ از ۹۰ — کدریویو؛ دادنِ بازخوردِ فنی و گرفتنش بدونِ زخم</figcaption>
+</figure>
+<div class="prose">
+<p>کدریویو، حساس‌ترین مکالمهٔ فنی است: می‌خواهی به همکارت بگویی کدش بد است، بدونِ این‌که بگویی خودش بد است — و برعکس، بخوری «این غلط است» را بدونِ دفاعِ شخصی. فرهنگِ تیم‌های انگلیسی‌زبانِ سالم برای همین، قالب‌های دقیقی دارد؛ قالب‌ها هم مؤدب‌اند هم کارآمد.</p>
+<p>برای زبانِ دوم یک خبرِ خوب: کامنتِ ریلویو، مکالمهٔ کوتاهِ نوشتاری است — زمانِ فکر دارد. همین درس را نه فقط بخوان، بلکه template کن؛ اولین ریلویوی جدی‌ات، از دل همین قالب‌ها بیرون می‌آید.</p>
+<h2>دادنِ کامنت؛ سه درجه و دو قالب</h2>
+<table><thead><tr>
+<th>درجه</th>
+<th>واژه</th>
+<th>جملهٔ نمونه</th>
+</tr></thead><tbody>
+<tr>
+<td>اصلاحِ ضروری</td>
+<td>blocking / must-fix</td>
+<td>Blocking: this breaks on empty input — we need a guard clause.</td>
+</tr>
+<tr>
+<td>پیشنهاد</td>
+<td>suggestion / could consider</td>
+<td>Suggestion: we could extract this into a helper — up to you.</td>
+</tr>
+<tr>
+<td>جزئی</td>
+<td>nit (nitpick)</td>
+<td>Nit: trailing space here. Not blocking.</td>
+</tr>
+<tr>
+<td>ستایش</td>
+<td>praise / this is nice</td>
+<td>This is a really clean solution — learned something!</td>
+</tr>
+<tr>
+<td>سوال</td>
+<td>question</td>
+<td>Question: why array over set here? Genuine curiosity.</td>
+</tr>
+</tbody></table>
+<p>دو قالبِ طلاییِ نرم‌کردن: <strong>۱) سوال به‌جای حکم:</strong> نهِ «This is wrong» — که <strong>«Would you consider using a set here? Lookups would be O(1).»</strong> ۲) <strong>«ما» به‌جای «تو»:</strong> <strong>«What if we extracted the validation into its own function?»</strong> — «ما»، کامنت را از امتحانِ شخصی به تصمیمِ مشترک می‌برد. و قانونِ «praise در جا»: اگر چیزی خوب بود، همان لحظه بنویس — ریلویو فقط شکارِ اشکال نیست.</p>
+<div class="zh-ex"><span class="zh">Nit: could we name this `retryCount` instead of `n`? Future-us will thank us.</span><span class="fa">جزئی: می‌شه اسمش retryCount باشه نه n؟ خودِ آینده‌مون ممنون می‌شه.</span></div>
+<h2>گرفتنِ کامنت؛ سه پاسخِ حرفه‌ای</h2>
+<p><strong>۱) پذیرشِ گرم:</strong> "Good catch — fixing now." (دقتِ خوبی بود — همین الان درستش می‌کنم) <strong>۲) توضیح + بازگشایی:</strong> "Fair point. I kept it sync because the caller needs the value immediately — but I'm open if you see a cleaner way." <strong>۳) مخالفتِ مستند:</strong> "I see it differently — with the new cache, the extra query costs almost nothing. Happy to discuss on a call if you're not convinced." — هر سه: کوتاه، بی‌حالتیِ دفاعی، و برنده. قاعدهٔ طلایی: هر کامنت را یک نظرِ فنی ببین نه حکمِ شخصی — جملهٔ یادگاریِ صنعت: <strong>"Review the code, not the coder."</strong></p>
+<div class="zh-ex"><span class="zh">Thanks for the thorough review! Addressed everything except the last point — added a comment in the PR explaining why.</span><span class="fa">ممنون بابت ریلویوی کامل! همه رو اعمال کردم جز آخرین نکته — تو PR توضیحش رو نوشتم.</span></div>
+<h2>جریانِ ریلویو؛ درخواست تا merge</h2>
+<p>زبانِ جریان: <strong>"Could you take a look when you get a chance?"</strong> (درخواست) · <strong>"Left a few comments — nothing blocking."</strong> (جوابِ ریلویور) · <strong>"Pushed the changes — PTAL."</strong> (اعمال شد؛ PTAL = please take another look — مخففِ محبوبِ گیت‌هاب) · <strong>"LGTM!"</strong> (looks good to me — یعنی تأیید؛ سه حرفِ شیرینِ هر PR) · <strong>"LGTM with nits."</strong> (تأیید — با همین جزئی‌های کوچیک). ادبِ زمان: ریلویوِ PRِ دیگران را همان روزی که می‌خواهی خودت ریلویو شوی بده — اقتصادِ متقابلِ تیم‌های سالم است.</p>
+<div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
+<p>دادن: درجه‌گذاری (blocking / suggestion / nit / praise) + سوال به‌جای حکم (Would you consider…?) + «we» به‌جای «you». گرفتن: Good catch / Fair point / مخالفتِ مستند با پیشنهادِ تماس. جریان: PTAL و LGTM — دو مخففِ دنیای ریلویو. و یادت باشد: کامنت، هدیهٔ فنی است؛ قالبش را همین درس داده.</p></div>
+</div>
+<nav class="lesson-nav" aria-label="ناوبری دوره">
+<a class="prev" href="/blog/articles/english-daily-standup.html"><span class="lbl">← درس قبلی</span><span>استندآپ صبحگاهی؛ ۹۰ ثانیه که روزِ کاری تو را تعریف می‌کند</span></a>
+<a class="hub" href="/blog/english-course.html">📘 فهرست دوره</a>
+<a class="next" href="/blog/articles/english-debugging-talk.html"><span class="lbl">درس بعدی →</span><span>دیباگ به انگلیسی؛ توصیفِ مشکل، فرضیه‌سازی و «found it!»</span></a>
+</nav>
+
+<section class="article-faq" aria-label="پرسش‌های رایج">
+<h2>پرسش‌های رایج</h2>
+<details class="faq-item" open>
+<summary><span>ریلویور تندگوی است و کامنت‌ها زخم‌اند — چه کنم؟</span></summary>
+<div class="faq-answer">سه پله: ۱) قالب را از خودت نگیر: «This is wrong» را به «رو کد نظر می‌ده» ترجمه کن — و جوابِ سردِ حرفه‌ای بده (بالاتر). ۲) اگر لحنِ واقعاً بی‌ادبانه تکرار شد، خصوصی و آرام: **"Hey, your technical points are always solid — the tone sometimes makes it hard to process. Could we keep it a bit softer?"** ۳) اگر ادامه کرد، مدیر/لید را در جریان بگذار — تیمِ سالم، تیکتِ لحن هم دارد. اما ۹۰٪ موارد، همان پلهٔ یک کافی است: جوابِ آرامِ بی‌دفاعی، خودش لحن را بعد از دو-سه ریلویو نرم می‌کند.</div>
+</details><details class="faq-item">
+<summary><span>چطور ریلویوگرِ خوبی شوم وقتی جونیورم؟</span></summary>
+<div class="faq-answer">سه امانتِ ریلویوگرِ جونیور: **۱) سوال بپرس** — سوالِ واقعی، کامنتِ محترم است: «Curious — why not use the standard library here?» **۲) چیزی که یاد گرفتی را بگو**: «TIL you can do this with pattern matching — nice.» **۳) تست و UX را چک کن** — چشمِ تازه، خطاهایی می‌بیند که چشمِ خبره عادت کرده است. جونیورِ ریلویوگرِ فعال، سریع‌ترین مسیرِ ارتقای فنی-اجتماعی است.</div>
+</details>
+</section>
+
+</article>
+
+<section class="blog-cta">
+<h2>انگلیسی را همین امروز در گوشی‌ات تمرین کن</h2>
+<p>واژه‌های این درس را هر جا که دیدی با منوی «ذخیره در آپ‌ورد» به فلش‌کارت‌هایت اضافه کن؛ الگوریتم مرور فاصله‌دار سرِ موعد یادآوری‌شان می‌کند، تلفظ‌شان را می‌شنوی و در مکالمهٔ هوش مصنوعی همان‌جا که لازم است استفاده‌شان می‌کنی.</p>
+<div class="cta-buttons">
+<a href="https://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener" class="btn btn-primary btn-lg">دانلود از کافه بازار</a>
+<a href="https://myket.ir/app/ir.upword.twa" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">دانلود از مایکت</a>
+</div>
+</section>
+</div>
+</div>
+</main>
+<footer class="blog-footer">
+<div class="container inner">
+<div class="links">
+<a href="/">صفحه اصلی</a>
+<a href="/blog/">مقالات</a>
+<a href="/blog/english-course.html">دورهٔ ۹۰ درسی انگلیسی</a>
+<a href="/blog/chinese-course.html">دورهٔ زبان چینی</a>
+</div>
+<p class="copy">© ۲۰۲۶ آپ‌ورد — ساخته‌شده برای فارسی‌زبان‌ها</p>
+</div>
+</footer>
+<script src="/js/main.js" defer></script>
+<script src="/js/blog.js" defer></script>
+</body>
+</html>
