@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p5.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 527,
+      "wordCount": 923,
       "keywords": "مدیریت حادثه, incident management, prod is down, postmortem",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>مدیریتِ حادثه؛ وقتی prod واقعاً down است</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۶ دقیقه مطالعه</span>
+<span>⏱ ۱۰ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -123,6 +123,19 @@
 <div class="zh-ex"><span class="zh">14:30 STATUS: rollback complete, 5xx back to baseline (<0.1%). Monitoring for 30 min before all-clear. NEXT: postmortem tomorrow 10am.</span><span class="fa">۱۴:۳۰ وضعیت: رول‌بک کامل، خطا به حالتِ عادی برگشت (زیرِ ۰/۱٪). ۳۰ دقیقه پایش قبل از اعلامِ امنیت. بعدی: پست‌مورتم فردا ۱۰ صبح.</span></div>
 <h2>Postmortem؛ دادگاهِ سیستم، نه آدم</h2>
 <p>سندِ postmortem (درس ۵۹ را کامل می‌کند): <strong>What happened / Impact / Timeline / Root cause / What went well / Action items.</strong> قواعدِ زبانیِ بی‌اتهام: عاملیت را به سیستم بده — <strong>"The deploy pipeline allowed an incompatible migration to ship" نهِ «Jack shipped…»</strong>؛ نکتهٔ جالبش این است که هم چابک‌تر است هم دقیق‌تر. در جلسه: <strong>"The goal is blameless analysis — we assume everyone acted reasonably with the information they had."</strong> (هدف، تحلیلِ بی‌اتهامه — فرض می‌کنیم همه با اطلاعِ خودشون معقول رفتار کردن.) و بندِ جمع‌بندیِ معجزه‌گر: <strong>"If a perfectly reasonable person could have made this same mistake, the fix belongs in the system."</strong> — Action items با مالک و تاریخ، وگرنه پست‌مورتم، ادبیات است نه مهندسی.</p>
+<h2>گرامرِ عمیق‌تر: زبانِ فشردهٔ حادثه</h2>
+<p>حادثه، سه قالبِ چهارخطی دارد: <strong>اعلام:</strong> «P1 — [system] is down/degraded for [X%] of users since [time]. Channel: #inc-NNN.» <strong>بریف:</strong> «STATUS / CAUSE (working theory) / ACTION / NEXT UPDATE at [time].» <strong>پایان:</strong> «All-clear: metrics back to baseline. Postmortem [day] at [time].» — و زمانِ فعل‌ها: ادامهٔ حادثه با استمرار (users are seeing 5xx), اقدام با استمرار (we're rolling back), نتیجه با ساده (errors dropped). و پرچم‌های فکری: <strong>working theory</strong> (هنوز حدس), <strong>confirmed</strong> (تأیید شد), <strong>ruled out</strong> (حذف شد) — سه برچسبِ جلوگیری از قاطی‌شدنِ حدس و واقعیت.</p>
+<div class="zh-ex"><span class="zh">14:20 STATUS: 5xx at ~30% of EU users, started 14:02. CAUSE (working theory): last deploy's DB pool change. ACTION: rollback running, 3/12 pods done. NEXT UPDATE: 14:30.</span><span class="fa">۱۴:۲۰ وضعیت: خطای 5xx برای ~۳۰٪ کاربرهای اروپا، از ۱۴:۰۲. علت (فرضیهٔ در حالِ کار): تغییرِ پولِ دیتابیس در آخرین دپلوی. اقدام: رول‌بک در جریانه، ۳ از ۱۲ پاد تمام. آپدیتِ بعدی: ۱۴:۳۰.</span></div>
+<h2>گفتگو: در کانالِ جنگ — ده دقیقهٔ خاموش‌گیر</h2>
+<div class="zh-ex"><span class="zh">IC (you): Facts first: 5xx at 30%, EU-heavy, started 14:02. Dara on metrics, Sara on customer comms, I run the bridge. Theories to the thread, actions to me.</span><span class="fa">فرمانده (تو): اول واقعیت‌ها: ۵xx در ۳۰٪، اروپا-محور، از ۱۴:۰۲. دارا روی متریک‌ها، سارا روی ارتباطِ مشتری، من پل رو می‌رانم. فرضیه‌ها تو thread، اقدام‌ها پیشِ من.</span></div>
+<div class="zh-ex"><span class="zh">Dara: Working theory — the pool change didn't account for EU failover. — You: Noted as theory. Rollback's running; if errors drop when it lands, we upgrade it to confirmed.</span><span class="fa">دارا: فرضیه — تغییرِ پول، فِیل‌اوورِ اروپا رو حساب نکرده بود. — تو: به‌عنوانِ فرضیه ثبت شد. رول‌بک روونه؛ اگه با فرودش خطاها افت کرد، به «تأییدشده» ارتقاش می‌دیم.</span></div>
+<div class="zh-ex"><span class="zh">You: 14:30 — rollback complete, errors at baseline, p99 normal. Monitoring 30 min, then all-clear. Postmortem Friday 10:00 — blameless, bring timelines.</span><span class="fa">تو: ۱۴:۳۰ — رول‌بک کامل، خطاها عادی، p99 نرمال. ۳۰ دقیقه پایش، بعد اعلامِ امنیت. پست‌مورتم جمعه ۱۰ — بی‌اتهام، تایم‌لاین‌هاتون رو بیارید.</span></div>
+<h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
+<ul>
+<li><strong>فرضیه را برچسب بزن</strong> — «working theory» و «confirmed» را قاطی نکن — اعلامِ حدس به‌عنوانِ واقعیت در حادثه، خطای هفت‌ساله می‌سازد.</li>
+<li><strong>هر بریف با زمانِ آپدیتِ بعدی</strong> — «NEXT UPDATE 14:30» — وعدهٔ آپدیت، وحشتِ سکوت را می‌کُشد؛ حتی خبرِ «تغییری نیست» را بده.</li>
+<li><strong>نقش‌ها را با اسم اعلام کن</strong> — «Dara on metrics, Sara on comms» — حادثهٔ بی‌نقش، حادثهٔ بی‌مسئولیت است؛ اولین جملهٔ فرمانده همین است.</li>
+</ul>
 <div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
 <p>زبانِ حادثه: اعلامِ چهارجزئی (شدت/سیستم/زمان/درصد + کانال + فرمانده), آپدیتِ ده‌دقیقه‌ایِ چهارخطی (STATUS/working theory/ACTION/NEXT), جمله‌های «فعل یا درخواستِ نام‌دار», و postmortemِ blameless که عاملیتش با سیستم است. آرامشِ صوتی، فرماندهی است — و قاعدهٔ طلاییِ فکر: facts first, theories second.</p></div>
 </div>

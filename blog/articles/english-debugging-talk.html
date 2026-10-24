@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 551,
+      "wordCount": 993,
       "keywords": "دیباگ انگلیسی, debugging phrases, steps to reproduce, bug report",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>دیباگ به انگلیسی؛ توصیفِ مشکل، فرضیه‌سازی و «found it!»</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۶ دقیقه مطالعه</span>
+<span>⏱ ۱۰ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -123,6 +123,19 @@
 <div class="zh-ex"><span class="zh">Working theory: the migration left the old index in place, and the query planner picks it. Dropping it should fix the slow queries.</span><span class="fa">فرضیه: مایگریشن ایندکسِ قدیمی رو گذاشت و پلنِ کوئری همونو برمی‌داره. حذفش باید کوئری‌های کند رو درست کنه.</span></div>
 <h2>کمک‌خواهی و جمع‌بندی؛ جامعهٔ شکار</h2>
 <p>کمک‌خواهیِ هدفمند: <strong>"Has anyone seen this error before? <code>Connection reset by peer</code> — first time for me."</strong> · <strong>"Jack, you know the payments service best — got 10 minutes to pair on this?"</strong> و جمع‌بندیِ دو حالت — پیروزی: <strong>"Found it! The discount was applied twice — fixing now, PR in 30 minutes."</strong> (پیداش کردم! تخفیف دوبار اعمال می‌شد — الان درستش می‌کنم، PR تا ۳۰ دقیقه) و شکستِ موقت: <strong>"No luck today. I've narrowed it to the webhook handler. Picking it up fresh tomorrow."</strong> — هر دو، جمله‌هایِ حرفه‌ایِ پایانِ شیفتِ شکارند. و بعد از فیکس: <strong>"Added a regression test so it never happens again."</strong> — بستنِ حلقه، امضای مهندسِ بزرگ.</p>
+<h2>گرامرِ عمیق‌تر: زبانِ حدس و حذف — might و must و رِجاکسیسم</h2>
+<p>دیباگ، گرامرِ <strong>احتمال</strong> دارد: <strong>might</strong> (شاید — احتمالِ ضعیف), <strong>could</strong> (ممکن است — امکان), <strong>must</strong> (حتماً — استنتاجِ قوی: «The user must have double-clicked» — حتماً دوبار کلیک کرده), <strong>can't</strong> (نمی‌تواند باشد — استنتاجِ منفی: «It can't be the DNS — localhost fails too»). برای حذف: <strong>I've ruled out X</strong> (X رو حذف کردم), <strong>That leaves Y</strong> (پس فقط Y می‌مونه), <strong>It works until it doesn't</strong> (کار می‌کنه تا لحظه‌ای که نمی‌کنه — جملهٔ مقدسِ intermittentها!). و نتیجه: <strong>It turned out to be X</strong> (معلوم شد X بود).</p>
+<div class="zh-ex"><span class="zh">It can't be the network — localhost fails too. It must be the pool size under load. I've ruled out the query itself; that leaves the connection config. Let me test with a bigger pool.</span><span class="fa">نمی‌تونه شبکه باشه — لوکال هم می‌خوابه. حتماً سایزِ پول زیرِ باره. خودِ کوئری رو حذف کردم؛ پس فقط کانفیگِ اتصال می‌مونه. با پولِ بزرگ‌تر تست می‌کنم.</span></div>
+<h2>گفتگو: جفت‌شکارِ سی‌دقیقه‌ای</h2>
+<div class="zh-ex"><span class="zh">You: Got 30 minutes to pair? The payments retry is haunted — works in staging, dies in prod. — Colleague: Haunted, my favorite kind. Show me the logs.</span><span class="fa">تو: ۳۰ دقیقه وقت داری پِر شیم؟ retryِ پرداخت جن‌زده‌ست — تو staging کار می‌کنه، تو prod می‌میره. — همکار: جن‌زده، نوعِ موردعلاقه‌ام. لاگ‌ها رو نشونم بده.</span></div>
+<div class="zh-ex"><span class="zh">Colleague: See this gap? Two retries, same millisecond. — You: Oh. It's a race — both fire before the first one finishes. — Colleague: There it is.</span><span class="fa">همکار: این فاصله رو می‌بینی؟ دو retry، همون میلی‌ثانیه. — تو: او. یه رِیسه — هر دو شلیک می‌شن قبل از اینکه اولی تموم شه. — همکار: پیداش کردیم.</span></div>
+<div class="zh-ex"><span class="zh">You: I'll add an idempotency key so the second one becomes a no-op. Regression test too. — Colleague: And I'll write the runbook entry — "millisecond retries" — so the next haunted case dies faster.</span><span class="fa">تو: کلیدِ idempotency اضافه می‌کنم که دومی بی‌اثر شه. تستِ رگرسیون هم. — همکار: و من ران‌بوکش رو می‌نویسم — «retryهای میلی‌ثانیه‌ای» — تا جنِ بعدی زودتر بمیره.</span></div>
+<h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
+<ul>
+<li><strong>can't → must → leaves</strong> — زنجیرهٔ استنتاج را بلند بگو: «نمی‌تونه X باشه… حتماً Yئه… پس فقط Z می‌مونه» — شنونده، مسیرِ فکرت را می‌خرد نه فقط جواب را.</li>
+<li><strong>Can't reproduce را با جزئیات بگو</strong> — «Can't reproduce locally — works with 100 users, fails at 10k» — همین یک قید، نصفِ تیم را به سمتِ درستِ مشکل می‌فرستد.</li>
+<li><strong>It turned out to be را ثبت کن</strong> — پایانِ هر شکار را در تیکت بنویس: «Turned out to be a race between X and Y» — دانشِ پیدا‌شده، فقط وقتی ماندگار است که نوشته شود.</li>
+</ul>
 <div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
 <p>گزارشِ باگ چهاربندی: انتظار/واقعیت + steps to reproduce + دامنه + زمان. فرضیه‌سازی با قالب: my theory is… / I suspect… / it's either A or B / ruled out. کمک: has anyone seen this? / got 10 minutes to pair? بستنِ حلقه: Found it + regression test. باگِ بی‌ثبات = flaky/intermittent — و توصیفِ دقیق، نصفِ راهِ حل است.</p></div>
 </div>

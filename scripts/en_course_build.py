@@ -19,6 +19,15 @@ import en_course_lib as lib
 
 SCRIPTS = os.path.dirname(os.path.abspath(__file__))
 DATA_FILES = [f'en_course_data_{i:02d}' for i in range(1, 11)]
+# Stages 2+3: expansions (dialogues + grammar + conversation tips), keyed by slug
+EXPANSION_FILES = [
+    'en_expand_data_1',   # lessons 1-18: dialogues
+    'en_expand_data_1b',  # lessons 1-18: grammar + tips
+    'en_expand_data_2',   # lessons 19-36
+    'en_expand_data_3',   # lessons 37-54
+    'en_expand_data_4',   # lessons 55-72
+    'en_expand_data_5',   # lessons 73-90
+]
 
 
 def load_all():
@@ -28,6 +37,13 @@ def load_all():
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
         lessons.extend(mod.LESSONS)
+    # stages 2+3: merge expansions into the lesson dicts
+    for name in EXPANSION_FILES:
+        spec = importlib.util.spec_from_file_location(name, os.path.join(SCRIPTS, name + '.py'))
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        if hasattr(mod, 'EXPANSIONS'):
+            lib.apply_expansions(lessons, mod.EXPANSIONS)
     return lessons
 
 

@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 563,
+      "wordCount": 1044,
       "keywords": "مصاحبه فنی, coding interview, clarifying questions, thinking out loud",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>مصاحبهٔ فنی ۱؛ حلِ مسئله با صدای بلند</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۶ دقیقه مطالعه</span>
+<span>⏱ ۱۱ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -123,6 +123,20 @@
 <div class="zh-ex"><span class="zh">Let me think out loud for a second… the tricky part is the wrap-around case. I'll handle it by taking the modulus.</span><span class="fa">بذار یه لحظه بلند فکر کنم… قسمتِ پیچیده، حالتِ دور-زدنه. با باقیماندهٔ تقسیم هندلش می‌کنم.</span></div>
 <h2>تست، پیچیدگی و گیرکردن؛ سه‌گانهٔ پایان</h2>
 <p><strong>تست (بعد از کد):</strong> "Let me trace through an example: input 2, 7, 11 — target 9. First iteration stores 2, second finds 7's complement… returns 0,1. Looks right. Edge case: empty list — returns null, as agreed." <strong>پیچیدگی:</strong> "Time is O(n) — single pass. Space is O(n) for the map. If memory were tight, the sorted two-pointer approach gives O(1) extra space at O(n log n) time." و جمله‌های نجاتِ گیر: <strong>"Hmm, this doesn't handle the negative case. Let me step back and rethink."</strong> · <strong>"I'm going in circles here — can I get a hint? I'd rather ask than stall."</strong> — درخواستِ hint با این صراحت، در روبریکِ communicationِ بیشترِ شرکت‌ها امتیاز دارد نه جریمه: گیرِ بی‌صدا جریمه دارد، گیرِ شفاف نه.</p>
+<h2>گرامرِ عمیق‌تر: زبانِ پیچیدگی و زمانِ مصاحبه</h2>
+<p>مصاحبهٔ کدنویسی، جمله‌های ثابتِ فنی دارد: <strong>"This runs in O(n) time and O(1) space."</strong> (این با زمانِ O(n) و فضای O(1) اجرا می‌شه) — دو بعدِ پیچیدگی را همیشه با هم بگو. <strong>"I can trade memory for speed"</strong> (می‌تونم حافظه رو با سرعت عوض کنم) — قالبِ بهبود. <strong>"The naive approach is O(n²); I can do better with a hash map."</strong> و برای تست: <strong>"Let me trace through an example"</strong> (بذار با یه مثال ردیابی کنم) — ردیابیِ بلند، امتیازِ تستِ ذهنی است. و سوالِ شفاف‌سازِ ابدی: <strong>"Can the input be empty?" / "Are duplicates possible?"</strong></p>
+<div class="zh-ex"><span class="zh">The brute force is O(n²) — two nested loops. I can trade memory for speed: one pass with a hash map gives O(n) time at O(n) space. Given n up to a million, that trade pays for itself.</span><span class="fa">راهِ بی‌رحمانه O(n²)ئه — دو حلقهٔ تو در تو. می‌تونم حافظه رو با سرعت معاوضه کنم: یه پاس با هش‌مپ، زمانِ O(n) با فضای O(n). با n تا یک میلیون، این معامله خودش رو می‌کنه.</span></div>
+<h2>گفتگو: چهار دقیقهٔ اوجِ مصاحبهٔ کدنویسی</h2>
+<div class="zh-ex"><span class="zh">Interviewer: Find the first unique character in a string. — You: Quick clarifications — empty string? Case-sensitive? Unicode?</span><span class="fa">مصاحبه‌گر: اولین کاراکترِ یکتا در رشته. — تو: دو سه تا شفاف‌سازی — رشتهٔ خالی؟ حساس به حروفِ بزرگ/کوچک؟ یونیکد؟</span></div>
+<div class="zh-ex"><span class="zh">Interviewer: Non-empty, case-sensitive, ASCII. — You: So my plan: one pass to count, one pass to find — O(n) twice, O(1) space since the alphabet is fixed. Writing it now.</span><span class="fa">مصاحبه‌گر: غیرخالی، حساس، ASCII. — تو: پس نقشه‌م: یه پاس شمارش، یه پاس پیدا کردن — دوبار O(n)، فضای O(1) چون الفبا ثابته. می‌نویسمش.</span></div>
+<div class="zh-ex"><span class="zh">You: Let me trace: "swiss" — counts are s:3, w:1, i:1. Second pass finds w. Edge case: all repeated — return -1. That's the contract.</span><span class="fa">تو: ردیابی کنم: «swiss» — شمارش‌ها s:3, w:1, i:1. پاسِ دوم w رو پیدا می‌کنه. حالتِ لبه: همه تکراری — -۱ برمی‌گردونیم. قرارداد همینه.</span></div>
+<div class="zh-ex"><span class="zh">Interviewer: Solid. What if the string is a stream — can't hold it? — You: Then a second pass is impossible — I'd need a different structure… honestly, this smells like a bounded queue problem. Can I think out loud?</span><span class="fa">مصاحبه‌گر: محکم. اگه رشته استِرِم باشه — نگهش نداشتیم؟ — تو: اون‌وقت پاسِ دوم غیرممکنه — ساختارِ متفاوتی لازمه… راستش بوی مسئلهٔ صفِ محدود می‌ده. می‌شه بلند فکر کنم؟</span></div>
+<h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
+<ul>
+<li><strong>شفاف‌سازی = امتیاز</strong> — سه-چهار سوالِ آغازین، امتیازِ مستقلِ مصاحبه است — سکوتِ شروعِ فوری، نمرهٔ communication را می‌سوزاند.</li>
+<li><strong>Blind blind را بلند بگو</strong> — «Let me trace through an example» — ردیابیِ بلند، هم تست است هم نشانهٔ ذهنِ منظم؛ سکوتِ ایده‌آل، سکوتِ فکر شمرده می‌شود نه ابهام.</li>
+<li><strong>گیر کردی؟ مثل حرفه‌ای بگیر</strong> — «Let me step back and rethink the approach» یا «Can I get a hint? I'd rather ask than stall» — درخواستِ hint با این صراحت، امتیاز است.</li>
+</ul>
 <div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
 <p>روتینِ مصاحبهٔ coding: شفاف‌سازها (ورودی/لبه/اندازه/مفروضات) + بازگویی + بلند-فکر (brute force → بهبود → تصمیم) + تستِ ردیابی + پیچیدگی (O(n)/O(n²) را راحت بگو). گیر که خوردی: "Let me step back" یا درخواستِ صریحِ hint. صدای فکر، همان چیزی است که مصاحبه‌گر می‌خرد.</p></div>
 </div>

@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 517,
+      "wordCount": 875,
       "keywords": "واژگان فنی انگلیسی, tech vocabulary, cloud server, تلفظ git linux",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>واژگانِ فنیِ پایه؛ کامپیوتر، اینترنت و ابر</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۶ دقیقه مطالعه</span>
+<span>⏱ ۹ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -228,6 +228,19 @@
 <p>قاعدهٔ طلاییِ تلفظِ فنی: واژهٔ فنی، شهروندِ زبانیِ خودش است — با انگلیسی تلفظ می‌شود نه با املایش فرانسوی/آلمانی. اگر شک داری، کلمه را به آپورد اضافه کن و صدای en-US را بشنو؛ دو-سه بار تکرار کن. سرمایه‌گذاریِ ده‌دقیقه‌ای که در اولین جلسه‌ت صدا می‌زند.</p>
 <h2>وصفِ مسئله؛ سه قالبِ فنیِ روزمره</h2>
 <p><strong>۱) گزارشِ خام:</strong> "The build fails on the CI — here's the log." · <strong>۲) گزارشِ دقیق‌تر (۴۳۲۱):</strong> "The checkout API returns a 500 <strong>when</strong> the cart has more than 10 items — <strong>works fine</strong> below that." (چه‌زمان/کِی + چه‌ رفتار + کجا درست است — فرمولِ توصیفِ باگ که در درس ۵۷ کامل می‌شود) · <strong>۳) درخواستِ دسترسی:</strong> "Could you add me to the staging cluster? I need it for the load test." با همین سه قالب + جدولِ تلفظ، فاز ۴ باز می‌شود.</p>
+<h2>گرامرِ عمیق‌تر: زبانِ فنیِ صفت‌محور و مخفف‌ها</h2>
+<p>توصیفِ فنی با <strong>صفت‌های مرکب</strong> می‌آید: <strong>a load-balanced setup</strong> (راه‌اندازیِ بار-موزع), <strong>a fault-tolerant system</strong> (خطا-پذیر — یعنی خطا را تحمل می‌کند), <strong>an event-driven architecture</strong> (رویداد-محور), <strong>a cloud-native app</strong> (ابر-بومی). مخفف‌های گفتاری: <strong>API</strong> (آ-پی-آی — سه حرف!), <strong>DB</strong> (دیتابیس), <strong>CI/CD</strong> (سی-آی-سی‌دی), <strong>env</strong> (environment — محیط), <strong>repo</strong>, <strong>PR</strong>, <strong>LGTM</strong>. و صفتِ کلیدیِ مقیاس: <strong>scalable</strong> (مقیاس‌پذیر) در برابر <strong>scaled</strong> — «It scales» (مقیاس می‌گیره) فعلِ محبوبِ گفتارِ فنی است.</p>
+<div class="zh-ex"><span class="zh">We're moving to an event-driven, cloud-native setup — the old monolith doesn't scale the way the traffic demands now.</span><span class="fa">داریم می‌ریم سمتِ راه‌اندازیِ رویداد-محور و ابر-بومی — مونولیتِ قدیمی مثلِ ترافیکی که الان می‌خواد مقیاس نمی‌گیره.</span></div>
+<h2>گفتگو: معرفیِ معماری به همکارِ تازه</h2>
+<div class="zh-ex"><span class="zh">You: Could you give me the bird's-eye view of our stack? — Lead: Sure — the app talks to an API gateway, then a few services behind it, Postgres for storage, Redis for the hot stuff.</span><span class="fa">تو: می‌شه نمایِ بالا از استکمون بدید؟ — لید: حتماً — اپ به یه API gateway وصل می‌شه، بعد چند تا سرویس پشتش، پستگرس برایِ ذخیره، ردیس برایِ داده‌های داغ.</span></div>
+<div class="zh-ex"><span class="zh">You: And where do the events go? — Lead: A queue — Kafka. Analytics and notifications read from it.</span><span class="fa">تو: و رویدادها کجا می‌رن؟ — لید: یه صف — کافکا. آنالیتیکس و نوتیفیکیشن ازش می‌خونن.</span></div>
+<div class="zh-ex"><span class="zh">You: Got it — gateway, services, Postgres, Redis, Kafka. I'll draw it to make sure I've got the map right. — Lead: Perfect — send it to me, I'll correct the details.</span><span class="fa">تو: فهمیدم — گیت‌وی، سرویس‌ها، پستگرس، ردیس، کافکا. می‌کشمش که مطمئن شم نقشه درست دستمه. — لید: عالیه — بفرستش، جزئیاتش رو اصلاح می‌کنم.</span></div>
+<h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
+<ul>
+<li><strong>نقشه را خودت بکش</strong> — هر معماری را که برایت توضیح دادند، خودت بازکش کن و تأیید بگیر — نقاشیِ دوم، فهمِ اول را می‌سازد.</li>
+<li><strong>مخفف را بلند بگو</strong> — مخفف‌ها فقط نوشتاری نیستند: API و DB و CI/CD تلفظِ حروفی دارند — با آپورد صدای هر یک را بشنو.</li>
+<li><strong>It scales را جا بینداز</strong> — «It scales» و «it doesn't scale» — دو جمله‌ای که در هر بحثِ معماری می‌شنوی؛ ترجمه‌شان در ذهنت آماده باشد.</li>
+</ul>
 <div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
 <p>لایه‌های واژه: دستگاه (RAM, storage) ← نرم‌افزار (OS, app) ← شبکه (latency, bandwidth) ← سرور (port, request) ← ابر (instance, region) ← داده (query, migration) ← API (endpoint, token). تلفظ‌های خائن را جدول کن: Git=گیت, cache=کش, queue=کیو, schema=اسکِما. و up/down و client/server — زبانِ فنی با جفت‌ضدهایش حرف می‌زند.</p></div>
 </div>

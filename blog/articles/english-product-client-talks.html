@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 536,
+      "wordCount": 957,
       "keywords": "گفتگو با مدیر محصول, client communication, ترجمه فنی, requirements meeting",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>گفتگو با محصول و مشتری؛ ترجمهٔ فنی و «چرا نه»ی مشتری‌پسند</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۶ دقیقه مطالعه</span>
+<span>⏱ ۱۰ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -122,6 +122,19 @@
 <p>سه قالبِ «نه»ی مشتری/PM-پسند: <strong>۱) نه الآن + دلیلِ درستِ زمانی:</strong> "Not in this release — the payment rewrite is touching the same code, and doing both at once doubles the risk." <strong>۲) بله با نسخهٔ کوچک:</strong> "We can't do the full dashboard by Friday, but I can ship read-only charts Monday — full version two weeks later." <strong>۳) بله با معاوضهٔ صریح:</strong> "Sure — that becomes the priority. Which of these three should I drop?" — هر سه قالب، پیامِ پنهانی دارند: «من به تو کمک می‌کنم بُبر، نه این‌که چانه بزنم». و سوالِ معروفِ هر requirement: <strong>"What problem is this solving for the user? There might be a cheaper way to the same outcome."</strong> — پرسیدنِ «چه مسئله‌ای؟» محترمانه‌ترین کوتاه‌کردنِ راه است.</p>
 <h2>جلسهٔ requirements؛ سوال‌هایی که تو باید بپرسی</h2>
 <p>پنج سوالِ استانداردِ شروعِ هر فیچر: <strong>۱)</strong> "Who is this for — new users, power users, internal?" <strong>۲)</strong> "What does success look like — what number moves?" <strong>۳)</strong> "What's the deadline driving this — a launch, a contract, a promise?" <strong>۴)</strong> "What's explicitly out of scope?" <strong>۵)</strong> "Is there an example of how you imagine it working?" و در جلسهٔ مشتری: زبانِ سرویس: <strong>"Absolutely — let me make sure I understand the requirement correctly…"</strong> (بازگویی قبل از تعهد!) و بستن: <strong>"I'll summarize this in writing today — corrections welcome before I start."</strong> — خلاصهٔ مکتوبِ همان روز، بیمهٔ سوءتفاهم است؛ جمله‌اش فقط یک ایمیلِ پنج‌خطی دارد.</p>
+<h2>گرامرِ عمیق‌تر: زبانِ نتیجه و ارزش برای غیرِفنی</h2>
+<p>گفتگو با محصول/مشتری، ترجمهٔ <strong>فعل→اثر</strong> است: <strong>slows down</strong> (کند می‌شه), <strong>risks losing users</strong> (خطرِ ازدست‌دادنِ کاربر داره), <strong>buys us speed later</strong> (بعداً سرعت می‌خره), <strong>invisible to users</strong> (برای کاربر نامرئیه). و قالب‌های قیاسِ دو-گزینه‌ای برای تصمیمِ PM: <strong>"Option A ships Friday but breaks for power users; Option B takes two weeks and works for everyone. Your call."</strong> (گزینهٔ A جمعه می‌رسه ولی برای کاربرهای حرفه‌ای می‌شکنه؛ B دو هفته می‌بره و برای همه کار می‌کنه. انتخاب با شما.) — «Your call» با احترام، توپ را می‌گذارد کجاست: نزدیکِ مدیرِ محصول.</p>
+<div class="zh-ex"><span class="zh">Quick reality check: this "tiny toggle" actually touches the database. Cheaper version: the setting only for new users — old users keep the current behavior. That ships this week and is invisible to 95% of users. Your call.</span><span class="fa">واقعیت‌چکِ سریع: این «سوییچِ کوچیک» واقعاً دیتابیس رو درگیر می‌کنه. نسخهٔ ارزون‌تر: تنظیمِ فقط برایِ کاربرهای جدید — قدیمی‌ها همین‌جوری بمونن. این هفته شِپ می‌شه و برایِ ۹۵٪ کاربر نامرئیه. انتخاب با شما.</span></div>
+<h2>گفتگو: مشتری خسته و دموهای بی‌وقت</h2>
+<div class="zh-ex"><span class="zh">Client: Just make it work — I don't need the details. — You: Understood — one sentence, then I'll leave you alone: the fix goes live tonight, and if anything looks wrong tomorrow morning, you call me directly.</span><span class="fa">مشتری: فقط کار کنه — جزئیات نمی‌خوام. — تو: متوجه‌ام — یه جمله، بعد رهات می‌کنم: فیکس امشب لایو می‌شه، و اگه فردا صبح چیزی خراب بود، مستقیم به من زنگ بزنید.</span></div>
+<div class="zh-ex"><span class="zh">Client: That's all I wanted to hear. — You: Perfect. I'll send a one-line confirmation email after the deploy — so you have it in writing.</span><span class="fa">مشتری: همین رو می‌خواستم بشنوم. — تو: عالیه. بعد از دپلوی یه ایمیلِ یک‌خطیِ تأیید می‌فرستم — که مکتوب داشته باشیدش.</span></div>
+<div class="zh-ex"><span class="zh">PM (after): How did you calm him down? — You: He didn't need calm — he needed an owner. "You call me directly" does both.</span><span class="fa">PM (بعد): چطور آرومش کردی؟ — تو: آروم نمی‌خواست — مالک می‌خواست. «مستقیم به من زنگ بزنید» هر دو رو می‌کنه.</span></div>
+<h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
+<ul>
+<li><strong>یک جمله برای بی‌حوصله‌ها</strong> — برای مشتریِ بی‌حوصله: یک جملهٔ «چه می‌شه + چه زمانی + اگر خراب شد چی» — و رها کن؛ مالکیت آرامش می‌فروشد.</li>
+<li><strong>مکتوب‌کردنِ قولِ شفاهی</strong> — بعد از هر قولِ تلفنی: «I'll send a one-line confirmation» — سوءتفاهمِ مشتری، از همین یک خط بیمه می‌شود.</li>
+<li><strong>Your call را با دو گزینه بیاور</strong> — تصمیم را که به PM می‌سپاری، دو گزینهٔ روشن بده — سپردنِ بی‌گزینه، فرار است؛ سپردنِ دوگزینه، همکاری.</li>
+</ul>
 <div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
 <p>تو مترجمِ دوزبانهٔ فنی-محصولی: فنی را به اثر برگردان (slows down / risks / invisible to users) و خواسته را به سوالِ مسئله (What problem are we solving?). «نه» را با گزینه بگو: not now + دلیل، نسخهٔ کوچک، یا معاوضه. هر فیچر را با پنج سوالِ requirement باز کن و جمع‌بندیِ مکتوبِ همان روز بفرست — بیمهٔ سوءتفاهم.</p></div>
 </div>

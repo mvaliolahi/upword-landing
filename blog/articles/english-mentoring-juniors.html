@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 558,
+      "wordCount": 1001,
       "keywords": "منتورینگ, mentoring phrases, یاد دادن, junior developer",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>منتورینگ؛ یاد دادن به جونیورها به انگلیسی</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۶ دقیقه مطالعه</span>
+<span>⏱ ۱۱ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -122,6 +122,19 @@
 <p>ریلویویِ منتورانه سه لایه دارد (فرمولِ درس ۵۶، نسخهٔ رشد): <strong>۱) ستایشِ مشخص:</strong> "This error handling is better than most senior code I see — you thought about the retry." <strong>۲) یک نکتهٔ بلند-اثر، نه ده نکتهٔ خرد:</strong> "The one thing I'd focus on this month: naming. <code>handleData</code> could be <code>parseInvoice</code> — names are the cheapest documentation." (چیزی که این ماه روش تمرکز کن: اسم‌گذاری — اسم‌ها ارزون‌ترین داک‌اند.) <strong>۳) دعوت به فکر:</strong> "Why do you think the framework wants us to register the route there?" — سوالِ «چرا»، جونیور را از «کدنویس» به «مهندس» جابه‌جا می‌کند. و قاعدهٔ نسبت: به‌ازای هر «بهترش کن»، یک «این خوب بود» — جونیورِ ریلویوشدهٔ خالص، یادگرفتن را با ترس اشتباه می‌کند.</p>
 <h2>مرزِ منتورینگ؛ کمک بدونِ جا‌زدن</h2>
 <p>سه مرزِ سالم: <strong>۱) پنج‌دقیقه قاعده:</strong> "Let's timebox this pairing to 15 minutes — if we're not unstuck, we regroup tomorrow with fresh eyes." (نیم‌ساعت سقف؛ اگر باز نبود، فردا با چشمِ تازه.) <strong>۲) نه به کارکردن به‌جای:</strong> وقتی وسوسه شدی خودت بنویسی: "If I write it, you'll debug my code next time. If you write it, you'll debug yours — and you'll only get faster. I'll sit with you." <strong>۳) منشأِ واقعی را بپر:</strong> اگر سه بار به یک موضوعِ مشابه گیر کرد، مشکل باگ نیست، مفهوم است: <strong>"I think we're fixing symptoms. Let's spend 30 minutes on async/await itself — no ticket, just the concept."</strong> — منتورِ بزرگ، گاهی از بلیت عبور می‌کند تا مفهوم را بسازد؛ جمله‌اش همین است.</p>
+<h2>گرامرِ عمیق‌تر: زبانِ سوالِ هدایتگر و feedbackِ رشد</h2>
+<p>منتورینگ، زبانِ <strong>سوالِ سقراطی</strong> است: <strong>What have you tried so far?</strong> (تا حالا چی امتحان کردی؟) · <strong>What does the error say, exactly?</strong> (خطا دقیقاً چی می‌گه؟) · <strong>What would you do if I weren't here?</strong> (اگه من نبودم چیکار می‌کردی؟) و بازخوردِ رشد: <strong>praise در سه‌لایه</strong>: «This is good» (ضعیف) / «This error handling is good» (بهتر) / «The retry logic here saved the timeout case — keep doing this» (قابلِ تکرار!). قاعدهٔ نسبتِ طلایی: <strong>two appreciations per improvement</strong> — دو ستایشِ واقعی به هر نکتهٔ بهبود؛ ریلویوی تمام‌نقد، جونیور را ساکت می‌کند نه بهتر.</p>
+<div class="zh-ex"><span class="zh">Before I jump in — walk me through what you've tried. You said the tests fail randomly… what does "randomly" look like? Every third run? Only on CI? The answer shapes the whole hunt.</span><span class="fa">قبل از اینکه بیام وسط — بگو چی امتحان کردی. گفتی تست‌ها رندوم fail می‌شن… «رندوم» چه شکلیه؟ هر سومین اجرا؟ فقط توی CI؟ جواب، کلِ شکار رو شکل می‌ده.</span></div>
+<h2>گفتگو: سُرخِ زاویه و جرئتِ «نمی‌دانم»</h2>
+<div class="zh-ex"><span class="zh">Junior: Why does the framework need the route registered there? — You: Honest answer: I don't fully know — I have a theory. Want to find out together and write it down? That's doc gold.</span><span class="fa">جونیور: چرا فریم‌ورک لازمه روت اون‌جا ثبت شه؟ — تو: جوابِ صادقانه: کامل نمی‌دونم — یه نظریه دارم. می‌خوای با هم بفهمیم و بنویسیمش؟ اون داکِ طلاییه.</span></div>
+<div class="zh-ex"><span class="zh">Junior: So it's okay to say "I don't know"? — You: It's required past a certain level. "I don't know, but here's how I'd find out" — that sentence is half of engineering.</span><span class="fa">جونیور: پس گفتنِ «نمی‌دونم» اوکیه؟ — تو: از یه سطحی به بالا واجبه. «نمی‌دونم، ولی این‌طوری پیداش می‌کنم» — این جمله نصفِ مهندسیه.</span></div>
+<div class="zh-ex"><span class="zh">Junior: You looked it up slower than I can google. — You: Ha! True — but notice what we wrote down: not the answer, the way to the answer. Next time, you're the one writing the doc.</span><span class="fa">جونیور: تو کندتر از من گوگلش رو پیدا کردی! — تو: ها! درسته — ولی دقت کن چی نوشتیم: جواب رو نه، راهِ رسیدن به جواب رو. دفعهٔ بعد، داک رو تو می‌نویسی.</span></div>
+<h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
+<ul>
+<li><strong>نمی‌دانمِ حرفه‌ای</strong> — «I don't know — here's how we'd find out» — جمله‌ای که جونیور را جسور و منتور را صادق نگه می‌دارد؛ به‌علاوه: با هم بنویسیدش.</li>
+<li><strong>ستایش را «قابلِتکرار» کن</strong> — «keep doing this» بعد از هر ستایشِ مشخص — ستایشِ بی‌راهنما، خوشمزه است؛ با راهنما، ابزارِ رشد.</li>
+<li><strong>سوالِ سومِ مقدس</strong> — «What would you do if I weren't here?» — این یکی، اعتمادبه‌نفسِ تصمیمِ مستقل را در جونیور باز می‌کند.</li>
+</ul>
 <div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
 <p>منتورینگ = سوالِ هدایتگر (What have you tried? / walk me through / if I weren't here?) + ریلویویِ یک‌نکته‌ایِ ستایش‌دار + مرزِ سقفِ وقت و «نوشتن نکردن». جوابِ مستقیم، بدهیِ فردای تیم است؛ سوالِ درست، سرمایه. و هر مفهومِ تکرار-گیر، جای جلسهٔ مفهومیِ سی‌دقیقه‌ای است — منتورِ خوب گاهی از بلیت عبور می‌کند.</p></div>
 </div>

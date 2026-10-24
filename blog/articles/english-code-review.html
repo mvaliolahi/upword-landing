@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 538,
+      "wordCount": 924,
       "keywords": "کدریویو, code review phrases, بازخورد فنی, nit suggestion",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>کدریویو؛ دادنِ بازخوردِ فنی و گرفتنش بدونِ زخم</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۶ دقیقه مطالعه</span>
+<span>⏱ ۱۰ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -154,6 +154,19 @@
 <div class="zh-ex"><span class="zh">Thanks for the thorough review! Addressed everything except the last point — added a comment in the PR explaining why.</span><span class="fa">ممنون بابت ریلویوی کامل! همه رو اعمال کردم جز آخرین نکته — تو PR توضیحش رو نوشتم.</span></div>
 <h2>جریانِ ریلویو؛ درخواست تا merge</h2>
 <p>زبانِ جریان: <strong>"Could you take a look when you get a chance?"</strong> (درخواست) · <strong>"Left a few comments — nothing blocking."</strong> (جوابِ ریلویور) · <strong>"Pushed the changes — PTAL."</strong> (اعمال شد؛ PTAL = please take another look — مخففِ محبوبِ گیت‌هاب) · <strong>"LGTM!"</strong> (looks good to me — یعنی تأیید؛ سه حرفِ شیرینِ هر PR) · <strong>"LGTM with nits."</strong> (تأیید — با همین جزئی‌های کوچیک). ادبِ زمان: ریلویوِ PRِ دیگران را همان روزی که می‌خواهی خودت ریلویو شوی بده — اقتصادِ متقابلِ تیم‌های سالم است.</p>
+<h2>گرامرِ عمیق‌تر: مودالِ ریلویو — should و could و نرمیِ شرطی</h2>
+<p>ریلویو، زبانِ <strong>مودال‌های مشورتی</strong> است: <strong>should</strong> (پیشنهادِ قوی: this should be async), <strong>could</strong> (گزینه: we could extract a helper), <strong>might</strong> (احتمال: this might break on empty input) — و نرم‌ترینِ همه، <strong>شرطیِ دوم</strong>: <strong>If this were a public API, I'd rename it</strong> (اگر API عمومی بود، اسمش رو عوض می‌کردم) — were/'d، فرمِ مؤدبانهٔ نقدِ فرضی! و برای درجه‌گذاریِ نظری به لحنِ نوشتاری: <strong>Blocking:</strong> (بلاک‌کننده), <strong>Nit:</strong> (جزئی), <strong>Question:</strong> (سوال) — سه برچسبِ اولِ کامنت، ریلویو را از گفتگو به سندِ تصمیم می‌برد.</p>
+<div class="zh-ex"><span class="zh">Question: do we need this loop at all? If it were just a lookup, a hash map would do the job in one pass — happy to be wrong here!</span><span class="fa">سوال: اصلاً به این حلقه نیاز داریم؟ اگه فقط جستجو بود، یه هش‌مپ توی یه پاس کافیه — خوشحال می‌شم اشتباه کرده باشم!</span></div>
+<h2>گفتگو: بحثِ ریلویو در thread و جمع‌بندی</h2>
+<div class="zh-ex"><span class="zh">Reviewer: Blocking — this swallows the error, and we just got burned by that in payments. — You: Fair. I'll log and rethrow. — Reviewer: That's all I wanted.</span><span class="fa">ریلویوئر: بلاک — این خطا رو قورت می‌ده، و تازه تو پرداخت از همین سوخته بودیم. — تو: درسته. لاگ می‌کنم و دوباره می‌اندازمش. — ریلویوئر: همین می‌خواستم.</span></div>
+<div class="zh-ex"><span class="zh">Reviewer: Nit: this name, `data2`… future-us will suffer. — You: Ha! Renamed to `pricingSnapshot`. — Reviewer: LGTM with that one nit.</span><span class="fa">ریلویوئر: جزئی — این اسم، data2… خودِ آیندهٔ ما زجر می‌کشه. — تو: ها! به pricingSnapshot تغییرش دادم. — ریلویوئر: LGTM با همین جزئی.</span></div>
+<div class="zh-ex"><span class="zh">You: Pushed — PTAL. And thanks for the burn-mark story, honestly — context like that is why I'd rather have reviews than ship blind. — Reviewer: Same. That's the whole job.</span><span class="fa">تو: پوش شد — یه نگاه دیگه. و ممنون از داستانِ سوختگی — زمینه‌ی این‌جوری دلیلِ ترجیحِ ریلویو به شِپِ کوره. — ریلویوئر: منم. کلِ کار همینه.</span></div>
+<h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
+<ul>
+<li><strong>Happy to be wrong</strong> — پایانِ کامنتِ نظر-محور: «happy to be wrong here» — علامتِ آگاهیِ تیمی؛ نظر می‌دهی، جنگ نمی‌کنی.</li>
+<li><strong>پاسخِ بلند ننویس</strong> — پاسخِ کامنت: یک-دو خط یا یک commit. بحثِ طولانی در thread = جلسهٔ پنهان — بردارش به تماس.</li>
+<li><strong>رایِ نهایی را با برچسب بده</strong> — پایانِ ریلویو: «LGTM» یا «LGTM with nits» — ابهامِ «خوبه ولی…»، مرج را معلق می‌کند.</li>
+</ul>
 <div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
 <p>دادن: درجه‌گذاری (blocking / suggestion / nit / praise) + سوال به‌جای حکم (Would you consider…?) + «we» به‌جای «you». گرفتن: Good catch / Fair point / مخالفتِ مستند با پیشنهادِ تماس. جریان: PTAL و LGTM — دو مخففِ دنیای ریلویو. و یادت باشد: کامنت، هدیهٔ فنی است؛ قالبش را همین درس داده.</p></div>
 </div>

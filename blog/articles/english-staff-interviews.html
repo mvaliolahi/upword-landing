@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p5.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 560,
+      "wordCount": 1013,
       "keywords": "مصاحبه staff engineer, senior interview, سازمانی مصاحبه, org interview",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>مصاحبه‌های staff+؛ حلِ مسئلهٔ سازمانی و اثرِ بدونِ اختیار</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۶ دقیقه مطالعه</span>
+<span>⏱ ۱۱ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -121,6 +121,19 @@
 <p>سوالِ نوع: <strong>"How would you improve our code review process?"</strong> — الگوی جوابِ چهارپله (قابلِ استفاده برای هر «how would you…»): <strong>۱) پرسشِ زمینه:</strong> "First — what's hurting most today: speed, quality, or the tone of reviews?" <strong>۲) فرضیهٔ کوچک:</strong> "My guess from what I've seen: PRs are too big, so reviews take days. But I'd confirm with data before changing anything." <strong>۳) آزمایشِ کوچک:</strong> "I'd run a two-sprint experiment: PR size cap at 300 lines, and measure merge time." <strong>۴) تصمیم‌سنجی:</strong> "If it moves, we keep it; if not, we kill it and try the next hypothesis. The key is treating process like product." — جملهٔ پایانی («process like product») دقیقاً همان برد-بردِ این سطح است: فرایند را با data و experiment حرف می‌زنی، نه با سلیقه. و هر جا سوخت: <strong>"I don't know your org well enough to be certain — here's how I'd find out."</strong> — اعترافِ روش‌مند، امتیازِ staff است.</p>
 <h2>جریانِ مصاحبه و سوال‌های تو</h2>
 <p>ساختارِ رایج: ۴-۶ جلسه، اغلب یکی با مدیرِ ارشد (values/architecture), یکی system design درس ۶۲, یکی coding سبک‌تر اما جدی, یکی «cross-functional» با PM/design — و یکی همین سازمانی. سوال‌های تو در این سطح، «سنجشِ انتظارات» است: <strong>"What does the first 90 days of success look like for this role?"</strong> · <strong>"Where does this org feel the most pain today — and where would I have the most leverage?"</strong> (سازمان امروز کجا بیشترین درد رو داره — و بیشترین اهرمِ من کجا می‌تونه باشه؟) · <strong>"How do technical decisions get made here — RFC, architecture council, or loudest voice?"</strong> — سوالِ سوم، حرفه‌ای‌ترین «X-ray» فرهنگِ فنی شرکت است؛ جوابش، همه‌چیز را می‌گوید.</p>
+<h2>گرامرِ عمیق‌تر: زبانِ «بسته به» و اثرِ سیستمی</h2>
+<p>سطحِ staff، دو جمله‌ی نشانه‌دار دارد: <strong>۱) بسته به + دو گزینه:</strong> «Depends on the read/write ratio — if it's read-heavy, I'd cache first; write-heavy, I'd queue first» (به نسبتِ خواندن/نوشتن بستگی داره — خوانا-محور بود، اول کش؛ نوشتا-محور، اول صف) — dependsِ بدونِ گزینه، دوری است؛ dependsِ دوتایی، تحلیل. <strong>۲) اثرِ سیستمی:</strong> «The pattern generalized: we later used it for two more teams» (الگو قابلِ تعمیم بود — بعداً برایِ دو تیمِ دیگه هم استفاده شد) — هر داستانِ staff باید «تعمیم» را نشان دهد: از من، به سیستم؛ از یک تیم، به چند تیم.</p>
+<div class="zh-ex"><span class="zh">Was it org-wide? Honestly, one team — but the pattern generalized: the staged-rollout checklist we wrote is now the default for three teams, and that's the part I'd repeat anywhere.</span><span class="fa">سازمانی بود؟ راستش، یه تیم — ولی الگو قابلِ تعمیم بود: چک‌لیستِ عرضهٔ مرحله‌ای که نوشتیم الان پیش‌فرضِ سه تیمه، و همون قسمتیه که هر جا تکرارش می‌کنم.</span></div>
+<h2>گفتگو: سوالِ فرضیِ فرایندی — «فرایندمانندِ محصول»</h2>
+<div class="zh-ex"><span class="zh">Interviewer: How would you improve our code review process? — You: First question back: what hurts most today — speed, quality, or tone? The fix is different for each.</span><span class="fa">مصاحبه‌گر: فرایندِ کدریویو ما رو چطور بهتر می‌کنی؟ — تو: اول یه سوالِ برگردان: امروز چی بیشتر اذیت می‌کنه — سرعت، کیفیت، یا لحن؟ درمانِ هر کدوم فرق داره.</span></div>
+<div class="zh-ex"><span class="zh">Interviewer: Say speed — PRs sit for days. — You: My guess: they're too big. But I'd confirm with data before changing anything — a two-sprint experiment: PR cap at 300 lines, measure merge time. If it moves, keep; if not, next hypothesis. Process is product.</span><span class="fa">مصاحبه‌گر: فرض کن سرعت — PRها روزها می‌شینن. — تو: حدسم: زیادی بزرگن. ولی قبل از هر تغییری با داده تأییدش می‌کنم — آزمایشِ دو-اسپرینته: سقفِ PR رویِ ۳۰۰ خط، اندازه‌گیریِ زمانِ مرج. جابه‌جا شد، نگه می‌داریم؛ نه، فرضیهٔ بعدی. فرایند، محصوله.</span></div>
+<div class="zh-ex"><span class="zh">Interviewer: And if the data says size isn't the problem? — You: Then I was wrong cheaply — two sprints, not two quarters. That's the whole point of small experiments: wrong fast, right eventually.</span><span class="fa">مصاحبه‌گر: و اگه داده گفت اندازه مشکل نیست؟ — تو: اون‌وقت ارزون اشتباه کردم — دو اسپرینت، نه دو فصل. کلِ نکتهٔ آزمایشِ کوچیک همینه: سریع اشتباه، آخرش درست.</span></div>
+<h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
+<ul>
+<li><strong>سوالِ برگردانِ سه‌گزینه</strong> — «Speed, quality, or tone?» — در هر سوالِ فرضیِ فرایندی، اول پرسشِ شفاف‌ساز؛ فرایندِ فکر، امتیاز است نه جوابِ فوری.</li>
+<li><strong>wrong cheaply را بفروش</strong> — «اشتباهِ ارزون» — ارزان-آزمایش‌کردن، شعارِ سطحِ staff است؛ جمله‌اش را در سوالِ فرضی بکار.</li>
+<li><strong>داستان‌ها را «تعمیم‌محور» کن</strong> — هر داستانِ رفتاری، یک جملهٔ «و الگو برایِ X هم رفت» بخواه — از تیم به سازمان، پلِ امتیازِ staff.</li>
+</ul>
 <div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
 <p>staff+ = داستان‌های اثرِ سازمانی (پشتوانه‌گرفتن + عددِ بیرون‌ازتیم + مالکیتِ شکست) + فرضی‌ها با الگوی چهارپله (زمینه → فرضیهٔ داده‌محور → آزمایش → تصمیم‌سنجی) + «process like product» + سوال‌های X-ray از فرهنگِ تصمیم. منِ تک‌سوار قهرمان نیست؛ «سیستمی که من ساختم» قهرمان است.</p></div>
 </div>

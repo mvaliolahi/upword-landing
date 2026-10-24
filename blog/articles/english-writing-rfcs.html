@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p5.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 595,
+      "wordCount": 1040,
       "keywords": "rfc, پروپوزال فنی, technical proposal, design document",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>RFC و پروپوزال فنی؛ متنی که تصمیمِ بزرگ را می‌سازد</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۶ دقیقه مطالعه</span>
+<span>⏱ ۱۱ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -125,6 +125,22 @@
 <p>سه قاعدهٔ لحن: <strong>۱) معیار، نه سلیقه:</strong> به‌جای "Redis is bad at this" — "Redis single-region writes cap our failover time at ~90s (see load test, appendix A)." <strong>۲) پیروزی را به بدیل هم بده:</strong> "Option 1 would be reasonable if our EU traffic stays under 10% — it doesn't (34% and growing)." <strong>۳) نقاطِ نفوذ را اعلام کن:</strong> "The strongest objection I anticipate is team X's on-call load; mitigation is in §6." — پیش‌بینیِ مخالفت و پاسخِ مقدماتی‌اش، تو را از دوجنگِ کامنت‌ها نجات می‌دهد. و یک قاعدهٔ طلاییِ متنِ تصمیم: <strong>جملهٔ پرسش‌دار در RFC ممنوع — یا می‌دانی و می‌نویسی، یا در بخشِ open questions با پاسخ‌گِ نامزد می‌آورد.</strong></p>
 <h2>چرخهٔ بازخورد؛ از Draft تا Decision</h2>
 <p>آیینِ انتشار: پیش‌نمایشِ خصوصی به دو-سه نفرِ کلیدی (<strong>"Early feedback welcome — is the framing right?"</strong>), بعد انتشارِ عمومی با ضرب‌الاجل: "Comments open until Friday EOD; after that we decide." پاسخ به کامنت‌ها — هنرِ ظریفِ RFC: هر کامنتِ معقول را با نام‌برکردن جواب بده (<strong>"Good point — added a mitigation paragraph in §4.2"</strong>) و مخالفتهای بنیادین را نه با جوابِ تک‌خطی، که با دعوت به گفتگو: <strong>"This deserves more than a comment reply — 30 minutes this week?"</strong> بندِ پایانیِ تصمیم: <strong>"Decision: proceeding with the proposal, with the amendments from the review. Owner: platform team. Revisit: after EU launch metrics, ~3 months."</strong> — سندی که این بند را دارد، بسته شده؛ بقیه، پیش‌نویسِ جاودان‌اند.</p>
+<h2>گرامرِ عمیق‌تر: زبانِ بی‌طرفِ سند و بخش‌های استاندارد</h2>
+<p>سندِ تصمیم، زبانِ «سوم‌شخصِ بی‌هیجان» دارد: <strong>This document proposes…</strong> (نهِ «I think we should…»), <strong>The system currently…</strong> , <strong>We considered three alternatives; Option B was rejected because…</strong> — فاعلِ «ما/سیستم»، نهِ «من». و ساختارِ سرفصل‌های استاندارد: <strong>Summary / Background / Proposal / Alternatives Considered / Consequences / Open Questions</strong> — شش‌تایی که خوانندهٔ سنیور، دنبالشان می‌گردد. برای ریسک‌ها: <strong>"The main risk is X; mitigation is Y."</strong> (ریسکِ اصلی Xئه؛ جبرانش Y.) — ریسکِ بی‌جبران، در سند، یعنی ناتمامی.</p>
+<div class="zh-ex"><span class="zh">## Alternatives Considered
+1. **Keep the current queue** — rejected: the p99 doubles every quarter as traffic grows.
+2. **Move all events to the streaming platform** — rejected for now: requires a team we don't have until Q3.
+3. **Shard the current queue** — chosen: keeps the ops surface familiar while fixing the hot partition.</span><span class="fa">بدیل‌های بررسی‌شده — ۱) نگه‌داشتنِ صفِ فعلی: رد؛ چون p99 هر فصل با رشدِ ترافیک دوبرابر می‌شه. ۲) انتقالِ همه به پلتفرمِ استریم: فعلاً رد؛ تیمی که نداریم تا Q3 رو می‌خواد. ۳) شاردکردنِ صفِ فعلی: انتخاب؛ سطحِ عملیاتی آشنا می‌مونه و پارتیشنِ داغ حل می‌شه.</span></div>
+<h2>گفتگو: بازخورد روی RFC و پاسخِ نام‌بر</h2>
+<div class="zh-ex"><span class="zh">Reviewer: The consequences section undersells the ops load — sharding isn't free. — Author (you): Fair — adding a paragraph: on-call gets a new runbook and two new dashboards, called out in §5.2.</span><span class="fa">ریلویوئر: بخشِ پیامدها بارِ اپس رو کم‌فروش می‌کنه — شاردکردن مجانی نیست. — نویسنده (تو): درسته — یه پاراگراف اضافه می‌کنم: آن‌کال ران‌بوکِ جدید و دو داشبوردِ جدید می‌گیره، در §5.2 مشخص.</span></div>
+<div class="zh-ex"><span class="zh">Reviewer: And I'd question the Q3 assumption for option 2 — hiring might slip. — You: Good challenge — softening that line to "pending hiring" instead of a hard Q3. More honest.</span><span class="fa">ریلویوئر: و فرضِ Q3 گزینهٔ ۲ رو زیر سوال می‌برم — استخدام ممکنه بخوره عقب. — تو: چالشِ خوبیه — اون خط رو به «در انتظارِ استخدام» نرم می‌کنم به‌جای Q3ِ قطعی. صادقانه‌تر.</span></div>
+<div class="zh-ex"><span class="zh">Reviewer: With those two changes, I'm a clear yes. — You: Perfect — updating now, and tagging you in the diff. Decision deadline stands: Friday EOD.</span><span class="fa">ریلویوئر: با همین دو تغییر، جوابم کاملاً بله‌ست. — تو: عالیه — آپدیت می‌کنم و تو دیف تگت می‌کنم. ضرب‌الاجلِ تصمیم سرِ جاشه: جمعه آخرِ روز.</span></div>
+<h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
+<ul>
+<li><strong>بدیل‌ها را با دلیلِ رد بنویس</strong> — «rejected because…» — بخشِ بدیل‌ها، جایی است که سندِ تو «تولی» را جواب می‌دهد؛ نصفِ اعتبارِ RFC همین‌جاست.</li>
+<li><strong>پاسخِ کامنت با شمارهٔ بخش</strong> — «added in §5.2» — پاسخِ نام‌بر و محل‌دار، بازخورد را از گفتگو به ساختار می‌برد.</li>
+<li><strong>ضرب‌الاجلِ تصمیم در خودِ سند</strong> — «Decision deadline: Friday EOD» — سندِ بی‌ضرب‌الاجل، پیش‌نویسِ جاودان است.</li>
+</ul>
 <div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
 <p>RFC = Summary یک‌پاراگرافی + Context با داده + Proposal بلوک‌به‌بلوک + Alternatives با «ردشده: دلیل» + Consequences و rollback. لحن: معیار نه سلیقه، حقِ بدیل، پیش‌پاسخِ مخالفتِ پیش‌بینی‌شده. چرخه: پیش‌نمایشِ خصوصی → انتشار با ضرب‌الاجل → پاسخِ نام‌برده به کامنت‌ها → بندِ Decision. متنِ خوب، جلسه را به داوریِ سرد تبدیل می‌کند — و برنده‌اش، تیم است.</p></div>
 </div>

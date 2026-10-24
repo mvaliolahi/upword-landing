@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 630,
+      "wordCount": 1086,
       "keywords": "مخالفت فنی, disagreeing at work, architectural debate, disagree and commit",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>مخالفتِ فنی؛ جنگِ ایده‌ها بدونِ جنگِ آدم‌ها</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۷ دقیقه مطالعه</span>
+<span>⏱ ۱۱ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -159,6 +159,19 @@
 <h2>بعد از تصمیم؛ disagree and commit در عمل</h2>
 <p>وقتی جمع خلافِ نظرِ تو تصمیم گرفت، سه جملهٔ تعهدِ حرفه‌ای: <strong>"Alright — the data was thin either way. I'm in."</strong> (خب — داده هر دو طرف ناکافی بود. من هستم.) · <strong>"I'll document my concern in the ADR, and if the p99 doubles in three months, we revisit."</strong> (نگرانی‌ام رو تو ADR می‌نویسم و اگه سه ماه دیگه p99 دو برابر شد، دوباره بررسی می‌کنیم.) · <strong>"For the record: I lost this one happily. Let's make it succeed."</strong> — و بدیهی‌ترین اما نادرترین رفتار: بعد از جلسه، در پیاده‌سازی تمام‌قد بجنبی. نصف-اجرا کردنِ تصمیمی که با آن مخالف بودی، سریع‌ترین راهِ سوزاندنِ اعتبارِ توست — برعکسش: تعهدِ کاملِ شفاف، اعتمادِ «مخالفتِ بعدی‌ات را جدی می‌گیرند» می‌سازد.</p>
 <div class="zh-ex"><span class="zh">I still think the cron approach was the better bet — but the decision's made, and I'm going to make it work beautifully.</span><span class="fa">هنوز فکر می‌کنم مسیرِ کرون انتخابِ بهتری بود — ولی تصمیم گرفته شده و من کاری می‌کنم بی‌نقص کار کنه.</span></div>
+<h2>گرامرِ عمیق‌تر: شرطیِ دوم برای مخالفتِ نرم</h2>
+<p>نرم‌ترین مخالفتِ فنی، <strong>شرطیِ دوم</strong> است: <strong>"If we were starting fresh, I'd go with X — but given the migration, Y buys us more."</strong> (اگر از صفر شروع می‌کردیم X را برمی‌داشتم — اما با این مایگریشن، Y بیشتر می‌خره.) ساختار: if + گذشته + would. برای چالشِ مستقیم: <strong>"I'm not convinced this handles the weekend traffic — can we look at the numbers before we commit?"</strong> (مطمئن نیستم ترافیکِ آخرِ هفته رو هندل کنه — قبلِ تعهد به اعداد نگاه کنیم؟) و برای فسخِ محترمانهٔ تصمیم: <strong>"Let's revisit in three months with real data."</strong> — جمله‌ای که مخالفتِ امروز را به حقِ بازگشتِ فردا تبدیل می‌کند.</p>
+<div class="zh-ex"><span class="zh">If this were a clean slate, I'd pick the queue too — it's the textbook answer. But we're mid-migration with one ops engineer; the cron version is boring, and boring ships. Let's revisit the queue when the team doubles.</span><span class="fa">اگر کاغذِ سفید بود، من هم صف رو برمی‌داشتم — جوابِ کتابه. ولی وسطِ مایگریشنیم با یه اپس؛ نسخهٔ کرون خسته‌کننده‌ست، و چیزِ خسته‌کننده شِپ می‌شه. وقتی تیم دوبرابر شد، سراغِ صف برمی‌گردیم.</span></div>
+<h2>گفتگو: مناظرهٔ پنج‌دقیقه‌ای و بستن</h2>
+<div class="zh-ex"><span class="zh">Lead: I still think the queue is worth the complexity. — You: And your point about replay is real — I'm not dismissing it. My worry is ops load this quarter. What if we timebox the debate to today, you make the call, and we all commit?</span><span class="fa">لید: هنوز فکر می‌کنم صف ارزشِ پیچیدگیش رو داره. — تو: و نکته‌ات دربارهٔ replay واقعیه — ردش نمی‌کنم. نگرانیم بارِ اپسِ این فصله. اگه بحث رو تا امروز سقف کنیم، تصمیم با تو، و همه متعهد شیم؟</span></div>
+<div class="zh-ex"><span class="zh">Lead: Deal. My call: cron now, queue in the roadmap. — You: Then that's the decision — and for the record, I'll write the trade-off into the ADR so future-us knows both paths.</span><span class="fa">لید: توافق. تصمیمم: کرون الان، صف توی رودمپ. — تو: پس تصمیم همین — و برایِ ثبت، trade-off رو تو ADR می‌نویسم که خودِ آینده‌مون هر دو مسیر رو بدونه.</span></div>
+<div class="zh-ex"><span class="zh">Lead: Perfect — disagree, commit, document. — You: The holy trinity! See you at the demo — I'll make the cron sing.</span><span class="fa">لید: عالی — مخالفت، تعهد، مستندسازی. — تو: تثلیثِ مقدس! دمو می‌بینیمت — کرون رو می‌خونونم!</span></div>
+<h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
+<ul>
+<li><strong>مخالفت را با «قاعده» بگو نه «سلیقه»</strong> — «With one ops engineer» — دلیلِ مخالفتِ داده‌محور، تصمیم را از «چه کسی بلندتر» به «چه چیزی درست» می‌برد.</li>
+<li><strong>سقفِ بحث را پیشنهاد بده</strong> — «Timebox to today, your call, we commit» — پیشنهادِ فرایند، نشانهٔ senior‌ترین آدمِ اتاق است.</li>
+<li><strong>ADR را خودت بنویس</strong> — پیشنهادِ «I'll write the ADR» — مستندکردنِ تصمیمِ جمع، صاحبش را هم بی‌تلاش باهوش‌تر نشان می‌دهد هم یادگارِ محترم.</li>
+</ul>
 <div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
 <p>مخالفتِ فنی = قالبِ چهارشدتی + همیشه «چیزی» بعد از آن (گزینه/ریسک/آزمون/مثال). بن‌بست را با ابزار حل کن: spike دو-روزه، مرجعِ عادل، مالکِ مشخصِ تصمیم — و بستنِ ADR. بعد از تصمیم: مستند کن نگرانی را، تعهد کن اجرا را، و سه ماه بعد با داده برگرد. مخالفتِ محترمانه، ارزان‌ترین بیمهٔ کیفیتِ تیم است.</p></div>
 </div>

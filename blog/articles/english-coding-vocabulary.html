@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 529,
+      "wordCount": 916,
       "keywords": "واژگان برنامه نویسی, coding vocabulary, function loop bug, commit merge deploy",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>واژگانِ برنامه‌نویسی؛ از variable تا deployment</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۶ دقیقه مطالعه</span>
+<span>⏱ ۱۰ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -174,6 +174,19 @@
 <h2>چرخهٔ حیاتِ کد؛ از commit تا production</h2>
 <p>خطِ تولیدِ کد: <strong>write → commit → push → review → merge → build → test → deploy</strong>. محیط‌ها: <strong>local</strong> (دستگاهِ تو) ← <strong>dev / staging</strong> (محیطِ آزمایشِ اشتراکی) ← <strong>production (prod)</strong> (محیطِ واقعیِ کاربر). جمله‌های چرخه: <strong>"I pushed the fix — it's up for review."</strong> (فیکس رو پوش کردم — تو صفِ ریلویوئه) · <strong>"It's on staging, ready to deploy to prod."</strong> · <strong>"We rolled back the last release."</strong> (انتشارِ قبل رو برگردوندیم — rollback، فعلِ آمرزیدهٔ شب‌های سختی!) و نسخه‌ها: <strong>release</strong> (انتشار), <strong>version</strong> (شماره), <strong>hotfix</strong> (فیکسِ فوریِ prod).</p>
 <div class="zh-ex"><span class="zh">Small fix, big impact: one line on prod fixed the checkout for everyone.</span><span class="fa">فیکسِ کوچک، اثرِ بزرگ: یک خط روی prod، تسویه‌حساب رو برای همه درست کرد.</span></div>
+<h2>گرامرِ عمیق‌تر: فعل‌های فنیِ حیاتی و حرفِ اضافه‌شان</h2>
+<p>فعل‌های فنی، حرفِ اضافه‌ی درست می‌خواهند: <strong>depend on</strong> (وابسته به — نهِ depend from!), <strong>subscribe to</strong> (مشترکِ … شدن), <strong>listen for/to</strong> (گوش‌سپردن به), <strong>run against</strong> (اجراشدن در برابرِ: run the tests against staging), <strong>deploy to</strong> (دپلوی به …), <strong>merge into</strong> (ادغام درِ … — merge into main). و فعل‌های خطا: <strong>throws/raises</strong> (می‌اندازد), <strong>catches</strong> (می‌گیرد), <strong>swallows</strong> (می‌بلعد — خطا را بی‌لوگو قورت می‌دهد!): «The empty catch swallows the error» — یکی از پرتکرارترین نکاتِ ریلویو.</p>
+<div class="zh-ex"><span class="zh">The checkout service depends on the pricing service, so when pricing times out, checkout fails too — the empty catch just swallows the real error.</span><span class="fa">سرویسِ تسویه به سرویسِ قیمت وابسته‌ست، پس وقتی قیمت تایم‌اوت می‌شه، تسویه هم می‌خوابه — و اون کچِ خالی خطایِ واقعی رو قورت می‌ده.</span></div>
+<h2>گفتگو: توضیحِ سریعِ باگ به همکار</h2>
+<div class="zh-ex"><span class="zh">You: Got a sec? The search endpoint throws a 500 when the query has special characters. — Colleague: Special like what?</span><span class="fa">تو: یه ثانیه داری؟ endpoint جستجو وقتی کوئری کاراکترِ خاص داره 500 می‌اندازه. — همکار: خاص مثلِ چی؟</span></div>
+<div class="zh-ex"><span class="zh">You: Persian commas, mostly. The parser raises an exception and nothing catches it, so the whole request dies. — Colleague: Ah — classic. Let's catch and sanitize at the input boundary.</span><span class="fa">تو: بیشتر ویرگولِ فارسی. پارسر exception می‌اندازه و هیچ‌کس نمی‌گیردش، پس کلِ درخواست می‌میره. — همکار: آ — کلاسیک. بیا سمتِ ورودی بگیریم و پاک‌سازی کنیم.</span></div>
+<div class="zh-ex"><span class="zh">You: Exactly — sanitize first, then parse. I'll write the fix and a test with Persian commas. — Colleague: And the empty catch down there — the one that swallows errors? That's a separate ticket, please!</span><span class="fa">تو: دقیقاً — اول پاک‌سازی، بعد پارس. فیکس و یه تست با ویرگولِ فارسی می‌نویسم. — همکار: و اون کچِ خالی پایین — همونی که خطاها رو قورت می‌ده؟ اون تیکتِ جدا باشه لطفاً!</span></div>
+<h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
+<ul>
+<li><strong>وابستگی را با on بگو</strong> — depend on — نهِ depend from/of. سه فعلِ دیگر: rely on, build on, run on — هر چهار on می‌گیرند؛ قاعدهٔ یک‌خطی.</li>
+<li><strong>throw/catch/swallow</strong> — سه‌گانهٔ خطا را در دو جمله‌ی واقعی تمرین کن — «swallows the error» جمله‌ی که ریلویوهایت را حرفه‌ای می‌کند.</li>
+<li><strong>یک اصطلاح، یک فلش‌کارت</strong> — هر اصطلاحِ فنیِ تازه (edge case, race condition, hot fix) را با جملهٔ واقعی به آپورد بیفزا — اصطلاحِ بی‌جمله، در گفتگو نمی‌آید.</li>
+</ul>
 <div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
 <p>اسمِ فنی را با فعلش یاد بگیر: declare a variable, call a function, throw/catch an error, break a loop, pass a parameter. چرخه: write→commit→push→review→merge→test→deploy؛ محیط‌ها: local→staging→prod. جمله‌های طلایی: it throws…, can't reproduce it locally, rolled back. این طبقه، زیربنای هر جلسهٔ فنیِ فاز ۴ است.</p></div>
 </div>

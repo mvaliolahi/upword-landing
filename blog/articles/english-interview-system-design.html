@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 635,
+      "wordCount": 1098,
       "keywords": "مصاحبه سیستم دیزاین, system design interview, trade offs, scalable design",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>مصاحبهٔ فنی ۲؛ system design از «یک میلیون کاربر» به بالا</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۷ دقیقه مطالعه</span>
+<span>⏱ ۱۲ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -163,6 +163,19 @@
 <h2>گام ۳؛ رشد، خرابی و جمع‌بندی</h2>
 <p>سوال‌های گامِ آخر که خودت طرح کن (امتیازِ senior): <strong>"What breaks at 100x? The DB — I'd shard by ID hash."</strong> (چی می‌شکنه اگر صد برابر شود؟ دیتابیس — hash-ID شارد می‌کنم.) · <strong>"Single region or multi? Multi-region adds replication lag — for a redirector, eventual consistency is fine."</strong> و فنّ بقای مشهور — <strong>"There's no single right answer here — it depends on the read/write ratio and the ops budget."</strong> جملهٔ «بسته به…» در system design حکمِ «بستنی در گرما» را دارد: هر جا شک کردی، trade-off را با «بسته به» بگو و دو گزینه با قیاس بیاور — همین، پاسِ صحیحِ ۹۰٪ سوال‌هاست. جمع‌بندیِ پایانی: <strong>"So: stateless API tier, Redis cache for the hot path, sharded KV store, async analytics. Happy to go deeper on any piece."</strong></p>
 <div class="zh-ex"><span class="zh">If I had more time, I'd dig into the ID generator — that's the most interesting trade-off in this design.</span><span class="fa">اگه وقت بیشتری بود، می‌رفتم سراغِ تولیدکنندهٔ ID — جالب‌ترین trade-off این طراحیه.</span></div>
+<h2>گرامرِ عمیق‌تر: زبانِ trade-off و مقیاس</h2>
+<p>طراحیِ سیستم، زبانِ <strong>بسته به</strong> و <strong>سپردن</strong> است: <strong>It depends on the read/write ratio</strong> (به نسبتِ خواندن/نوشتن بستگی داره), <strong>I'd shard by user ID</strong> (شناسهٔ کاربر شارد می‌کنم), <strong>We accept eventual consistency for availability</strong> (برای دسترس‌پذیری، سازگاریِ نهایی رو قبول می‌کنیم). اعدادِ مقیاس: <strong>QPS</strong> (queries per second), <strong>p99 latency</strong> (تأخیرِ ۹۹ درصدی), <strong>read-heavy / write-heavy</strong> (خوانا-محور/نوشتا-محور). و فعل‌های محبوب: <strong>scale horizontally</strong> (افقی مقیاس کن — ماشینِ بیشتر), <strong>cache aggressively</strong> (جسورانه کش کن), <strong>degrade gracefully</strong> (افتِ مؤدبانه — وقتی قطعه‌ای خوابد، کل نمی‌خوابد).</p>
+<div class="zh-ex"><span class="zh">The system is read-heavy — roughly 100 reads per write — so I'd cache aggressively and accept eventual consistency on the counters. If p99 spikes, we degrade gracefully: show cached counts with a "cached" badge.</span><span class="fa">سیستم خوانا-محوره — تقریباً صد خواندن به هر نوشتن — پس جسورانه کش می‌کنم و سازگاریِ نهاییِ شمارنده‌ها رو می‌پذیرم. اگه p99 پرید، افتِ مؤدبانه می‌کنیم: شمارشِ کش‌شده با نشانِ «کش» رو نمایش می‌دیم.</span></div>
+<h2>گفتگو: پنج دقیقه از میانِ طراحیِ news feed</h2>
+<div class="zh-ex"><span class="zh">Interviewer: Design a news feed for 10 million users. — You: First, shape: read-heavy? The scrolling is reads; posting is writes — I'd guess 100:1. Confirmable?</span><span class="fa">مصاحبه‌گر: یه فید برایِ ۱۰ میلیون کاربر طراحی کن. — تو: اول شکل: خوانا-محوره؟ اسکرول خواندنه، پست‌گذاشتن نوشتن — حدسم ۱۰۰:۱. تأیید می‌شه؟</span></div>
+<div class="zh-ex"><span class="zh">Interviewer: Close enough — say 50:1. — You: Then the feed is a materialized list per user, updated async. The hot path is only reads from cache — Redis in front of the store.</span><span class="fa">مصاحبه‌گر: نزدیک — مثلاً ۵۰:۱. — تو: پس فید یه لیستِ از پیش‌ساخته برای هر کاربره که async آپدیت می‌شه. مسیرِ داغ فقط خواندن از کشه — ردیس جلوی ذخیره.</span></div>
+<div class="zh-ex"><span class="zh">You: The interesting trade-off is fan-out: push on write is fast to read but expensive for celebrities. Hybrid: push for normal users, pull for the famous ones. — Interviewer: That's the answer I was fishing for. — You: Ha! I've been burned by a celebrity's fan-out before — never again.</span><span class="fa">تو: trade-offِ جالب fan-oute: push رویِ نوشتن، سریع‌تر برایِ خواندن ولی برای سلبریتی‌ها گرونه. هیبرید: push برای کاربرهای عادی، pull برای معروف‌ها. — مصاحبه‌گر: همون جوابیه که دنبالش بودم. — تو: ها! یه بار فن‌اوتِ یه سلبریتی من رو سوخته — دیگه هرگز.</span></div>
+<h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
+<ul>
+<li><strong>عددِ اول را خودت بگو</strong> — قبل از طراحی، اعداد را بلند حساب کن (QPS, ratio) — «صد میلیون در روز یعنی هزار در ثانیه» — عددِ شمرده، درهای مصاحبه را باز می‌کند.</li>
+<li><strong>It depends را با دو گزینه ببند</strong> — هر «بستگی داره» را با «گزینهٔ A برای حالتِ X، B برای Y» کامل کن — dependsِ بدونِ گزینه، دوری است نه تحلیل.</li>
+<li><strong>تجربهٔ سوخته را داستان کن</strong> — «I've been burned by X before» — سوختگیِ واقعی + درسش، محک‌ترین اعتبارِ طراحیِ توست.</li>
+</ul>
 <div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
 <p>چارچوبِ system design: نیازمندی‌ها و اعداد (سوالِ «چند؟» اول) → بلوک‌ها با جمله‌ی اتصال (the flow is…) → trade-off با «بسته به…» → رشد و خرابی (what breaks at 100x?) → جمع‌بندی. واژه‌های پولساز: hot path, read-heavy, shard, eventual consistency, single point of failure. کد نمی‌نویسی؛ «معماری حرف می‌زنی».</p></div>
 </div>

@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 541,
+      "wordCount": 918,
       "keywords": "اسکرام انگلیسی, agile vocabulary, sprint backlog, retrospective phrases",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>اسکرام و اژایل؛ واژگانِ sprint، backlog و retrospective</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۶ دقیقه مطالعه</span>
+<span>⏱ ۱۰ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -178,6 +178,19 @@
 <div class="zh-ex"><span class="zh">In the retro I'd like to raise one thing: the flaky tests are eating our time. Suggest we timebox a fix-sprint.</span><span class="fa">توی رترو می‌خوام یه نکته مطرح کنم: تست‌های بی‌ثبات وقتِ ما رو می‌خورن. پیشنهاد می‌کنم یه اسپرینتِ فیکس با سقفِ وقت بذاریم.</span></div>
 <h2>کلماتی که فقط در اژایل زندگی می‌کنند</h2>
 <p>چهار اصطلاحِ قبیله‌ای که بیرونِ اسکرام معنا ندارند اما داخلش هر روز می‌آیند: <strong>grooming/refining the backlog</strong> (مرتب‌کردنِ انبار — شکستنِ استوری‌های بزرگ و روشن‌کردنِ مبهم‌ها), <strong>swarming</strong> (همه روی یک استوری سقوط می‌کنند تا تمام شود), <strong>blocker bash</strong> (جلسهٔ سریعِ رفعِ بلوکرها), و <strong>chicken and pig</strong> (تفکیکِ قدیمیِ «درگیر vs ذی‌نفع» — امروزه کمتر گفته می‌شود ولی در رتروهای قدیمی می‌شنوی). و امانتِ ترجمه: <strong>sprint را ترجمه نکن</strong> — «اسپرینت» بگو؛ این واژه‌ها در فارسیِ فنی هم همین‌طور زنده‌اند.</p>
+<h2>گرامرِ عمیق‌تر: رجیسترِ تخمین و پرسشِ planning</h2>
+<p>پلنینگ، زبانِ <strong>پرسشِ کارشکن</strong> است: <strong>How big is this, ballpark?</strong> (بالایِ سرِ‌حرفِ چند؟), <strong>What's the riskiest part?</strong> (پرریسک‌ترینش کجاست؟), <strong>What's our confidence — gut or data?</strong> (اطمینانمون چقدره — حدسه یا داده؟). برای تخمینِ جمعی: <strong>Let's play planning poker</strong> (پوکرِ پلنینگ بازی کنیم) و اختلاف: <strong>"We're a 3 and an 8 apart — let's talk for two minutes."</strong> و پذیرشِ استوری: <strong>"Definition of done — tests, docs, deployed to staging"</strong> — جملهٔ پذیرش، قراردادِ ریزِ هر اسپرینت است.</p>
+<div class="zh-ex"><span class="zh">This story looks small, but the riskiest part is the vendor's undocumented API. I'd rather spike it for a day than commit to points we can't defend.</span><span class="fa">این استوری کوچیک به نظر می‌رسه، ولی پرریسک‌ترینش API بی‌داکِ فروشنده‌ست. ترجیح می‌دم یه روز اسپایکش کنم تا اینکه امتیازی بدم که قابلِ دفاع نیست.</span></div>
+<h2>گفتگو: پلنینگ و سوالِ اسکوپ</h2>
+<div class="zh-ex"><span class="zh">PM: Can we fit the export feature this sprint? — You: Ballpark, five points on its own. Adding it means dropping the bugfix batch — which one wins?</span><span class="fa">PM: فیچرِ خروجی رو می‌شه این اسپرینت جا داد؟ — تو: حدوداً پنج امتیازِ تنها. اضافه‌کردنش یعنی حذفِ دستهٔ فیکس‌ها — کدوم ببره؟</span></div>
+<div class="zh-ex"><span class="zh">PM: Bugs first — the support queue is on fire. — You: Agreed. So export moves to next sprint, and I'll write the story today so it's ready.</span><span class="fa">PM: اول باگ‌ها — صفِ پشتیبانی آتیشه. — تو: موافقم. پس خروجی می‌ره اسپرینتِ بعد، و امروز استوری‌ش رو می‌نویسم که آماده باشه.</span></div>
+<div class="zh-ex"><span class="zh">Lead: Good call. Anything risky in the bug batch? — You: One — the SSO timeout. I'll timebox it to a day; if it eats more, we re-plan Wednesday.</span><span class="fa">لید: تصمیمِ خوبی بود. توی دستهٔ باگ‌ها چیز پرریسکی هست؟ — تو: یه دونه — تایم‌اوتِ SSO. یه روز سقفش می‌ذارم؛ اگه بیشتر خورد، چهارشنبه بازپلنینگ می‌کنیم.</span></div>
+<h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
+<ul>
+<li><strong>سوالِ کدوم-بَرَد</strong> — هر «اضافه» را با «کدوم برنده باشه؟» جواب بده — این سوال، تو را از فنیِ منفعل به شریکِ تصمیم تبدیل می‌کند.</li>
+<li><strong>رِیسک را با تایم‌باکس بپذیر</strong> — «I'll timebox it to a day» — پذیرفتنِ ریسک با سقف، زبانِ بلوغِ پلنینگ است.</li>
+<li><strong>استوریِ امروز برای اسپرینتِ فردا</strong> — استوری‌های نصفه‌کاره را همین امروز بنویس — پلنینگِ فردا، از استوریِ آماده شروع می‌شود نه از «یادم نیست».</li>
+</ul>
 <div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
 <p>نقشهٔ اسکرام: backlog→sprint→review→retro; کارها story/task، تخمین points، سرعت velocity، تحقیق spike، بزرگ epic. جمله‌های سه‌گانه: "I'll take…" / "This story is too big — split?" / "Adding means cutting." رترو با قالبِ three-layers: worked / to improve / experiment. و sprint هرگز ترجمه نمی‌شود.</p></div>
 </div>

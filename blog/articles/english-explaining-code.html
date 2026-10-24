@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 583,
+      "wordCount": 1033,
       "keywords": "توضیح کد به انگلیسی, explaining code, walk through, at a high level",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>توضیح‌دادنِ کد؛ «این تابع چه‌کاره است؟» به انگلیسی</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۶ دقیقه مطالعه</span>
+<span>⏱ ۱۱ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -162,6 +162,19 @@
 <div class="zh-ex"><span class="zh">Let me walk you through it: the request hits the gateway, the gateway calls this service, and this service decides which database to read from.</span><span class="fa">بذار خط‌به‌خط بگم: درخواست می‌رسه به گیت‌وی، گیت‌وی این سرویس رو صدا می‌زنه، و این سرویس تصمیم می‌گیره از کدوم دیتابیس بخونه.</span></div>
 <h2>پرسیده‌شدن از کدت؛ بدونِ حالتِ دفاعی</h2>
 <p>سوالِ کلاسیکِ ریلویو: <strong>"Why did you do it this way?"</strong> — سه قالبِ جوابِ حرفه‌ای: <strong>۱) دلیل + بدیل:</strong> "I chose the in-memory cache for speed. Redis would be more durable, but for this use case it wasn't worth the extra hop." (سرعت بود؛ ردیس بادوام‌تره ولی برای این کِیس نمی‌ارزید.) <strong>۲) اعترافِ محترمانه:</strong> "Honestly, that's a fair point — I can switch it to the async version." (نکتهٔ منصفانه‌ایه — می‌تونم به نسخهٔ async عوضش کنم.) <strong>۳) مرزِ دانش:</strong> "I'm not sure about the trade-off there — let me check with the platform team." — هیچ‌کدام دفاعی نیستند؛ هر سه، جمله‌های مهندسِ خبره‌اند. و توضیحِ جریانِ طولانی را قطعه‌بندی کن: <strong>"First… then… and finally…"</strong> — شنونده همراهت می‌ماند.</p>
+<h2>گرامرِ عمیق‌تر: قالب‌های walk-through و زبانِ جریان</h2>
+<p>توضیحِ کد، سه فعلِ جریان دارد: <strong>goes</strong> (می‌رود): the request goes through the gateway · <strong>hits</strong> (برخورد می‌کند): it hits the cache first · <strong>returns</strong> (برمی‌گرداند): the service returns a signed URL. برای ترتیب: <strong>first, then, after that, finally</strong> — و برای مشروط‌ها: <strong>if the token is invalid, we reject early</strong> (اگر توکن نامعتبر بود، زود رد می‌کنیم — «reject early» اصطلاحِ محبوبِ کدِ تمیز). و برای طبقه: <strong>At a high level…</strong> (از بالا) · <strong>Drilling down…</strong> (پایین می‌رویم) · <strong>The gist is…</strong> (جِهتِ کلام اینه…).</p>
+<div class="zh-ex"><span class="zh">At a high level, this service signs upload URLs. The request hits the auth middleware first; if the token is invalid, we reject early. Otherwise, we generate a signed URL and return it. The gist: the client never touches our storage credentials.</span><span class="fa">از بالا: این سرویس URLهای آپلود رو امضا می‌کنه. درخواست اول به میدل‌ورِ احراز می‌خوره؛ اگه توکن نامعتبر باشه زود رد می‌کنیم. وگرنه URL امضاشده می‌سازیم و برمی‌گردونیم. جهتِ کلام: کلاینت هیچ‌وقت به اعتبارنامه‌های ذخیره‌سازِ ما دست نمی‌زنه.</span></div>
+<h2>گفتگو: لید می‌پرسد «چرا این‌طور نوشتی؟»</h2>
+<div class="zh-ex"><span class="zh">Lead: Walk me through this function — why generate the URL here and not in the gateway? — You: Fair question. The gateway doesn't have the storage credentials — by design.</span><span class="fa">لید: این تابع رو برام توضیح بده — چرا URL رو همین‌جا می‌سازی نه تو گیت‌وی؟ — تو: سوالِ درستیه. گیت‌وی اعتبارنامهٔ ذخیره‌ساز رو نداره — عمداً.</span></div>
+<div class="zh-ex"><span class="zh">Lead: So it's a security boundary thing? — You: Exactly. Centralizing the signing here means one audit point — if the gateway did it, we'd spread credentials wider than we need.</span><span class="fa">لید: پس ماجرای مرزِ امنیتیه؟ — تو: دقیقاً. متمرکزکردنِ امضا این‌جا یعنی یه نقطهٔ حسابرسی — اگه گیت‌وی انجامش می‌داد، اعتبارنامه‌ها رو گسترده‌تر از نیاز پخش می‌کردیم.</span></div>
+<div class="zh-ex"><span class="zh">Lead: Good reasoning. One nit — the function name could say so: signUploadUrl instead of handle. — You: Agreed — renaming now. Thanks, that's the kind of review that makes the codebase readable.</span><span class="fa">لید: استدلالِ خوبیه. یه جزئی — اسمِ تابع می‌تونست همینو بگه: signUploadUrl به‌جای handle. — تو: موافقم — همین الان اسمش رو عوض می‌کنم. ممنون، این همون ریلویوئه که کدبیس رو خوانا می‌کنه.</span></div>
+<h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
+<ul>
+<li><strong>سه‌سطح را با مخاطب چین</strong> — مدیر: At a high level. همکار: مسیر + تصمیم. جونیور: خط‌به‌خط. سطحِ اشتباه، توضیحِ خوب را هدر می‌دهد.</li>
+<li><strong>چرا را با because not بگو</strong> — «We cache because the auth call is slow» — و بدیل را با otherwise: «Otherwise every request pays the penalty.» — جفتِ because/otherwise، منطقِ مهندسی را تمام‌قد می‌آورد.</li>
+<li><strong>تمرینِ بلندِ روزانه</strong> — روزی یک تابعِ خودت را برای «هیچ‌کس» بلند توضیح کن — ده دقیقه؛ جلسهٔ بعدی که پرسیدند، تو جلوتری.</li>
+</ul>
 <div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
 <p>توضیحِ کد سه‌سطحی: کلی (at a high level), مسیر (the flow goes…), تصمیم (we chose X because Y). جعبه‌قالب: walk you through it / in a nutshell / think of it as / the catch is. جوابِ «چرا این‌طور؟» سه‌قالبی: دلیل+بدیل، اعترافِ منصفانه، مرزِ دانش. تمرینِ این درس: کدِ واقعیِ خودت را بلند توضیح کن — جلسه‌ی بعد، این تمرین حرف اول را می‌زند.</p></div>
 </div>

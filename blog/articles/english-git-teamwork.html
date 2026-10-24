@@ -40,7 +40,7 @@
       "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
       "dateModified": "2026-10-24T09:00:00+03:30",
-      "wordCount": 564,
+      "wordCount": 983,
       "keywords": "گیت انگلیسی, git phrases, pull request, merge conflict",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
       "author": { "@id": "https://upword.ir/#organization" },
@@ -100,7 +100,7 @@
 <h1>گیت به انگلیسی؛ commit, pull request و merge بدون تصادف</h1>
 <div class="article-meta">
 <span><time datetime="2026-10-24">🗓 ۲ آبان ۱۴۰۵</time></span>
-<span>⏱ ۶ دقیقه مطالعه</span>
+<span>⏱ ۱۰ دقیقه مطالعه</span>
 <span>✍ تیم آپ‌ورد</span>
 </div>
 </div>
@@ -178,6 +178,19 @@
 <div class="zh-ex"><span class="zh">PR is up: it moves the email sender to a background job. Small blast radius, tests included. Let me know if anything looks off!</span><span class="fa">PR اومد: ایمیل‌فرست رو بردیم روی jobِ پس‌زمینه. دامنهٔ اثرِ کوچیک، تست هم داره. اگه چیزی مشکوک بود خبر کن!</span></div>
 <h2>وقتی خراب شد؛ جمله‌های پیش‌آپدیجیِ گیت</h2>
 <p><strong>کنفلیکت:</strong> "I have a merge conflict with main — could you pair with me for five minutes? I don't want to break the release." <strong>فورس‌پوشِ اشتباه:</strong> "Heads-up: I force-pushed to the shared branch by accident — I'm fixing it now, sorry!" (Heads-up = توجه — کلمهٔ نجاتِ اعلامِ خرابی) <strong>برگشتنِ فوری:</strong> "Can we revert the last commit on main? It broke the build." <strong>لاگِ گم‌شده:</strong> "Does anyone know where yesterday's commits went? I can't find the branch." — همهٔ این جمله‌ها با آرامشِ صریح گفته می‌شوند؛ در فرهنگِ تیم‌های سالم، اعلامِ سریعِ خرابی، امتیاز است: <strong>"I'd rather flag it early than let it spread."</strong></p>
+<h2>گرامرِ عمیق‌تر: فعل‌های PR و مجهولِ گیت</h2>
+<p>گیت، زبانِ مجهولِ مسئول است: <strong>The PR was reviewed by two engineers</strong> (PR توسطِ دو مهندس ریلویو شد), <strong>The build got broken</strong> (بیلد خراب شد — get + قسم برای «اتفاقِ ناخوشایند»). فعل‌های چرخه: <strong>open / update / rebase / merge / revert / close</strong> — و مخفف‌های گفتاری: <strong>WIP</strong> (work in progress — در حالِ کار: a WIP PR), <strong>PTAL</strong> (please take another look), <strong>LGTM</strong>, <strong>NIT</strong>. و جفت‌های خائنِ لحن: <strong>"I pushed"</strong> (من پوش کردم — خبرِ عادی) در برابرِ <strong>"It got pushed"</strong> (پوش شد — خبرِ رخ‌داده!).</p>
+<div class="zh-ex"><span class="zh">The PR is ready for review: tests updated, the diff is small, and the migration got squashed into one commit. PTAL when you get a chance.</span><span class="fa">PR آمادهٔ ریلویوئه: تست‌ها آپدیت شد، دیف کوچیکه و کامیت‌ها اسکواش شد. یه نگاه بندازید وقتی وقت کردید.</span></div>
+<h2>گفتگو: کنفلیکت و درخواستِ کمک</h2>
+<div class="zh-ex"><span class="zh">You: Heads-up — my branch has a conflict with main. Looks like the same file we both touched. — Lead: Ah, the config refactor. Want to pair for five minutes?</span><span class="fa">تو: خبر — برنچم با main کنفلیکت داره. ظاهراً همون فایلی که هر دومان دست زدیم. — لید: آ، ری‌فکتورِ کانفیگ. پنج دقیقه پِر می‌شیم؟</span></div>
+<div class="zh-ex"><span class="zh">You: Yes please — I don't want to break the release. — Lead: Take theirs for the config lines, keep yours for the feature part. Then rebase and push.</span><span class="fa">تو: لطفاً — نمی‌خوام ریلیز رو خراب کنم. — لید: خطوطِ کانفیگ رو نسخهٔ اونا رو نگه دار، بخشِ فیچر رو مالِ خودت. بعد ری‌بیس و پوش.</span></div>
+<div class="zh-ex"><span class="zh">You: Done — clean diff now, tests green. Thanks — conflict on shared config is exactly the thing I didn't want to learn the hard way. — Lead: That's what the team is for!</span><span class="fa">تو: تمام شد — دیف تمیزه، تست‌ها سبز. ممنون — کنفلیکت رویِ کانفیگِ مشترک دقیقاً همون چیزی بود که نمی‌خواستم از راهِ سخت یاد بگیرم. — لید: تیم برایِ همینه!</span></div>
+<h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
+<ul>
+<li><strong>اعلامِ خرابی با heads-up</strong> — هر خرابیِ گیت با heads-up + اقدام: «Heads-up: I force-pushed by accident — fixing now.» — اعلامِ سریع، نصفِ جِرم نیست؛ تمامِ حرفه‌ای‌بودن است.</li>
+<li><strong>PR کوچک را قربانی کن</strong> — PRِ بزرگ را خودت اسپلیت کن قبل از درخواستِ ریلویو — «small PRs get reviewed today; big ones get reviewed someday.»</li>
+<li><strong>diff را قبل از درخواست بخوان</strong> — قبل از درخواستِ ریلویو، خودت رویِ diff پُل‌ریکوئستت را ریلویو کن — کامنتِ «هووم، این چرا آمد؟» را خودت جواب بده؛ ریلویوِ خود، نصفِ ریلویویِ دیگران است.</li>
+</ul>
 <div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
 <p>گیت گفتاری: branch off / commit / pull / push / open a PR / address comments / squash and merge / revert. PR با چهار خطِ What-How-Testing-Notes. خرابی با heads-up + sorry + درخواستِ help. جملهٔ امنیتیِ هر جا: "I don't want to break the release" — نشانِ مهندسِ مسئول، در هر زبانی.</p></div>
 </div>
