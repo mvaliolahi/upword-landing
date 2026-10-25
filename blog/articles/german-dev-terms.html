@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#04231A">
+<title>درس ۴۴ از ۹۰ · آلمانیِ ابزارها؛ گیت و ترمینال در جملهٔ آلمانی | آپ‌ورد</title>
+<meta name="description" content="واژه‌هایِ فنیِ روزانه در قالبِ جملهٔ آلمانی: گیت، ترمینال، IDE، داکر — و قانونِ «انگلیسی‌واژه + قالبِ آلمانی» که نیمی از گفتگویِ فنی‌ات را می‌سازد.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://upword.ir/blog/articles/german-dev-terms.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="درس ۴۴ از ۹۰ · آلمانیِ ابزارها؛ گیت و ترمینال در جملهٔ آلمانی">
+<meta property="og:description" content="واژه‌هایِ فنیِ روزانه در قالبِ جملهٔ آلمانی: گیت، ترمینال، IDE، داکر — و قانونِ «انگلیسی‌واژه + قالبِ آلمانی» که نیمی از گفتگویِ فنی‌ات را می‌سازد.">
+<meta property="og:url" content="https://upword.ir/blog/articles/german-dev-terms.html">
+<meta property="og:site_name" content="آپ‌ورد (UpWord)">
+<meta property="og:locale" content="fa_IR">
+<meta property="og:image" content="https://upword.ir/blog/covers/de-course-p3.jpg">
+<meta property="og:image:width" content="1344">
+<meta property="og:image:height" content="768">
+<meta property="article:published_time" content="2026-10-25T09:00:00+03:30">
+<meta property="article:modified_time" content="2026-10-25T09:00:00+03:30">
+<meta property="article:section" content="آموزش زبان آلمانی (دورهٔ ۹۰ روزه)">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="درس ۴۴ از ۹۰ · آلمانیِ ابزارها؛ گیت و ترمینال در جملهٔ آلمانی">
+<meta name="twitter:description" content="واژه‌هایِ فنیِ روزانه در قالبِ جملهٔ آلمانی: گیت، ترمینال، IDE، داکر — و قانونِ «انگلیسی‌واژه + قالبِ آلمانی» که نیمی از گفتگویِ فنی‌ات را می‌سازد.">
+<meta name="twitter:image" content="https://upword.ir/blog/covers/de-course-p3.jpg">
+<link rel="icon" type="image/png" href="/assets/images/app-icon.png">
+<link rel="apple-touch-icon" type="image/png" href="/assets/images/app-icon.png">
+<link rel="preload" href="/assets/fonts/vazirmatn-ar.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://upword.ir/blog/articles/german-dev-terms.html#article",
+      "headline": "درس ۴۴ از ۹۰ · آلمانیِ ابزارها؛ گیت و ترمینال در جملهٔ آلمانی",
+      "description": "واژه‌هایِ فنیِ روزانه در قالبِ جملهٔ آلمانی: گیت، ترمینال، IDE، داکر — و قانونِ «انگلیسی‌واژه + قالبِ آلمانی» که نیمی از گفتگویِ فنی‌ات را می‌سازد.",
+      "inLanguage": "fa-IR",
+      "image": "https://upword.ir/blog/covers/de-course-p3.jpg",
+      "datePublished": "2026-10-25T09:00:00+03:30",
+      "dateModified": "2026-10-25T09:00:00+03:30",
+      "wordCount": 1153,
+      "keywords": "واژگان فنی آلمانی, گیت آلمانی, ترمینال آلمانی, داکر آلمانی, زبان فنی آلمان",
+      "articleSection": "آموزش زبان آلمانی (دورهٔ ۹۰ روزه)",
+      "author": { "@id": "https://upword.ir/#organization" },
+      "publisher": { "@id": "https://upword.ir/#organization" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://upword.ir/blog/articles/german-dev-terms.html" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "خانه", "item": "https://upword.ir/" },
+        { "@type": "ListItem", "position": 2, "name": "دورهٔ ۹۰ روزهٔ آلمانی", "item": "https://upword.ir/blog/german-course.html" },
+        { "@type": "ListItem", "position": 3, "name": "درس ۴۴" }
+      ]
+    },{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"آلمانی‌هایِ فنی هم انگلیسی حرف می‌زنند دیگر؟ چرا آلمانی بلد باشم؟","acceptedAnswer":{"@type":"Answer","text":"در تیم‌هایِ بین‌المللی بله — ولی سه لحظهٔ همیشگی آلمانی می‌مانند: استندآپ و ناهار (گفتگویِ خودمانی)، گفتگو با مدیر محصول/مشتریِ آلمانی، و جلسه‌هایِ داخلیِ بخش‌هایِ غیرفنی (HR، اجرا، فروش). آلمانیِ فنیِ تو = دسترسیِ کامل به شرکت، نه فقط به کد!"}},{"@type":"Question","name":"برای مصاحبهٔ فنی به آلمانی، همین کافی است؟","acceptedAnswer":{"@type":"Answer","text":"برای «شروعِ کار» بله — استندآپ، ریویو، چت. برای مصاحبهٔ کامل: درس ۴۹ (مصاحبهٔ فنی) عمیق‌تر می‌رود: توضیحِ پروژه، سوال‌هایِ سیستم‌دیزاین و رفتاری به آلمانی. این درس، آجرها را می‌دهد؛ آن درس، ساختمان را!"}}]}
+  ]
+}
+</script>
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/css/blog.css">
+</head>
+<body>
+<div class="bg-scene" aria-hidden="true">
+<div class="orb orb-a"></div>
+<div class="orb orb-b"></div>
+<div class="orb orb-c"></div>
+<div class="bg-grain"></div>
+</div>
+<header class="navbar" id="navbar">
+<div class="container nav-inner">
+<a href="/" class="brand" aria-label="آپ‌ورد">
+<img src="/assets/images/app-icon.png" alt="" width="40" height="40" class="brand-icon">
+<span class="brand-text">آپ‌ورد</span>
+</a>
+<nav class="nav-links" aria-label="ناوبری وبلاگ">
+<a href="/" class="nav-link">صفحه اصلی</a>
+<a href="/blog/" class="nav-link">مقالات</a>
+<a href="/blog/german-course.html" class="nav-link">دورهٔ آلمانی</a>
+<a href="/blog/english-course.html" class="nav-link">دورهٔ انگلیسی</a>
+<a href="/blog/chinese-course.html" class="nav-link">دورهٔ چینی</a>
+</nav>
+<a href="https://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener" class="btn btn-primary btn-sm nav-cta">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+<span>دانلود اپ</span>
+</a>
+</div>
+</header>
+<main id="main" class="blog-page">
+<div class="container">
+<div class="article-wrap">
+<nav class="crumbs" aria-label="مسیر صفحه">
+<a href="/">خانه</a><span class="sep">/</span>
+<a href="/blog/german-course.html">دورهٔ ۹۰ روزهٔ آلمانی</a><span class="sep">/</span>
+<span class="cur">درس ۴۴ از ۹۰</span>
+</nav>
+<article class="article-card">
+<div class="article-head">
+<span class="post-chip">آموزش زبان آلمانی (دورهٔ ۹۰ روزه) · درس ۴۴ از ۹۰</span>
+<h1>آلمانیِ ابزارها؛ گیت و ترمینال در جملهٔ آلمانی</h1>
+<div class="article-meta">
+<span><time datetime="2026-10-25">🗓 ۳ آبان ۱۴۰۵</time></span>
+<span>⏱ ۱۲ دقیقه مطالعه</span>
+<span>✍ تیم آپ‌ورد</span>
+</div>
+</div>
+<div class="short-answer">
+<span class="sa-label">⚡ پاسخ کوتاه</span>
+<p>قانونِ طلاییِ زبانِ فنیِ آلمانی: ابزار انگلیسی می‌ماند، جمله آلمانی می‌شود! „Ich rebase den Branch“ (برنچ را ریبیس می‌کنم)، „Der Container läuft nicht“ (کانتینر اجرا نمی‌شود). واژه‌هایِ فنی را با حرفِ تعریفِ آلمانی‌شان یاد بگیر: der Branch، das Commit، der Container، die Pipeline.</p>
+</div>
+<figure class="article-cover">
+<img src="/blog/covers/de-course-p3.jpg" alt="" width="1344" height="768" loading="lazy">
+<figcaption>درس ۴۴ از ۹۰ — آلمانیِ ابزارها؛ گیت و ترمینال در جملهٔ آلمانی</figcaption>
+</figure>
+<div class="prose">
+<p>نیم‌فصلِ کوتاه اما لذت‌بخشِ فاز ۳: واژه‌هایِ فنی‌ای که هر روز می‌گویی — این‌بار در قالبِ جملهٔ آلمانی! واقعیتِ تیم‌هایِ آلمانی: کد و ابزار انگلیسی‌اند، گفتگو آلمانی — و این ترکیب، بهترین خبرِ دنیا برای توست: نیمی از واژگان را از قبل بلدی!</p>
+<p>این درس آن نیمهٔ آماده را قاعده‌مند می‌کند: هر ابزار، حرفِ تعریفِ آلمانی دارد (der Commit? das Commit?)، هر فعلِ فنی صرف می‌شود (ich commite? ich committe?) و جمله‌ی کامل ساخته می‌شود. بعد از این درس، جمله‌هایِ فنی‌ات «تمیزِ دو‌زبانه» می‌شوند!</p>
+<h2>گیت به آلمانی؛ جدولِ طلایی</h2>
+<table><thead><tr>
+<th>واژه</th>
+<th>حرفِ تعریف</th>
+<th>جملهٔ آلمانی</th>
+</tr></thead><tbody>
+<tr>
+<td>der Branch</td>
+<td>der</td>
+<td>Ich erstelle einen neuen Branch.</td>
+</tr>
+<tr>
+<td>das Commit</td>
+<td>das</td>
+<td>Das Commit ist zu groß.</td>
+</tr>
+<tr>
+<td>der Pull-Request</td>
+<td>der</td>
+<td>Der PR ist ready fürs Review.</td>
+</tr>
+<tr>
+<td>der Merge</td>
+<td>der</td>
+<td>Der Merge hat geklappt.</td>
+</tr>
+<tr>
+<td>der Konflikt</td>
+<td>der</td>
+<td>Ich löse gerade die Konflikte.</td>
+</tr>
+<tr>
+<td>der Rebase</td>
+<td>der</td>
+<td>Ich rebase auf main.</td>
+</tr>
+<tr>
+<td>der Push/Pull</td>
+<td>der</td>
+<td>Mach erst mal einen Pull.</td>
+</tr>
+<tr>
+<td>das Repository (Repo)</td>
+<td>das</td>
+<td>Das Repo liegt auf GitLab.</td>
+</tr>
+</tbody></table>
+<p>فعل‌ساختن هم قاعده دارد: <strong>commiten/committen</strong> (کامیت‌کردن: „Ich commite die Änderungen“)، <strong>mergen</strong>، <strong>pushen</strong>، <strong>pullen</strong>، <strong>rebasen</strong> — مصدرِ آلمانی با -en و صرفِ کامل! «Hast du schon gepusht?» (پوش کردی؟) — جملهٔ هزاربارِ روزانهٔ تیمِ آلمانی!</p>
+<h2>ترمینال، داکر و IDE؛ ابزارها در جمله</h2>
+<div class="zh-ex"><span class="zh">Ich starte den Container neu. — Welcher Port ist gemappt?</span><span class="fa">کانتینر را ری‌استارت می‌کنم. — کدام پورت مپ شده؟ — der Port، gemappt: واژه‌هایِ داکریِ آلمانی‌شده!</span></div>
+<div class="zh-ex"><span class="zh">Das Skript läuft nicht. Die Rechte fehlen — chmod fehlt.</span><span class="fa">اسکریپت اجرا نمی‌شود. مجوزها کم است — chmod لازم است. — das Skript، die Rechte (مجوزها!)</span></div>
+<div class="zh-ex"><span class="zh">Bei mir lokal läuft alles, nur in der CI nicht.</span><span class="fa">لوکالِ من همه‌چیز اجرا می‌شود، فقط در CI نه. — «bei mir lokal» = سطرِ اولِ هر باگِ CI در آلمان! 😄</span></div>
+<div class="zh-ex"><span class="zh">Die IDE frisst zu viel RAM. Ich restarte sie mal.</span><span class="fa">IDE رم زیادی می‌خورَد. یک بار ری‌استارتش می‌کنم. — fressen = خوردنِ حیوانی — شوخیِ فنیِ محبوب برای برنامه‌هایِ پرخور!</span></div>
+<h2>گفتگو: هفت‌جمله‌ایِ گیتِ روزانه</h2>
+<p>یک روزِ کاریِ گیت‌محور، فقط با هفت جملهٔ آلمانی — این‌ها را از حفظ کن:</p>
+<div class="zh-ex"><span class="zh">Ich erstelle einen Branch für das Feature.</span><span class="fa">برای فیچر یک برنچ می‌سازم.</span></div>
+<div class="zh-ex"><span class="zh">Hast du schon gepusht? Ich kann den Branch nicht sehen.</span><span class="fa">پوش کردی؟ برنچ را نمی‌بینم.</span></div>
+<div class="zh-ex"><span class="zh">Es gibt einen Merge-Konflikt in der Datei. Ich löse ihn gleich.</span><span class="fa">در فایل تضادِ مرج هست. الان حلش می‌کنم.</span></div>
+<div class="zh-ex"><span class="zh">Der Build ist rot — der Test bricht ab.</span><span class="fa">بیلد قرمز است — تست قطع می‌شود. — abbrechen = قطع‌شدن؛ جدانشدنی!</span></div>
+<div class="zh-ex"><span class="zh">Ich habe den Fix committet und gepusht. Der PR ist fertig fürs Review.</span><span class="fa">فیکس را کامیت و پوش کردم. PR برای ریویو آماده است.</span></div>
+<div class="zh-ex"><span class="zh">Zwei Approves sind da — wir können mergen!</span><span class="fa">دو تأیید هست — می‌توانیم مرج کنیم!</span></div>
+<div class="zh-ex"><span class="zh">Kannst du kurz rebasen? main ist weiter.</span><span class="fa">می‌توانی کوتاه ریبیس کنی؟ main جلوتر رفته. — جملهٔ آخرِ هر PR که چند روز مانده!</span></div>
+<h2>گرامرِ عمیق‌تر: فعل‌هایِ خارجی — صرفِ آلمانیِ مصدرِ انگلیسی</h2>
+<p>قاعدهٔ ساختِ فعل از واژهٔ انگلیسی: مصدر + <strong>-en/-n</strong> و صرفِ کاملِ آلمانی! <strong>deployen</strong>: ich deploye، du deployst، er deployt، wir deployen — و Perfekt (درس ۷۳): <strong>Ich habe deployt</strong>. همین برای: testen، fixen (kürzer als „reparieren“!), reviewen، mergen، pushen. یک استثنای محبوب: <strong>checken</strong> (چک‌کردن) آن‌قدر جاافتاده که «Check das mal!» (چکش کن!) جملهٔ رسمیِ هر تیمِ آلمانی است — از شروع‌کار تا امروز!</p>
+<h2>اشتباه‌های رایجِ فارسی‌زبان‌ها در همین درس</h2>
+<p>این بخش را با یک قرارداد بخوان: هر ❌ یعنی «مغزِ فارسی‌زبانت این را می‌سازد و طبیعی است»، و هر ✅ یعنی «این همان چیزی است که گیرندهٔ آلمانی‌زبان می‌شنود». با هر جفت بلند تکرار کن تا شکلِ درست در گوشت نشست کند.</p>
+<div class="zh-ex"><span class="zh">❌ Ich mache ein Commit. / Ich mache einen Push.</span><span class="fa">❌ «ماکِ» انگلیسیِ ساختگی! آلمانی‌ها مستقیم فعل می‌سازند: commiten، pushen.</span></div>
+<div class="zh-ex"><span class="zh">✅ Ich commite / Ich pushe / Ich pushe die Änderungen.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ die Commit (جنسیت)</span><span class="fa">❌ جنسیتِ واژه‌هایِ فنی را حس می‌زنیم — جدولِ درس را قفل کن: das Commit، der Branch!</span></div>
+<div class="zh-ex"><span class="zh">✅ das Commit ist klein und fokussiert. Der Branch ist aktuell.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ Der Server ist gecrashed. (مخلوطِ انگلیسیِ شکسته)</span><span class="fa">❌ فعلِ crash در آلمانیِ فنی: crashen → ist gecrasht (با sein!) — قالبش را درست بگو!</span></div>
+<div class="zh-ex"><span class="zh">✅ Der Server ist gecrasht. / Der Server crasht ständig.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<h2>تمرین‌های این درس — چهار قدم، بی‌عجله</h2>
+<p>تمرین: روزِ گیتِ خودت را به آلمانی بگردان:</p>
+<ol>
+<li>هفت‌جمله‌ایِ گیت را برای یک کارِ واقعیِ امروزت اجرا کن — با نامِ برنچِ واقعی!</li>
+<li>پنج فعلِ فنی را صرف کن: ich deploye، du testest… یک ضمیرِ هر فعل.</li>
+<li>سه جملهٔ داکری با واژگانِ درس بساز: کانتینر، پورت، لاگ.</li>
+<li>یک جملهٔ «bei mir lokal» بساز — سوپرقدرتِ همدردیِ فنیِ آلمانی!</li>
+</ol>
+<section class="article-faq" aria-label="پاسخ تمرین‌ها">
+<h2>پاسخ تمرین‌ها — اول خودت جواب بده، بعد باز کن</h2>
+
+<details class="faq-item" open>
+<summary><span>پاسخ تمرین ۱</span></summary>
+<div class="faq-answer">„Ich erstelle einen Branch für feature/login-fix. Ich commite die Änderungen und pushe. Der PR ist fertig fürs Review. Zwei Approves — wir mergen!“ — روزِ کاملِ گیت در پنج جملهٔ آلمانی!</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۲</span></summary>
+<div class="faq-answer">ich deploye · du testest · er fixt · wir reviewen · ihr pusht — پنج فعل × پنج ضمیر؛ اگر روان آمد، صرفِ فعلِ فنی‌ات تمام است!</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۳</span></summary>
+<div class="faq-answer">„Der Container läuft nicht. Welcher Port ist gemappt? Schau mal in die Logs!“ — سه جملهٔ داکری که هر روزِ DevOps آلمان می‌بینی!</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۴</span></summary>
+<div class="faq-answer">„Bei mir lokal läuft alles — nur in der CI bricht der Test ab.“ — جملهٔ مقدسِ دولوپرِ آلمانی! اگر این را با لبخندِ کم بگویی، عضویتت در فرهنگِ فنیِ تیم قطعی شد 😄</div>
+</details>
+
+</section>
+<h2>چالشِ امروز</h2>
+<blockquote>🎯 امروز هر دستورِ فنی که می‌زنی (گیت، داکر، تست!) را با جملهٔ آلمانی‌اش زیر صدات بگو: „Ich pushe jetzt.“ — „Ich rebase auf main.“ صد دستور، صد جمله — این شدتِ تکرار، شیرین‌ترین تمرینِ زبانِ فنیِ دنیاست!</blockquote>
+<h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
+<ul>
+<li><strong>واژه‌هایِ فنی را با تعریفِشان حفظ کن، مثل اسم‌های معمولی</strong> — der Commit، das Deployment، die Pipeline: در جمله، تعریفشان صرف می‌شود (einen Commit، das Deployment، die Pipeline) — پس از اول با تعریف یادشان بگیر! (درس ۱۰ یادت هست!)</li>
+<li><strong>«mal»، نرم‌کنندهٔ مقدسِ دستورهایِ فنی</strong> — „Schau mal“ (یه نگاه بنداز)، „Warte mal“ (یه لحظه صبر کن)، „Teste mal“ (یه تست بزن) — بدونِ mal دستور است؛ با mal، همکاری! این دو حرف را به همهٔ دستورهایت اضافه کن!</li>
+<li><strong>صد درصدِ این درس را در اولین هفتهٔ کاری می‌خواهی</strong> — تیم‌هایِ آلمانیِ فنی، پر از همین جمله‌ها هستند: commiten، mergen، „Check das mal!“ — پس این درس را جدی‌تر از بقیه تکرین کن؛ بازدهی‌اش در هفتهٔ اولِ کارِ آلمانی‌ات انفجاری است!</li>
+</ul>
+<div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
+<p>قانونِ زبانِ فنیِ آلمانی: واژهٔ ابزار انگلیسی می‌ماند (der Branch، das Commit، die Pipeline)، فعل با -en ساخته و آلمانی صرف می‌شود (ich pushe، du mergst). «Check das mal!», «Hast du schon gepusht?» و «Bei mir lokal läuft alles» — سه جملهٔ عضویتت در فرهنگِ فنیِ آلمان!</p></div>
+</div>
+<nav class="lesson-nav" aria-label="ناوبری دوره">
+<a class="prev" href="/blog/articles/german-deploy-release.html"><span class="lbl">← درس قبلی</span><span>دیپلوی و ریلیز؛ گفتگوهایِ عملیاتیِ آخرِ هفتهٔ اسپرینت</span></a>
+<a class="hub" href="/blog/german-course.html">📘 فهرست دوره</a>
+<a class="next" href="/blog/articles/german-lunch-break.html"><span class="lbl">درس بعدی →</span><span>ناهار و وقفه‌ها؛ گفتگویِ غذا و اجتماعِ کافه‌ماتیک</span></a>
+</nav>
+
+<section class="article-faq" aria-label="پرسش‌های رایج">
+<h2>پرسش‌های رایج</h2>
+<details class="faq-item" open>
+<summary><span>آلمانی‌هایِ فنی هم انگلیسی حرف می‌زنند دیگر؟ چرا آلمانی بلد باشم؟</span></summary>
+<div class="faq-answer">در تیم‌هایِ بین‌المللی بله — ولی سه لحظهٔ همیشگی آلمانی می‌مانند: استندآپ و ناهار (گفتگویِ خودمانی)، گفتگو با مدیر محصول/مشتریِ آلمانی، و جلسه‌هایِ داخلیِ بخش‌هایِ غیرفنی (HR، اجرا، فروش). آلمانیِ فنیِ تو = دسترسیِ کامل به شرکت، نه فقط به کد!</div>
+</details><details class="faq-item">
+<summary><span>برای مصاحبهٔ فنی به آلمانی، همین کافی است؟</span></summary>
+<div class="faq-answer">برای «شروعِ کار» بله — استندآپ، ریویو، چت. برای مصاحبهٔ کامل: درس ۴۹ (مصاحبهٔ فنی) عمیق‌تر می‌رود: توضیحِ پروژه، سوال‌هایِ سیستم‌دیزاین و رفتاری به آلمانی. این درس، آجرها را می‌دهد؛ آن درس، ساختمان را!</div>
+</details>
+</section>
+
+</article>
+
+<section class="blog-cta">
+<h2>آلمانی را همین امروز در گوشی‌ات تمرین کن</h2>
+<p>واژه‌های این درس را هر جا که دیدی با منوی «ذخیره در آپ‌ورد» به فلش‌کارت‌هایت اضافه کن؛ الگوریتم مرور فاصله‌دار سرِ موعد یادآوری‌شان می‌کند، تلفظ‌شان را با صدای آلمانی می‌شنوی و در مکالمهٔ هوش مصنوعی همان‌جا که لازم است استفاده‌شان می‌کنی.</p>
+<div class="cta-buttons">
+<a href="https://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener" class="btn btn-primary btn-lg">دانلود از کافه بازار</a>
+<a href="https://myket.ir/app/ir.upword.twa" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">دانلود از مایکت</a>
+</div>
+</section>
+</div>
+</div>
+</main>
+<footer class="blog-footer">
+<div class="container inner">
+<div class="links">
+<a href="/">صفحه اصلی</a>
+<a href="/blog/">مقالات</a>
+<a href="/blog/german-course.html">دورهٔ ۹۰ روزهٔ آلمانی</a>
+<a href="/blog/english-course.html">دورهٔ ۹۰ درسی انگلیسی</a>
+<a href="/blog/chinese-course.html">دورهٔ زبان چینی</a>
+</div>
+<p class="copy">© ۲۰۲۶ آپ‌ورد — ساخته‌شده برای فارسی‌زبان‌ها</p>
+</div>
+</footer>
+<script src="/js/main.js" defer></script>
+<script src="/js/blog.js" defer></script>
+</body>
+</html>

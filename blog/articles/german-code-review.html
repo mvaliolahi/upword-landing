@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#04231A">
+<title>درس ۳۹ از ۹۰ · کدریویو؛ نظرِ فنی و مؤدبانه به آلمانی | آپ‌ورد</title>
+<meta name="description" content="زبانِ کدریویویِ آلمانی: تعریفِ درست، نقدِ سازنده (توجه به کد نه شخص!)، سوال‌های ریویو و جواب‌های حرفه‌ای — با واژگانِ گیت.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://upword.ir/blog/articles/german-code-review.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="درس ۳۹ از ۹۰ · کدریویو؛ نظرِ فنی و مؤدبانه به آلمانی">
+<meta property="og:description" content="زبانِ کدریویویِ آلمانی: تعریفِ درست، نقدِ سازنده (توجه به کد نه شخص!)، سوال‌های ریویو و جواب‌های حرفه‌ای — با واژگانِ گیت.">
+<meta property="og:url" content="https://upword.ir/blog/articles/german-code-review.html">
+<meta property="og:site_name" content="آپ‌ورد (UpWord)">
+<meta property="og:locale" content="fa_IR">
+<meta property="og:image" content="https://upword.ir/blog/covers/de-course-p3.jpg">
+<meta property="og:image:width" content="1344">
+<meta property="og:image:height" content="768">
+<meta property="article:published_time" content="2026-10-25T09:00:00+03:30">
+<meta property="article:modified_time" content="2026-10-25T09:00:00+03:30">
+<meta property="article:section" content="آموزش زبان آلمانی (دورهٔ ۹۰ روزه)">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="درس ۳۹ از ۹۰ · کدریویو؛ نظرِ فنی و مؤدبانه به آلمانی">
+<meta name="twitter:description" content="زبانِ کدریویویِ آلمانی: تعریفِ درست، نقدِ سازنده (توجه به کد نه شخص!)، سوال‌های ریویو و جواب‌های حرفه‌ای — با واژگانِ گیت.">
+<meta name="twitter:image" content="https://upword.ir/blog/covers/de-course-p3.jpg">
+<link rel="icon" type="image/png" href="/assets/images/app-icon.png">
+<link rel="apple-touch-icon" type="image/png" href="/assets/images/app-icon.png">
+<link rel="preload" href="/assets/fonts/vazirmatn-ar.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://upword.ir/blog/articles/german-code-review.html#article",
+      "headline": "درس ۳۹ از ۹۰ · کدریویو؛ نظرِ فنی و مؤدبانه به آلمانی",
+      "description": "زبانِ کدریویویِ آلمانی: تعریفِ درست، نقدِ سازنده (توجه به کد نه شخص!)، سوال‌های ریویو و جواب‌های حرفه‌ای — با واژگانِ گیت.",
+      "inLanguage": "fa-IR",
+      "image": "https://upword.ir/blog/covers/de-course-p3.jpg",
+      "datePublished": "2026-10-25T09:00:00+03:30",
+      "dateModified": "2026-10-25T09:00:00+03:30",
+      "wordCount": 1175,
+      "keywords": "کدریویو آلمانی, code review آلمان, نقد کاری آلمانی, گیت آلمانی, pull request آلمان",
+      "articleSection": "آموزش زبان آلمانی (دورهٔ ۹۰ روزه)",
+      "author": { "@id": "https://upword.ir/#organization" },
+      "publisher": { "@id": "https://upword.ir/#organization" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://upword.ir/blog/articles/german-code-review.html" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "خانه", "item": "https://upword.ir/" },
+        { "@type": "ListItem", "position": 2, "name": "دورهٔ ۹۰ روزهٔ آلمانی", "item": "https://upword.ir/blog/german-course.html" },
+        { "@type": "ListItem", "position": 3, "name": "درس ۳۹" }
+      ]
+    },{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"اگر ریویو خیلی سخت و شخصی شد چه کنم؟","acceptedAnswer":{"@type":"Answer","text":"اول: احتمالاً شخصی نیست — مستقیم‌بودنِ آلمانی را با تندی اشتباه نگیر! دوم: اگر واقعاً لحن مشکل دارد، در جلسهٔ یک‌به‌یک یا چتِ خصوصی مطرح کن: „Ich versuche, aus dem Feedback zu lernen — kannst du mir bei den Punkten 2 und 3 etwas mehr Kontext geben?“ (سعی می‌کنم از فیدبک یاد بگیرم — می‌توانی برای نکاتِ ۲ و ۳ کمی بیشتر توضیح بدهی؟) — این جمله، سوءبرداشت را به گفتگوی فنیِ سالم تبدیل می‌کند!"}},{"@type":"Question","name":"چقدر باید در ریویو «حق داشته باشم»؟","acceptedAnswer":{"@type":"Answer","text":"قاعدهٔ فرهنگیِ سالم: کدِ روی برنچ، «مالِ تیم» است نه تو! دفاعِ استدلالی خوب است، دفاعِ مالکیتتی نه. جملهٔ طلاییِ تفکیک: „Ich verstehe deinen Punkt nicht ganz — hilf mir, es zu sehen“ (نکته‌ات را کامل نمی‌فهمم — کمکم ببین) — همیشه سوالِ فهم، بهتر از جنگِ موضع است!"}}]}
+  ]
+}
+</script>
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/css/blog.css">
+</head>
+<body>
+<div class="bg-scene" aria-hidden="true">
+<div class="orb orb-a"></div>
+<div class="orb orb-b"></div>
+<div class="orb orb-c"></div>
+<div class="bg-grain"></div>
+</div>
+<header class="navbar" id="navbar">
+<div class="container nav-inner">
+<a href="/" class="brand" aria-label="آپ‌ورد">
+<img src="/assets/images/app-icon.png" alt="" width="40" height="40" class="brand-icon">
+<span class="brand-text">آپ‌ورد</span>
+</a>
+<nav class="nav-links" aria-label="ناوبری وبلاگ">
+<a href="/" class="nav-link">صفحه اصلی</a>
+<a href="/blog/" class="nav-link">مقالات</a>
+<a href="/blog/german-course.html" class="nav-link">دورهٔ آلمانی</a>
+<a href="/blog/english-course.html" class="nav-link">دورهٔ انگلیسی</a>
+<a href="/blog/chinese-course.html" class="nav-link">دورهٔ چینی</a>
+</nav>
+<a href="https://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener" class="btn btn-primary btn-sm nav-cta">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+<span>دانلود اپ</span>
+</a>
+</div>
+</header>
+<main id="main" class="blog-page">
+<div class="container">
+<div class="article-wrap">
+<nav class="crumbs" aria-label="مسیر صفحه">
+<a href="/">خانه</a><span class="sep">/</span>
+<a href="/blog/german-course.html">دورهٔ ۹۰ روزهٔ آلمانی</a><span class="sep">/</span>
+<span class="cur">درس ۳۹ از ۹۰</span>
+</nav>
+<article class="article-card">
+<div class="article-head">
+<span class="post-chip">آموزش زبان آلمانی (دورهٔ ۹۰ روزه) · درس ۳۹ از ۹۰</span>
+<h1>کدریویو؛ نظرِ فنی و مؤدبانه به آلمانی</h1>
+<div class="article-meta">
+<span><time datetime="2026-10-25">🗓 ۳ آبان ۱۴۰۵</time></span>
+<span>⏱ ۱۲ دقیقه مطالعه</span>
+<span>✍ تیم آپ‌ورد</span>
+</div>
+</div>
+<div class="short-answer">
+<span class="sa-label">⚡ پاسخ کوتاه</span>
+<p>کدریویویِ آلمانی، مستقیم و جدی است اما قاعده دارد: نقد به کد، نه به شخص — „Diese Zeile könnte man vereinfachen“ (این خط را می‌شود ساده‌تر کرد) نه «شما بد نوشتید». سه قالبِ طلایی: تعریف („Sauber gelöst!“)، سوال („Warum hast du hier X gewählt?“)، پیشنهاد („Wie wäre es mit …?“).</p>
+</div>
+<figure class="article-cover">
+<img src="/blog/covers/de-course-p3.jpg" alt="" width="1344" height="768" loading="lazy">
+<figcaption>درس ۳۹ از ۹۰ — کدریویو؛ نظرِ فنی و مؤدبانه به آلمانی</figcaption>
+</figure>
+<div class="prose">
+<p>کدریویو، حساس‌ترین گفتگوی فنی است: هم باید صادق باشی (آلمانی‌ها صراحت را می‌خواهند!) هم محترم (قانونِ «کد، نه شخص»). این درس هر دو طرفِ ریویو را می‌سازد: نظر دادن روی کدِ دیگران و جواب‌دادن به نظراتِ روی کدِ خودت!</p>
+<p>و یک واقعیتِ فرهنگیِ مهم: مستقیم‌بودنِ ریویویِ آلمانی برای خیلی از مهاجرها اولش «تند» به نظر می‌رسد — «Das ist falsch» یعنی «این غلط است» نه «تو بدی»! وقتی این را بفهمی، هم ریویو گرفتنت آسان می‌شود هم ریویو دادنت آلمانی می‌شود.</p>
+<h2>سه‌لایهٔ نظر؛ تعریف، سوال، پیشنهاد</h2>
+<table><thead><tr>
+<th>لایه</th>
+<th>قالب</th>
+<th>مثال</th>
+</tr></thead><tbody>
+<tr>
+<td>تعریف</td>
+<td>Sauber! / Gut gelöst! / Gefällt mir!</td>
+<td>„Sauber gelöst, besonders die Tests!“</td>
+</tr>
+<tr>
+<td>سوال</td>
+<td>Warum hast du …? / Gibt es einen Grund, warum …?</td>
+<td>„Warum hast du hier eine Schleife gewählt?“</td>
+</tr>
+<tr>
+<td>پیشنهاد</td>
+<td>Wie wäre es mit …? / Man könnte … / Schau dir mal … an</td>
+<td>„Wie wäre es mit einer Hilfsfunktion?“</td>
+</tr>
+<tr>
+<td>اشکالِ جدی</td>
+<td>Das verursacht … / Das führt zu …</td>
+<td>„Das führt zu einem Memory-Leak.“</td>
+</tr>
+<tr>
+<td>اختیاری</td>
+<td>Nit: / Kleiner Hinweis:</td>
+<td>„Nit: Leerzeichen am Ende.“</td>
+</tr>
+</tbody></table>
+<p><strong>Nit</strong> (از Not) = نکتهٔ کوچکِ اختیاری — کدِ فرهنگیِ ریویوهایِ فنیِ دنیا! و عبارتِ طلاییِ نقدِ نرم: <strong>„Aus Neugier:“</strong> (از روی کنجکاوی:) — „Aus Neugier: warum kein Stream hier?“ = سوالِ بدونِ قضاوت!</p>
+<h2>گفتگو: یک ریویویِ کامل — PR با پنج کامنت</h2>
+<div class="zh-ex"><span class="zh">Reviewer: Overall sauber! Ein paar Anmerkungen:</span><span class="fa">در کل تمیز! چند نکته: — شروعِ استانداردِ هر ریویو: تعریف + نکته‌ها!</span></div>
+<div class="zh-ex"><span class="zh">1) Diese Funktion ist ziemlich lang. Man könnte sie in zwei aufteilen.</span><span class="fa">۱) این تابع bastante طولانی است. می‌شود به دو تا تقسیمش کرد. — man könnte: نقدِ نرمِ آلمانی!</span></div>
+<div class="zh-ex"><span class="zh">2) Warum kein Early-Return hier? Das würde die Verschachtelung reduzieren.</span><span class="fa">۲) چرا این‌جا early-return نه؟ لانه‌شدگی را کم می‌کرد. — چرا-نه‌ی فنی: نقد با استدلال!</span></div>
+<div class="zh-ex"><span class="zh">3) Nit: Fehlender Punkt am Satzende im Kommentar. 😄</span><span class="fa">۳) نکتهٔ ریز: نقطهٔ آخرِ جمله در کامنت نیست. — نیت + ایموجی = مهربانیِ فنی!</span></div>
+<div class="zh-ex"><span class="zh">Du: Guter Punkt bei 1)! Ich splitte sie auf. Bei 2: Early-Return habe ich bewusst weggelassen — ich fand es so lesbarer. Bin aber offen! (در ۲: عمداً نگذاشتم — خواناتر می‌دیدم. ولی بازم!)</span><span class="fa">جوابِ حرفه‌ای: پذیرشِ نقد + توضیحِ تصمیم + باز بودن — سه‌لایهٔ جوابِ کامل!</span></div>
+<h2>واژگانِ گیت و ریویو</h2>
+<table><thead><tr>
+<th>واژه</th>
+<th>معنی</th>
+<th>جمله</th>
+</tr></thead><tbody>
+<tr>
+<td>der Pull-Request (PR)</td>
+<td>پول‌ریکوئست</td>
+<td>Ich habe einen PR aufgemacht.</td>
+</tr>
+<tr>
+<td>der Commit</td>
+<td>کامیت</td>
+<td>Der Commit ist zu groß — splitte ihn.</td>
+</tr>
+<tr>
+<td>der Branch</td>
+<td>برنچ</td>
+<td>Rebase den Branch auf main.</td>
+</tr>
+<tr>
+<td>mergen</td>
+<td>ادغام‌کردن</td>
+<td>Kannst du mergen?</td>
+</tr>
+<tr>
+<td>reverten</td>
+<td>برگرداندن</td>
+<td>Wir reverten den Commit.</td>
+</tr>
+<tr>
+<td>der Konflikt</td>
+<td>تضاد</td>
+<td>Ich habe einen Merge-Konflikt.</td>
+</tr>
+<tr>
+<td>bestätigen / approve</td>
+<td>تأیید</td>
+<td>Zwei Approves, dann können wir mergen.</td>
+</tr>
+<tr>
+<td>die Anmerkung</td>
+<td>نکته/یادداشت</td>
+<td>Danke für die Anmerkungen!</td>
+</tr>
+</tbody></table>
+<div class="zh-ex"><span class="zh">Ich habe deinen Kommentar umgesetzt und den PR aktualisiert. Kannst du nochmal draufschauen?</span><span class="fa">کامنتت را اعمال کردم و PR را به‌روز کردم. یک بار دیگه نگاه می‌کنی؟ — چرخهٔ کاملِ ریویو در دو جمله!</span></div>
+<h2>گرامرِ عمیق‌تر: مجهولِ نقد — «می‌شود کرد» به‌جای «تو باید»</h2>
+<p>رازِ نقدِ نرمِ آلمانی: <strong>man</strong> — ضمیرِ «آدم/می‌شود» — به‌جایٔ «تو»! مقایسه: „Du solltest das vereinfachen“ (باید ساده‌اش کنی — شخصی) در برابرِ <strong>„Man könnte das vereinfachen“</strong> (می‌شود ساده‌اش کرد — فنی). و یک پله بالاتر: مجهول: <strong>„Das könnte vereinfacht werden“</strong> (این را می‌شود ساده‌تر کرد) — نه تو، نه من، فقط کد! این دو قالب (man könnte + مجهولِ werden) مهم‌ترین ابزارِ نقدِ سازندهٔ کاری‌ات در آلمانی‌اند — فاز ۵ مجهول را کامل باز می‌کند، ولی همین حالا قالبشان را قفل کن!</p>
+<h2>اشتباه‌های رایجِ فارسی‌زبان‌ها در همین درس</h2>
+<p>این بخش را با یک قرارداد بخوان: هر ❌ یعنی «مغزِ فارسی‌زبانت این را می‌سازد و طبیعی است»، و هر ✅ یعنی «این همان چیزی است که گیرندهٔ آلمانی‌زبان می‌شنود». با هر جفت بلند تکرار کن تا شکلِ درست در گوشت نشست کند.</p>
+<div class="zh-ex"><span class="zh">❌ Dein Code ist schlecht.</span><span class="fa">❌ نقد به شخص! آلمانیِ کاریِ درست، کد را نشانه می‌گیرد نه آدم را.</span></div>
+<div class="zh-ex"><span class="zh">✅ Diese Stelle ist etwas unübersichtlich. Man könnte sie aufteilen.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ Warum hast du das so gemacht?! (با تعجب/تهدید)</span><span class="fa">❌ تعجبِ سه‌تایی در ریویو = جنگ! سوالِ فنی با لحنِ مسطح بپرس.</span></div>
+<div class="zh-ex"><span class="zh">✅ Gibt es einen Grund für diese Lösung? Ich frage aus Neugier.</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<div class="zh-ex"><span class="zh">❌ (جواب به نقد:) Nein, das ist richtig so.</span><span class="fa">❌ دفاعِ خشک — جوابِ حرفه‌ای سه‌لایه است: توضیح + انعطاف!</span></div>
+<div class="zh-ex"><span class="zh">✅ Ich habe X gewählt, weil … Aber zeig mir gern deine Variante!</span><span class="fa">✅ شکل درست را دو بار بلند بگو؛ حالا یک بار در یک جملهٔ خودت.</span></div>
+<h2>تمرین‌های این درس — چهار قدم، بی‌عجله</h2>
+<p>تمرینِ ریویو: یک PRِ خیالی (یا واقعی!) را آلمانی-ریویو کن:</p>
+<ol>
+<li>سه کامنتِ ریویو بنویس: یک تعریف، یک سوالِ «Aus Neugier»، یک پیشنهادِ «man könnte».</li>
+<li>یک «اشکالِ جدی» را با قالبِ «Das führt zu …» بنویس — مؤدب اما صریح.</li>
+<li>جوابِ سه‌لایه به یک نقدِ خیالی بده: پذیرش/توضیح + انعطاف.</li>
+<li>واژگانِ گیت را در یک دیالوگِ کوتاهِ merge بگو: برنچ، کنفلیکت، ریورت، اپروو.</li>
+</ol>
+<section class="article-faq" aria-label="پاسخ تمرین‌ها">
+<h2>پاسخ تمرین‌ها — اول خودت جواب بده، بعد باز کن</h2>
+
+<details class="faq-item" open>
+<summary><span>پاسخ تمرین ۱</span></summary>
+<div class="faq-answer">„Sauber gelöst!“ · „Aus Neugier: Warum Streams statt Loop?“ · „Man könnte diese Logik in einen Service auslagern.“ — سه کامنتِ سه‌لایه؛ این‌ها را در ریویویِ واقعیِ بعدی‌ات کپی کن — با نامِ درستِ کد!</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۲</span></summary>
+<div class="faq-answer">„Das führt zu einem Race-Condition, wenn zwei Requests gleichzeitig kommen.“ (این وقتی دو ریکوئست همزمان بیایند به حالتِ مسابقه می‌رسد.) — اشکالِ جدی + علتِ فنی + بدونِ «تو» = نقدِ حرفه‌ایِ کامل!</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۳</span></summary>
+<div class="faq-answer">„Guter Punkt! Ich habe die Schleife gewählt, weil die Liste klein ist — aber ich mache gern einen Vorschlag im zweiten Commit.“ (نکتهٔ خوبی است! حلقه را چون لیست کوچک است انتخاب کردم — ولی در کامیتِ دوم پیشنهاد می‌دهم.) — پذیرشِ نرم + استدلال + اقدام!</div>
+</details>
+
+<details class="faq-item">
+<summary><span>پاسخ تمرین ۴</span></summary>
+<div class="faq-answer">„Kannst du meinen Branch reviewen? Es gibt einen kleinen Konflikt mit main — ich rebase zuerst. Wenn du approvest, mergen wir heute noch.“ — چهار واژهٔ گیت در یک گفتگوی واقعیِ مرج!</div>
+</details>
+
+</section>
+<h2>چالشِ امروز</h2>
+<blockquote>🎯 امروز سه کامنتِ ریویو با قالب‌های درس بنویس — روی کدِ واقعیِ خودت یا در ذهن! یک تعریف، یک «Aus Neugier»، یک «man könnte». مستقیم‌بودنِ مهربانِ آلمانی، مهارتی است که با تمرین ساخته می‌شود!</blockquote>
+<h2>نکات مکالمهٔ واقعی که کتاب‌ها کم می‌گویند</h2>
+<ul>
+<li><strong>«Danke für die Anmerkungen!» بهترین جوابِ شروعِ هر ریویو است</strong> — حتی اگر با هیچکدام موافق نباشی، اول تشکر، بعد بحث! آلمانی‌ها این ترتیب را جدی می‌گیرند: تشکر = پذیرشِ فرایندِ نقد؛ بحث = محتوای آن.</li>
+<li><strong>کدریویویِ آلمانی، «کمال‌گراییِ مهربان» است</strong> — جزئیاتِ کوچک (نقطه، فاصله، نام‌گذاری) در آلمان جدی گرفته می‌شود چون «کیفیتِ بلندمدت» ارزشِ فرهنگی است. اگر نیت‌های فراوان دیدی، تعجب نکن — همان‌طور که تو هم حق داری نیت بگذاری!</li>
+<li><strong>«LGTM» و «Approved» بین‌المللی‌اند ولی جملهٔ آلمانی‌اش بهتر است</strong> — „Sieht gut aus, approved! 👍“ یا „Finde ich gut — merge!“. دو جملهٔ بومی که ریویوهایت را از «مصرف‌کننده» به «عضو» ارتقا می‌دهند!</li>
+</ul>
+<div class="short-answer"><span class="sa-label">🔑 جمع‌بندی این درس</span>
+<p>ریویویِ آلمانی = مستقیم به کد، مهربان به آدم: تعریف („Sauber!“)، سوال („Aus Neugier: warum …?“)، پیشنهاد („Man könnte …“)، اشکال („Das führt zu …“). جواب‌ها سه‌لایه: تشکر + توضیح + انعطاف. Nit برای ریزه‌کاری و LGTM برای تأیید!</p></div>
+</div>
+<nav class="lesson-nav" aria-label="ناوبری دوره">
+<a class="prev" href="/blog/articles/german-work-chat.html"><span class="lbl">← درس قبلی</span><span>چتِ کاری؛ Slack به آلمانی</span></a>
+<a class="hub" href="/blog/german-course.html">📘 فهرست دوره</a>
+<a class="next" href="/blog/articles/german-meetings.html"><span class="lbl">درس بعدی →</span><span>جلسه؛ نظر دادن، موافقت، مخالفتِ محترمانه</span></a>
+</nav>
+
+<section class="article-faq" aria-label="پرسش‌های رایج">
+<h2>پرسش‌های رایج</h2>
+<details class="faq-item" open>
+<summary><span>اگر ریویو خیلی سخت و شخصی شد چه کنم؟</span></summary>
+<div class="faq-answer">اول: احتمالاً شخصی نیست — مستقیم‌بودنِ آلمانی را با تندی اشتباه نگیر! دوم: اگر واقعاً لحن مشکل دارد، در جلسهٔ یک‌به‌یک یا چتِ خصوصی مطرح کن: „Ich versuche, aus dem Feedback zu lernen — kannst du mir bei den Punkten 2 und 3 etwas mehr Kontext geben?“ (سعی می‌کنم از فیدبک یاد بگیرم — می‌توانی برای نکاتِ ۲ و ۳ کمی بیشتر توضیح بدهی؟) — این جمله، سوءبرداشت را به گفتگوی فنیِ سالم تبدیل می‌کند!</div>
+</details><details class="faq-item">
+<summary><span>چقدر باید در ریویو «حق داشته باشم»؟</span></summary>
+<div class="faq-answer">قاعدهٔ فرهنگیِ سالم: کدِ روی برنچ، «مالِ تیم» است نه تو! دفاعِ استدلالی خوب است، دفاعِ مالکیتتی نه. جملهٔ طلاییِ تفکیک: „Ich verstehe deinen Punkt nicht ganz — hilf mir, es zu sehen“ (نکته‌ات را کامل نمی‌فهمم — کمکم ببین) — همیشه سوالِ فهم، بهتر از جنگِ موضع است!</div>
+</details>
+</section>
+
+</article>
+
+<section class="blog-cta">
+<h2>آلمانی را همین امروز در گوشی‌ات تمرین کن</h2>
+<p>واژه‌های این درس را هر جا که دیدی با منوی «ذخیره در آپ‌ورد» به فلش‌کارت‌هایت اضافه کن؛ الگوریتم مرور فاصله‌دار سرِ موعد یادآوری‌شان می‌کند، تلفظ‌شان را با صدای آلمانی می‌شنوی و در مکالمهٔ هوش مصنوعی همان‌جا که لازم است استفاده‌شان می‌کنی.</p>
+<div class="cta-buttons">
+<a href="https://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener" class="btn btn-primary btn-lg">دانلود از کافه بازار</a>
+<a href="https://myket.ir/app/ir.upword.twa" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">دانلود از مایکت</a>
+</div>
+</section>
+</div>
+</div>
+</main>
+<footer class="blog-footer">
+<div class="container inner">
+<div class="links">
+<a href="/">صفحه اصلی</a>
+<a href="/blog/">مقالات</a>
+<a href="/blog/german-course.html">دورهٔ ۹۰ روزهٔ آلمانی</a>
+<a href="/blog/english-course.html">دورهٔ ۹۰ درسی انگلیسی</a>
+<a href="/blog/chinese-course.html">دورهٔ زبان چینی</a>
+</div>
+<p class="copy">© ۲۰۲۶ آپ‌ورد — ساخته‌شده برای فارسی‌زبان‌ها</p>
+</div>
+</footer>
+<script src="/js/main.js" defer></script>
+<script src="/js/blog.js" defer></script>
+</body>
+</html>
