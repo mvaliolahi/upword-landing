@@ -8,22 +8,25 @@
 <meta name="description" content="چارچوبِ گفتاریِ طراحیِ سیستم: نیازمندی‌ها و scale, بلوک‌های پایه (load balancer, cache, queue), trade-offها (CAP, consistency), و دیالوگِ کاملِ «URL shortener را طراحی کن».">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <link rel="canonical" href="https://upword.ir/blog/articles/english-interview-system-design.html">
+<link rel="alternate" hreflang="fa" href="https://upword.ir/blog/articles/english-interview-system-design.html">
+<link rel="alternate" hreflang="x-default" href="https://upword.ir/blog/articles/english-interview-system-design.html">
 <meta property="og:type" content="article">
 <meta property="og:title" content="درس ۶۲ از ۹۰ · مصاحبهٔ فنی ۲؛ system design از «یک میلیون کاربر» به بالا">
 <meta property="og:description" content="چارچوبِ گفتاریِ طراحیِ سیستم: نیازمندی‌ها و scale, بلوک‌های پایه (load balancer, cache, queue), trade-offها (CAP, consistency), و دیالوگِ کاملِ «URL shortener را طراحی کن».">
 <meta property="og:url" content="https://upword.ir/blog/articles/english-interview-system-design.html">
 <meta property="og:site_name" content="آپ‌ورد (UpWord)">
 <meta property="og:locale" content="fa_IR">
-<meta property="og:image" content="https://upword.ir/blog/covers/en-course-p4.jpg">
+<meta property="og:image" content="https://upword.ir/blog/covers/english-interview-system-design.jpg">
+<meta property="og:image:alt" content="کاور تصویری مقالهٔ «درس ۶۲ از ۹۰ · مصاحبهٔ فنی ۲؛ system design از «یک میلیون کاربر» به بالا» در وبلاگ آپ‌ورد">
 <meta property="og:image:width" content="1344">
 <meta property="og:image:height" content="768">
 <meta property="article:published_time" content="2026-10-24T09:00:00+03:30">
-<meta property="article:modified_time" content="2026-10-24T09:00:00+03:30">
+<meta property="article:modified_time" content="2026-10-26T11:00:00+03:30">
 <meta property="article:section" content="آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="درس ۶۲ از ۹۰ · مصاحبهٔ فنی ۲؛ system design از «یک میلیون کاربر» به بالا">
 <meta name="twitter:description" content="چارچوبِ گفتاریِ طراحیِ سیستم: نیازمندی‌ها و scale, بلوک‌های پایه (load balancer, cache, queue), trade-offها (CAP, consistency), و دیالوگِ کاملِ «URL shortener را طراحی کن».">
-<meta name="twitter:image" content="https://upword.ir/blog/covers/en-course-p4.jpg">
+<meta name="twitter:image" content="https://upword.ir/blog/covers/english-interview-system-design.jpg">
 <link rel="icon" type="image/png" href="/assets/images/app-icon.png">
 <link rel="apple-touch-icon" type="image/png" href="/assets/images/app-icon.png">
 <link rel="preload" href="/assets/fonts/vazirmatn-ar.woff2" as="font" type="font/woff2" crossorigin>
@@ -37,9 +40,13 @@
       "headline": "درس ۶۲ از ۹۰ · مصاحبهٔ فنی ۲؛ system design از «یک میلیون کاربر» به بالا",
       "description": "چارچوبِ گفتاریِ طراحیِ سیستم: نیازمندی‌ها و scale, بلوک‌های پایه (load balancer, cache, queue), trade-offها (CAP, consistency), و دیالوگِ کاملِ «URL shortener را طراحی کن».",
       "inLanguage": "fa-IR",
-      "image": "https://upword.ir/blog/covers/en-course-p4.jpg",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".short-answer", "h1"]
+      },
+      "image": "https://upword.ir/blog/covers/english-interview-system-design.jpg",
       "datePublished": "2026-10-24T09:00:00+03:30",
-      "dateModified": "2026-10-24T09:00:00+03:30",
+      "dateModified": "2026-10-26T11:00:00+03:30",
       "wordCount": 1639,
       "keywords": "مصاحبه سیستم دیزاین, system design interview, trade offs, scalable design",
       "articleSection": "آموزش زبان انگلیسی (دورهٔ ۹۰ درسی)",
@@ -109,7 +116,7 @@
 <p>در system design، سوال همیشه یک جمله است («یک URL shortener طراحی کن») و جواب، یک گفتگوی چهل‌دقیقه‌ای. چارچوبِ گفتاری: نیازمندی‌ها و اعداد (million users? writes or reads?), طراحیِ بلوک‌به‌بلوک, trade-offها با «بسته به…», و جمع‌بندی. کارتِ امتیازِ تو: پرسیدنِ «چند؟» قبل از گفتنِ «چطور».</p>
 </div>
 <figure class="article-cover">
-<img src="/blog/covers/en-course-p4.jpg" alt="" width="1344" height="768" loading="lazy">
+<img src="/blog/covers/english-interview-system-design.jpg" alt="" width="1344" height="768" loading="lazy">
 <figcaption>درس ۶۲ از ۹۰ — مصاحبهٔ فنی ۲؛ system design از «یک میلیون کاربر» به بالا</figcaption>
 </figure>
 <div class="prose">

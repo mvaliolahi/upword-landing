@@ -5,7 +5,7 @@
     <link>https://upword.ir/blog/</link>
     <description>راهنماها و نکته‌های عملی یادگیری زبان برای فارسی‌زبان‌ها: یادگیری انگلیسی در خانه، مکالمه با هوش مصنوعی، روش شدوینگ، واژگان و انگیزه.</description>
     <language>fa-ir</language>
-    <lastBuildDate>Sat, 24 Oct 2026 09:00:00 +0330</lastBuildDate>
+    <lastBuildDate>Sun, 26 Oct 2026 11:00:00 +0330</lastBuildDate>
     <atom:link href="https://upword.ir/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
@@ -15,6 +15,7 @@
       <description>فهرست کامل دورهٔ ۵۰ درسی زبان چینی برای فارسی‌زبان‌ها: از تلفظ و پین‌یین و لحن‌ها تا دستور زبان، مکالمه و خواندن متن.</description>
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
+      <enclosure url="https://upword.ir/blog/covers/chinese-course.jpg" type="image/jpeg" length="120000"/>
     </item>
     <item>
       <title>درس ۱ از ۵۰ · چینی از صفر؛ زبان یک‌پنجم جهان چه شکلی است؟</title>
@@ -24,7 +25,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p1.jpg" type="image/jpeg" length="120315"/></item>
+      <enclosure url="https://upword.ir/blog/covers/chinese-from-zero.jpg" type="image/jpeg" length="120315"/></item>
     <item>
       <title>درس ۲ از ۵۰ · پین‌یین؛ الفبای صوتی چینی و کلید ورود به تلفظ</title>
       <link>https://upword.ir/blog/articles/pinyin-system.html</link>
@@ -33,7 +34,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p1.jpg" type="image/jpeg" length="120315"/></item>
+      <enclosure url="https://upword.ir/blog/covers/pinyin-system.jpg" type="image/jpeg" length="120315"/></item>
     <item>
       <title>درس ۳ از ۵۰ · پایانه‌های پین‌یین؛ همهٔ صداهای چینی در چند جدول</title>
       <link>https://upword.ir/blog/articles/pinyin-finals.html</link>
@@ -42,7 +43,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p1.jpg" type="image/jpeg" length="120315"/></item>
+      <enclosure url="https://upword.ir/blog/covers/pinyin-finals.jpg" type="image/jpeg" length="120315"/></item>
     <item>
       <title>درس ۴ از ۵۰ · چهار لحن چینی؛ همان چیزهایی که «مادر» را از «اسب» جدا می‌کند</title>
       <link>https://upword.ir/blog/articles/four-tones.html</link>
@@ -51,7 +52,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p1.jpg" type="image/jpeg" length="120315"/></item>
+      <enclosure url="https://upword.ir/blog/covers/four-tones.jpg" type="image/jpeg" length="120315"/></item>
     <item>
       <title>درس ۵ از ۵۰ · تغییر لحن‌ها (Tone Sandhi)؛ سه قانونی که چینی روان را می‌سازد</title>
       <link>https://upword.ir/blog/articles/tone-sandhi.html</link>
@@ -60,7 +61,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p1.jpg" type="image/jpeg" length="120315"/></item>
+      <enclosure url="https://upword.ir/blog/covers/tone-sandhi.jpg" type="image/jpeg" length="120315"/></item>
     <item>
       <title>درس ۶ از ۵۰ · کاراکترهای چینی چگونه ساخته می‌شوند؟ چهار منطق سادهٔ پشت ۵۰ هزار نقاشی</title>
       <link>https://upword.ir/blog/articles/chinese-characters.html</link>
@@ -69,7 +70,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p1.jpg" type="image/jpeg" length="120315"/></item>
+      <enclosure url="https://upword.ir/blog/covers/chinese-characters.jpg" type="image/jpeg" length="120315"/></item>
     <item>
       <title>درس ۷ از ۵۰ · رادیکال‌ها؛ ۲۱۴ آجرِ ساختمان که کاراکترها را قابل‌حدس می‌کند</title>
       <link>https://upword.ir/blog/articles/chinese-radicals.html</link>
@@ -78,7 +79,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p1.jpg" type="image/jpeg" length="120315"/></item>
+      <enclosure url="https://upword.ir/blog/covers/chinese-radicals.jpg" type="image/jpeg" length="120315"/></item>
     <item>
       <title>درس ۸ از ۵۰ · ترتیب قلم‌ها؛ چطور کاراکتر چینی را درست بنویسی (و چرا مهم است)</title>
       <link>https://upword.ir/blog/articles/stroke-order.html</link>
@@ -87,7 +88,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p1.jpg" type="image/jpeg" length="120315"/></item>
+      <enclosure url="https://upword.ir/blog/covers/stroke-order.jpg" type="image/jpeg" length="120315"/></item>
     <item>
       <title>درس ۹ از ۵۰ · چینی ساده‌شده یا سنتی؟ کدام را یاد بگیرم و چقدر فرق دارند؟</title>
       <link>https://upword.ir/blog/articles/simplified-vs-traditional.html</link>
@@ -96,7 +97,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p1.jpg" type="image/jpeg" length="120315"/></item>
+      <enclosure url="https://upword.ir/blog/covers/simplified-vs-traditional.jpg" type="image/jpeg" length="120315"/></item>
     <item>
       <title>درس ۱۰ از ۵۰ · جعبه‌ابزار بقای روز اول؛ سلام، معرفی خودت و تشکر به چینی</title>
       <link>https://upword.ir/blog/articles/first-conversations.html</link>
@@ -105,7 +106,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p1.jpg" type="image/jpeg" length="120315"/></item>
+      <enclosure url="https://upword.ir/blog/covers/first-conversations.jpg" type="image/jpeg" length="120315"/></item>
     <item>
       <title>درس ۱۱ از ۵۰ · جملهٔ «هستم/نیستم» با 是؛ اولین ساختار دستوری تو + سؤال با 吗</title>
       <link>https://upword.ir/blog/articles/shi-sentences.html</link>
@@ -114,7 +115,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p2.jpg" type="image/jpeg" length="133633"/></item>
+      <enclosure url="https://upword.ir/blog/covers/shi-sentences.jpg" type="image/jpeg" length="133633"/></item>
     <item>
       <title>درس ۱۲ از ۵۰ · ضمیرها در چینی؛ من، تو، او و جمع با یک ذرهٔ جادویی 们</title>
       <link>https://upword.ir/blog/articles/chinese-pronouns.html</link>
@@ -123,7 +124,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p2.jpg" type="image/jpeg" length="133633"/></item>
+      <enclosure url="https://upword.ir/blog/covers/chinese-pronouns.jpg" type="image/jpeg" length="133633"/></item>
     <item>
       <title>درس ۱۳ از ۵۰ · اعداد صفر تا ۹۹؛ سیستم شمارش که هرگز استثنا ندارد</title>
       <link>https://upword.ir/blog/articles/numbers-0-99.html</link>
@@ -132,7 +133,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p2.jpg" type="image/jpeg" length="133633"/></item>
+      <enclosure url="https://upword.ir/blog/covers/numbers-0-99.jpg" type="image/jpeg" length="133633"/></item>
     <item>
       <title>درس ۱۴ از ۵۰ · از ۱۰۰ تا میلیون؛ پول، قیمت و هنر چانه‌زنی عددی</title>
       <link>https://upword.ir/blog/articles/big-numbers-money.html</link>
@@ -141,7 +142,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p2.jpg" type="image/jpeg" length="133633"/></item>
+      <enclosure url="https://upword.ir/blog/covers/big-numbers-money.jpg" type="image/jpeg" length="133633"/></item>
     <item>
       <title>درس ۱۵ از ۵۰ · کلاسیفایرها (Measure Words)؛ آن «ذرهٔ عجیب» بین عدد و اسم</title>
       <link>https://upword.ir/blog/articles/measure-words.html</link>
@@ -150,7 +151,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p2.jpg" type="image/jpeg" length="133633"/></item>
+      <enclosure url="https://upword.ir/blog/covers/measure-words.jpg" type="image/jpeg" length="133633"/></item>
     <item>
       <title>درس ۱۶ از ۵۰ · گفتن زمان؛ ساعت، روز هفته و تاریخ به چینی</title>
       <link>https://upword.ir/blog/articles/telling-time.html</link>
@@ -159,7 +160,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p2.jpg" type="image/jpeg" length="133633"/></item>
+      <enclosure url="https://upword.ir/blog/covers/telling-time.jpg" type="image/jpeg" length="133633"/></item>
     <item>
       <title>درس ۱۷ از ۵۰ · فعل 有 (yǒu)؛ «داشتن» و «وجود داشتن» در یک بسته</title>
       <link>https://upword.ir/blog/articles/you-exist.html</link>
@@ -168,7 +169,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p2.jpg" type="image/jpeg" length="133633"/></item>
+      <enclosure url="https://upword.ir/blog/covers/you-exist.jpg" type="image/jpeg" length="133633"/></item>
     <item>
       <title>درس ۱۸ از ۵۰ · فعل‌های بی‌صرف چینی؛ زمان را چطور بدون صرف بگویم؟</title>
       <link>https://upword.ir/blog/articles/verbs-no-conjugation.html</link>
@@ -177,7 +178,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p2.jpg" type="image/jpeg" length="133633"/></item>
+      <enclosure url="https://upword.ir/blog/covers/verbs-no-conjugation.jpg" type="image/jpeg" length="133633"/></item>
     <item>
       <title>درس ۱۹ از ۵۰ · قید حالت؛ جای درستش قبل از فعل است (نه بعدش!)</title>
       <link>https://upword.ir/blog/articles/adverb-placement.html</link>
@@ -186,7 +187,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p2.jpg" type="image/jpeg" length="133633"/></item>
+      <enclosure url="https://upword.ir/blog/covers/adverb-placement.jpg" type="image/jpeg" length="133633"/></item>
     <item>
       <title>درس ۲۰ از ۵۰ · فعل‌های ذهن و میل؛ 想، 要، 喜欢، 知道 — و «می‌خواهم» چینی</title>
       <link>https://upword.ir/blog/articles/mental-verbs.html</link>
@@ -195,7 +196,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p2.jpg" type="image/jpeg" length="133633"/></item>
+      <enclosure url="https://upword.ir/blog/covers/mental-verbs.jpg" type="image/jpeg" length="133633"/></item>
     <item>
       <title>درس ۲۱ از ۵۰ · واژه‌پرسش‌ها؛ چه، چه‌کسی، کجا، کِی، چطور و چرا به چینی</title>
       <link>https://upword.ir/blog/articles/question-words.html</link>
@@ -204,7 +205,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p2.jpg" type="image/jpeg" length="133633"/></item>
+      <enclosure url="https://upword.ir/blog/covers/question-words.jpg" type="image/jpeg" length="133633"/></item>
     <item>
       <title>درس ۲۲ از ۵۰ · ذرهٔ 了 (le)؛ گره‌کورِ مبتدی‌ها که با یک نقشه باز می‌شود</title>
       <link>https://upword.ir/blog/articles/particle-le.html</link>
@@ -213,7 +214,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p2.jpg" type="image/jpeg" length="133633"/></item>
+      <enclosure url="https://upword.ir/blog/covers/particle-le.jpg" type="image/jpeg" length="133633"/></item>
     <item>
       <title>درس ۲۳ از ۵۰ · 过 (guo) و مدت‌ها؛ «قبلاً رفتم» و «سه ساعت کار کردم»</title>
       <link>https://upword.ir/blog/articles/guo-experience-durations.html</link>
@@ -222,7 +223,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p2.jpg" type="image/jpeg" length="133633"/></item>
+      <enclosure url="https://upword.ir/blog/covers/guo-experience-durations.jpg" type="image/jpeg" length="133633"/></item>
     <item>
       <title>درس ۲۴ از ۵۰ · «داره انجام می‌شه»؛ استمرار با 在/正在/呢</title>
       <link>https://upword.ir/blog/articles/progressive-zai.html</link>
@@ -231,7 +232,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p2.jpg" type="image/jpeg" length="133633"/></item>
+      <enclosure url="https://upword.ir/blog/covers/progressive-zai.jpg" type="image/jpeg" length="133633"/></item>
     <item>
       <title>درس ۲۵ از ۵۰ · ذره‌های پایانی 吧،呢،啊 و سؤالِ A-not-A؛ «لحنِ چینی» که جمله‌ها را انسانی می‌کند</title>
       <link>https://upword.ir/blog/articles/sentence-final-particles.html</link>
@@ -240,7 +241,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p2.jpg" type="image/jpeg" length="133633"/></item>
+      <enclosure url="https://upword.ir/blog/covers/sentence-final-particles.jpg" type="image/jpeg" length="133633"/></item>
     <item>
       <title>درس ۲۶ از ۵۰ · مکان و جهت؛ 在، 上/下/里 و فعل‌های 来/去</title>
       <link>https://upword.ir/blog/articles/location-directions.html</link>
@@ -249,7 +250,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p3.jpg" type="image/jpeg" length="119131"/></item>
+      <enclosure url="https://upword.ir/blog/covers/location-directions.jpg" type="image/jpeg" length="119131"/></item>
     <item>
       <title>درس ۲۷ از ۵۰ · مقایسه با 比؛ «از … …تر» بدون صفتِ عوض‌شونده</title>
       <link>https://upword.ir/blog/articles/bi-comparison.html</link>
@@ -258,7 +259,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p3.jpg" type="image/jpeg" length="119131"/></item>
+      <enclosure url="https://upword.ir/blog/covers/bi-comparison.jpg" type="image/jpeg" length="119131"/></item>
     <item>
       <title>درس ۲۸ از ۵۰ · صفت‌ها و شدت؛ 太…了، 很، 真 و مکمل درجه</title>
       <link>https://upword.ir/blog/articles/adjectives-degree.html</link>
@@ -267,7 +268,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p3.jpg" type="image/jpeg" length="119131"/></item>
+      <enclosure url="https://upword.ir/blog/covers/adjectives-degree.jpg" type="image/jpeg" length="119131"/></item>
     <item>
       <title>درس ۲۹ از ۵۰ · ذرهٔ 的؛ آچارِ چندکارهٔ چینی که همه‌چیز را به هم می‌چسباند</title>
       <link>https://upword.ir/blog/articles/de-modification.html</link>
@@ -276,7 +277,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p3.jpg" type="image/jpeg" length="119131"/></item>
+      <enclosure url="https://upword.ir/blog/covers/de-modification.jpg" type="image/jpeg" length="119131"/></item>
     <item>
       <title>درس ۳۰ از ۵۰ · ساختارِ 是…的؛ تأکیدِ چینی روی «کِی، کجا و چطور»</title>
       <link>https://upword.ir/blog/articles/shi-de-emphasis.html</link>
@@ -285,7 +286,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p3.jpg" type="image/jpeg" length="119131"/></item>
+      <enclosure url="https://upword.ir/blog/covers/shi-de-emphasis.jpg" type="image/jpeg" length="119131"/></item>
     <item>
       <title>درس ۳۱ از ۵۰ · ساختار 把 (bǎ)؛ نحوهٔ معروف چینی برای «جابه‌جایی و کارکردن روی مفعول»</title>
       <link>https://upword.ir/blog/articles/ba-construction.html</link>
@@ -294,7 +295,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p3.jpg" type="image/jpeg" length="119131"/></item>
+      <enclosure url="https://upword.ir/blog/covers/ba-construction.jpg" type="image/jpeg" length="119131"/></item>
     <item>
       <title>درس ۳۲ از ۵۰ · مجهول با 被 (bèi)؛ وقتی فاعل یا پشت‌در است یا مهم نیست</title>
       <link>https://upword.ir/blog/articles/bei-passive.html</link>
@@ -303,7 +304,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p3.jpg" type="image/jpeg" length="119131"/></item>
+      <enclosure url="https://upword.ir/blog/covers/bei-passive.jpg" type="image/jpeg" length="119131"/></item>
     <item>
       <title>درس ۳۳ از ۵۰ · مکمل‌های نتیجه؛ 完·到·见·错·好 و نمرهٔ «چطور شد»</title>
       <link>https://upword.ir/blog/articles/resultative-complements.html</link>
@@ -312,7 +313,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p3.jpg" type="image/jpeg" length="119131"/></item>
+      <enclosure url="https://upword.ir/blog/covers/resultative-complements.jpg" type="image/jpeg" length="119131"/></item>
     <item>
       <title>درس ۳۴ از ۵۰ · مکمل‌های جهت؛ 上来·下去·出来·回去 — آمدن و رفتن در همهٔ جهات</title>
       <link>https://upword.ir/blog/articles/directional-complements.html</link>
@@ -321,7 +322,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p3.jpg" type="image/jpeg" length="119131"/></item>
+      <enclosure url="https://upword.ir/blog/covers/directional-complements.jpg" type="image/jpeg" length="119131"/></item>
     <item>
       <title>درس ۳۵ از ۵۰ · جمله‌های زنجیره‌ای؛ چند فعل، یک نفس — و قید 先…然后</title>
       <link>https://upword.ir/blog/articles/serial-verbs.html</link>
@@ -330,7 +331,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p3.jpg" type="image/jpeg" length="119131"/></item>
+      <enclosure url="https://upword.ir/blog/covers/serial-verbs.jpg" type="image/jpeg" length="119131"/></item>
     <item>
       <title>درس ۳۶ از ۵۰ · جمله‌های شرطی؛ 如果…就… و «وگرنه» با 不然</title>
       <link>https://upword.ir/blog/articles/conditionals.html</link>
@@ -339,7 +340,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p3.jpg" type="image/jpeg" length="119131"/></item>
+      <enclosure url="https://upword.ir/blog/covers/conditionals.jpg" type="image/jpeg" length="119131"/></item>
     <item>
       <title>درس ۳۷ از ۵۰ · مکمل‌های پتانسیل؛ «می‌توانم/نمی‌توانم» با 得/不</title>
       <link>https://upword.ir/blog/articles/potential-complements.html</link>
@@ -348,7 +349,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p3.jpg" type="image/jpeg" length="119131"/></item>
+      <enclosure url="https://upword.ir/blog/covers/potential-complements.jpg" type="image/jpeg" length="119131"/></item>
     <item>
       <title>درس ۳۸ از ۵۰ · واژه‌سازی چینی؛ چطور ۳۰۰۰ کاراکتر، ۴۰٬۰۰۰ کلمه می‌سازند</title>
       <link>https://upword.ir/blog/articles/word-building.html</link>
@@ -357,7 +358,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p3.jpg" type="image/jpeg" length="119131"/></item>
+      <enclosure url="https://upword.ir/blog/covers/word-building.jpg" type="image/jpeg" length="119131"/></item>
     <item>
       <title>درس ۳۹ از ۵۰ · خرید و چانه‌زنی به چینی؛ از 这个多少钱 تا آخرین قیمت</title>
       <link>https://upword.ir/blog/articles/shopping-haggling.html</link>
@@ -366,7 +367,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p4.jpg" type="image/jpeg" length="131952"/></item>
+      <enclosure url="https://upword.ir/blog/covers/shopping-haggling.jpg" type="image/jpeg" length="131952"/></item>
     <item>
       <title>درس ۴۰ از ۵۰ · رستوران به چینی؛ سفارش، چای و آدابِ مهمانی</title>
       <link>https://upword.ir/blog/articles/restaurant-chinese.html</link>
@@ -375,7 +376,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p4.jpg" type="image/jpeg" length="131952"/></item>
+      <enclosure url="https://upword.ir/blog/covers/restaurant-chinese.jpg" type="image/jpeg" length="131952"/></item>
     <item>
       <title>درس ۴۱ از ۵۰ · سفر به چین؛ فرودگاه، قطار و هتل — چینیِ رویاهای مسافر</title>
       <link>https://upword.ir/blog/articles/travel-chinese.html</link>
@@ -384,7 +385,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p6.jpg" type="image/jpeg" length="139796"/></item>
+      <enclosure url="https://upword.ir/blog/covers/travel-chinese.jpg" type="image/jpeg" length="139796"/></item>
     <item>
       <title>درس ۴۲ از ۵۰ · مسیرپرسیدن و تاکسی/مترو؛ رفتن در شهر چینی</title>
       <link>https://upword.ir/blog/articles/directions-transport.html</link>
@@ -393,7 +394,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p4.jpg" type="image/jpeg" length="131952"/></item>
+      <enclosure url="https://upword.ir/blog/covers/directions-transport.jpg" type="image/jpeg" length="131952"/></item>
     <item>
       <title>درس ۴۳ از ۵۰ · تلفن و پیام‌رسانی؛ چینیِ دیجیتالِ واقعی</title>
       <link>https://upword.ir/blog/articles/phone-and-chat.html</link>
@@ -402,7 +403,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p4.jpg" type="image/jpeg" length="131952"/></item>
+      <enclosure url="https://upword.ir/blog/covers/phone-and-chat.jpg" type="image/jpeg" length="131952"/></item>
     <item>
       <title>درس ۴۴ از ۵۰ · احساسات و پزشک؛ از «حالم خوب نیست» تا داروخانه</title>
       <link>https://upword.ir/blog/articles/emotions-doctor.html</link>
@@ -411,7 +412,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p4.jpg" type="image/jpeg" length="131952"/></item>
+      <enclosure url="https://upword.ir/blog/covers/emotions-doctor.jpg" type="image/jpeg" length="131952"/></item>
     <item>
       <title>درس ۴۵ از ۵۰ · ادب گفتاری چینی؛ 请،您 و جمله‌های نرم‌کنندهٔ درخواست</title>
       <link>https://upword.ir/blog/articles/polite-chinese.html</link>
@@ -420,7 +421,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p4.jpg" type="image/jpeg" length="131952"/></item>
+      <enclosure url="https://upword.ir/blog/covers/polite-chinese.jpg" type="image/jpeg" length="131952"/></item>
     <item>
       <title>درس ۴۶ از ۵۰ · فرهنگ در زبان؛ 面子، 关系 و جمله‌هایی که فرهنگ را نفس می‌کشند</title>
       <link>https://upword.ir/blog/articles/culture-in-language.html</link>
@@ -429,7 +430,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p4.jpg" type="image/jpeg" length="131952"/></item>
+      <enclosure url="https://upword.ir/blog/covers/culture-in-language.jpg" type="image/jpeg" length="131952"/></item>
     <item>
       <title>درس ۴۷ از ۵۰ · خواندن چینی؛ از جمله به پاراگراف — تمرینِ متنِ واقعی</title>
       <link>https://upword.ir/blog/articles/reading-chinese.html</link>
@@ -438,7 +439,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p5.jpg" type="image/jpeg" length="143651"/></item>
+      <enclosure url="https://upword.ir/blog/covers/reading-chinese.jpg" type="image/jpeg" length="143651"/></item>
     <item>
       <title>درس ۴۸ از ۵۰ · هنر حدسِ کاراکتر ناشناخته؛ سیستمِ رادیکال + قطعهٔ صوتی + بافت</title>
       <link>https://upword.ir/blog/articles/guessing-characters.html</link>
@@ -447,7 +448,7 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0330</pubDate>
       <category>آموزش زبان چینی</category>
     
-      <enclosure url="https://upword.ir/blog/covers/zh-course-p5.jpg" type="image/jpeg" length="143651"/></item>
+      <enclosure url="https://upword.ir/blog/covers/guessing-characters.jpg" type="image/jpeg" length="143651"/></item>
     <item>
       <title>درس ۴۹ از ۵۰ · از دوره تا تسلط؛ منابع، HSK و برنامهٔ حرفه‌ای‌شدن</title>
       <link>https://upword.ir/blog/articles/mastery-resources.html</link>
@@ -518,7 +519,7 @@
 <title>درس ۱ از ۹۰ · انگلیسی از صفر؛ نقشهٔ راه ۹۰ درسی که پیش روی داری</title>
 <link>https://upword.ir/blog/articles/english-from-zero.html</link>
 <description>نقطهٔ شروع دوره: چرا انگلیسی برای فارسی‌زبان‌ها از هر زبان دیگری ساده‌تر شروع می‌شود، این ۹۰ درس دقیقاً چه چیزی می‌سازد و چطور از این دوره استفاده کنی که هیچ درسی هدر نرود.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-from-zero.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-from-zero.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -526,7 +527,7 @@
 <title>درس ۲ از ۹۰ · الفبا و صداها؛ ۲۶ حرف که ۴۴ صدا می‌سازند</title>
 <link>https://upword.ir/blog/articles/english-alphabet-sounds.html</link>
 <description>چرا «cat» و «city» و «church» سه تلفظ مختلف از c دارند؟ نگاهِ درست به الفبای انگلیسی: حرف یکی است، صدا چندتا — با جدول صداهای کلیدی و اولین تمرین گوش.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-alphabet-sounds.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-alphabet-sounds.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -534,7 +535,7 @@
 <title>درس ۳ از ۹۰ · سلام و احوال‌پرسی؛ از Hi تا How is it going?</title>
 <link>https://upword.ir/blog/articles/english-greetings.html</link>
 <description>اولین کلمه‌هایی که در هر کشوری لازم داری: سلام‌کردن رسمی و خودمانی، احوال‌پرسی‌های واقعی (نه ترجمهٔ فارسی!)، جواب‌های آماده و خداحافظی‌ها — با دیالوگ کامل.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-greetings.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-greetings.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -542,7 +543,7 @@
 <title>درس ۴ از ۹۰ · معرفی خودت در ۳۰ ثانیه؛ اسم، اصل و_conn و شغل</title>
 <link>https://upword.ir/blog/articles/english-introduce-yourself.html</link>
 <description>اولین سوال هر محیط تازه: Where are you from و What do you do? جمله‌های معرفیِ شخصی و حرفه‌ای (I am a developer)، تفاوت I am/I am from، و معرفی‌دادنِ دیگران.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-introduce-yourself.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-introduce-yourself.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -550,7 +551,7 @@
 <title>درس ۵ از ۹۰ · فعل to be؛ سه کلمه‌ای که نصف جمله‌های انگلیسی را می‌سازند</title>
 <link>https://upword.ir/blog/articles/english-verb-to-be.html</link>
 <description>am/is/are برای همهٔ کارها: معرفی، توصیف، مکان، زمان. جدول مثبت/منفی/سوال، کوتاه‌سازی‌های حیاتی (I am → I am) و اشتباه شماره‌یک فارسی‌زبان‌ها.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-verb-to-be.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-verb-to-be.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -558,7 +559,7 @@
 <title>درس ۶ از ۹۰ · این، آن، اینجا و آنجا؛ اشاره‌کردن به انگلیسی + a/an</title>
 <link>https://upword.ir/blog/articles/english-this-that-here.html</link>
 <description>اشاره به اشیای نزدیک و دور (this/that/these/those)، مکان (here/there)، و اولین روبه‌رویی با حرف تعریف a/an — با جمله‌های مغازه و دفتر که همان ساعت لازم می‌شوند.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-this-that-here.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-this-that-here.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -566,7 +567,7 @@
 <title>درس ۷ از ۹۰ · اعداد و پول؛ از صفر تا میلیون بدون اشتباه</title>
 <link>https://upword.ir/blog/articles/english-numbers-money.html</link>
 <description>اعداد انگلیسی، تلفظ‌های خائن (thirteen و thirty)، پول و قیمت‌پرسیدن، فیپا (a grand, bucks) و ارقام تلفنی — همهٔ چیزهایی که خرید و بانک را ممکن می‌کند.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-numbers-money.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-numbers-money.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -574,7 +575,7 @@
 <title>درس ۸ از ۹۰ · ساعت به انگلیسی؛ What time is it و at/on/in برای زمان</title>
 <link>https://upword.ir/blog/articles/english-telling-time.html</link>
 <description>دو سبک گفتنِ ساعت (رقمی و کلاسیک)، past/to، a.m./p.m.، و حروف اضافهٔ at/on/in که قرارهایت را سرِ وقت می‌رساند.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-telling-time.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-telling-time.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -582,7 +583,7 @@
 <title>درس ۹ از ۹۰ · روزها، ماه‌ها و تاریخ‌ها؛ تقویمِ انگلیسی بدون سردرگمی</title>
 <link>https://upword.ir/blog/articles/english-days-dates.html</link>
 <description>روزهای هفته با حروف اضافه (on Monday)، آخر هفته‌ها و روزهای تعطیل، ماه‌ها، و خواندنِ تاریخ‌ها به دو سبک آمریکایی و بریتانیایی — پایهٔ هر نوبت و ددلاین.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-days-dates.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-days-dates.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -590,7 +591,7 @@
 <title>درس ۱۰ از ۹۰ · خانواده و مردم؛ حرف زدن از خودت و دیگران</title>
 <link>https://upword.ir/blog/articles/english-family-people.html</link>
 <description>واژه‌های خانواده (mother, brother, in-laws)، «داشتن» با have/has got، توصیف رابطه‌ها و جمله‌های پرکاربرد معرفیِ خانواده در مهمانی و گفتگوی روزمره.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-family-people.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-family-people.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -598,7 +599,7 @@
 <title>درس ۱۱ از ۹۰ · رنگ‌ها، اندازه‌ها و صفت‌ها؛ توصیفِ چیزها به ترتیبِ درست</title>
 <link>https://upword.ir/blog/articles/english-colors-adjectives.html</link>
 <description>رنگ‌ها و صفت‌های رایج (big, small, cheap, comfortable)، و قاعدهٔ ترتیب صفت‌ها که جملهٔ توصیفی را طبیعی می‌کند: a small black backpack، نه a black small backpack.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-colors-adjectives.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-colors-adjectives.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -606,7 +607,7 @@
 <title>درس ۱۲ از ۹۰ · خانه و اشیای روزمره؛ از اجاره‌کردنِ سوپاب تا گم‌کردنِ شارژر</title>
 <link>https://upword.ir/blog/articles/english-home-objects.html</link>
 <description>اتاق‌ها، مبلمان و وسایل خانه به انگلیسی + حرف تعریف the و اولین جمله‌های «کجا چی هست» که هر آشپزخانه و دفتری را اداره می‌کنند.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-home-objects.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-home-objects.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -614,7 +615,7 @@
 <title>درس ۱۳ از ۹۰ · غذا و نوشیدنی؛ سلیقه، سفارشِ ساده و I like و I would like</title>
 <link>https://upword.ir/blog/articles/english-food-basics.html</link>
 <description>واژه‌های غذا و وعده‌ها، فرق حیاتی I like و I'd like (دوست دارم vs می‌خوام)، و اولین جمله‌های سفارش و مهربانیِ مهمانی.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-food-basics.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-food-basics.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -622,7 +623,7 @@
 <title>درس ۱۴ از ۹۰ · خریدِ پایه؛ قیمت، سایز، پرداخت و مذاکرهٔ مقدماتی</title>
 <link>https://upword.ir/blog/articles/english-shopping-basics.html</link>
 <description>جمله‌های طلایی مغازه: قیمت‌پرسیدن، پروکردن، سایز و رنگ، تخفیف و حراج، پرداخت با کارت و برگرداندن — پایهٔ خرید در هر شهری.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-shopping-basics.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-shopping-basics.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -630,7 +631,7 @@
 <title>درس ۱۵ از ۹۰ · جمع‌بندی فاز ۱ + اولین مکالمهٔ واقعیِ ۵ دقیقه‌ای</title>
 <link>https://upword.ir/blog/articles/english-level1-review.html</link>
 <description>مرورِ همهٔ ابزارهای ۱۴ درسِ اول در یک دیالوگِ زندهٔ ۵ دقیقه‌ای: آشنایی، خرید، کافه و قرار — و چک‌لیستِ «چه چیزی باید بلد باشی» قبل از ورود به زندگی روزمره.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-level1-review.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-level1-review.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -638,7 +639,7 @@
 <title>درس ۱۶ از ۹۰ · Present Simple؛ زبانِ عادت‌ها و حقایق</title>
 <link>https://upword.ir/blog/articles/english-present-simple.html</link>
 <description>زمانِ «همیشه این‌جوری‌ام»: عادت‌ها، برنامه‌های هفتگی و حقایق. قاعدهٔ s سوم‌شخص، قیدهای تکرار (always, usually, never) و اولین جمله‌های محل کار.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-present-simple.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-present-simple.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -646,7 +647,7 @@
 <title>درس ۱۷ از ۹۰ · روتینِ روزانه؛ یک روزِ کامل از صبح تا شب به انگلیسی</title>
 <link>https://upword.ir/blog/articles/english-daily-routine.html</link>
 <description>کل واژگانِ یک روز: بیدارشدن، آماده‌شدن، رفت‌وآمد، کار، خانه — با افعالِ زنجیره‌ای (get up, get dressed, get to work) و تعقیبِ یک روزِ واقعی.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-daily-routine.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-daily-routine.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -654,7 +655,7 @@
 <title>درس ۱۸ از ۹۰ · Present Continuous؛ «الان داری چیکار می‌کنی؟»</title>
 <link>https://upword.ir/blog/articles/english-present-continuous.html</link>
 <description>زمانِ همین لحظه: am/is/are + فعل-ing. کارهای در جریان، طرح‌های نزدیک (I am meeting Sara tomorrow) و فرقش با Present Simple در یک جدول.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-present-continuous.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-present-continuous.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -662,7 +663,7 @@
 <title>درس ۱۹ از ۹۰ · رستوران؛ از منو تا طراحی نهایی و انعام</title>
 <link>https://upword.ir/blog/articles/english-restaurant-order.html</link>
 <description>مکالمهٔ کاملِ رستوران: میز گرفتن، منو، سوال‌پرسیدن از گارسون، سفارش، درخواست‌های میان غذا، دسر و حساب — به‌علاوه فرهنگِ انعام (tip) که هیچ‌کس به فارسی‌زبان‌ها نمی‌گوید.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-restaurant-order.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-restaurant-order.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -670,7 +671,7 @@
 <title>درس ۲۰ از ۹۰ · سوپرمارکت؛ از ورود تا سلف‌چک‌اوت</title>
 <link>https://upword.ir/blog/articles/english-supermarket.html</link>
 <description>قفسه‌ها و بخش‌ها (aisle)، quantifierهای خرید (a loaf of bread), برچسب‌ها و تخفیف‌ها، سوال‌پرسیدن از کارمند و سلف‌چک‌اوت بدون سردرگمی.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-supermarket.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-supermarket.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -678,7 +679,7 @@
 <title>درس ۲۱ از ۹۰ · تاکسی گرفتن؛ آدرس‌دادن، کرایه و مکالمهٔ مسیر</title>
 <link>https://upword.ir/blog/articles/english-taking-taxi.html</link>
 <description>تاکسی و Uber/Lyft انگلیسی: صداکردن و آدرس‌دادن، مسیرِ پیشنهادی (the fastest way), کرایه و کارت، انعام و ارزیابی — با دیالوگ کامل از پیکه تا پیاده شدن.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-taking-taxi.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-taking-taxi.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -686,7 +687,7 @@
 <title>درس ۲۲ از ۹۰ · اتوبوس و مترو؛ بلیت، خط‌ها و ایستگاهِ درست</title>
 <link>https://upword.ir/blog/articles/english-public-transport.html</link>
 <description>حمل‌ونقل عمومی انگلیسی: خریدِ بلیت و کارت (transit card), سوالِ خط و ایستگاه (Which line goes to…?), دریافتِ عابر و جا‌به‌جایی بین خط‌ها.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-public-transport.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-public-transport.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -694,7 +695,7 @@
 <title>درس ۲۳ از ۹۰ · آدرس پرسیدن و مسیریابی؛ گم‌شدنِ بی‌استرس</title>
 <link>https://upword.ir/blog/articles/english-asking-directions.html</link>
 <description>پرسیدنِ آدرس از غریبه (How do I get to…?), فهمیدنِ جوابِ سریع (go straight, take a left), و واژه‌های مسیر که تابلوهای شهر را باز می‌کنند.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-asking-directions.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-asking-directions.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -702,7 +703,7 @@
 <title>درس ۲۴ از ۹۰ · دکتر رفتن؛ وقت گرفتن، توصیفِ درد و مکالمهٔ مطب</title>
 <link>https://upword.ir/blog/articles/english-doctor-visit.html</link>
 <description>کل مسیر درمان: نوبت تلفنی (I'd like to make an appointment), پذیرش و بیمه (Do you take my insurance?), توصیفِ علائم و درد به انگلیسی، و سوال‌های بعد از معاینه.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-doctor-visit.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-doctor-visit.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -710,7 +711,7 @@
 <title>درس ۲۵ از ۹۰ · داروخانه؛ نسخه، داروی بدون‌نسخه و دستورِ مصرف</title>
 <link>https://upword.ir/blog/articles/english-pharmacy.html</link>
 <description>داروی انگلیسی: تحویلِ نسخه (I have a prescription to fill), سوال‌های داروخانه (Do you have something for a headache?), فهمیدنِ دستورِ مصرف و اصطلاحاتِ رایجِ OTC.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-pharmacy.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-pharmacy.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -718,7 +719,7 @@
 <title>درس ۲۶ از ۹۰ · خریدِ لباس؛ سایز، پرو و تعویض</title>
 <link>https://upword.ir/blog/articles/english-clothes-shopping.html</link>
 <description>پرکاربردترین جمله‌های خریدِ پوشاک: سایز و مدل (Do you have this in a medium?), پروخانه (Can I try these on?), نظرخواهی (How does it look?), تعویض و برگرداندن با رسید.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-clothes-shopping.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-clothes-shopping.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -726,7 +727,7 @@
 <title>درس ۲۷ از ۹۰ · تلفن؛ جواب‌دادن، پیام و «ببخشید قطع شد»</title>
 <link>https://upword.ir/blog/articles/english-phone-calls.html</link>
 <description>سخت‌ترین مهارتِ شنیداری: مکالمهٔ تلفنی بدون زبانِ بدن. جواب‌دادنِ حرفه‌ای (Hi, this is Ali), گرفتنِ پیام (Can I take a message?), درخواستِ تکرار و ادبِ قطع‌کردن.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-phone-calls.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-phone-calls.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -734,7 +735,7 @@
 <title>درس ۲۸ از ۹۰ · وقت‌گذاشتن و رزرو؛ نوبت، میز و سرویس‌ها</title>
 <link>https://upword.ir/blog/articles/english-making-appointments.html</link>
 <description>رزروِ همه‌کاره: نوبتِ آرایشگاه و خدمات، رزروِ رستوران و دکتر، جابه‌جایی و کنسل‌کردنِ مؤدبانه — با فرمولِ تاریخ و ساعت که همه را پوشش می‌دهد.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-making-appointments.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-making-appointments.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -742,7 +743,7 @@
 <title>درس ۲۹ از ۹۰ · هوا؛ سوژهٔ همیشگیِ گفتگو + قواعدِ آن</title>
 <link>https://upword.ir/blog/articles/english-weather-smalltalk.html</link>
 <description>واژه‌های هوا (chilly, muggy, pouring), پیش‌بینی و لباسِ متناسب، و آدابِ small talkِ هوایی که در آسانسور و صف و استندآپ نجاتت می‌دهد.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-weather-smalltalk.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-weather-smalltalk.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -750,7 +751,7 @@
 <title>درس ۳۰ از ۹۰ · توصیف مردم؛ ظاهر و شخصیت، بدون خطرِ رودربایستی</title>
 <link>https://upword.ir/blog/articles/english-describing-people.html</link>
 <description>واژه‌های ظاهر (tall, curly hair, in his thirties) و شخصیت (easygoing, reliable), و خطوطِ قرمزِ فرهنگی: چه چیزهایی دربارهٔ مردم نگو.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-describing-people.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-describing-people.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -758,7 +759,7 @@
 <title>درس ۳۱ از ۹۰ · خانه و همسایه‌ها؛ اجاره، تعمیرات و رابطهٔ همسایگی</title>
 <link>https://upword.ir/blog/articles/english-home-neighbors.html</link>
 <description>زبانِ خانهٔ اجاره‌ای: درخواستِ تعمیر (The heater isn't working), گفتگو با صاحب‌خانه و همسایه، و جمله‌های مؤدبانهٔ «صدا/بو/زباله» بدون جنگ.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-home-neighbors.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-home-neighbors.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -766,7 +767,7 @@
 <title>درس ۳۲ از ۹۰ · Past Simple ۱؛ تعریفِ «دیروز» با افعالِ باقاعده</title>
 <link>https://upword.ir/blog/articles/english-past-simple-1.html</link>
 <description>اولین زمانِ گذشته: دیروز چه کردی؟ افعال باقاعده با -ed، منفی و سوال با did، و قیدهای زمانِ گذشته (yesterday, last week, ago) — با داستانِ یک روزِ تعریف‌کردنی.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-past-simple-1.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-past-simple-1.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -774,7 +775,7 @@
 <title>درس ۳۳ از ۹۰ · جمع‌بندی فاز ۲ + شبیه‌سازیِ «یک روزِ کامل در شهر»</title>
 <link>https://upword.ir/blog/articles/english-level2-review.html</link>
 <description>مرورِ ۱۸ درسِ زندگیِ روزمره در یک روزِ کاملِ شبیه‌سازی‌شده: صبحِ خانه، مترو، دکتر، مغازه، مهمانیِ همسایه — و چک‌لیستِ «بقای شهری».</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-level2-review.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-level2-review.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -782,7 +783,7 @@
 <title>درس ۳۴ از ۹۰ · Past Simple ۲؛ افعالِ بی‌قاعده که نصف زبان‌اند</title>
 <link>https://upword.ir/blog/articles/english-past-simple-2.html</link>
 <description>بی‌قاعده‌های ضروری (go→went, have→had, get→got) + گفتارِ محاوره‌ایِ گذشته (dunno what happened), و قصه‌گوییِ طبیعی با was/were.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-past-simple-2.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-past-simple-2.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -790,7 +791,7 @@
 <title>درس ۳۵ از ۹۰ · قصه‌گویی؛ رویدادها را به ترتیبِ طبیعی بچین</title>
 <link>https://upword.ir/blog/articles/english-telling-stories.html</link>
 <description>هنرِ روایتِ روزمره: بستن‌ها و پیوندها (then, after that, eventually), اوج و نقطهٔ قصه (guess what!), و تعریفِ داستانِ سفر، رؤیا و فاجعهٔ کوچک.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-telling-stories.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-telling-stories.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -798,7 +799,7 @@
 <title>درس ۳۶ از ۹۰ · آینده؛ going to و will، دو قالبِ دو کارِ متفاوت</title>
 <link>https://upword.ir/blog/articles/english-future-plans.html</link>
 <description>برنامهٔ ازپیش‌تعیین‌شده (I'm going to visit) در برابر تصمیمِ لحظه‌ای/وعده (I'll help), پیش‌بینی با شواهد، و قراردادنِ آینده در مکالمهٔ کاری.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-future-plans.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-future-plans.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -806,7 +807,7 @@
 <title>درس ۳۷ از ۹۰ · فرودگاه و پرواز؛ چک‌این، امنیت و بیلت گم‌شده</title>
 <link>https://upword.ir/blog/articles/english-airport-travel.html</link>
 <description>تمام مسیرِ هوایی به انگلیسی: چک‌این و بوردر، امنیت، بوردینگ، فرود و بیجِقه (I can't find my luggage) — با تابلوهای فرودگاه که مثل علائمِ ترافیکِ زبانی‌اند.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-airport-travel.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-airport-travel.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -814,7 +815,7 @@
 <title>درس ۳۸ از ۹۰ · هتل؛ چک‌این، اتاقِ خراب و درخواست‌های میزبانی</title>
 <link>https://upword.ir/blog/articles/english-hotel-stay.html</link>
 <description>اقامتِ کامل: رزرو و چک‌این (I have a booking under…), اتاق و خرابی‌ها (The AC isn't working), صبحانه و چک‌اوت با حسابرسیِ شفاف.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-hotel-stay.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-hotel-stay.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -822,7 +823,7 @@
 <title>درس ۳۹ از ۹۰ · اجارهٔ خانه؛ بازدید، درخواست و قرارداد</title>
 <link>https://upword.ir/blog/articles/english-renting-apartment.html</link>
 <description>مسیرِ اجاره در کشور انگلیسی‌زبان: آگهی‌خوانی، بازدید و سوال‌های ضروری (What's included in the rent?), درخواستِ اجاره (application) و امضای قرارداد با چشمِ باز.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-renting-apartment.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-renting-apartment.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -830,7 +831,7 @@
 <title>درس ۴۰ از ۹۰ · قبض‌ها و خدمات شهری؛ برق، اینترنت و بانکِ روزِ اول</title>
 <link>https://upword.ir/blog/articles/english-utilities-bills.html</link>
 <description>راه‌اندازیِ زندگیِ اداری: قراردادِ برق و گاز و اینترنت (set up an account), پرداختِ قبض (autopay), و اولین حسابِ بانکی — با واژه‌هایی که در نامه‌های رسمی می‌آیند.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-utilities-bills.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-utilities-bills.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -838,7 +839,7 @@
 <title>درس ۴۱ از ۹۰ · اضطراری‌ها؛ 911، مدارکِ گم‌شده و «کمک می‌خواهم»</title>
 <link>https://upword.ir/blog/articles/english-emergencies.html</link>
 <description>واژه‌ها و جمله‌های واقعیِ روزهای بد: تماسِ امداد، گزارشِ سرقت و گم‌شدنِ مدارک، گم‌شدنِ خودت، و لغت‌نامهٔ کوچکِ بحران که امیدواریم هیچ‌وقت لازم نشود.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-emergencies.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-emergencies.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -846,7 +847,7 @@
 <title>درس ۴۲ از ۹۰ · Present Perfect؛ تجربه‌ها با have + قسم سوم</title>
 <link>https://upword.ir/blog/articles/english-present-perfect.html</link>
 <description>زمانِ «تا این لحظه»: I have lived here for two years. فرقش با Past Simple (تمامِ مُهرِ زمان‌دار), ever/never/already/yet, و جمله‌های مصاحبه و مهاجرت.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-present-perfect.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-present-perfect.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -854,7 +855,7 @@
 <title>درس ۴۳ از ۹۰ · دوست‌یابی و گفتگوی صمیمانه؛ از آشنایی تا دوستی</title>
 <link>https://upword.ir/blog/articles/english-making-friends.html</link>
 <description>بعد از بقا، تعلق: گفتگوهای عمیق‌تر (What do you do for fun?), دعوت‌کردن و دعوت‌پذیرفتن, دوستی‌های کاری و فرهنگِ «شاید بروز设计中» (let's hang out sometime).</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-making-friends.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-making-friends.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -862,7 +863,7 @@
 <title>درس ۴۴ از ۹۰ · نظرات و احساسات؛ موافقت، مخالفتِ مؤدبانه و «فکر می‌کنم»</title>
 <link>https://upword.ir/blog/articles/english-opinions-feelings.html</link>
 <description>ابرازِ نظر با I think / In my opinion, موافقتِ گرم (Absolutely!) و مخالفتِ حرفه‌ای (I see your point, but…), و گفتنِ احساس بدونِ ترس — مهارتی که تا جلساتِ فنی فاز ۴ همراهت است.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-opinions-feelings.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-opinions-feelings.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -870,7 +871,7 @@
 <title>درس ۴۵ از ۹۰ · ایمیل و پیام‌های سادهٔ کاری؛ درست، مؤدب و کوتاه</title>
 <link>https://upword.ir/blog/articles/english-emails-basics.html</link>
 <description>آناتومیِ ایمیلِ انگلیسی: Greeting و Dear, باز و بسته (I'm writing to… / Best regards), لحنِ درست (would/could), و سوپر ایمیل‌هایی که هر تازه‌وارد می‌نویسد: پیگیری، معرفی، درخواست.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-emails-basics.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-emails-basics.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -878,7 +879,7 @@
 <title>درس ۴۶ از ۹۰ · رزومهٔ فنی به انگلیسی؛ ورقِ برداشتِ اول</title>
 <link>https://upword.ir/blog/articles/english-resume-cv.html</link>
 <description>ساختارِ استانداردِ رزومهٔ انگلیسی (Summary, Experience, Skills), فعل‌های قویِ فنی (built, shipped, reduced), و خطاهای ترجمه‌ای که رزومه را دور می‌اندازند.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-resume-cv.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-resume-cv.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -886,7 +887,7 @@
 <title>درس ۴۷ از ۹۰ · مصاحبهٔ عمومی؛ Tell me about yourself و بیست سوالِ کلاسیک</title>
 <link>https://upword.ir/blog/articles/english-job-interview.html</link>
 <description>اسکریپتِ مصاحبهٔ استخدامِ غیرِ فنی: معرفیِ ۹۰ثانیه‌ای, سوال‌های کلاسیک (strengths, weakness, why us) با فرمولِ جوابِ STAR, و پرسش‌های محترمانه از کارفرما.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-job-interview.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-job-interview.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -894,7 +895,7 @@
 <title>درس ۴۸ از ۹۰ · روز اول در شرکت؛ معرفی، ابزار و «هر چیزی را بپرس»</title>
 <link>https://upword.ir/blog/articles/english-first-day-at-work.html</link>
 <description>اسکریپتِ onboarding: معرفی به تیم، سوال‌های زیرساختی (Where can I find the docs? What's the WiFi code?), و آدابِ ناهارِ روزِ اول — روزی که سوال‌کردن، قانون است نه جرأت.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-first-day-at-work.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-first-day-at-work.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -902,7 +903,7 @@
 <title>درس ۴۹ از ۹۰ · واژگانِ محل کار؛ تیم، وظایف و ماشینِ اداری</title>
 <link>https://upword.ir/blog/articles/english-workplace-basics.html</link>
 <description>نقشهٔ واژگانیِ شرکت: نقش‌ها (PM, QA, stakeholder), ابزارِ کارِ روزمره (timesheet, day off, expense) و جمله‌های اجرایی که ادارهٔ روزمره را می‌چرخانند: درخواستِ کمک، مرخصی، سوالِ تسک.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-workplace-basics.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-workplace-basics.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -910,7 +911,7 @@
 <title>درس ۵۰ از ۹۰ · جمع‌بندی فاز ۳ + شبیه‌سازیِ «هفتهٔ اول در کشورِ تازه»</title>
 <link>https://upword.ir/blog/articles/english-level3-review.html</link>
 <description>مرورِ ۱۷ درسِ استقلال در یک شبیه‌سازیِ زنده: فرودگاه، خانه، بانک، روزِ اولِ کار و اولین 1:1 — آخرین ایستگاهِ پیش از ورود به فازِ فنی.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-level3-review.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-level3-review.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -918,7 +919,7 @@
 <title>درس ۵۱ از ۹۰ · واژگانِ فنیِ پایه؛ کامپیوتر، اینترنت و ابر</title>
 <link>https://upword.ir/blog/articles/english-tech-foundations.html</link>
 <description>زیر نظرِ واژه‌های فنی که همهٔ درس‌های بعدی رویش می‌نشینند: سخت‌افزار و نرم‌افزار, شبکه و اینترنت, سرور و ابر, و تلفظِ درستِ کلماتی که همه روزانه می‌بینیم اما غلط می‌گوییم.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-tech-foundations.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-tech-foundations.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -926,7 +927,7 @@
 <title>درس ۵۲ از ۹۰ · واژگانِ برنامه‌نویسی؛ از variable تا deployment</title>
 <link>https://upword.ir/blog/articles/english-coding-vocabulary.html</link>
 <description>دیکشنریِ کوچکِ کدنویسی به انگلیسی: داده و منطق (variable, function, loop), خطا و اصلاح (bug, debug, refactor), و چرخهٔ حیاتِ کد از commit تا production — با فعل‌های درست.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-coding-vocabulary.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-coding-vocabulary.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -934,7 +935,7 @@
 <title>درس ۵۳ از ۹۰ · توضیح‌دادنِ کد؛ «این تابع چه‌کاره است؟» به انگلیسی</title>
 <link>https://upword.ir/blog/articles/english-explaining-code.html</link>
 <description>مهارتِ نهاییِ فنیِ نیمهٔ اولِ فاز ۴: توضیحِ کد و معماری به زبانِ ساده — با قالب‌های آمادهٔ walk through, at a high level, the flow goes, و ادبِ «نکتهٔ بهتر ممکن است وجود داشته باشد».</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-explaining-code.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-explaining-code.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -942,7 +943,7 @@
 <title>درس ۵۴ از ۹۰ · گیت به انگلیسی؛ commit, pull request و merge بدون تصادف</title>
 <link>https://upword.ir/blog/articles/english-git-teamwork.html</link>
 <description>زبانِ کارِ تیمیِ گیت: clone و branch و commit, قلبِ گفتگو یعنی pull request و ریلویو, و جمله‌های نجاتِ «کنفلیکت افتاد» و «فورس‌پوش زدم، عذرخواهی».</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-git-teamwork.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-git-teamwork.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -950,7 +951,7 @@
 <title>درس ۵۵ از ۹۰ · استندآپ صبحگاهی؛ ۹۰ ثانیه که روزِ کاری تو را تعریف می‌کند</title>
 <link>https://upword.ir/blog/articles/english-daily-standup.html</link>
 <description>اسکریپتِ جلسهٔ روزانه: سه‌گانهٔ yesterday/today/blockers با بلوک‌های آماده, ادبِ «شنوندهٔ خوب» و سوال‌های پس از استندآپ — روزی ده دقیقه که همهٔ تیم صدای تو را می‌شنوند.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-daily-standup.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-daily-standup.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -958,7 +959,7 @@
 <title>درس ۵۶ از ۹۰ · کدریویو؛ دادنِ بازخوردِ فنی و گرفتنش بدونِ زخم</title>
 <link>https://upword.ir/blog/articles/english-code-review.html</link>
 <description>هنرِ گفتارِ ریلویو: قالب‌های سه‌درجه‌ای (must-fix, suggestion, nit), عبارت‌های نرمِ فنی (would you consider…?), و پاسخِ حرفه‌ای به کامنت — از «good catch» تا «خب، پس چرا خودت این‌طور ننوشتی!»</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-code-review.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-code-review.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -966,7 +967,7 @@
 <title>درس ۵۷ از ۹۰ · دیباگ به انگلیسی؛ توصیفِ مشکل، فرضیه‌سازی و «found it!»</title>
 <link>https://upword.ir/blog/articles/english-debugging-talk.html</link>
 <description>زبانِ شکارِ باگ: گزارشِ دقیق (steps to reproduce), فرضیه‌ها (my theory is…), جست‌وجوی کمک (has anyone seen this?), و شعرِ پیروزیِ «found it — it was the cache».</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-debugging-talk.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-debugging-talk.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -974,7 +975,7 @@
 <title>درس ۵۸ از ۹۰ · اسکرام و اژایل؛ واژگانِ sprint، backlog و retrospective</title>
 <link>https://upword.ir/blog/articles/english-agile-scrum.html</link>
 <description>واژه‌های چرخهٔ اسکرام به انگلیسی: sprint و backlog, story points و velocity, و جلسه‌های سه‌گانه — به‌علاوهٔ جمله‌های retrospective که همه دوست دارند و ازش می‌ترسند.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-agile-scrum.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-agile-scrum.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -982,7 +983,7 @@
 <title>درس ۵۹ از ۹۰ · مستندسازی؛ README، کامنت و داکِ دور</title>
 <link>https://upword.ir/blog/articles/english-technical-writing.html</link>
 <description>نوشتارِ فنیِ کوتاه: README که آدم را راه می‌اندازد, کامنتی که «چرا» را می‌گوید نه «چه», و داکِ تصمیم (ADR) — سه لایه‌ای که دانشِ تیم را زنده نگه می‌دارد.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-technical-writing.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-technical-writing.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -990,7 +991,7 @@
 <title>درس ۶۰ از ۹۰ · اسلک و چتِ کاری؛ لحن، thread و هنرِ «پینگ» زدن</title>
 <link>https://upword.ir/blog/articles/english-slack-communication.html</link>
 <description>زبانِ نوشتاریِ فوری: آغازگرهای نرم (quick question), علامت‌گذاری و thread, پینگ‌زدن به موقع (پس از ۲۴ ساعت)، و ایموجی‌های فرهنگی — چتِ کاری، خودش یک لهجه دارد.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-slack-communication.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-slack-communication.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -998,7 +999,7 @@
 <title>درس ۶۱ از ۹۰ · مصاحبهٔ فنی ۱؛ حلِ مسئله با صدای بلند</title>
 <link>https://upword.ir/blog/articles/english-interview-coding.html</link>
 <description>مرحلهٔ coding interview: درکِ سوال (clarifying questions), فکرکردنِ بلند (thinking out loud), پیچیدگی و تست, و جمله‌های نجاتِ گیرکردن — با دیالوگِ کاملِ یک مسئله.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-interview-coding.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-interview-coding.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1006,7 +1007,7 @@
 <title>درس ۶۲ از ۹۰ · مصاحبهٔ فنی ۲؛ system design از «یک میلیون کاربر» به بالا</title>
 <link>https://upword.ir/blog/articles/english-interview-system-design.html</link>
 <description>چارچوبِ گفتاریِ طراحیِ سیستم: نیازمندی‌ها و scale, بلوک‌های پایه (load balancer, cache, queue), trade-offها (CAP, consistency), و دیالوگِ کاملِ «URL shortener را طراحی کن».</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-interview-system-design.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-interview-system-design.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1014,7 +1015,7 @@
 <title>درس ۶۳ از ۹۰ · مصاحبهٔ رفتاری؛ STAR در عمل و سوال‌های فرهنگیِ شرکت</title>
 <link>https://upword.ir/blog/articles/english-behavioral-interview.html</link>
 <description>عمیق‌کردنِ درس ۴۷ برای سمتِ فنی: پنج سوالِ رفتاریِ پرتکرارِ مهندسی با پاسخ‌های STARِ نمونه, سوال‌های culture fit, و امضای «من + تیم» که کارفرمای فنی می‌خرد.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-behavioral-interview.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-behavioral-interview.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1022,7 +1023,7 @@
 <title>درس ۶۴ از ۹۰ · دموی فنی و ارائه؛ «دو دقیقه، بدون اسلاید»</title>
 <link>https://upword.ir/blog/articles/english-demos-presentations.html</link>
 <description>زبانِ دمو: باز کردنِ گرم (Today I'll show you…), روایتِ زندهٔ محصول (watch what happens when…), و بستنِ پیام‌دار (So what we learned is…). به‌علاوهٔ اجرای سوال‌های دمو و قلاب‌های مرگبارِ «این چرا کرش کرد؟».</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-demos-presentations.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-demos-presentations.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1030,7 +1031,7 @@
 <title>درس ۶۵ از ۹۰ · تخمین و ددلاین؛ «این چقدر طول می‌کشه؟» بدونِ دروغ و بدونِ جنگ</title>
 <link>https://upword.ir/blog/articles/english-estimations-deadlines.html</link>
 <description>هنرِ گفتاریِ تخمین: three-point estimate, سقفِ شفاف (I'd say three days, assuming the API is ready), گفتنِ «نه»ی حرفه‌ای به اسکوپِ اضافه, و مذاکرهٔ ددلاین با گزینه‌ها نه گلوله.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-estimations-deadlines.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-estimations-deadlines.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1038,7 +1039,7 @@
 <title>درس ۶۶ از ۹۰ · گفتگو با محصول و مشتری؛ ترجمهٔ فنی و «چرا نه»ی مشتری‌پسند</title>
 <link>https://upword.ir/blog/articles/english-product-client-talks.html</link>
 <description>پلِ فنی-غیرِفنی: ترجمهٔ محدودیت‌ها برای PM (this isn't a toggle, it's a schema change), گفتنِ «نه» با گزینه (not now, here is the cheap version), و جلسهٔ requirement که سوال‌های درستش را تو بایستی بپرسی.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-product-client-talks.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-product-client-talks.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1046,7 +1047,7 @@
 <title>درس ۶۷ از ۹۰ · جلسهٔ 1:1 و بازخورد؛ دو گفتگوی مسیرِ حرفه‌ای</title>
 <link>https://upword.ir/blog/articles/english-one-on-ones-feedback.html</link>
 <description>قالب‌های جلسهٔ یک‌به‌یک با مدیر: agenda خودت, سوال‌های رشد (What should I improve?), و گفتنِ نارضایتیِ حرفه‌ای. به‌علاوهٔ گرفتنِ بازخوردِ سخت و پیگیریِ آن — گفتگوهایی که مسیرِ تو را تعریف می‌کنند.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-one-on-ones-feedback.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-one-on-ones-feedback.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1054,7 +1055,7 @@
 <title>درس ۶۸ از ۹۰ · مخالفتِ فنی؛ جنگِ ایده‌ها بدونِ جنگِ آدم‌ها</title>
 <link>https://upword.ir/blog/articles/english-disagreeing-technically.html</link>
 <description>پیشرفتِ درس ۴۴ برای میدانِ فنی: قالب‌های قویِ چالش (I'm not convinced — can we look at the data?), disagree and commit, و بحث‌های معماری که حلقه‌شان با تصمیمِ مستند بسته می‌شود.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-disagreeing-technically.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-disagreeing-technically.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1062,7 +1063,7 @@
 <title>درس ۶۹ از ۹۰ · ورود به تیمِ جدید؛ سه ماهِ اول در سه گفتگو</title>
 <link>https://upword.ir/blog/articles/english-joining-new-team.html</link>
 <description>چارچوبِ ادغامِ حرفه‌ای: ماهِ اول (سوال و سیا learning), ماهِ دوم (اولین بردِ مستقل), ماهِ سوم (بردِ دومی + قلمرو). با جمله‌های asking for context و «قانونِ دو هفتهٔ جونیورها».</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-joining-new-team.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-joining-new-team.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1070,7 +1071,7 @@
 <title>درس ۷۰ از ۹۰ · منتورینگ؛ یاد دادن به جونیورها به انگلیسی</title>
 <link>https://upword.ir/blog/articles/english-mentoring-juniors.html</link>
 <description>گفتارِ خوبِ یاد‌دادن: سوالات هدایتگر (What have you tried so far?), تشریحِ مسیر به‌جای جوابِ مستقیم, بازخوردِ محترمانهٔ سطحِ جونیور, و مرزِ «راهنمایی» با «کارکردن به‌جای».</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-mentoring-juniors.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-mentoring-juniors.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1078,7 +1079,7 @@
 <title>درس ۷۱ از ۹۰ · کنفرانس و شبکه‌سازی؛ از badge تا follow-up</title>
 <link>https://upword.ir/blog/articles/english-conferences-networking.html</link>
 <description>زبانِ رویدادهای فنی: شروعِ گفتگو در لابی (What did you think of the talk?), معرفیِ سی‌ثانیه‌ای در میکسِ حضوری, تبادلِ کارت و LinkedIn, و پیگیریِ چهارخطی که شبکه را می‌سازد.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-conferences-networking.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-conferences-networking.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1086,7 +1087,7 @@
 <title>درس ۷۲ از ۹۰ · جمع‌بندی فاز ۴ + شبیه‌سازیِ «یک اسپرینتِ کامل»</title>
 <link>https://upword.ir/blog/articles/english-level4-review.html</link>
 <description>مرورِ ۲۲ درسِ فنی در یک اسپرینتِ پنج‌روزهٔ زنده: planning، استندآپ‌ها، کدریویو، حادثهٔ کوچک، دمو و رترو — و چک‌لیستِ «مهندسِ گفتاریِ آماده».</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-level4-review.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-level4-review.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1094,7 +1095,7 @@
 <title>درس ۷۳ از ۹۰ · رجیستر و لحن؛ سه لایهٔ رسمیت که هر جمله‌ات را تعریف می‌کند</title>
 <link>https://upword.ir/blog/articles/english-register-tone.html</link>
 <description>مهارتِ بالای گفتار: انتخابِ خودکارِ سطحِ رسمیت — به همکارت یکی بگو، به مدیرت نروンの دیگر، به مشتری سومی. با آزمونِ «جیبِ شلوار» و جدولِ جابه‌جاییِ جمله‌ها بین لایه‌ها.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-register-tone.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-register-tone.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1102,7 +1103,7 @@
 <title>درس ۷۴ از ۹۰ · اصطلاحاتِ کاری؛ بیست idiom که در هر جلسه‌ای می‌شنوی</title>
 <link>https://upword.ir/blog/articles/english-work-idioms.html</link>
 <description>اصطلاحاتِ محبوبِ دفاترِ انگلیسی‌زبان: low-hanging fruit, move the needle, get up to speed, in the loop — با معنی، مثالِ جلسه‌ای و ریسکِ استفادهٔ اشتباه.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-work-idioms.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-work-idioms.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1110,7 +1111,7 @@
 <title>درس ۷۵ از ۹۰ · Phrasal verbs کاری؛ فعل‌های دوتکه‌ای که دفتر را می‌چرخانند</title>
 <link>https://upword.ir/blog/articles/english-phrasal-verbs-work.html</link>
 <description>phrasal verbsِ پرکاربردِ کار: follow up, run into, point out, plug in — با جدولِ prepositionهای خائن (look over vs overlook) و الگوی «یک هفته، سه فعل».</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-phrasal-verbs-work.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-phrasal-verbs-work.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1118,7 +1119,7 @@
 <title>درس ۷۶ از ۹۰ · جلسه‌گردانی؛ از «بزنیم شروع» تا «جمع‌بندی و اکشن‌ها»</title>
 <link>https://upword.ir/blog/articles/english-leading-meetings.html</link>
 <description>زبانِ رهبریِ جلسه: بازگشاییِ هدفمند, مدیریتِ انحراف (let's park that), دادنِ کلمه (Ali, you've dealt with this — thoughts?), و بستنِ با خلاصه + مسئول + ضرب‌الاجل. اولین قدمِ حرفه‌ایِ رهبریِ فنی.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-leading-meetings.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-leading-meetings.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1126,7 +1127,7 @@
 <title>درس ۷۷ از ۹۰ · RFC و پروپوزال فنی؛ متنی که تصمیمِ بزرگ را می‌سازد</title>
 <link>https://upword.ir/blog/articles/english-writing-rfcs.html</link>
 <description>نوشتارِ تصمیم‌ساز: ساختارِ RFC (context, proposal, trade-offs, alternatives), لحنِ «مستند نه متکبر», و چرخهٔ بازخورد — از draft تا decision. جایی که فاز ۴ (ADR) به مقیاسِ سازمانی می‌رسد.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-writing-rfcs.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-writing-rfcs.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1134,7 +1135,7 @@
 <title>درس ۷۸ از ۹۰ · ارائه برای مدیران؛ پنج دقیقه، سه عدد، یک تصمیم</title>
 <link>https://upword.ir/blog/articles/english-exec-presentations.html</link>
 <description>سخت‌ترین مخاطب: مدیرِ عاملِ بی‌وقت. ساختارِ ارائهٔ اجرایی: نتیجه اول (answer first), سه عدد, ریسک‌ها و درخواستِ مشخص — و هنرِ سوالِ «خلاصه‌اش چیه؟» که تو از قبل جوابش را داده‌ای.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-exec-presentations.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-exec-presentations.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1142,7 +1143,7 @@
 <title>درس ۷۹ از ۹۰ · مذاکرهٔ حقوق؛ عدد، سکوت و «بستهٔ کامل»</title>
 <link>https://upword.ir/blog/articles/english-salary-negotiation.html</link>
 <description>گفتارِ پول: جابه‌جاییِ رنج (What's the range for this role?), شمارشِ معکوسِ پیشنهاد (Is there flexibility?), و مذاکرهٔ محترمانهٔ بسته (base, equity, sign-on, remote) — با دیالوگِ کامل و جملهٔ طلاییِ سکوت.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-salary-negotiation.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-salary-negotiation.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1150,7 +1151,7 @@
 <title>درس ۸۰ از ۹۰ · کارِ ریموت و async؛ نوشتاری‌بودنِ حرفه‌ای</title>
 <link>https://upword.ir/blog/articles/english-remote-async.html</link>
 <description>زبانِ تیمِ پخش‌درجهکان: پیامِ بلندپایه (over-communicate), داکِ تصمیم‌ساز, ساعاتِ هم‌پوشانی و احترامِ timezoneها, و آدابِ «بیدار ببینمت» در فرهنگِ ناهم‌زمان — remote انگلیسیِ خودش را می‌خواهد.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-remote-async.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-remote-async.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1158,7 +1159,7 @@
 <title>درس ۸۱ از ۹۰ · ارتباطِ بین‌تیمی و سازمان؛ نفوذِ بدونِ اختیار</title>
 <link>https://upword.ir/blog/articles/english-cross-team-politics.html</link>
 <description>مکالمهٔ سازمانی: گرفتنِ وقتِ تیمِ دیگر (asynchronous ask), حلِ وابستگیِ متوقف‌کننده, «سیاستِ» بی‌آلودگی (map the players), و مکالمهٔ skip-level که سالم اجرا شود — مهارتِ مهندسِ تأثیرگذار.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-cross-team-politics.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-cross-team-politics.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1166,7 +1167,7 @@
 <title>درس ۸۲ از ۹۰ · مدیریتِ حادثه؛ وقتی prod واقعاً down است</title>
 <link>https://upword.ir/blog/articles/english-incident-management.html</link>
 <description>زبانِ شبِ سخت: اعلامِ حادثه (P1 — checkout is down), قالبِ بریفِ دقیقه‌ای (status/impact/next step), نقش‌ها (incident commander), و postmortemِ بی‌اتهام — گفتارِ آرام در قلبِ آشوب.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-incident-management.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-incident-management.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1174,7 +1175,7 @@
 <title>درس ۸۳ از ۹۰ · ارزیابیِ عملکرد؛ خودنویسی، گفتگو و مذاکرهٔ رشد</title>
 <link>https://upword.ir/blog/articles/english-performance-reviews.html</link>
 <description>زبانِ چرخهٔ review: خودارزیابیِ شواهدمحور (impact bullets), گفتگوی بازخوردِ دوطرفه, و مذاکرهٔ سطح و ارتقا با «دستورِ بعدی» — سندی که سالانه مسیرِ تو را مهر می‌زند.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-performance-reviews.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-performance-reviews.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1182,7 +1183,7 @@
 <title>درس ۸۴ از ۹۰ · فرهنگِ مکالمهٔ انگلیسی‌زبان‌ها؛ جمله‌های مقدس و معناهای پنهان</title>
 <link>https://upword.ir/blog/articles/english-cultural-pragmatics.html</link>
 <description>زیر لایهٔ واژه‌ها: «That's interesting» چه می‌گوید؟ چرا «How are you» را بدون جواب می‌پرسند؟ مکانیکِ small talk، تعارفِ «we should grab coffee»، و تفاوت‌های ریزِ آمریکایی/بریتانیایی/کانادایی.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-cultural-pragmatics.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-cultural-pragmatics.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1190,7 +1191,7 @@
 <title>درس ۸۵ از ۹۰ · طنز و banter؛ خندهٔ سالم در محیطِ کار</title>
 <link>https://upword.ir/blog/articles/english-humor-banter.html</link>
 <description>سنجیده‌ترین لایهٔ زبان: شوخیِ امن در جلسه و اسلک (self-deprecating), واکنشِ درست به شوخیِ دیگران, و مرزهای روشن — شوخیِ کجا می‌خنداند و کجا می‌سوزاند، با قالب‌های آماده.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-humor-banter.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-humor-banter.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1198,7 +1199,7 @@
 <title>درس ۸۶ از ۹۰ · رهبریِ فنی؛ زبانِ «مالکِ مسئله» بدونِ «مدیرِ آدم‌ها»</title>
 <link>https://upword.ir/blog/articles/english-technical-leadership.html</link>
 <description>گفتارِ tech lead و staff engineer: تعریفِ مسئله برای تیم (framing), واگذاریِ مؤدبانه (delegation), تصمیم‌سنجی (what's reversible?), و جملاتی که «تأثیرِ بیرون از بلیت» را می‌سازند — جایی که مهندسی به رهبری می‌رسد.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-technical-leadership.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-technical-leadership.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1206,7 +1207,7 @@
 <title>درس ۸۷ از ۹۰ · متن‌باز به انگلیسی؛ issue، PR و فرهنگِ کامیونیتی</title>
 <link>https://upword.ir/blog/articles/english-open-source.html</link>
 <description>زبانِ مشارکتِ متن‌باز: issueی خوب (bug report با قالب), PR کوچکِ اول (good first issue), ادبِ review در پروژهٔ دیگران, و نوشتنِ CONTRIBUTING — اولین حضورِ بین‌المللیِ تو در فنی.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-open-source.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-open-source.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1214,7 +1215,7 @@
 <title>درس ۸۸ از ۹۰ · مصاحبه‌های staff+؛ حلِ مسئلهٔ سازمانی و اثرِ بدونِ اختیار</title>
 <link>https://upword.ir/blog/articles/english-staff-interviews.html</link>
 <description>نسخهٔ senior مصاحبه: سوال‌های past-driven (Tell me about a time you changed an org decision), طراحیِ فرایند (how would you improve…), و پرسش‌های نفوذ — جایی که داستان‌ها باید «اثرِ سازمانی» بگویند نه «کدِ زیبا».</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-staff-interviews.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-staff-interviews.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1222,7 +1223,7 @@
 <title>درس ۸۹ از ۹۰ · یادگیریِ مستمر؛ پادکست، مقاله و زبانِ «روزِ کاریِ آینده»</title>
 <link>https://upword.ir/blog/articles/english-continuous-learning.html</link>
 <description>نگه‌داشتنِ زبان و فن پس از دوره: ورودیِ روزانهٔ قابلِتحمل (podcast در مسیر), خواندنِ مقالهٔ فنی با بازدهِ واقعی, و معیارِ «یک جمله در روز» — چرخه‌ای که ۹۰ درسِ این دوره را به عادتِ مادام‌العمر تبدیل می‌کند.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-continuous-learning.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-continuous-learning.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1230,7 +1231,7 @@
 <title>درس ۹۰ از ۹۰ · درسِ ۹۰؛ پروژهٔ نهایی و نقشهٔ پس از این دوره</title>
 <link>https://upword.ir/blog/articles/english-final-roadmap.html</link>
 <description>پایانِ مسیر و آغازِ آن: پروژهٔ پایانیِ «یک هفتهٔ انگلیسی-کامل», جمع‌بندیِ پنج فاز, و نقشهٔ راهِ سالِ آینده — از C1 تا مصاحبهٔ بین‌المللی. درسِ آخر که اولِ خودت است.</description>
-<enclosure url="https://upword.ir/blog/covers/en-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/english-final-roadmap.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/english-final-roadmap.html</guid>
 <pubDate>Fri, 24 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1246,7 +1247,7 @@
 <title>درس ۱ از ۹۰ · آلمانی از صفر؛ نقشهٔ ۹۰ روزهٔ مهاجرتِ یک برنامه‌نویس</title>
 <link>https://upword.ir/blog/articles/german-from-zero.html</link>
 <description>نقطهٔ شروع دوره: چرا آلمانی برای مهاجرتِ برنامه‌نویس‌ها منطقی‌ترین سرمایه‌گذاری است، این ۹۰ درس دقیقاً چه می‌سازد و چطور از این دوره استفاده کنی که هیچ درسی هدر نرود.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-from-zero.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-from-zero.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1254,7 +1255,7 @@
 <title>درس ۲ از ۹۰ · الفبا و صداها؛ ä و ö و ü و آن‌هایی که فارسی ندارد</title>
 <link>https://upword.ir/blog/articles/german-alphabet-sounds.html</link>
 <description>چرا «sch» سه حرف است ولی یک صدا؟ نگاهِ درست به الفبای آلمانی: ۲۶ حرف + چهار صدای خاص (ä ö ü ß) + ترکیب‌های خواندنی — با جدول صداها و ترفندِ «کلمهٔ کلید».</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-alphabet-sounds.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-alphabet-sounds.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1262,7 +1263,7 @@
 <title>درس ۳ از ۹۰ · سلام و احوال‌پرسی؛ از Hallo تا Wie geht es dir?</title>
 <link>https://upword.ir/blog/articles/german-greetings.html</link>
 <description>اولین کلمه‌هایی که در هر موقعیت آلمانی لازم داری: سلامِ ساعتی و دوستانه، احوال‌پرسیِ واقعی (نه ترجمهٔ فارسی!)، جواب‌های آماده و خداحافظی‌ها — با دیالوگِ کاملِ اولین روز.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-greetings.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-greetings.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1270,7 +1271,7 @@
 <title>درس ۴ از ۹۰ · du یا Sie؟ مهم‌ترین انتخابِ اجتماعیِ زبان آلمانی</title>
 <link>https://upword.ir/blog/articles/german-du-sie.html</link>
 <description>یک انتخابِ دو کلمه‌ای که کل رابطه‌ات را تعریف می‌کند: du و Sie در محل کار، اداره، فروشگاه و دوستی — با نقشهٔ تصمیمِ دقیق و آیینِ «Duzen» شدن.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-du-sie.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-du-sie.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1278,7 +1279,7 @@
 <title>درس ۵ از ۹۰ · اعداد؛ شمردن، قیمت‌ها و شمارهٔ تلفن مثل یک آلمانی</title>
 <link>https://upword.ir/blog/articles/german-numbers.html</link>
 <description>عددهای آلمانی منطقِ جالبی دارند: «بیست‌ویک» نه، «یک‌و‌بیست»! اعداد، قیمت، درصد، شمارهٔ تلفن و ترفندِ zwo — با تمرینِ گوشِ واقعی.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-numbers.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-numbers.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1286,7 +1287,7 @@
 <title>درس ۶ از ۹۰ · ضمایر و فعل sein؛ شناسنامهٔ جمله‌های آلمانی</title>
 <link>https://upword.ir/blog/articles/german-pronouns-sein.html</link>
 <description>ich, du, er, sie, es, wir, ihr, Sie — هشت ضمیری که کل زبان رویشان سوار است + صرفِ کاملِ sein و اولین جمله‌های واقعیِ معرفی‌خود.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-pronouns-sein.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-pronouns-sein.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1294,7 +1295,7 @@
 <title>درس ۷ از ۹۰ · haben و مالکیت؛ mein Ticket، deine Frage، unser Team</title>
 <link>https://upword.ir/blog/articles/german-haben.html</link>
 <description>دومین فعلِ حیاتیِ آلمانی (داشتن) + صفت‌های ملکی و ساختِ «من یه سوال دارم» — پرتکرارترین جملهٔ هر مهاجری — با دیالوگِ گرفتنِ نوبت.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-haben.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-haben.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1302,7 +1303,7 @@
 <title>درس ۸ از ۹۰ · قانون طلایی جای فعل؛ فعل همیشه جای دوم است!</title>
 <link>https://upword.ir/blog/articles/german-verb-second.html</link>
 <description>مهم‌ترین قانونِ جملهٔ آلمانی: فعلِ صرف‌شده همیشه در جایگاهِ دوم می‌نشیند — حتی وقتی زمان یا هر چیزِ دیگری جمله را شروع می‌کند. با این یک قانون، جمله‌هایت از اول درست ساخته می‌شوند.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-verb-second.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-verb-second.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1310,7 +1311,7 @@
 <title>درس ۹ از ۹۰ · سوال‌سازی؛ از «کجا هستی؟» تا «کی تموم می‌شه؟»</title>
 <link>https://upword.ir/blog/articles/german-questions.html</link>
 <description>دو مسیرِ سوال‌پرسیدن در آلمانی: فعل-اول برای بله/خیر، و W-کلمه‌ها برای سوالِ اطلاعاتی — با مهم‌ترین سوال‌های مهاجرت: چه/کجا/کی/چطور/چرا/چند.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-questions.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-questions.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1318,7 +1319,7 @@
 <title>درس ۱۰ از ۹۰ · der، die و das؛ جنسیتِ اسم‌ها بدون وسواس</title>
 <link>https://upword.ir/blog/articles/german-articles.html</link>
 <description>سه حرفِ تعریفِ آلمانی را نه به‌عنوان دیو، بلکه به‌عنوان بخشی از خودِ کلمه یاد بگیر: قواعدِ پسوندی که ۸۰٪ موارد را حل می‌کنند، استراتژیِ «همیشه با حرفِ تعریف حفظ کن» و ترفندِ رنگ‌ها.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-articles.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-articles.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1326,7 +1327,7 @@
 <title>درس ۱۱ از ۹۰ · جمع‌بستن اسم‌ها؛ پنج راهِ آلمانی و یک استراتژی</title>
 <link>https://upword.ir/blog/articles/german-plurals.html</link>
 <description>جمعِ آلمانی یک شکل ندارد (نه s نه‌های یکسان) — پنج پسوندِ اصلی دارد و مهم‌تر: die همیشه جمع را می‌شناسد. با نقشهٔ الگوها و ترفندِ «جمع را با کلمه حفظ کن».</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-plurals.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-plurals.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1334,7 +1335,7 @@
 <title>درس ۱۲ از ۹۰ · نفی‌کردن؛ nicht یا kein؟ یک قانون برای همیشه</title>
 <link>https://upword.ir/blog/articles/german-negation.html</link>
 <description>نفیِ آلمانی دو ابزار دارد: nicht برای فعل و صفت، kein برای اسم — و یک قانونِ ساده که هرگز اشتباه نمی‌کنی: اسمِ با ein/حرف‌تعریف نامعین → kein؛ بقیه → nicht.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-negation.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-negation.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1342,7 +1343,7 @@
 <title>درس ۱۳ از ۹۰ · حالِ ساده و امر؛ صرفِ فعل‌های اصلی بدون ترس</title>
 <link>https://upword.ir/blog/articles/german-present-imperative.html</link>
 <description>صرفِ حالِ ساده با قاعدهٔ پایانه‌ها (-e, -st, -t, -en) + چهار فعلِ بی‌قاعدهٔ حیاتی (sein, haben, werden, wissen) و دستورِ مؤدبانه با Sie.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-present-imperative.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-present-imperative.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1350,7 +1351,7 @@
 <title>درس ۱۴ از ۹۰ · ساعت، روزهای هفته و تاریخ؛ زمانِ آلمانی</title>
 <link>https://upword.ir/blog/articles/german-time.html</link>
 <description>گفتنِ ساعت (رسمی و خودمانی)، روزهای هفته با am، ماه‌ها و تاریخِ آلمانی (اول روز، بعد ماه!) — با فرمول‌های مکالمه‌ایِ Termin گذاشتن.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-time.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-time.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1358,7 +1359,7 @@
 <title>درس ۱۵ از ۹۰ · جمع‌بندی فاز ۱؛ اولین مکالمهٔ واقعیِ خیابانی</title>
 <link>https://upword.ir/blog/articles/german-phase1-review.html</link>
 <description>هرچه در پانزده درسِ اول ساختی، در یک مکالمهٔ کاملِ واقعی جمع می‌شود: معرفی، سوال‌پرسیدن، Termin، اعداد و نفی — به‌علاوهٔ نقشهٔ فاز ۲.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p1.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-phase1-review.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-phase1-review.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1366,7 +1367,7 @@
 <title>درس ۱۶ از ۹۰ · ورود و ثبت‌آدرس؛ اولین هفتهٔ مهاجرت، قدم‌به‌قدم</title>
 <link>https://upword.ir/blog/articles/german-arrival-anmeldung.html</link>
 <description>از فرودگاه تا Wohnungsschein: کارهای هفتهٔ اول (Anmeldung، SIM، بانک)، مدارک لازم برای هر کدام و جملاتِ آلمانیِ هر مرحله.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-arrival-anmeldung.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-arrival-anmeldung.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1374,7 +1375,7 @@
 <title>درس ۱۷ از ۹۰ · سوپرمارکت؛ Pfand، نقدی‌بودن و کدِ Kasse</title>
 <link>https://upword.ir/blog/articles/german-supermarket.html</link>
 <description>خریدِ روزمره در سوپرمارکتِ آلمانی: پرسیدنِ جای چیزها، Pfand (سistem ودیعهٔ بطری!)، صفِ کاسه، کارت یا نقد و جمله‌های این صحنهٔ روزانه.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-supermarket.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-supermarket.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1382,7 +1383,7 @@
 <title>درس ۱۸ از ۹۰ · کافه و رستوران؛ سفارش‌دادنِ مؤدبانه از صفر</title>
 <link>https://upword.ir/blog/articles/german-cafe-restaurant.html</link>
 <description>سفارش در کافه و رستورانِ آلمانی: میزِ آزاد؟، سفارشِ نوشیدنی و غذا، «zu takeaway» یا اینجا، اضافه‌خواستن، صورت‌حساب و انعام — با دیالوگِ کامل.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-cafe-restaurant.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-cafe-restaurant.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1390,7 +1391,7 @@
 <title>درس ۱۹ از ۹۰ · حمل‌ونقل؛ بلیت، BVG و کنترل بلیت</title>
 <link>https://upword.ir/blog/articles/german-transport.html</link>
 <description>مترو و اتوبوس و قطارِ آلمان: انواع بلیت، Entwerfen (مهرکردن!)، کنترل‌بلیت و جریمه، از دست دادنِ قطار و سوال‌های ایستگاه.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-transport.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-transport.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1398,7 +1399,7 @@
 <title>درس ۲۰ از ۹۰ · آپارتمان‌یابی؛ WG، Kaution و Besuchstermin</title>
 <link>https://upword.ir/blog/articles/german-apartment-hunt.html</link>
 <description>بازارِ خانهٔ آلمان: اعلان‌ها را بخوان (2-Zi-Whg؟!)، برای Besuchstermin ایمیل بزن، در بازدید چه بپرسی و قرارداد را چه چیزی خطر می‌کند.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-apartment-hunt.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-apartment-hunt.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1406,7 +1407,7 @@
 <title>درس ۲۱ از ۹۰ · خانه؛ تفکیکِ زباله، ساعاتِ سکوت و همسایه‌ها</title>
 <link>https://upword.ir/blog/articles/german-home-life.html</link>
 <description>زندگیِ روزانه در خانهٔ آلمانی: Mülltrenning (تفکیکِ زباله!)، Ruhezeiten، جلدِ کفش‌ها، همسایه‌ها و جملاتِ ساختمانِ آپارتمانی.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-home-life.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-home-life.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1414,7 +1415,7 @@
 <title>درس ۲۲ از ۹۰ · بانک؛ حساب، کارت و Überweisung</title>
 <link>https://upword.ir/blog/articles/german-bank.html</link>
 <description>باز‌کردنِ حساب (konto)، IBAN و کارت‌ها، انتقالِ پول، پین‌میله‌ها، نقدِ آلمانی و مکالماتِ شعبه.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-bank.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-bank.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1422,7 +1423,7 @@
 <title>درس ۲۳ از ۹۰ · Krankenkasse و دکتر؛ اولین Termin پزشکی</title>
 <link>https://upword.ir/blog/articles/german-insurance-doctor.html</link>
 <description>بیمهٔ درمانِ اجباریِ آلمان: انتخابِ Krankenkasse، کارتِ بیمه، Termin گرفتن از دکتر، در مطب چه می‌گویند و چه می‌شنوی.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-insurance-doctor.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-insurance-doctor.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1430,7 +1431,7 @@
 <title>درس ۲۴ از ۹۰ · بدن، علائم و داروخانه؛ واژگانِ سلامت</title>
 <link>https://upword.ir/blog/articles/german-pharmacy-symptoms.html</link>
 <description>اعضای بدن، سرماخوردگیِ کلاسیک و مکالمهٔ داروخانه: داروی بدونِ نسخه، شربت و قرص، و جملاتِ Apotheke.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-pharmacy-symptoms.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-pharmacy-symptoms.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1438,7 +1439,7 @@
 <title>درس ۲۵ از ۹۰ · تلفن و اینترنت؛ قرارداد، Prepaid و تعطیلیِ ناعادلانه</title>
 <link>https://upword.ir/blog/articles/german-phone-internet.html</link>
 <description>سیم‌کارت و اینترنتِ آلمان: Prepaid در برابر قرارداد، سرعت‌ها و «DTAG quals»، لغوِ قرارداد و مکالماتِ فروشگاهِ همراه.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-phone-internet.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-phone-internet.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1446,7 +1447,7 @@
 <title>درس ۲۶ از ۹۰ · خریدِ لباس؛ سایزها و پرو‌کردن</title>
 <link>https://upword.ir/blog/articles/german-shopping-clothes.html</link>
 <description>مغازهٔ لباسِ آلمانی: سایزهای اروپایی، پرو‌کردن (umkleiden)، «این گشاده است/تنگ است» و مکالمهٔ کاملِ خرید.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-shopping-clothes.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-shopping-clothes.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1454,7 +1455,7 @@
 <title>درس ۲۷ از ۹۰ · آب‌وهوا و گفتگوی کوتاه؛ ملی‌ورزشِ آلمانی‌ها</title>
 <link>https://upword.ir/blog/articles/german-smalltalk-weather.html</link>
 <description>آب‌وهوا، گفتگوی کوتاهِ آسانسوری و اتاقِ کافی: سه قالبِ شروع، سه قالبِ ادامه و سه قالبِ بستن — چون Smalltalk در آلمان، درِ ورودِ جامعه است.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-smalltalk-weather.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-smalltalk-weather.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1462,7 +1463,7 @@
 <title>درس ۲۸ از ۹۰ · تعمیرات و خدمات؛ Handwerker و شکایتِ مؤدب</title>
 <link>https://upword.ir/blog/articles/german-services-repairs.html</link>
 <description>گرفتنِ تعمیرکار (Handwerker)، درخواستِ خدمات، قیمت‌پرسیدن و شکایتِ مؤدبانه وقتی کارِ بد انجام شد — با واژگانِ خانه‌ی خراب.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-services-repairs.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-services-repairs.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1470,7 +1471,7 @@
 <title>درس ۲۹ از ۹۰ · نامهٔ رسمی؛ Sehr geehrte… و زبانِ ادارات</title>
 <link>https://upword.ir/blog/articles/german-formal-letters.html</link>
 <description>ساختارِ نامه و ایمیلِ رسمیِ آلمانی: شروعِ صحیح، بدنه، پایانِ Mit freundlichen Grüßen و کلماتِ مقدسِ اداری — چون در آلمان، همه‌چیز با نامه می‌شود.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-formal-letters.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-formal-letters.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1478,7 +1479,7 @@
 <title>درس ۳۰ از ۹۰ · اضطرار؛ ۱۱۲، ۱۱۰ و جمله‌های نجات</title>
 <link>https://upword.ir/blog/articles/german-emergencies.html</link>
 <description>شماره‌های اضطراریِ آلمان، گفتگو با اپراتور، موقعیت‌دادن، موادِ خطرناکِ خانه و جملاتی که باید قبل از نیاز، بلد باشند.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-emergencies.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-emergencies.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1486,7 +1487,7 @@
 <title>درس ۳۱ از ۹۰ · اوقاتِ فراغت و Verein؛ دوست‌یابیِ آلمانی</title>
 <link>https://upword.ir/blog/articles/german-leisure-friends.html</link>
 <description>دوست‌یابی در آلمان: Verein (کلوپ!)، ورزش، دوره‌ها، تات‌ور، و جمله‌های شروعِ دوستی — چون مهاجرت بدونِ دوست، فقط یک سفرِ طولانی است.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-leisure-friends.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-leisure-friends.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1494,7 +1495,7 @@
 <title>درس ۳۲ از ۹۰ · خریدِ آنلاین؛ DHL، Packstation و مرجوعی</title>
 <link>https://upword.ir/blog/articles/german-online-shopping.html</link>
 <description>سفارشِ آنلاین در آلمان: آدرسِ تحویل، پیگیریِ پکیج، Packstation، مرجوعیِ ۱۴ روزه و مکالماتِ پست.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-online-shopping.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-online-shopping.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1502,7 +1503,7 @@
 <title>درس ۳۳ از ۹۰ · جمع‌بندی فاز ۲؛ یک هفتهٔ کاملِ زندگیِ آلمانی</title>
 <link>https://upword.ir/blog/articles/german-phase2-review.html</link>
 <description>هرچه در هجده درسِ فازِ ۲ ساختی، در هفت روزِ یک هفتهٔ واقعی جمع می‌شود — از سوپرمارکتِ دوشنبه تا Kaffeeklatschِ جمعه و چالشِ فاز ۳.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p2.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-phase2-review.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-phase2-review.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1510,7 +1511,7 @@
 <title>درس ۳۴ از ۹۰ · اولین روزِ کار؛ از در تا میزِ خودت</title>
 <link>https://upword.ir/blog/articles/german-first-day-work.html</link>
 <description>فاز ۳ شروع می‌شود: اولین روز در شرکتِ آلمانی — معرفی، تورِ دفتر، IT و لپ‌تاپ، آخرین سوال‌های روزِ اول و جمله‌های طلاییِ «تازه‌واردِ محترم».</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-first-day-work.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-first-day-work.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1518,7 +1519,7 @@
 <title>درس ۳۵ از ۹۰ · همکاران و نقش‌ها؛ چه کسی چه کاری می‌کند؟</title>
 <link>https://upword.ir/blog/articles/german-office-people.html</link>
 <description>نقشهٔ انسانیِ شرکتِ آلمانی: از Product Owner تا Scrum Master و Werkstudent — نقش‌ها، اسم‌ها و جمله‌های همکاری با هرکدام.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-office-people.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-office-people.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1526,7 +1527,7 @@
 <title>درس ۳۶ از ۹۰ · استندآپ روزانه؛ آلمانیِ Scrum در ۱۵ دقیقه</title>
 <link>https://upword.ir/blog/articles/german-standup.html</link>
 <description>قلبِ فاز ۳: استندآپِ صبحگاهی به آلمانی — قالبِ سه‌سوالِ اسکرام، گزارشِ دیروز/امروز/مانع، و اصطلاحاتِ تیمیِ زنده.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-standup.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-standup.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1534,7 +1535,7 @@
 <title>درس ۳۷ از ۹۰ · ایمیلِ کاری؛ رسمی‌ترین ژانرِ آلمانیِ کاری</title>
 <link>https://upword.ir/blog/articles/german-work-email.html</link>
 <description>ایمیلِ آلمانیِ کاری: شروعِ درست (du یا Sie؟)، شفافیتِ آلمانی، درخواست/یادآوری/عذرخواهی و چهار قالبِ آمادهٔ روزانه.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-work-email.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-work-email.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1542,7 +1543,7 @@
 <title>درس ۳۸ از ۹۰ · چتِ کاری؛ Slack به آلمانی</title>
 <link>https://upword.ir/blog/articles/german-work-chat.html</link>
 <description>چتِ تیمیِ آلمانی: شروعِ کوتاه، درخواست‌های نرم، مخفف‌ها و ایموجی‌های رایج، و جمله‌های نجات وقتی چت سریع می‌شود.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-work-chat.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-work-chat.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1550,7 +1551,7 @@
 <title>درس ۳۹ از ۹۰ · کدریویو؛ نظرِ فنی و مؤدبانه به آلمانی</title>
 <link>https://upword.ir/blog/articles/german-code-review.html</link>
 <description>زبانِ کدریویویِ آلمانی: تعریفِ درست، نقدِ سازنده (توجه به کد نه شخص!)، سوال‌های ریویو و جواب‌های حرفه‌ای — با واژگانِ گیت.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-code-review.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-code-review.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1558,7 +1559,7 @@
 <title>درس ۴۰ از ۹۰ · جلسه؛ نظر دادن، موافقت، مخالفتِ محترمانه</title>
 <link>https://upword.ir/blog/articles/german-meetings.html</link>
 <description>مهارتِ جلسهٔ آلمانی: ورود به گفتگو، موافقت و مخالفتِ حرفه‌ای، قطع‌کردنِ مؤدب، جمع‌بندی و گرفتنِ تصمیم.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-meetings.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-meetings.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1566,7 +1567,7 @@
 <title>درس ۴۱ از ۹۰ · وضعیت و ددلاین؛ Statusupdate دادن به آلمانی</title>
 <link>https://upword.ir/blog/articles/german-status-deadlines.html</link>
 <description>گفتنِ «کجام؟ کجارم؟ کِی تمام می‌شه؟» به سبکِ آلمانی: گزارشِ پیشرفتِ صادقانه، اعلامِ تأخیرِ زودهنگام و مدیریتِ انتظارات.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-status-deadlines.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-status-deadlines.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1574,7 +1575,7 @@
 <title>درس ۴۲ از ۹۰ · باگ و دیباگ؛ گزارشِ مشکلِ فنی به آلمانی</title>
 <link>https://upword.ir/blog/articles/german-bug-debug.html</link>
 <description>زبانِ باگ: توصیفِ خطا، جداسازیِ مشکل، لاگ و بازتولید — و جمله‌های «این کار نمی‌کند» به سبکِ مهندسیِ آلمانی.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-bug-debug.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-bug-debug.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1582,7 +1583,7 @@
 <title>درس ۴۳ از ۹۰ · دیپلوی و ریلیز؛ گفتگوهایِ عملیاتیِ آخرِ هفتهٔ اسپرینت</title>
 <link>https://upword.ir/blog/articles/german-deploy-release.html</link>
 <description>زبانِ دیپلویِ آلمانی: چک‌لیستِ ریلیز، پیام‌هایِ «در حالِ دیپلوی»، رول‌بک و پایش — چون آخرِ اسپرینت، زبانِ خودش را می‌خواهد!</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-deploy-release.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-deploy-release.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1590,7 +1591,7 @@
 <title>درس ۴۴ از ۹۰ · آلمانیِ ابزارها؛ گیت و ترمینال در جملهٔ آلمانی</title>
 <link>https://upword.ir/blog/articles/german-dev-terms.html</link>
 <description>واژه‌هایِ فنیِ روزانه در قالبِ جملهٔ آلمانی: گیت، ترمینال، IDE، داکر — و قانونِ «انگلیسی‌واژه + قالبِ آلمانی» که نیمی از گفتگویِ فنی‌ات را می‌سازد.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-dev-terms.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-dev-terms.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1598,7 +1599,7 @@
 <title>درس ۴۵ از ۹۰ · ناهار و وقفه‌ها؛ گفتگویِ غذا و اجتماعِ کافه‌ماتیک</title>
 <link>https://upword.ir/blog/articles/german-lunch-break.html</link>
 <description>ناهارِ کاریِ آلمانی: دعوت، سفارش، گفتگویِ میزِ ناهار، قهوه‌ی چهار‌بعدازظهر و فرهنگِ Feierabend.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-lunch-break.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-lunch-break.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1606,7 +1607,7 @@
 <title>درس ۴۶ از ۹۰ · جلسهٔ یک‌به‌یک؛ بازخورد با مدیر به آلمانی</title>
 <link>https://upword.ir/blog/articles/german-one-on-one.html</link>
 <description>گفتگویِ رشد با تیم‌لید: قالبِ جلسهٔ ۱:۱، پرسیدنِ بازخورد، شنیدنِ نقدِ آلمانی و درخواستِ رشد.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-one-on-one.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-one-on-one.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1614,7 +1615,7 @@
 <title>درس ۴۷ از ۹۰ · قرارداد و حقوق؛ خواندنِ Arbeitsvertrag و مذاکره</title>
 <link>https://upword.ir/blog/articles/german-contract-salary.html</link>
 <description>زبانِ قراردادِ کارِ آلمانی: بندهای کلیدی، Brutto و Netto، ساعات و مرخصی و مذاکرهٔ مؤدبانهٔ حقوق — با واژگانِ حقوقیِ ضروری.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-contract-salary.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-contract-salary.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1622,7 +1623,7 @@
 <title>درس ۴۸ از ۹۰ · مرخصی و بیماری؛ Urlaub و Krankmeldung</title>
 <link>https://upword.ir/blog/articles/german-leave-sick.html</link>
 <description>دو راحت‌ترین حقوقِ کاریِ آلمان به آلمانی: درخواستِ مرخصی، Krankmeldung (گواهیِ استعلاجی)، قانونِ بیماری و جمله‌های تماسِ صبحگاهی.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-leave-sick.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-leave-sick.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1630,7 +1631,7 @@
 <title>درس ۴۹ از ۹۰ · مصاحبهٔ فنی؛ سوال‌های تکنیکال به آلمانی</title>
 <link>https://upword.ir/blog/articles/german-tech-interview.html</link>
 <description>مصاحبهٔ فنیِ آلمانی: معرفیِ پروژه، سوال‌هایِ فنیِ رایج، سوال‌هایِ رفتاری (STAR) و جواب‌های ساختارمند — با واژگانِ مصاحبه.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-tech-interview.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-tech-interview.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1638,7 +1639,7 @@
 <title>درس ۵۰ از ۹۰ · رزومهٔ آلمانی؛ Lebenslauf و Anschreiben</title>
 <link>https://upword.ir/blog/articles/german-cv-cover-letter.html</link>
 <description>رزومه و انگیزه‌نامهٔ استانداردِ آلمانی: ساختارِ Lebenslauf (با عکس؟ بدون؟!)، قالبِ Anschreiben و جمله‌هایِ فروشِ مهربانِ خودت.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-cv-cover-letter.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-cv-cover-letter.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1646,7 +1647,7 @@
 <title>درس ۵۱ از ۹۰ · شبکه‌سازی؛ لینکدین و میت‌آپ به آلمانی</title>
 <link>https://upword.ir/blog/articles/german-linkedin-networking.html</link>
 <description>شبکه‌سازیِ حرفه‌ای در آلمان: پروفایلِ لینکدینِ آلمانی‌پسند، پیامِ سرد (Kurznachricht)، رویدادها و جمله‌های «دنبالم کن»!</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-linkedin-networking.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-linkedin-networking.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1654,7 +1655,7 @@
 <title>درس ۵۲ از ۹۰ · جمع‌بندی فاز ۳؛ یک هفتهٔ کاریِ کامل به آلمانی</title>
 <link>https://upword.ir/blog/articles/german-phase3-review.html</link>
 <description>هرچه در نوزده درسِ فازِ کاری ساختی، در پنج روزِ یک هفتهٔ واقعیِ کاری جمع می‌شود — از استندآپِ دوشنبه تا Feierabendِ جمعه.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p3.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-phase3-review.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-phase3-review.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1662,7 +1663,7 @@
 <title>درس ۵۳ از ۹۰ · ویزا و بلوکارت؛ نقشهٔ اقامتِ برنامه‌نویس</title>
 <link>https://upword.ir/blog/articles/german-visa-types.html</link>
 <description>فاز ۴ شروع می‌شود: مسیرهایِ اقامتیِ توسعه‌دهنده در آلمان — از جست‌وجوی کار تا بلوکارت و اقامتِ دائم — با واژگانِ کلیدیِ هر مرحله.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-visa-types.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-visa-types.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1670,7 +1671,7 @@
 <title>درس ۵۴ از ۹۰ · Ausländerbehörde؛ مکالمهٔ ادارهٔ foreigners</title>
 <link>https://upword.ir/blog/articles/german-auslaenderbehoerde.html</link>
 <description>مهم‌ترین ادارهٔ مهاجرها: Termin گرفتن از ABH، گفتگوی باجه، مدارکِ تمدید و جملاتِ نجاتِ هر وضعیت.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-auslaenderbehoerde.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-auslaenderbehoerde.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1678,7 +1679,7 @@
 <title>درس ۵۵ از ۹۰ · Termin و صف؛ مهارتِ بوروکراسیِ آلمانی</title>
 <link>https://upword.ir/blog/articles/german-appointment-bureaucracy.html</link>
 <description>فراتر از ABH: سیستمِ Termin در همهٔ اداره‌های آلمان — Bürgeramt، Finanzamt، Kfz-Zulassungsstelle — و مهارتِ «اداره‌گردیِ» مؤثر.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-appointment-bureaucracy.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-appointment-bureaucracy.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1686,7 +1687,7 @@
 <title>درس ۵۶ از ۹۰ · فرم‌ها؛ خواندن و پرکردنِ مدارکِ اداری</title>
 <link>https://upword.ir/blog/articles/german-documents-forms.html</link>
 <description>زبانِ فرم‌های آلمانی: ستون‌های استاندارد، کادرهای خطرناک (بیمه! مالیات!) و جمله‌های هر فرم — از Anmeldung تا درخواستِ وام.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-documents-forms.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-documents-forms.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1694,7 +1695,7 @@
 <title>درس ۵۷ از ۹۰ · تمدیدِ اقامت؛ Fristen، Unterlagen و آرامشِ اداری</title>
 <link>https://upword.ir/blog/articles/german-residence-renewal.html</link>
 <description>تمدیدِ Aufenthaltstitel از اول تا آخر: زمان‌بندی، مدارک، فیشِ حقوقی، بیمه و گفتگوی کاملِ باجه — و مدیریتِ فاصلهٔ بینِ دو کارت.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-residence-renewal.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-residence-renewal.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1702,7 +1703,7 @@
 <title>درس ۵۸ از ۹۰ · مالیات؛ Steuer-ID، کلاس‌ها و فیشِ حقوق</title>
 <link>https://upword.ir/blog/articles/german-taxes.html</link>
 <description>سیستمِ مالیاتیِ آلمان برای کارمند: شمارهٔ مالیاتی، شش کلاسِ مالیاتی، خواندنِ فیشِ حقوق (Gehaltsabrechnung) و برآوردِ مالیاتِ سالانه.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-taxes.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-taxes.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1710,7 +1711,7 @@
 <title>درس ۵۹ از ۹۰ · سیستمِ بهداشتِ آلمان؛ Krankenkasse و حقوقِ بیمه‌ای</title>
 <link>https://upword.ir/blog/articles/german-health-system.html</link>
 <description>انتخابِ بیمهٔ قانونی، کارتِ eGK، خدماتِ رایگانِ پنهان (چکاپ! دندانپزشکی! پیشگیری!) و مکالماتِ بیمه.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-health-system.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-health-system.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1718,7 +1719,7 @@
 <title>درس ۶۰ از ۹۰ · گواهی‌نامهٔ رانندگی؛ Umschreibung و سربالاییِ آلمانی</title>
 <link>https://upword.ir/blog/articles/german-driving-license.html</link>
 <description>تبدیلِ گواهی‌نامهٔ خارجی (Umschreibung) یا گرفتنِ گواهی از صفر: نظریه، عملی، فهرست‌ها (Fahrschule!) و مکالماتِ مدرسهٔ رانندگی.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-driving-license.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-driving-license.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1726,7 +1727,7 @@
 <title>درس ۶۱ از ۹۰ · Verwaltungsdeutsch؛ زبانِ نامه‌هایِ اداری</title>
 <link>https://upword.ir/blog/articles/german-official-letters.html</link>
 <description>فازِ زبانِ اداریِ واقعی: نامه‌های Bezuschussung تا Ablehnung را بخوان و جواب بده — سبک‌های رسمی، جمله‌های ثابت و سلاحِ Widerspruch.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-official-letters.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-official-letters.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1734,7 +1735,7 @@
 <title>درس ۶۲ از ۹۰ · حقوقِ مستأجر؛ Mieterverein و قدرتِ قانونی‌ات</title>
 <link>https://upword.ir/blog/articles/german-renting-rights.html</link>
 <description>مستأجر در آلمان، قوی است: حقوقِ دهانهٔ برج (Kündigenschutz!)، سقفِ اجاره، نگه‌داشتنِ ودیعه و Mieterverein — اتحادیه‌ای که برایت می‌جنگد!</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-renting-rights.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-renting-rights.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1742,7 +1743,7 @@
 <title>درس ۶۳ از ۹۰ · مهدکودک و مدرسه؛ Kita، Anmeldung و سیستمِ آموزش</title>
 <link>https://upword.ir/blog/articles/german-kita-school.html</link>
 <description>برای خانواده‌هایِ مهاجر: گرفتنِ جایِ Kita، ثبت‌نامِ مدرسه، Elterngeld و گفتگوهایِ والد-مدرسه به آلمانی.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-kita-school.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-kita-school.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1750,7 +1751,7 @@
 <title>درس ۶۴ از ۹۰ · Integrationskurs؛ دورهٔ ادغام و مسیرِ B1</title>
 <link>https://upword.ir/blog/articles/german-integration-course.html</link>
 <description>دورهٔ دولتیِ ادغام: زبانِ ارزانِ ساختارمند (A1 تا B1!) + Kultur — چطور ثبت‌نام کنی و چه انتظاری داشته باشی.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-integration-course.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-integration-course.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1758,7 +1759,7 @@
 <title>درس ۶۵ از ۹۰ · تعطیلات و فرهنگ؛ Weihnachten، Oktoberfest و آیین‌های آلمان</title>
 <link>https://upword.ir/blog/articles/german-holidays-culture.html</link>
 <description>تقویمِ فرهنگیِ آلمان: تعطیلاتِ رسمیِ فدرال/محلی، آدابِ کریسمس و سالِ نو، Octoberfest و آدابِ هدیه و تبریک.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-holidays-culture.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-holidays-culture.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1766,7 +1767,7 @@
 <title>درس ۶۶ از ۹۰ · دوستیِ آلمانی؛ عمقِ آهسته ولی واقعی</title>
 <link>https://upword.ir/blog/articles/german-friendship.html</link>
 <description>فرهنگِ دوستیِ آلمان: آهسته‌سازیِ اولیه، صمیمیتِ تدریجی، دوستیِ punctual و جملاتِ هر لایه — از Bekanntschaft تا Freundschaft.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-friendship.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-friendship.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1774,7 +1775,7 @@
 <title>درس ۶۷ از ۹۰ · Steuererklärung؛ اظهارنامهٔ سالانه و بازگشتِ پول</title>
 <link>https://upword.ir/blog/articles/german-tax-return.html</link>
 <description>اظهارنامهٔ مالیاتِ آلمان به زبانِ ساده: چه کسی باید، چه چیزی را کم کنی (absetzen!)، چه وقت و چطور — با جمله‌های طلایی.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-tax-return.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-tax-return.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1782,7 +1783,7 @@
 <title>درس ۶۸ از ۹۰ · Schufa و اعتبار؛ پولِ بزرگ در آلمان</title>
 <link>https://upword.ir/blog/articles/german-schufa-credit.html</link>
 <description>سیستمِ اعتباریِ آلمان: Schufa چیست، چطور ساخته می‌شود، چرا مهم است (خانه! ماشین! قرارداد!) و چطور خرابش نکنی.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-schufa-credit.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-schufa-credit.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1790,7 +1791,7 @@
 <title>درس ۶۹ از ۹۰ · شکایت و اعتراض؛ هنرِ Widerspruch و维权ِ مؤدب</title>
 <link>https://upword.ir/blog/articles/german-complaints-objections.html</link>
 <description>حقوقِ شکایت در آلمان: شکایتِ کتبیِ مؤدب، اعتراضِ اداری (Widerspruch!)، دامِ مشتری و رساندنِ صدایت به جایی که جواب می‌دهد.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-complaints-objections.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-complaints-objections.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1798,7 +1799,7 @@
 <title>درس ۷۰ از ۹۰ · پلیس و قوانینِ روزمره؛ از دوچرخه تا Ordnungsamt</title>
 <link>https://upword.ir/blog/articles/german-police-rules.html</link>
 <description>برخوردِ آرام با پلیسِ آلمان، قوانینِ ریزِ روزمره (دوچرخه! زباله! سکوت!) و کنترل‌های کوچکی که اگر بدانی، آسان‌اند.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-police-rules.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-police-rules.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1806,7 +1807,7 @@
 <title>درس ۷۱ از ۹۰ · اقامتِ دائم و تابعیت؛ Niederlassung و Einbürgerung</title>
 <link>https://upword.ir/blog/articles/german-permanent-residency.html</link>
 <description>دو قلهٔ پروندهٔ مهاجرتی: Niederlassungserlaubnis (اقامتِ دائم — بدونِ شرطِ کارفرما!) و Einbürgerung (تابعیت!) — شرط‌ها، مدارک و مسیرِ B1 به پاسپورتِ آلمانی.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-permanent-residency.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-permanent-residency.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1814,7 +1815,7 @@
 <title>درس ۷۲ از ۹۰ · جمع‌بندی فاز ۴؛ پروندهٔ مهاجرتِ کامل</title>
 <link>https://upword.ir/blog/articles/german-phase4-review.html</link>
 <description>هرچه در بیست درسِ فازِ اداری ساختی، در یک «پروندهٔ کاملِ مهاجرت» جمع می‌شود — از Anmeldung تا اقامتِ دائم، و نگاهی به فازِ پایانی.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p4.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-phase4-review.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-phase4-review.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1822,7 +1823,7 @@
 <title>درس ۷۳ از ۹۰ · Perfekt؛ روایتِ «دیروز چی شد؟»</title>
 <link>https://upword.ir/blog/articles/german-perfekt.html</link>
 <description>زمانِ گذشتهِ گفتاریِ آلمانی: haben/sein + Partizip — ساختِ آن، فعل‌های sein‌دار و روایتِ کاملِ روز و پروژه.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-perfekt.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-perfekt.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1830,7 +1831,7 @@
 <title>درس ۷۴ از ۹۰ · Präteritum؛ بود و نبودِ رسمیِ گذشته</title>
 <link>https://upword.ir/blog/articles/german-prateritum.html</link>
 <description>گذشتهٔ نوشتاری: war، hatte، konnte و روایت‌های رسمی — فرمولِ ساده و مرزِ استفاده با Perfekt.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-prateritum.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-prateritum.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1838,7 +1839,7 @@
 <title>درس ۷۵ از ۹۰ · چهار حالت در عمل؛ Nominativ تا Dativ</title>
 <link>https://upword.ir/blog/articles/german-cases-deep.html</link>
 <description>نقشهٔ کاملِ حالت‌ها: چه چیزی چه چیزی را به چه کسی می‌دهد — با جدولِ تعریف‌ها و الگوهایِ واقعیِ کاری و روزمره.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-cases-deep.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-cases-deep.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1846,7 +1847,7 @@
 <title>درس ۷۶ از ۹۰ · حروفِ اضافه؛ mit، zu، bei، nach و نقشهٔ جهت</title>
 <link>https://upword.ir/blog/articles/german-prepositions.html</link>
 <description>نقشهٔ حروفِ اضافهٔ آلمانیِ روزمره: جهت و مکان و زمان — با الگوهایِ «فعل + حرف» که نیمی از مکالمه‌ات را می‌سازند.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-prepositions.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-prepositions.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1854,7 +1855,7 @@
 <title>درس ۷۷ از ۹۰ · صفت‌ها پیش از اسم؛ انتهای‌های …</title>
 <link>https://upword.ir/blog/articles/german-adjectives.html</link>
 <description>جدولِ معروفِ صفت‌ها: بعد از der/die/das و ein و بدونِ تعریف — با ترفندهای حافظه و الگوهایِ پرکاربرد.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-adjectives.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-adjectives.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1862,7 +1863,7 @@
 <title>درس ۷۸ از ۹۰ · Konjunktiv II؛ مؤدب‌ترین ابزارِ زبانِ آلمانی</title>
 <link>https://upword.ir/blog/articles/german-konjunktiv2.html</link>
 <description>جهانِ «می‌شد و اگر»: würde، könnte، hätte — شکل‌هایِ مؤدبِ درخواست، آرزو، پیشنهاد و فرض — زبانِ نرمِ طلاییِ آلمانی.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-konjunktiv2.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-konjunktiv2.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1870,7 +1871,7 @@
 <title>درس ۷۹ از ۹۰ · مجهول؛ گزارش‌های فنی و نامه‌های رسمی</title>
 <link>https://upword.ir/blog/articles/german-passive.html</link>
 <description>Der Code wird geschrieben… — ساختِ مجهولِ حال و گذشته، و جایگاهش در داکیومنت، نامهٔ اداری و گفتگوی حرفه‌ای.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-passive.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-passive.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1878,7 +1879,7 @@
 <title>درس ۸۰ از ۹۰ · جمله‌های وابسته؛ weil، dass، damit — فعل به آخر!</title>
 <link>https://upword.ir/blog/articles/german-subordinate-clauses.html</link>
 <description>قانونِ بزرگِ آخر: در جملهٔ وابسته، فعل می‌رود آخر! — با weil (چون)، dass (که)، damit (تا)، wenn (اگر/وقتی) و obwohl (هرچند).</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-subordinate-clauses.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-subordinate-clauses.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1886,7 +1887,7 @@
 <title>درس ۸۱ از ۹۰ · جمله‌های نسبی؛ توضیحِ فنی به سبکِ بومی</title>
 <link>https://upword.ir/blog/articles/german-relative-clauses.html</link>
 <description>der، die، das به‌عنوان پیوند: «که …» — ساختِ جملهٔ نسبی با حالتِ درست و توضیحِ هر چیزی، از باگ تا خانه.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-relative-clauses.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-relative-clauses.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1894,7 +1895,7 @@
 <title>درس ۸۲ از ۹۰ · ارائه و دمو؛ گفتارِ روی صحنه به آلمانی</title>
 <link>https://upword.ir/blog/articles/german-presentations.html</link>
 <description>ارائهٔ فنی به آلمانی: ساختارِ ارائه، جملاتِ گذار، دموی زنده، پرسش‌وپاسخ و مدیریتِ استرس.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-presentations.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-presentations.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1902,7 +1903,7 @@
 <title>درس ۸۳ از ۹۰ · کنفرانس و رویدادها؛ شبکه‌سازیِ حضوری</title>
 <link>https://upword.ir/blog/articles/german-conferences.html</link>
 <description>کنفرانسِ فنیِ آلمانی: گفتگویِ بینِ دو ارائه، کارتِ تبادل، Exklusiv-گفتگوها و پیگیریِ بعد از رویداد.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-conferences.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-conferences.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1910,7 +1911,7 @@
 <title>درس ۸۴ از ۹۰ · تلفنِ رسمی؛ سخت‌ترین مهارتِ شنیداری</title>
 <link>https://upword.ir/blog/articles/german-phone-calls.html</link>
 <description>تماسِ تلفنیِ آلمانی: شروعِ رسمی، جمله‌های اتصال و قطع، درخواستِ تکرارِ مؤدب و مدیریتِ بد-پرداختی-شدن.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-phone-calls.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-phone-calls.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1918,7 +1919,7 @@
 <title>درس ۸۵ از ۹۰ · تعارض در کار؛ گفتگوهایِ سختِ حرفه‌ای</title>
 <link>https://upword.ir/blog/articles/german-conflict-work.html</link>
 <description>مدیریتِ تعارضِ آلمانی: گفتگویِ مستقیمِ محترمانه، جلسهٔ شفاف‌سازی، «eskalieren» و مرزهایِ سالم.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-conflict-work.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-conflict-work.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1926,7 +1927,7 @@
 <title>درس ۸۶ از ۹۰ · فرهنگِ بازخوردِ آلمانی؛ صراحتِ بدونِ ترس</title>
 <link>https://upword.ir/blog/articles/german-feedback-culture.html</link>
 <description>فرهنگِ feedback مستقیم: چرا آلمانی‌ها «بی‌رmm» به نظر می‌رسند، چطور نقد را قدم-به-قدم بگیر و خودت هم مستقیم-مهربان بده!</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-feedback-culture.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-feedback-culture.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1934,7 +1935,7 @@
 <title>درس ۸۷ از ۹۰ · گویش‌ها؛ از Bayerisch تا سوئیس</title>
 <link>https://upword.ir/blog/articles/german-dialects.html</link>
 <description>جهانِ گویش‌هایِ آلمانی: باواریایی، شوابیش، اتریشی و سوئیسی — شناختِ حداقلی برای زنده‌ماندن + ترفندهای مؤدبانهٔ «می‌توانی استاندارد بگویی؟»</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-dialects.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-dialects.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1942,7 +1943,7 @@
 <title>درس ۸۸ از ۹۰ · رشدِ شغلی؛ ارتقا، نقش‌های ارشد و مذاکرهٔ سالانه</title>
 <link>https://upword.ir/blog/articles/german-career-growth.html</link>
 <description>مسیرِ حرفه‌ای در آلمان: Junior→Senior→Lead/Staff، گفتگویِ ارتقا، نقش‌هایِ فنی-ارشد و مذاکرهٔ سالانهٔ حرفه‌ای.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-career-growth.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-career-growth.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1950,7 +1951,7 @@
 <title>درس ۸۹ از ۹۰ · از B1 به بعد؛ گواهی‌ها، منابع و نقشهٔ تسلط</title>
 <link>https://upword.ir/blog/articles/german-b1-to-c1.html</link>
 <description>آخرین نقشهٔ زبانی: B2 و C1 چه هستند، کدام گواهی (Goethe/telc/ÖSD!)، منابعِ واقعی و برنامهٔ شخصیِ تسلط.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-b1-to-c1.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-b1-to-c1.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item>
@@ -1958,7 +1959,7 @@
 <title>درس ۹۰ از ۹۰ · پروژهٔ نهایی و نقشهٔ پس از ۹۰ روز؛ زندگیِ آلمانیِ مستقل</title>
 <link>https://upword.ir/blog/articles/german-final-project.html</link>
 <description>آخرین درس: پروژهٔ پایانیِ دوره — روایتِ کاملِ مهاجرتِ خودت به آلمانی — و نقشهٔ ادامه: عادت‌ها، اهداف و زندگیِ زبانیِ همیشه.</description>
-<enclosure url="https://upword.ir/blog/covers/de-course-p5.jpg" type="image/jpeg" length="0"/>
+<enclosure url="https://upword.ir/blog/covers/german-final-project.jpg" type="image/jpeg" length="0"/>
 <guid isPermaLink="true">https://upword.ir/blog/articles/german-final-project.html</guid>
 <pubDate>Sun, 25 Oct 2026 09:00:00 +0330</pubDate>
 </item></channel>

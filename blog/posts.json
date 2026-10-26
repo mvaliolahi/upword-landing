@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "posts": [
     {
       "slug": "german-course",
@@ -10,7 +10,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 3,
-      "cover": "covers/de-course-p1.jpg",
+      "cover": "covers/german-course.jpg",
       "content": "content/german-course.json"
     },
     {
@@ -22,7 +22,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 14,
-      "cover": "covers/de-course-p1.jpg",
+      "cover": "covers/german-from-zero.jpg",
       "content": "content/german-from-zero.json"
     },
     {
@@ -34,7 +34,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 14,
-      "cover": "covers/de-course-p1.jpg",
+      "cover": "covers/german-alphabet-sounds.jpg",
       "content": "content/german-alphabet-sounds.json"
     },
     {
@@ -46,7 +46,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/de-course-p1.jpg",
+      "cover": "covers/german-greetings.jpg",
       "content": "content/german-greetings.json"
     },
     {
@@ -58,7 +58,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p1.jpg",
+      "cover": "covers/german-du-sie.jpg",
       "content": "content/german-du-sie.json"
     },
     {
@@ -70,7 +70,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p1.jpg",
+      "cover": "covers/german-numbers.jpg",
       "content": "content/german-numbers.json"
     },
     {
@@ -82,7 +82,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p1.jpg",
+      "cover": "covers/german-pronouns-sein.jpg",
       "content": "content/german-pronouns-sein.json"
     },
     {
@@ -94,7 +94,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 14,
-      "cover": "covers/de-course-p1.jpg",
+      "cover": "covers/german-haben.jpg",
       "content": "content/german-haben.json"
     },
     {
@@ -106,7 +106,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 14,
-      "cover": "covers/de-course-p1.jpg",
+      "cover": "covers/german-verb-second.jpg",
       "content": "content/german-verb-second.json"
     },
     {
@@ -118,7 +118,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p1.jpg",
+      "cover": "covers/german-questions.jpg",
       "content": "content/german-questions.json"
     },
     {
@@ -130,7 +130,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/de-course-p1.jpg",
+      "cover": "covers/german-articles.jpg",
       "content": "content/german-articles.json"
     },
     {
@@ -142,7 +142,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p1.jpg",
+      "cover": "covers/german-plurals.jpg",
       "content": "content/german-plurals.json"
     },
     {
@@ -154,7 +154,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p1.jpg",
+      "cover": "covers/german-negation.jpg",
       "content": "content/german-negation.json"
     },
     {
@@ -166,7 +166,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 14,
-      "cover": "covers/de-course-p1.jpg",
+      "cover": "covers/german-present-imperative.jpg",
       "content": "content/german-present-imperative.json"
     },
     {
@@ -178,7 +178,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 14,
-      "cover": "covers/de-course-p1.jpg",
+      "cover": "covers/german-time.jpg",
       "content": "content/german-time.json"
     },
     {
@@ -190,7 +190,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/de-course-p1.jpg",
+      "cover": "covers/german-phase1-review.jpg",
       "content": "content/german-phase1-review.json"
     },
     {
@@ -202,7 +202,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p2.jpg",
+      "cover": "covers/german-arrival-anmeldung.jpg",
       "content": "content/german-arrival-anmeldung.json"
     },
     {
@@ -214,7 +214,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p2.jpg",
+      "cover": "covers/german-supermarket.jpg",
       "content": "content/german-supermarket.json"
     },
     {
@@ -226,7 +226,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p2.jpg",
+      "cover": "covers/german-cafe-restaurant.jpg",
       "content": "content/german-cafe-restaurant.json"
     },
     {
@@ -238,7 +238,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p2.jpg",
+      "cover": "covers/german-transport.jpg",
       "content": "content/german-transport.json"
     },
     {
@@ -250,7 +250,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p2.jpg",
+      "cover": "covers/german-apartment-hunt.jpg",
       "content": "content/german-apartment-hunt.json"
     },
     {
@@ -262,7 +262,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p2.jpg",
+      "cover": "covers/german-home-life.jpg",
       "content": "content/german-home-life.json"
     },
     {
@@ -274,7 +274,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p2.jpg",
+      "cover": "covers/german-bank.jpg",
       "content": "content/german-bank.json"
     },
     {
@@ -286,7 +286,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p2.jpg",
+      "cover": "covers/german-insurance-doctor.jpg",
       "content": "content/german-insurance-doctor.json"
     },
     {
@@ -298,7 +298,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p2.jpg",
+      "cover": "covers/german-pharmacy-symptoms.jpg",
       "content": "content/german-pharmacy-symptoms.json"
     },
     {
@@ -310,7 +310,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p2.jpg",
+      "cover": "covers/german-phone-internet.jpg",
       "content": "content/german-phone-internet.json"
     },
     {
@@ -322,7 +322,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p2.jpg",
+      "cover": "covers/german-shopping-clothes.jpg",
       "content": "content/german-shopping-clothes.json"
     },
     {
@@ -334,7 +334,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p2.jpg",
+      "cover": "covers/german-smalltalk-weather.jpg",
       "content": "content/german-smalltalk-weather.json"
     },
     {
@@ -346,7 +346,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p2.jpg",
+      "cover": "covers/german-services-repairs.jpg",
       "content": "content/german-services-repairs.json"
     },
     {
@@ -358,7 +358,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p2.jpg",
+      "cover": "covers/german-formal-letters.jpg",
       "content": "content/german-formal-letters.json"
     },
     {
@@ -370,7 +370,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p2.jpg",
+      "cover": "covers/german-emergencies.jpg",
       "content": "content/german-emergencies.json"
     },
     {
@@ -382,7 +382,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p2.jpg",
+      "cover": "covers/german-leisure-friends.jpg",
       "content": "content/german-leisure-friends.json"
     },
     {
@@ -394,7 +394,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p2.jpg",
+      "cover": "covers/german-online-shopping.jpg",
       "content": "content/german-online-shopping.json"
     },
     {
@@ -406,7 +406,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 14,
-      "cover": "covers/de-course-p2.jpg",
+      "cover": "covers/german-phase2-review.jpg",
       "content": "content/german-phase2-review.json"
     },
     {
@@ -418,7 +418,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p3.jpg",
+      "cover": "covers/german-first-day-work.jpg",
       "content": "content/german-first-day-work.json"
     },
     {
@@ -430,7 +430,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p3.jpg",
+      "cover": "covers/german-office-people.jpg",
       "content": "content/german-office-people.json"
     },
     {
@@ -442,7 +442,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p3.jpg",
+      "cover": "covers/german-standup.jpg",
       "content": "content/german-standup.json"
     },
     {
@@ -454,7 +454,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p3.jpg",
+      "cover": "covers/german-work-email.jpg",
       "content": "content/german-work-email.json"
     },
     {
@@ -466,7 +466,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p3.jpg",
+      "cover": "covers/german-work-chat.jpg",
       "content": "content/german-work-chat.json"
     },
     {
@@ -478,7 +478,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p3.jpg",
+      "cover": "covers/german-code-review.jpg",
       "content": "content/german-code-review.json"
     },
     {
@@ -490,7 +490,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p3.jpg",
+      "cover": "covers/german-meetings.jpg",
       "content": "content/german-meetings.json"
     },
     {
@@ -502,7 +502,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p3.jpg",
+      "cover": "covers/german-status-deadlines.jpg",
       "content": "content/german-status-deadlines.json"
     },
     {
@@ -514,7 +514,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p3.jpg",
+      "cover": "covers/german-bug-debug.jpg",
       "content": "content/german-bug-debug.json"
     },
     {
@@ -526,7 +526,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p3.jpg",
+      "cover": "covers/german-deploy-release.jpg",
       "content": "content/german-deploy-release.json"
     },
     {
@@ -538,7 +538,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p3.jpg",
+      "cover": "covers/german-dev-terms.jpg",
       "content": "content/german-dev-terms.json"
     },
     {
@@ -550,7 +550,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p3.jpg",
+      "cover": "covers/german-lunch-break.jpg",
       "content": "content/german-lunch-break.json"
     },
     {
@@ -562,7 +562,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p3.jpg",
+      "cover": "covers/german-one-on-one.jpg",
       "content": "content/german-one-on-one.json"
     },
     {
@@ -574,7 +574,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 14,
-      "cover": "covers/de-course-p3.jpg",
+      "cover": "covers/german-contract-salary.jpg",
       "content": "content/german-contract-salary.json"
     },
     {
@@ -586,7 +586,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p3.jpg",
+      "cover": "covers/german-leave-sick.jpg",
       "content": "content/german-leave-sick.json"
     },
     {
@@ -598,7 +598,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/de-course-p3.jpg",
+      "cover": "covers/german-tech-interview.jpg",
       "content": "content/german-tech-interview.json"
     },
     {
@@ -610,7 +610,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p3.jpg",
+      "cover": "covers/german-cv-cover-letter.jpg",
       "content": "content/german-cv-cover-letter.json"
     },
     {
@@ -622,7 +622,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p3.jpg",
+      "cover": "covers/german-linkedin-networking.jpg",
       "content": "content/german-linkedin-networking.json"
     },
     {
@@ -634,7 +634,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p3.jpg",
+      "cover": "covers/german-phase3-review.jpg",
       "content": "content/german-phase3-review.json"
     },
     {
@@ -646,7 +646,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-visa-types.jpg",
       "content": "content/german-visa-types.json"
     },
     {
@@ -658,7 +658,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-auslaenderbehoerde.jpg",
       "content": "content/german-auslaenderbehoerde.json"
     },
     {
@@ -670,7 +670,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-appointment-bureaucracy.jpg",
       "content": "content/german-appointment-bureaucracy.json"
     },
     {
@@ -682,7 +682,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-documents-forms.jpg",
       "content": "content/german-documents-forms.json"
     },
     {
@@ -694,7 +694,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-residence-renewal.jpg",
       "content": "content/german-residence-renewal.json"
     },
     {
@@ -706,7 +706,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-taxes.jpg",
       "content": "content/german-taxes.json"
     },
     {
@@ -718,7 +718,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-health-system.jpg",
       "content": "content/german-health-system.json"
     },
     {
@@ -730,7 +730,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-driving-license.jpg",
       "content": "content/german-driving-license.json"
     },
     {
@@ -742,7 +742,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-official-letters.jpg",
       "content": "content/german-official-letters.json"
     },
     {
@@ -754,7 +754,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-renting-rights.jpg",
       "content": "content/german-renting-rights.json"
     },
     {
@@ -766,7 +766,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-kita-school.jpg",
       "content": "content/german-kita-school.json"
     },
     {
@@ -778,7 +778,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-integration-course.jpg",
       "content": "content/german-integration-course.json"
     },
     {
@@ -790,7 +790,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-holidays-culture.jpg",
       "content": "content/german-holidays-culture.json"
     },
     {
@@ -802,7 +802,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-friendship.jpg",
       "content": "content/german-friendship.json"
     },
     {
@@ -814,7 +814,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-tax-return.jpg",
       "content": "content/german-tax-return.json"
     },
     {
@@ -826,7 +826,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-schufa-credit.jpg",
       "content": "content/german-schufa-credit.json"
     },
     {
@@ -838,7 +838,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-complaints-objections.jpg",
       "content": "content/german-complaints-objections.json"
     },
     {
@@ -850,7 +850,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-police-rules.jpg",
       "content": "content/german-police-rules.json"
     },
     {
@@ -862,7 +862,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-permanent-residency.jpg",
       "content": "content/german-permanent-residency.json"
     },
     {
@@ -874,7 +874,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p4.jpg",
+      "cover": "covers/german-phase4-review.jpg",
       "content": "content/german-phase4-review.json"
     },
     {
@@ -886,7 +886,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p5.jpg",
+      "cover": "covers/german-perfekt.jpg",
       "content": "content/german-perfekt.json"
     },
     {
@@ -898,7 +898,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 9,
-      "cover": "covers/de-course-p5.jpg",
+      "cover": "covers/german-prateritum.jpg",
       "content": "content/german-prateritum.json"
     },
     {
@@ -910,7 +910,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p5.jpg",
+      "cover": "covers/german-cases-deep.jpg",
       "content": "content/german-cases-deep.json"
     },
     {
@@ -922,7 +922,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/de-course-p5.jpg",
+      "cover": "covers/german-prepositions.jpg",
       "content": "content/german-prepositions.json"
     },
     {
@@ -934,7 +934,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p5.jpg",
+      "cover": "covers/german-adjectives.jpg",
       "content": "content/german-adjectives.json"
     },
     {
@@ -946,7 +946,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/de-course-p5.jpg",
+      "cover": "covers/german-konjunktiv2.jpg",
       "content": "content/german-konjunktiv2.json"
     },
     {
@@ -958,7 +958,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/de-course-p5.jpg",
+      "cover": "covers/german-passive.jpg",
       "content": "content/german-passive.json"
     },
     {
@@ -970,7 +970,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/de-course-p5.jpg",
+      "cover": "covers/german-subordinate-clauses.jpg",
       "content": "content/german-subordinate-clauses.json"
     },
     {
@@ -982,7 +982,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p5.jpg",
+      "cover": "covers/german-relative-clauses.jpg",
       "content": "content/german-relative-clauses.json"
     },
     {
@@ -994,7 +994,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/de-course-p5.jpg",
+      "cover": "covers/german-presentations.jpg",
       "content": "content/german-presentations.json"
     },
     {
@@ -1006,7 +1006,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 8,
-      "cover": "covers/de-course-p5.jpg",
+      "cover": "covers/german-conferences.jpg",
       "content": "content/german-conferences.json"
     },
     {
@@ -1018,7 +1018,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 9,
-      "cover": "covers/de-course-p5.jpg",
+      "cover": "covers/german-phone-calls.jpg",
       "content": "content/german-phone-calls.json"
     },
     {
@@ -1030,7 +1030,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 9,
-      "cover": "covers/de-course-p5.jpg",
+      "cover": "covers/german-conflict-work.jpg",
       "content": "content/german-conflict-work.json"
     },
     {
@@ -1042,7 +1042,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 9,
-      "cover": "covers/de-course-p5.jpg",
+      "cover": "covers/german-feedback-culture.jpg",
       "content": "content/german-feedback-culture.json"
     },
     {
@@ -1054,7 +1054,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 9,
-      "cover": "covers/de-course-p5.jpg",
+      "cover": "covers/german-dialects.jpg",
       "content": "content/german-dialects.json"
     },
     {
@@ -1066,7 +1066,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 9,
-      "cover": "covers/de-course-p5.jpg",
+      "cover": "covers/german-career-growth.jpg",
       "content": "content/german-career-growth.json"
     },
     {
@@ -1078,7 +1078,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/de-course-p5.jpg",
+      "cover": "covers/german-b1-to-c1.jpg",
       "content": "content/german-b1-to-c1.json"
     },
     {
@@ -1090,7 +1090,7 @@
       "date": "2026-10-25",
       "dateFa": "۳ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/de-course-p5.jpg",
+      "cover": "covers/german-final-project.jpg",
       "content": "content/german-final-project.json"
     },
     {
@@ -1102,7 +1102,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 3,
-      "cover": "covers/en-course-p1.jpg",
+      "cover": "covers/english-course.jpg",
       "content": "content/english-course.json"
     },
     {
@@ -1114,7 +1114,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p1.jpg",
+      "cover": "covers/english-from-zero.jpg",
       "content": "content/english-from-zero.json"
     },
     {
@@ -1126,7 +1126,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p1.jpg",
+      "cover": "covers/english-alphabet-sounds.jpg",
       "content": "content/english-alphabet-sounds.json"
     },
     {
@@ -1138,7 +1138,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p1.jpg",
+      "cover": "covers/english-greetings.jpg",
       "content": "content/english-greetings.json"
     },
     {
@@ -1150,7 +1150,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 17,
-      "cover": "covers/en-course-p1.jpg",
+      "cover": "covers/english-introduce-yourself.jpg",
       "content": "content/english-introduce-yourself.json"
     },
     {
@@ -1162,7 +1162,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p1.jpg",
+      "cover": "covers/english-verb-to-be.jpg",
       "content": "content/english-verb-to-be.json"
     },
     {
@@ -1174,7 +1174,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p1.jpg",
+      "cover": "covers/english-this-that-here.jpg",
       "content": "content/english-this-that-here.json"
     },
     {
@@ -1186,7 +1186,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 14,
-      "cover": "covers/en-course-p1.jpg",
+      "cover": "covers/english-numbers-money.jpg",
       "content": "content/english-numbers-money.json"
     },
     {
@@ -1198,7 +1198,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p1.jpg",
+      "cover": "covers/english-telling-time.jpg",
       "content": "content/english-telling-time.json"
     },
     {
@@ -1210,7 +1210,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 14,
-      "cover": "covers/en-course-p1.jpg",
+      "cover": "covers/english-days-dates.jpg",
       "content": "content/english-days-dates.json"
     },
     {
@@ -1222,7 +1222,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p1.jpg",
+      "cover": "covers/english-family-people.jpg",
       "content": "content/english-family-people.json"
     },
     {
@@ -1234,7 +1234,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p1.jpg",
+      "cover": "covers/english-colors-adjectives.jpg",
       "content": "content/english-colors-adjectives.json"
     },
     {
@@ -1246,7 +1246,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 14,
-      "cover": "covers/en-course-p1.jpg",
+      "cover": "covers/english-home-objects.jpg",
       "content": "content/english-home-objects.json"
     },
     {
@@ -1258,7 +1258,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p1.jpg",
+      "cover": "covers/english-food-basics.jpg",
       "content": "content/english-food-basics.json"
     },
     {
@@ -1270,7 +1270,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p1.jpg",
+      "cover": "covers/english-shopping-basics.jpg",
       "content": "content/english-shopping-basics.json"
     },
     {
@@ -1282,7 +1282,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p1.jpg",
+      "cover": "covers/english-level1-review.jpg",
       "content": "content/english-level1-review.json"
     },
     {
@@ -1294,7 +1294,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p2.jpg",
+      "cover": "covers/english-present-simple.jpg",
       "content": "content/english-present-simple.json"
     },
     {
@@ -1306,7 +1306,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p2.jpg",
+      "cover": "covers/english-daily-routine.jpg",
       "content": "content/english-daily-routine.json"
     },
     {
@@ -1318,7 +1318,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p2.jpg",
+      "cover": "covers/english-present-continuous.jpg",
       "content": "content/english-present-continuous.json"
     },
     {
@@ -1330,7 +1330,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p2.jpg",
+      "cover": "covers/english-restaurant-order.jpg",
       "content": "content/english-restaurant-order.json"
     },
     {
@@ -1342,7 +1342,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p2.jpg",
+      "cover": "covers/english-supermarket.jpg",
       "content": "content/english-supermarket.json"
     },
     {
@@ -1354,7 +1354,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 14,
-      "cover": "covers/en-course-p2.jpg",
+      "cover": "covers/english-taking-taxi.jpg",
       "content": "content/english-taking-taxi.json"
     },
     {
@@ -1366,7 +1366,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p2.jpg",
+      "cover": "covers/english-public-transport.jpg",
       "content": "content/english-public-transport.json"
     },
     {
@@ -1378,7 +1378,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p2.jpg",
+      "cover": "covers/english-asking-directions.jpg",
       "content": "content/english-asking-directions.json"
     },
     {
@@ -1390,7 +1390,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 17,
-      "cover": "covers/en-course-p2.jpg",
+      "cover": "covers/english-doctor-visit.jpg",
       "content": "content/english-doctor-visit.json"
     },
     {
@@ -1402,7 +1402,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p2.jpg",
+      "cover": "covers/english-pharmacy.jpg",
       "content": "content/english-pharmacy.json"
     },
     {
@@ -1414,7 +1414,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p2.jpg",
+      "cover": "covers/english-clothes-shopping.jpg",
       "content": "content/english-clothes-shopping.json"
     },
     {
@@ -1426,7 +1426,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p2.jpg",
+      "cover": "covers/english-phone-calls.jpg",
       "content": "content/english-phone-calls.json"
     },
     {
@@ -1438,7 +1438,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p2.jpg",
+      "cover": "covers/english-making-appointments.jpg",
       "content": "content/english-making-appointments.json"
     },
     {
@@ -1450,7 +1450,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/en-course-p2.jpg",
+      "cover": "covers/english-weather-smalltalk.jpg",
       "content": "content/english-weather-smalltalk.json"
     },
     {
@@ -1462,7 +1462,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/en-course-p2.jpg",
+      "cover": "covers/english-describing-people.jpg",
       "content": "content/english-describing-people.json"
     },
     {
@@ -1474,7 +1474,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p2.jpg",
+      "cover": "covers/english-home-neighbors.jpg",
       "content": "content/english-home-neighbors.json"
     },
     {
@@ -1486,7 +1486,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p2.jpg",
+      "cover": "covers/english-past-simple-1.jpg",
       "content": "content/english-past-simple-1.json"
     },
     {
@@ -1498,7 +1498,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 18,
-      "cover": "covers/en-course-p2.jpg",
+      "cover": "covers/english-level2-review.jpg",
       "content": "content/english-level2-review.json"
     },
     {
@@ -1510,7 +1510,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p3.jpg",
+      "cover": "covers/english-past-simple-2.jpg",
       "content": "content/english-past-simple-2.json"
     },
     {
@@ -1522,7 +1522,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p3.jpg",
+      "cover": "covers/english-telling-stories.jpg",
       "content": "content/english-telling-stories.json"
     },
     {
@@ -1534,7 +1534,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p3.jpg",
+      "cover": "covers/english-future-plans.jpg",
       "content": "content/english-future-plans.json"
     },
     {
@@ -1546,7 +1546,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p3.jpg",
+      "cover": "covers/english-airport-travel.jpg",
       "content": "content/english-airport-travel.json"
     },
     {
@@ -1558,7 +1558,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p3.jpg",
+      "cover": "covers/english-hotel-stay.jpg",
       "content": "content/english-hotel-stay.json"
     },
     {
@@ -1570,7 +1570,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p3.jpg",
+      "cover": "covers/english-renting-apartment.jpg",
       "content": "content/english-renting-apartment.json"
     },
     {
@@ -1582,7 +1582,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p3.jpg",
+      "cover": "covers/english-utilities-bills.jpg",
       "content": "content/english-utilities-bills.json"
     },
     {
@@ -1594,7 +1594,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p3.jpg",
+      "cover": "covers/english-emergencies.jpg",
       "content": "content/english-emergencies.json"
     },
     {
@@ -1606,7 +1606,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p3.jpg",
+      "cover": "covers/english-present-perfect.jpg",
       "content": "content/english-present-perfect.json"
     },
     {
@@ -1618,7 +1618,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p3.jpg",
+      "cover": "covers/english-making-friends.jpg",
       "content": "content/english-making-friends.json"
     },
     {
@@ -1630,7 +1630,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p3.jpg",
+      "cover": "covers/english-opinions-feelings.jpg",
       "content": "content/english-opinions-feelings.json"
     },
     {
@@ -1642,7 +1642,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p3.jpg",
+      "cover": "covers/english-emails-basics.jpg",
       "content": "content/english-emails-basics.json"
     },
     {
@@ -1654,7 +1654,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p3.jpg",
+      "cover": "covers/english-resume-cv.jpg",
       "content": "content/english-resume-cv.json"
     },
     {
@@ -1666,7 +1666,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 18,
-      "cover": "covers/en-course-p3.jpg",
+      "cover": "covers/english-job-interview.jpg",
       "content": "content/english-job-interview.json"
     },
     {
@@ -1678,7 +1678,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p3.jpg",
+      "cover": "covers/english-first-day-at-work.jpg",
       "content": "content/english-first-day-at-work.json"
     },
     {
@@ -1690,7 +1690,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p3.jpg",
+      "cover": "covers/english-workplace-basics.jpg",
       "content": "content/english-workplace-basics.json"
     },
     {
@@ -1702,7 +1702,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 18,
-      "cover": "covers/en-course-p3.jpg",
+      "cover": "covers/english-level3-review.jpg",
       "content": "content/english-level3-review.json"
     },
     {
@@ -1714,7 +1714,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-tech-foundations.jpg",
       "content": "content/english-tech-foundations.json"
     },
     {
@@ -1726,7 +1726,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-coding-vocabulary.jpg",
       "content": "content/english-coding-vocabulary.json"
     },
     {
@@ -1738,7 +1738,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 17,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-explaining-code.jpg",
       "content": "content/english-explaining-code.json"
     },
     {
@@ -1750,7 +1750,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-git-teamwork.jpg",
       "content": "content/english-git-teamwork.json"
     },
     {
@@ -1762,7 +1762,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-daily-standup.jpg",
       "content": "content/english-daily-standup.json"
     },
     {
@@ -1774,7 +1774,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-code-review.jpg",
       "content": "content/english-code-review.json"
     },
     {
@@ -1786,7 +1786,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 17,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-debugging-talk.jpg",
       "content": "content/english-debugging-talk.json"
     },
     {
@@ -1798,7 +1798,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-agile-scrum.jpg",
       "content": "content/english-agile-scrum.json"
     },
     {
@@ -1810,7 +1810,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-technical-writing.jpg",
       "content": "content/english-technical-writing.json"
     },
     {
@@ -1822,7 +1822,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 14,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-slack-communication.jpg",
       "content": "content/english-slack-communication.json"
     },
     {
@@ -1834,7 +1834,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-interview-coding.jpg",
       "content": "content/english-interview-coding.json"
     },
     {
@@ -1846,7 +1846,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 17,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-interview-system-design.jpg",
       "content": "content/english-interview-system-design.json"
     },
     {
@@ -1858,7 +1858,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 18,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-behavioral-interview.jpg",
       "content": "content/english-behavioral-interview.json"
     },
     {
@@ -1870,7 +1870,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-demos-presentations.jpg",
       "content": "content/english-demos-presentations.json"
     },
     {
@@ -1882,7 +1882,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 17,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-estimations-deadlines.jpg",
       "content": "content/english-estimations-deadlines.json"
     },
     {
@@ -1894,7 +1894,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-product-client-talks.jpg",
       "content": "content/english-product-client-talks.json"
     },
     {
@@ -1906,7 +1906,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-one-on-ones-feedback.jpg",
       "content": "content/english-one-on-ones-feedback.json"
     },
     {
@@ -1918,7 +1918,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 17,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-disagreeing-technically.jpg",
       "content": "content/english-disagreeing-technically.json"
     },
     {
@@ -1930,7 +1930,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-joining-new-team.jpg",
       "content": "content/english-joining-new-team.json"
     },
     {
@@ -1942,7 +1942,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-mentoring-juniors.jpg",
       "content": "content/english-mentoring-juniors.json"
     },
     {
@@ -1954,7 +1954,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-conferences-networking.jpg",
       "content": "content/english-conferences-networking.json"
     },
     {
@@ -1966,7 +1966,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 20,
-      "cover": "covers/en-course-p4.jpg",
+      "cover": "covers/english-level4-review.jpg",
       "content": "content/english-level4-review.json"
     },
     {
@@ -1978,7 +1978,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p5.jpg",
+      "cover": "covers/english-register-tone.jpg",
       "content": "content/english-register-tone.json"
     },
     {
@@ -1990,7 +1990,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p5.jpg",
+      "cover": "covers/english-work-idioms.jpg",
       "content": "content/english-work-idioms.json"
     },
     {
@@ -2002,7 +2002,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p5.jpg",
+      "cover": "covers/english-phrasal-verbs-work.jpg",
       "content": "content/english-phrasal-verbs-work.json"
     },
     {
@@ -2014,7 +2014,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p5.jpg",
+      "cover": "covers/english-leading-meetings.jpg",
       "content": "content/english-leading-meetings.json"
     },
     {
@@ -2026,7 +2026,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 17,
-      "cover": "covers/en-course-p5.jpg",
+      "cover": "covers/english-writing-rfcs.jpg",
       "content": "content/english-writing-rfcs.json"
     },
     {
@@ -2038,7 +2038,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p5.jpg",
+      "cover": "covers/english-exec-presentations.jpg",
       "content": "content/english-exec-presentations.json"
     },
     {
@@ -2050,7 +2050,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 18,
-      "cover": "covers/en-course-p5.jpg",
+      "cover": "covers/english-salary-negotiation.jpg",
       "content": "content/english-salary-negotiation.json"
     },
     {
@@ -2062,7 +2062,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p5.jpg",
+      "cover": "covers/english-remote-async.jpg",
       "content": "content/english-remote-async.json"
     },
     {
@@ -2074,7 +2074,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 17,
-      "cover": "covers/en-course-p5.jpg",
+      "cover": "covers/english-cross-team-politics.jpg",
       "content": "content/english-cross-team-politics.json"
     },
     {
@@ -2086,7 +2086,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p5.jpg",
+      "cover": "covers/english-incident-management.jpg",
       "content": "content/english-incident-management.json"
     },
     {
@@ -2098,7 +2098,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 18,
-      "cover": "covers/en-course-p5.jpg",
+      "cover": "covers/english-performance-reviews.jpg",
       "content": "content/english-performance-reviews.json"
     },
     {
@@ -2110,7 +2110,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 17,
-      "cover": "covers/en-course-p5.jpg",
+      "cover": "covers/english-cultural-pragmatics.jpg",
       "content": "content/english-cultural-pragmatics.json"
     },
     {
@@ -2122,7 +2122,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 16,
-      "cover": "covers/en-course-p5.jpg",
+      "cover": "covers/english-humor-banter.jpg",
       "content": "content/english-humor-banter.json"
     },
     {
@@ -2134,7 +2134,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 17,
-      "cover": "covers/en-course-p5.jpg",
+      "cover": "covers/english-technical-leadership.jpg",
       "content": "content/english-technical-leadership.json"
     },
     {
@@ -2146,7 +2146,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 17,
-      "cover": "covers/en-course-p5.jpg",
+      "cover": "covers/english-open-source.jpg",
       "content": "content/english-open-source.json"
     },
     {
@@ -2158,7 +2158,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 17,
-      "cover": "covers/en-course-p5.jpg",
+      "cover": "covers/english-staff-interviews.jpg",
       "content": "content/english-staff-interviews.json"
     },
     {
@@ -2170,7 +2170,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 15,
-      "cover": "covers/en-course-p5.jpg",
+      "cover": "covers/english-continuous-learning.jpg",
       "content": "content/english-continuous-learning.json"
     },
     {
@@ -2182,7 +2182,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 18,
-      "cover": "covers/en-course-p5.jpg",
+      "cover": "covers/english-final-roadmap.jpg",
       "content": "content/english-final-roadmap.json"
     },
     {
@@ -2194,7 +2194,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 3,
-      "cover": "covers/zh-course-p1.jpg",
+      "cover": "covers/chinese-course.jpg",
       "content": "content/chinese-course.json"
     },
     {
@@ -2206,7 +2206,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 14,
-      "cover": "covers/zh-course-p1.jpg",
+      "cover": "covers/chinese-from-zero.jpg",
       "content": "content/chinese-from-zero.json"
     },
     {
@@ -2218,7 +2218,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 14,
-      "cover": "covers/zh-course-p1.jpg",
+      "cover": "covers/pinyin-system.jpg",
       "content": "content/pinyin-system.json"
     },
     {
@@ -2230,7 +2230,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/zh-course-p1.jpg",
+      "cover": "covers/pinyin-finals.jpg",
       "content": "content/pinyin-finals.json"
     },
     {
@@ -2242,7 +2242,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/zh-course-p1.jpg",
+      "cover": "covers/four-tones.jpg",
       "content": "content/four-tones.json"
     },
     {
@@ -2254,7 +2254,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/zh-course-p1.jpg",
+      "cover": "covers/tone-sandhi.jpg",
       "content": "content/tone-sandhi.json"
     },
     {
@@ -2266,7 +2266,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 13,
-      "cover": "covers/zh-course-p1.jpg",
+      "cover": "covers/chinese-characters.jpg",
       "content": "content/chinese-characters.json"
     },
     {
@@ -2278,7 +2278,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/zh-course-p1.jpg",
+      "cover": "covers/chinese-radicals.jpg",
       "content": "content/chinese-radicals.json"
     },
     {
@@ -2290,7 +2290,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/zh-course-p1.jpg",
+      "cover": "covers/stroke-order.jpg",
       "content": "content/stroke-order.json"
     },
     {
@@ -2302,7 +2302,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 9,
-      "cover": "covers/zh-course-p1.jpg",
+      "cover": "covers/simplified-vs-traditional.jpg",
       "content": "content/simplified-vs-traditional.json"
     },
     {
@@ -2314,7 +2314,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p1.jpg",
+      "cover": "covers/first-conversations.jpg",
       "content": "content/first-conversations.json"
     },
     {
@@ -2326,7 +2326,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p2.jpg",
+      "cover": "covers/shi-sentences.jpg",
       "content": "content/shi-sentences.json"
     },
     {
@@ -2338,7 +2338,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p2.jpg",
+      "cover": "covers/chinese-pronouns.jpg",
       "content": "content/chinese-pronouns.json"
     },
     {
@@ -2350,7 +2350,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p2.jpg",
+      "cover": "covers/numbers-0-99.jpg",
       "content": "content/numbers-0-99.json"
     },
     {
@@ -2362,7 +2362,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 9,
-      "cover": "covers/zh-course-p2.jpg",
+      "cover": "covers/big-numbers-money.jpg",
       "content": "content/big-numbers-money.json"
     },
     {
@@ -2374,7 +2374,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p2.jpg",
+      "cover": "covers/measure-words.jpg",
       "content": "content/measure-words.json"
     },
     {
@@ -2386,7 +2386,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 9,
-      "cover": "covers/zh-course-p2.jpg",
+      "cover": "covers/telling-time.jpg",
       "content": "content/telling-time.json"
     },
     {
@@ -2398,7 +2398,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 9,
-      "cover": "covers/zh-course-p2.jpg",
+      "cover": "covers/you-exist.jpg",
       "content": "content/you-exist.json"
     },
     {
@@ -2410,7 +2410,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 9,
-      "cover": "covers/zh-course-p2.jpg",
+      "cover": "covers/verbs-no-conjugation.jpg",
       "content": "content/verbs-no-conjugation.json"
     },
     {
@@ -2422,7 +2422,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 9,
-      "cover": "covers/zh-course-p2.jpg",
+      "cover": "covers/adverb-placement.jpg",
       "content": "content/adverb-placement.json"
     },
     {
@@ -2434,7 +2434,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p2.jpg",
+      "cover": "covers/mental-verbs.jpg",
       "content": "content/mental-verbs.json"
     },
     {
@@ -2446,7 +2446,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 9,
-      "cover": "covers/zh-course-p2.jpg",
+      "cover": "covers/question-words.jpg",
       "content": "content/question-words.json"
     },
     {
@@ -2458,7 +2458,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p2.jpg",
+      "cover": "covers/particle-le.jpg",
       "content": "content/particle-le.json"
     },
     {
@@ -2470,7 +2470,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p2.jpg",
+      "cover": "covers/guo-experience-durations.jpg",
       "content": "content/guo-experience-durations.json"
     },
     {
@@ -2482,7 +2482,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 8,
-      "cover": "covers/zh-course-p2.jpg",
+      "cover": "covers/progressive-zai.jpg",
       "content": "content/progressive-zai.json"
     },
     {
@@ -2494,7 +2494,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 9,
-      "cover": "covers/zh-course-p2.jpg",
+      "cover": "covers/sentence-final-particles.jpg",
       "content": "content/sentence-final-particles.json"
     },
     {
@@ -2506,7 +2506,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p3.jpg",
+      "cover": "covers/location-directions.jpg",
       "content": "content/location-directions.json"
     },
     {
@@ -2518,7 +2518,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 8,
-      "cover": "covers/zh-course-p3.jpg",
+      "cover": "covers/bi-comparison.jpg",
       "content": "content/bi-comparison.json"
     },
     {
@@ -2530,7 +2530,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p3.jpg",
+      "cover": "covers/adjectives-degree.jpg",
       "content": "content/adjectives-degree.json"
     },
     {
@@ -2542,7 +2542,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p3.jpg",
+      "cover": "covers/de-modification.jpg",
       "content": "content/de-modification.json"
     },
     {
@@ -2554,7 +2554,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 8,
-      "cover": "covers/zh-course-p3.jpg",
+      "cover": "covers/shi-de-emphasis.jpg",
       "content": "content/shi-de-emphasis.json"
     },
     {
@@ -2566,7 +2566,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p3.jpg",
+      "cover": "covers/ba-construction.jpg",
       "content": "content/ba-construction.json"
     },
     {
@@ -2578,7 +2578,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 9,
-      "cover": "covers/zh-course-p3.jpg",
+      "cover": "covers/bei-passive.jpg",
       "content": "content/bei-passive.json"
     },
     {
@@ -2590,7 +2590,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p3.jpg",
+      "cover": "covers/resultative-complements.jpg",
       "content": "content/resultative-complements.json"
     },
     {
@@ -2602,7 +2602,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p3.jpg",
+      "cover": "covers/directional-complements.jpg",
       "content": "content/directional-complements.json"
     },
     {
@@ -2614,7 +2614,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 9,
-      "cover": "covers/zh-course-p3.jpg",
+      "cover": "covers/serial-verbs.jpg",
       "content": "content/serial-verbs.json"
     },
     {
@@ -2626,7 +2626,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p3.jpg",
+      "cover": "covers/conditionals.jpg",
       "content": "content/conditionals.json"
     },
     {
@@ -2638,7 +2638,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p3.jpg",
+      "cover": "covers/potential-complements.jpg",
       "content": "content/potential-complements.json"
     },
     {
@@ -2650,7 +2650,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/zh-course-p3.jpg",
+      "cover": "covers/word-building.jpg",
       "content": "content/word-building.json"
     },
     {
@@ -2662,7 +2662,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p4.jpg",
+      "cover": "covers/shopping-haggling.jpg",
       "content": "content/shopping-haggling.json"
     },
     {
@@ -2674,7 +2674,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/zh-course-p4.jpg",
+      "cover": "covers/restaurant-chinese.jpg",
       "content": "content/restaurant-chinese.json"
     },
     {
@@ -2686,7 +2686,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p6.jpg",
+      "cover": "covers/travel-chinese.jpg",
       "content": "content/travel-chinese.json"
     },
     {
@@ -2698,7 +2698,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 9,
-      "cover": "covers/zh-course-p4.jpg",
+      "cover": "covers/directions-transport.jpg",
       "content": "content/directions-transport.json"
     },
     {
@@ -2710,7 +2710,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p4.jpg",
+      "cover": "covers/phone-and-chat.jpg",
       "content": "content/phone-and-chat.json"
     },
     {
@@ -2722,7 +2722,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 9,
-      "cover": "covers/zh-course-p4.jpg",
+      "cover": "covers/emotions-doctor.jpg",
       "content": "content/emotions-doctor.json"
     },
     {
@@ -2734,7 +2734,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 9,
-      "cover": "covers/zh-course-p4.jpg",
+      "cover": "covers/polite-chinese.jpg",
       "content": "content/polite-chinese.json"
     },
     {
@@ -2746,7 +2746,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 10,
-      "cover": "covers/zh-course-p4.jpg",
+      "cover": "covers/culture-in-language.jpg",
       "content": "content/culture-in-language.json"
     },
     {
@@ -2758,7 +2758,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 12,
-      "cover": "covers/zh-course-p5.jpg",
+      "cover": "covers/reading-chinese.jpg",
       "content": "content/reading-chinese.json"
     },
     {
@@ -2770,7 +2770,7 @@
       "date": "2026-10-24",
       "dateFa": "۲ آبان ۱۴۰۵",
       "minutes": 11,
-      "cover": "covers/zh-course-p5.jpg",
+      "cover": "covers/guessing-characters.jpg",
       "content": "content/guessing-characters.json"
     },
     {
