@@ -52,7 +52,7 @@ upword-landing/
 - **robots.txt + sitemap.xml** — sitemap شامل لندینگ، وبلاگ و تک‌تک مقالات با `lastmod` و `changefreq` روزانه برای وبلاگ
 - **feed.xml (RSS 2.0)** برای اشتراک و کشف سریع محتوای تازه
 - مقالات: **BlogPosting + BreadcrumbList + FAQPage** به‌ازای هر مقاله + باکس «پاسخ کوتاه» ۴۰-۶۰ واژه‌ای در ابتدای مقاله (برای موتورهای پاسخ مثل ChatGPT/Perplexity) + زیرعنوان‌های پرسشی
-- 🛍 دکمه‌های دانلود از **کافه بازار** و **مایکت**
+- 🛍 دکمهٔ دانلود از **کافه بازار**
 - 🐢 انیمیشن‌های Lottie لاک‌پشت (شنا، موفقیت، مدیتیشن)
 - ♿️ دسترس‌پذیری: کنتراست AA، فوکوس مرئی، skip-link، reduced-motion، Escape برای منوها
 - ⚡ واکنش‌گرا — موبایل، تبلت، دسکتاپ
@@ -134,7 +134,7 @@ npx serve .
 
 ### تغییر لینک‌های فروشگاه
 
-تمام لینک‌های `https://cafebazaar.ir/app/?id=ir.upword.twa` و `https://myket.ir/app/ir.upword.twa` را در `index.html` جستجو و جایگزین کنید.
+تمام لینک‌های `https://cafebazaar.ir/app/?id=ir.upword.twa` را در `index.html` جستجو و جایگزین کنید (اپ فقط روی کافه بازار منتشر می‌شود).
 
 ### افزودن متن دوزبانه جدید
 

@@ -295,7 +295,6 @@ def render_article(lesson: dict, n: int, prev, nxt) -> str:
 <p>واژه‌های این درس را هر جا که دیدی با منوی «ذخیره در آپ‌ورد» به فلش‌کارت‌هایت اضافه کن؛ الگوریتم مرور فاصله‌دار سرِ موعد یادآوری‌شان می‌کند، تلفظ‌شان را می‌شنوی و در مکالمهٔ هوش مصنوعی همان‌جا که لازم است استفاده‌شان می‌کنی.</p>
 <div class="cta-buttons">
 <a href="https://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener" class="btn btn-primary btn-lg">دانلود از کافه بازار</a>
-<a href="https://myket.ir/app/ir.upword.twa" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">دانلود از مایکت</a>
 </div>
 </section>
 </div>
@@ -462,7 +461,6 @@ def render_hub(lessons, minutes_map) -> str:
 <p>اولین فاز کاملاً از صفر شروع می‌شود؛ هیچ پیش‌نیازی جز یک گوشی و روزی ۱۵ دقیقه نمی‌خواهد.</p>
 <div class="cta-buttons">
 <a href="https://cafebazaar.ir/app/?id=ir.upword.twa" target="_blank" rel="noopener" class="btn btn-primary btn-lg">دانلود از کافه بازار</a>
-<a href="https://myket.ir/app/ir.upword.twa" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">دانلود از مایکت</a>
 </div>
 </section>
 </div>

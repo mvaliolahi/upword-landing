@@ -1,7 +1,7 @@
 # UpWord design system — v2 (Deep Green Glass)
 
 ## 1. Direction
-The landing mirrors the Android app itself: a deep emerald-green world with glassmorphism surfaces, floating ambient orbs, and the turtle mascot. Persian (fa, RTL) is the default experience; English (en, LTR) is one toggle away and fully translated. The visitor journey: hero promise → languages → learning path → feature deep-dives (piece by piece) → supporting features bento → app preview → free-vs-premium → learner evidence → FAQ → download (Cafe Bazaar + Myket).
+The landing mirrors the Android app itself: a deep emerald-green world with glassmorphism surfaces, floating ambient orbs, and the turtle mascot. Persian (fa, RTL) is the default experience; English (en, LTR) is one toggle away and fully translated. The visitor journey: hero promise → languages → learning path → feature deep-dives (piece by piece) → supporting features bento → app preview → free-vs-premium → learner evidence → FAQ → download (Cafe Bazaar).
 
 Vanilla HTML/CSS/JS, no framework. All mockups are live HTML, clearly illustrative.
 

@@ -388,7 +388,7 @@ def extract(slug, post):
     path = article_path(slug)
     html = open(path, encoding='utf-8').read()
     html = re.sub(r'<script[\s\S]*?</script>', '', html)
-    if slug in ('chinese-course', 'english-course', 'german-course', 'russian-course'):
+    if slug in ('chinese-course', 'english-course', 'german-course', 'russian-course', 'turkish-course'):
         return extract_hub(post)
     p = ArticleParser()
     p.feed(html)
